@@ -526,6 +526,198 @@ Agent: "Endişelenmeyin! Size en yakın alternatif uçuşları buldum:
 
 **Kaynak:** https://www.cxdive.com/news/expedia-taps-ai-to-enhance-customer-support-acquire-new-customers (12 Mayıs 2026), https://www.bing.com/news/search?q=Expedia+Group+B2B+AI+toolkit+2026
 
+
+
+---
+
+## 13 Haziran 2026 — Yeni Vakalar (Genel Araştırma — Yeni Trendler)
+
+### 1. SAP — Autonomous Enterprise (200+ AI Agent)
+
+**Sektör:** SaaS / Enterprise Software  
+**Kullanım Alanı:** Operasyon, Finans, İK, Sürdürülebilirlik  
+**Tarih:** 12-13 Mayıs 2026 (Sapphire 2026)
+
+**Agent'ın Görevi:**
+- 200+ AI agent SAP'in core business application'larına gömülü
+- Joule (SAP'in AI assistant'ı) → autonomous enterprise'in front door'u oldu
+- Finans, İK, operasyon, sürdürülebilirlik süreçlerini otonom yönetiyor
+- Anthropic ile ortaklık: Claude primary reasoning engine olarak seçildi
+- AWS, Google Cloud, Microsoft, NVIDIA, Palantir ile entegre
+
+**Müşteri Deneyimi:**
+```
+Çalışan: "Joule, bu çeyrek tedarikçi maliyetlerimizi analiz et"
+Joule: "Tedarikçi maliyetleriniz %18 arttı. 
+  3 kritik kalemde fiyat artışı tespit ettim.
+  Otomatik olarak en iyi 5 alternatif tedarikçiyi buldum.
+  Onaylarsanız satın alma ekibine yönlendiriyorum."
+Çalışan: "Onayla"
+Joule: "Tamamlandı. Yıllık 2.4M € tasarruf sağlanacak."
+```
+
+**Sonuçlar:**
+- İlk 6 müşteride %30 operasyonel maliyet düşüşü
+- Finans close cycle %40 hızlandı
+- İK onboarding süresi %50 kısaldı
+- SAP hissesi: Sapphire sonrası %8 yükseldi
+
+**Herkesin Kaçırdığı Nokta:** SAP sadece "ERP sistemine AI eklemiyor" — ERP'in kendisini ortadan kaldırıyor. Otonom işletme modeli, geleneksel yazılım satışından "outcome-as-a-service"a geçiş sinyali. SAP CEO'su "Artık yazılım şirketi miyiz?" sorusuna hisse senedinin cevap verdiğini söyledi.
+
+**Kaynak:** https://www.forbes.com/sites/victordey/2026/05/12/the-end-of-the-erp-era-sap-wants-ai-agents-to-run-your-autonomous-enterprise/
+
+---
+
+### 2. Zendesk — Autonomous Service Workforce
+
+**Sektör:** Customer Service SaaS  
+**Kullanım Alanı:** Müşteri hizmetleri  
+**Tarih:** 19 Mayıs 2026 (Relate 2026)
+
+**Agent'ın Görevi:**
+- Deflection-based bot'lar → specialized AI agents (tamamen farklı yaklaşım)
+- Her ticket'ı çözmek yerine "verified resolutions" hedefliyor
+- Fiyatlandırma: Koltuk başına değil, çözüm başına (outcome-based pricing)
+- Hem customer service hem employee service için
+
+**Müşteri Deneyimi:**
+```
+Müşteri: "Siparişim gelmedi"
+Zendesk Agent: "Siparişinizi kontrol ettim. 
+  Kargo 3 gün gecikti. 
+  Otomatik olarak iade başlattım ve yeni sipariş oluşturdum.
+  24 saat içinde yeni siparişiniz elinizde olacak."
+Müşteri: (cevap beklemiyor, sorun çözüldü)
+```
+
+**Sonuçlar:**
+- İlk enterprise müşterilerde %60 ticket azaltma
+- Customer satisfaction (CSAT): %15 artış
+- Agent handling time: %35 düşüş
+- Resolution rate: %80+ (deflection değil gerçek çözüm)
+
+**Herkesin Kaçırdığı Nokta:** Zendesk "deflection" stratejisini (müşteriyi başka yere yönlendirme) tamamen terk etti. Yeni modelde AI agent problemi çözmek ZORUNDA — çözemezse insan devreye giriyor. Bu "çözüm garantisi" yaklaşımı, customer service ROI'sini tamamen yeniden tanımlıyor.
+
+**Kaynak:** https://www.cmswire.com/customer-experience/at-relate-2026-zendesk-launches-ai-agents-priced-on-resolutions-not-seats/
+
+---
+
+### 3. Netomi — $110M Funding (Accenture & Adobe Invested)
+
+**Sektör:** Enterprise Customer Service AI  
+**Kullanım Alanı:** Müşteri hizmetleri, Satış  
+**Tarih:** 30 Nisan 2026
+
+**Agent'ın Görevi:**
+- Enterprise-level customer service AI platform
+- Multi-channel destek (email, chat, WhatsApp, Instagram DM)
+- Fashion, telco, fintech sektörlerinde uzmanlaşmış
+- Accenture Ventures ve Adobe liderliğinde yatırım
+
+**Sonuçlar:**
+- $110M Series funding
+- 200+ enterprise müşteri
+- Average resolution time: 90 saniye (insan: 8 dakika)
+- First contact resolution: %75
+
+**Herkesin Kaçırdığı Nokta:** Netomi'nin başarısının sırrı "vertical specialization" — genel chatbot yerine her sektör için özel eğitilmiş agent'lar. Fashion müşterileri "bu ayakkabı hangi beden?" sorusunu farklı şekilde soruyor, telco müşterileri farklı. Tek model hepsini çözmüyor.
+
+**Kaynak:** https://venturebeat.com/ai/netomi-raises-110-million-as-accenture-and-adobe-bet-on-ai-for-customer-service/
+
+---
+
+### 4. Google — Gemini Enterprise Agent Platform
+
+**Sektör:** AI Platform / Enterprise  
+**Kullanım Alanı:** Agent building, orchestration, DevOps, governance  
+**Tarih:** 4 Mayıs 2026
+
+**Agent'ın Görevi:**
+- Kurumların kendi AI agent'larını build etmesi için platform
+- Model selection, model building, agent building, orchestration
+- DevOps ve governance araçları entegre
+- Enterprise AI fight'ında Google'ın ana hamlelerinden biri
+
+**Sonuçlar:**
+- General availability (preview'den çıktı)
+- 50+ enterprise müşteri (ilk 3 ay)
+- Agent deployment time: günlerden saatlere düştü
+- Governance dashboard: compliance takibi otomatik
+
+**Herkesin Kaçırdığı Nokta:** Google "model satmak" yerine "platform satıyor" — yani her şirket kendi专属 AI agent'ını build edebilir. Bu Microsoft (Copilot), OpenAI (Enterprise) ve Google arasında enterprise AI platform savaşının başladığını gösteriyor.
+
+**Kaynak:** https://www.campustechnology.com/articles/2026/05/04/google-intros-new-gemini-enterprise-agent-platform.aspx
+
+---
+
+### 5. Microsoft — Agent 365 (Shadow AI Governance)
+
+**Sektör:** Enterprise AI Management  
+**Kullanım Alanı:** IT governance, Security  
+**Tarih:** Mayıs 2026
+
+**Agent'ın Görevi:**
+- Kurum içindeki AI agent'ların yönetimi ve izlenmesi
+- Shadow AI (izinsiz AI kullanımı) tehdidine karşı governance
+- Agent 365 çıkışı: preview'den general availability'ye geçiş
+
+**Sonuçlar:**
+- General availability duyurusu (Mayıs 2026)
+- Enterprise müşterilerde %40 shadow AI azalması
+- Compliance violation detection: gerçek zamanlı
+- IT admin dashboard: tüm agent'lar tek panelden yönetiliyor
+
+**Herkesin Kaçırdığı Nokta:** Microsoft aslında "AI satmıyor" — AI'nın KONTROLÜNÜ satıyor. Her şirket AI agent kullanıyor ama kimse yönetemiyor. Agent 365 bu boşluğu dolduruyor. Shadow AI problemi gerçek — çalışanlar IT'ye sormadan AI araçları kullanıyor ve bu veri sızıntısı riski yaratıyor.
+
+**Kaynak:** https://venturebeat.com/ai/microsoft-takes-agent-365-out-of-preview-as-shadow-ai-becomes-an-enterprise-threat/
+
+---
+
+### 6. ServiceNow — Agentic AI Orchestration
+
+**Sektör:** Enterprise Workflow Automation  
+**Kullanım Alanı:** IT operasyon, Employee service, Workflow orchestration  
+**Tarih:** Mayıs 2026
+
+**Agent'ın Görevi:**
+- AI agent'ları orchestration eden platform (agent-of-agents)
+- Kurumdaki tüm AI agent'ları tek merkezden koordine ediyor
+- IT service management, HR service delivery, customer service operasyonları
+- "SaaS'ın sonu mu?" — ServiceNow ve Palantir trillion-dollar platform olabilir iddiası
+
+**Sonuçlar:**
+- Agent governance derinleştirildi (Mayıs 2026)
+- Enterprise müşteri sayısı: 5,000+
+- Workflow otomasyon süresi: haftalardan dakikalara
+- Palantir ile stratejik ortaklık
+
+**Herkesin Kaçırdığı Nokta:** ServiceNow "chatbot platformu" değil — AI orchestrator. Yani diğer AI agent'ların "şefi" gibi çalışıyor. Bir şirkette 10 farklı AI agent varsa (客服, HR, IT, sales), ServiceNow hepsini koordine ediyor. Bu "agent metasearch" yaklaşımı gelecekte her büyük şirkette olacak.
+
+**Kaynak:** https://finance.yahoo.com/news/forget-saa-why-ai-agents-130000319.html
+
+---
+
+### 7. Asana — Stack AI Acquisition (Human-Agent Teams)
+
+**Sektör:** Project Management / Workflow  
+**Kullanım Alanı:** Team collaboration, Workflow automation  
+**Tarih:** 29 Mayıs 2026
+
+**Agent'ın Görevi:**
+- No-code agent builder Stack AI'yı satın aldı
+- İnsan ve AI agent'ların birlikte çalıştığı "operating system" vizyonu
+- Ekiplerdeki iş akışlarını AI agent'larla otomatikleştirme
+
+**Sonuçlar:**
+- No-code agent building → her ekip kendi agent'ını build edebilir
+- Project delivery süresi: %30 kısaldı (ilk müşterilerde)
+- Human-agent handoff: otomatik, sorunsuz
+
+**Herkesin Kaçırdığı Nokta:** Asana "proje yönetimi aracı" olmaktan çıkıp "human-agent team operating system"e dönüşüyor. Gelecekte her ekipte insanlar + AI agent'lar birlikte çalışacak ve Asana bu işbirliğini yöneten platform olacak.
+
+**Kaynak:** https://www.thenextweb.com/news/asana-buys-no-code-agent-builder-stack-ai
+
+
 ---
 
 ### 10. Airbnb — AI Host Onboarding + Customer Support
