@@ -148,3 +148,138 @@ Neden övgü aldı?
 ---
 
 *Son güncelleme: 2026-06-12 10:00*
+
+---
+
+## 13 Haziran 2026 — Yeni Bulgular
+
+### 1. E-Ticaret Trendleri 2026 — "Herkesin Kaçırdığı Nokta"
+
+**Kaynak:** Search Engine Land, 25 Mayıs 2026
+
+Herkes 2026'dan "AI alışverişi" bekliyor. Ama asıl trend çok daha sıradan ve çok daha büyük:
+
+**4 Büyük Trend:**
+1. **AI-Driven Shopping** — AI agent'lar alışveriş yapmıyor, ama alışverişi YÖNLENDİRİYOR. Ürün karşılaştırması, fiyat analizi, stok sorgusu yapıyorlar.
+2. **Unified Commerce** — Online + offline sınırı kalkıyor. Same-day delivery, in-store pickup, endless aisle.
+3. **TikTok Shop Growth** — Sosyal ticaret 2026'da patladı. "Aldiğım ürünü TikTok'ta gördüm" döngüsü.
+4. **Livestream Selling** — Canlı yayınla satış, özellikle Asya'da dominat. ABD'de de büyüyor.
+
+**İlginç Açı:** "Livestream selling" Batı'da "new trend" olarak sunuluyor ama Çin'de 2021'den beri norm. Batı pazarı 3-4 yıl geriden geliyor.
+
+**Herkesin Kaçırdığı Nokta:** TikTok Shop'un başarısı sadece "gençler" değil. 35-44 yaş arası alışverişçiler en hızlı büyüyen segment. Yani e-ticaret markaları için mesaj: "Sadece gençlere yönelik değil, herkesi yakala" stratejisi gerekiyor.
+
+**Türkiye Fırsatı:** Trendyol ve Hepsiburada TikTok Shop benzeri "canlı yayın" özelliklerini test ediyor. Erken adapte olan Türk markaları avantaj kazanabilir.
+
+---
+
+### 2. D2C Marka Başarı Hikayeleri — "Herkesin Kaçırdığı Nokta"
+
+**Kaynak:** YourStory, Mayıs 2026
+
+#### a) Manam Chocolate — $9M Yatırım
+- **Ne yapıyor:** Premium craft chocolate, D2C modeli
+- **Sonuç:** $9M Series A (≈₹86 Cr), perakende genişleme hedefi
+- **İlginç Açı:** Hintli bir çikolata markası, "premium craft" pozisyonuyla ABD pazarına açılıyor. D2C = doğrudan tüketici, aracı yok. Bu model Türkiye'de kahve markaları için ideal.
+
+#### b) Nyra Kitchenware — Kanpur'dan Global Marka
+- **Ne yapıyor:** Mutfak eşyaları, Hindistan'da üretim, global satış
+- **Sonuç:** "10 lakh+ orders" (1M+ sipariş), bootstrapped (dış yatırım almadan)
+- **İlginç Açı:** Kanpur — tipik bir "tier 2 city" (ikinci derece şehir). Global marka olmak için İstanbul/Ankara yetmiyor, Anadolu'dan çıkış var. Türkiye için ders: Küçük şehirden dünya markası olunabilir.
+
+#### c) Affordable Premium Ice Cream — D2C Fırsatı
+- **Kurucu:** Tanvi Chowdhri — Carnegie Mellon mühendislik mezunu, eski hedge fund trader
+- **Ne yapıyor:** "Affordable premium" ice cream, Wall Street deneyimini gıda sektörüne taşımış
+- **İlginç Açı:** Finans background'u olan biri D2C gıda markası kuruyor. "Premium ama uygun fiyat" pozisyonu = pazar boşluğu. Türkiye'de dondurma sektörü için model.
+
+**Türkiye Fırsatı:** D2C modeli Türkiye'de henüz tam yaygın değil. E-ticaret platformları (Trendyol, Etsy Türkiye) D2C markalar için altyapı sağlıyor. "Kanpur'dan dünyaya" hikayesi Türkiye'de "Anadolu'dan dünyaya" olarak tekrarlanabilir.
+
+---
+
+### 3. Shopify'ın Bilinmeyen Krizi — "Herkesin Kaçırdığı Nokta"
+
+**Kaynak:** Investing.com, 6 Mayıs 2026
+
+**Ne olmuş:** Shopify $3B hisse geri alım programı açıkladı. Bu normalde "iyi haber" olarak sunulur.
+
+**Ama gerçekte ne var?**
+
+Shopify'ın valuation krizi var. Hisse fiyatı düşüyor, bu yüzden şirket "ucuz" hisse alıyor. 
+
+**İlginç Açı:** Shopify mağazaları için bu aslında FIRSAT. Platform zor zamanlardan geçerken:
+- Daha fazla promosyon/indirim kampanyası
+- Daha uygun fiyatlı app'ler ve tema'lar
+- Shopify'ın rekabetçi kalma çabası = daha iyi özellikler
+
+**Türkiye Fırsatı:** Shopify Türkiye'de popüler. "Valuation crisis" şirketler için endişe kaynağı değil, FIRSAT kaynağı. Şu an Shopify mağazası açmak için en iyi zaman olabilir — platform daha agresif fiyatlandırma ve promo'larla kullanıcı çekmeye çalışıyor.
+
+---
+
+### 4. E-Ticaret CRO (Conversion Rate Optimization) — 2026 Teknikleri
+
+**Kaynak:** Web DOJ, 2026
+
+#### a) AI-Powered Personalization
+- Ürün önerileri AI ile kişiselleştiriliyor
+- Sesli arama (voice search) ile alışveriş
+- AR (Augmented Reality) ile "evde deneme"
+
+#### b) Checkout Optimization
+- Tek tık ödeme (Apple Pay, Google Pay)
+- Misafir checkout zorunlu değil
+- Kargo ücretsiz eşiği düşürme
+
+#### c) Social Proof Automation
+- Gerçek zamanlı satış bildirimleri ("50 kişi şu an bu ürünü görüntülüyor")
+- Video review'lar otomatik oluşturuluyor
+- Influencer sosyal kanıt entegrasyonu
+
+**İlginç Açı:** "Checkout optimization" en çok para kaybedilen alan. Sepete ürün ekleyip checkout'u tamamlamayan kullanıcı oranı %70+. En basit düzeltme: kargo ücretsiz eşiğini düşürmek %15-30 dönüşüm artışı sağlayabilir.
+
+**Türkiye Fırsatı:** Türk e-ticaret sitelerinde checkout optimizasyonu hâlâ zayıf. Trendyol'un "kargo bedava" eşiği yüksek. Bu eşiği düşüren markalar anlık avantaj kazanır.
+
+---
+
+### 5. Email Marketing Otomasyon — 2026 Trendleri
+
+**Kaynak:** Yotpo Blog, 16 Aralık 2025
+
+#### a) Data-Driven Loyalty
+- AI ile müşteri sadakat programları kişiselleştiriliyor
+- Otomatik "son alışveriş" hatırlatmaları
+- "Farewell" email'leri (müşteri terk etmeden önce engagement)
+
+#### b) Agentic Email Marketing
+- AI agent'lar email kampanyalarını oluşturuyor, A/B test yapıyor, optimizasyon sağlıyor
+- Otomatik segmentation
+- Real-time behavioral triggering
+
+**İlginç Açı:** Email marketing "eski moda" deniyor ama hâlâ en yüksek ROI'li kanal. $1 email marketing = $36-40 ROI (DMA verileri). 2026'da AI ile email marketing daha da güçleniyor.
+
+**Türkiye Fırsatı:** Türk e-ticaret markaları email marketing'i hâlâ "opsiyonel" görüyor. Oysa Instagram DM + Email entegre kampanyası = en güçlü satış döngüsü. WhatsApp Business API + Email = 2x dönüşüm.
+
+---
+
+## Özet Tablo — 13 Haziran 2026
+
+| Trend/Marka | Ne? | Sonuç | Türkiye Fırsatı |
+|-------------|-----|-------|-----------------|
+| AI-Driven Shopping | AI agent'lar alışverişi yönlendiriyor | Yeni bir traffic kaynağı: AI referral | AI-friendly site optimizasyonu |
+| TikTok Shop | Sosyal ticaret, 35-44 yaş segmenti büyüyor | Yeni satış kanalı | Türk markalar için erken adapte avantajı |
+| Manam Chocolate | D2C premium craft chocolate, $9M yatırım | D2C modeli kanıtlandı | Türk kahve/çikolata markaları için model |
+| Nyra Kitchenware | Kanpur'dan global D2C marka, 1M+ sipariş | Bootstrapped büyüme mümkün | Anadolu'dan dünya markası olunabilir |
+| Shopify Valuation Crisis | $3B hisse geri alım, hisse fiyatı düşüyor | Platform daha agresif promo'lar | Şimdi Shopify mağazası açmak için fırsat |
+| Livestream Selling | Canlı yayınla satış, Çin'de norm | Batı 3-4 yıl geriden geliyor | Türk markalar için erken adapte avantajı |
+| Email Marketing + AI | AI agent'lar email kampanyası yönetiyor | $1 = $36-40 ROI | WhatsApp + Email entegrasyonu = 2x dönüşüm |
+
+---
+
+## Kaynaklar
+
+- [Top 4 ecommerce trends for 2026 - Search Engine Land](https://www.searchenginejournal.com/top-4-ecommerce-trends-for-2026/)
+- [26 Ecommerce Trends For 2026: The Efficiency Reset - Yotpo](https://www.yotpo.com/blog/ecommerce-trends/)
+- [7 E-Commerce Trends That Will Transform Shopping In 2026 - Forbes](https://www.forbes.com/)
+- [D2C brand Manam Chocolate nets $9 mn - YourStory](https://www.yourstory.com/)
+- [From shutdown to scale: Nyra Kitchenware - YourStory](https://www.yourstory.com/)
+- [Shopify Announces $3 Billion Increase to Share Repurchase Program - Investing](https://www.investing.com/)
+- [Shopify's Valuation Crisis Creates Opportunity in 2026 - Investing](https://www.investing.com/)
