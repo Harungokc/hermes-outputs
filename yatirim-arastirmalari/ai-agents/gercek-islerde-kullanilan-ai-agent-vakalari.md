@@ -40,6 +40,10 @@
 | **Intercom** | Customer support | Chatbot | AI resolution | Web chat | Enterprise müşteriler |
 | **Salesforce** | CRM | Satış otomasyonu | Einstein GPT | CRM dashboard | Satış tahmini |
 | **HubSpot** | Marketing | Lead yönetimi | AI content + scoring | Marketing automation | Lead dönüşüm artışı |
+| **Zendesk** | Customer support | AI agent workforce | Autonomous resolution | Web/Email/Chat | Outcome-based pricing |
+| **KPMG** | Professional services | AI agent governance | Microsoft Agent 365 | Internal tools | Global agent deployment |
+| **Glean** | Enterprise search | AI workplace assistant | Company knowledge search | Enterprise apps | $300M+ ARR |
+| **Salesforce** | CRM | Agentforce automation | Deterministic workflow | CRM + Slack | Pivot from LLM to automation |
 
 ---
 
@@ -879,6 +883,130 @@ Marriott ve Hilton örneğinde — AI sadece yanıt vermiyor, her etkileşimde u
 
 ---
 
+---
+
+## 📅 14 Haziran 2026 — Yeni Vakalar
+
+### 1. KPMG — Microsoft Agent 365 ile Global AI Agent Governance
+
+**Şirket:** KPMG (Professional Services — Big 4)
+**Sektör:** Professional Services / Danışmanlık
+**Kullanım Alanı:** AI Agent yönetimi ve governance
+**Agent'ın Görevi:** KPMG'nin global organizasyonunda Microsoft Agent 365 ve Copilot agent'larını yönetmek, agent governance altyapısı kurmak
+**Müşteri Deneyimi:** KPMG danışmanları günlük işlerinde Microsoft Agent 365 kullanıyor — belgeleri tarama, meeting notes özetleme, project tracking gibi görevler agent'lar tarafından yapılıyor.
+
+**Sonuçlar:**
+- 30,000+ Microsoft Copilot lisansı 6 ayda deploy edildi (Infosys, TCS, Wipro ile birlikte)
+- KPMG, Agent 365 ile kendi internal agent'larını yönetmek için governance layer oluşturdu
+- Agent'ların tüm şirket genelinde tutarlı, güvenli ve ölçeklenebilir çalışması sağlandı
+
+**Herkesin Kaçırdığı Nokta:** KPMG sadece "AI kullanmıyor" — AI agent'ların *yönetimini* yapıyor. Bu yeni bir rol: "Agent Orchestrator" veya "AI Governance Lead". Büyük şirketlerde AI agent sayısı arttıkça, bu agent'ları yöneten insanlar da kritik hale geliyor. KPMG bu pozisyonu dolduruyor — hem Microsoft'un partner'ı hem de kendi içinde AI agent'a geçen şirket.
+
+**Kaynak:** Microsoft Blog, TechCrunch — "KPMG and Microsoft scale trusted, enterprise AI agents globally through deployment of Agent 365 and Copilot"
+
+---
+
+### 2. Zendesk — AI Agents Priced on Resolutions, Not Seats
+
+**Şirket:** Zendesk
+**Sektör:** Customer Support Software
+**Kullanım Alanı:** AI agent workforce — müşteri hizmetleri otomasyonu
+**Agent'ın Görevi:** Forethought AI acquisition'ı ile Zendesk, "autonomous service workforce" konseptini hayata geçirdi. AI agent'lar müşteri sorunlarını çözüyor, insan agent'lar sadece escalated vakaları alıyor.
+**Müşteri Deneyimi:** Müşteri bir sorun yaşıyor → AI agent triyaj yapıyor → %70+ vaka AI'da çözülüyor → İnsan sadece karmaşık vakalarla ilgileniyor.
+
+**Sonuçlar:**
+- **Fiyatlandırma değişti:** "Per seat" yerine "per resolution" — müşteri sadece çözülen sorun için ödüyor
+- Forethought'un "Triage" ve "Search" AI modelleri Zendesk platformuna entegre edildi
+- 2026 Relate etkinliğinde "Autonomous Service Workforce" konsepti tanıtıldı
+- Self-service resolution oranı artışı, agent productivity artışı
+
+**Herkesin Kaçırdığı Nokta:** Zendesk'ın yeni fiyatlandırma modeli — "per resolution" — customer support'ta AI'ın değerini ölçmenin yeni standardı. Artık kaç tane agent lisansın değil, kaç tane sorunun çözüldüğü önemli. Bu, AI agent ROI'sini hesaplamayı kökten değiştiriyor. "Agent seat" = maliyet, "resolution" = değer.
+
+**Kaynak:** Zendesk Relate 2026, Zendesk Blog — "Zendesk Launches AI Agents Priced on Resolutions, Not Seats"
+
+---
+
+### 3. Glean — $300M+ ARR, Enterprise AI'ın Yükselişi
+
+**Şirket:** Glean
+**Sektör:** Enterprise AI Search / Knowledge Management
+**Kullanım Alanı:** Şirket içi bilgiye erişim — tüm enterprise uygulamalarından (Google, Slack, Microsoft, Salesforce, vs.) AI destekli arama ve bilgi çıkarma
+**Agent'ın Görevi:** Şirket çalışanları doğal dil ile şirket verilerini sorguluyor. Glean AI yanıt veriyor, kaynakları gösteriyor, bağlamsal bilgi sunuyor.
+**Müşteri Deneyimi:** "Q3'te en iyi performans gösteren müşterilerimiz kim?" → Glean AI tüm CRM, dashboard ve email verilerini tarayıp yanıt veriyor. Rapor hazırlıyor. Kaynak linkleri veriyor.
+
+**Sonuçlar:**
+- **$300M+ ARR** — Enterprise AI'ın en hızlı büyüyen şirketlerinden biri
+- Her Fortune 500 şirketinin "AI usage"ı takip ediliyor — Glean dashboard'unda
+- "AI budget cutting" şirketler için Glean = maliyet düşürme aracı (her çalışan saatinde 30 dakika arama zamanı kaydediliyor)
+- Australia/New Zealand'a genişleme — ANZ bölgesinde enterprise AI talebi artıyor
+
+**Herkesin Kaçırdığı Nokta:** Glean'ın başarısı sadece "arama motoru" olması değil — "enterprise context" sağlaması. AI agent'lar şirketin tüm verisine erişebilmeli, ama güvenlik ve izinler kritik. Glean bu dengeyi kuruyor: doğru bilgi, doğru kişiye, doğru izinlerle. $300M ARR = şirketlerin "her yere AI koyayım ama kontrolü kaybetmeyeyim" ihtiyacını karşılıyor.
+
+**Kaynak:** Glean Blog — "Glean Surpasses $300M ARR: Unrivaled Enterprise Context Fuels AI Adoption"
+
+---
+
+### 4. Salesforce — Agentforce'dan Deterministic Automation'a Pivot
+
+**Şirket:** Salesforce
+**Sektör:** CRM / Enterprise Software
+**Kullanım Alanı:** Sales automation, customer service, workflow automation
+**Agent'ın Görevi:** 2024'te büyük AI agent vaadiyle Agentforce'u lanse ettiler. 2025 sonunda pivot ettiler: LLM tabanlı agent'lardan "deterministic automation"a döndüler.
+**Müşteri Deneyimi:** Salesforce müşterileri AI agent'ların "insan gibi düşünmesini" bekliyordu ama LLM'ler öngörülemeyebiliyordu. Salesforce bu yaklaşımı bırakıp, kural tabanlı otomasyona geri döndü.
+
+**Sonuçlar:**
+- 4,000 çalışan işten çıkarıldı (AI otomasyonu sonrası)
+- "We were more confident about AI agents than we should have been" — Salesforce executives itiraf etti
+- Agentforce şimdi "deterministic" workflows sunuyor: AI değil, kurallar
+- Slackbot AI agent deployment (2026)
+- CRM'de AI kullanımı var ama "autonomous agent" vaadi ölçeklenemedi
+
+**Herkesin Kaçırdığı Nokta:** Salesforce'un hikayesi "AI agent"ın sınırlarını gösteriyor. Karmaşık, yüksek stake'li B2B kararlarında (büyük satış fırsatları, müşteri şikayetleri) AI agent'lar güvenilir olmuyor. Ancak rule-based deterministic automation (workflow otomasyonu, veri entry, raporlama) çok etkili. Salesforce'un pivotu = "AI agent" değil "AI-assisted automation" — bu daha gerçekçi ve şu an işe yarıyor.
+
+**Kaynak:** Times of India — "Salesforce pulls back from LLMs, pivots Agentforce to deterministic automation" (28 Aralık 2025)
+
+---
+
+### 5. Sonarly — AI Agent ile Production Alert Triage
+
+**Şirket:** Sonarly (YC W26)
+**Sektör:** DevOps / Developer Tools
+**Kullanım Alanı:** Production alert yönetimi — mühendislerin üretim ortamındaki sorunları tespit etmesi ve çözmesi
+**Agent'ın Görevi:** Sonarly AI agent production'daki alert'leri triyaj ediyor. Hangi alert kritik, hangisi bekleyebilir, kök sebep ne, nasıl çözülür — otomatik analiz ediyor.
+**Müşteri Deneyimi:** Gece 3'te alert geliyor → Sonarly agent alert'i analiz ediyor → "Bu kritik: DB connection pool dolmuş, şu komutla çözülür" diyor → Mühendis sadece onay veriyor.
+
+**Sonuçlar:**
+- YC Winter 2026'dan mezun
+- 30+ HN points, 17 yorum
+- Alert triage süresini dakikalardan saniyelere indiriyor
+- On-call mühendislerin sleep quality'sini artırıyor
+
+**Herkesin Kaçırdığı Nokta:** Sonarly gibi küçük YC startup'ları büyük şirketlerin "AI agent" kullanımında öncü. Büyük şirketler (Salesforce, Microsoft) AI agent'ları CRM/sales'e koyarken, developer tooling'de AI agent kullanımı daha hızlı sonuç veriyor. DevOps'ta AI agent = yüksek ROI, düşük risk. Alert çözülmezse sistem down, çözülürse developer mutlu.
+
+**Kaynak:** https://sonarly.com/, HN Launch — "Launch HN: Sonarly (YC W26) – AI agent to triage and fix your production alerts"
+
+---
+
+### 6. Hyper — Company Brain for Agentic Development
+
+**Şirket:** Hyper (YC P26)
+**Sektör:** Developer Tools / AI Infrastructure
+**Kullanım Alanı:** Şirketlerin kendi AI agent'larını build etmesi için "company brain" platformu
+**Agent'ın Görevi:** Hyper şirketlerin kurumsal bilgisini (dokümanlar, kod, veritabanları, API'ler) AI agent'ların kullanacağı bir "knowledge graph"a dönüştürüyor.
+**Müşteri Deneyimi:** Developer Hyper'a şirketin dokümanlarını veriyor → Hyper otomatik olarak "company brain" oluşturuyor → Şirketin AI agent'ları bu brain'i kullanarak çalışıyor.
+
+**Sonuçlar:**
+- YC Summer 2026'da launch oldu
+- 79 HN points, 76 yorum — en popüler launch'lardan biri
+- "Company brain" konsepti = Glean'ın yaptığı ama developer araçları için
+- Agentic development = AI agent'ların şirket verisiyle çalışması
+
+**Herkesin Kaçırdığı Nokta:** Hyper'ın 79 HN points alması = developer topluluğu "company brain" konseptine çok ilgili. Glean kurumsal arama için $300M ARR yaptı, Hyper aynı şeyi "AI agent development" için yapıyor. Her şirket bir gün kendi AI agent'ını build edecek — Hyper bunu kolaylaştırıyor.
+
+**Kaynak:** https://news.ycombinator.com/item?id=48387095 — "Launch HN: Hyper (YC P26) – Company brain to power agentic development"
+
+---
+
 ## 📚 Kaynaklar (Güncellenmiş)
 
 1. CX Dive — "Expedia taps AI to enhance customer support, acquire new customers" (12 Mayıs 2026)
@@ -886,9 +1014,15 @@ Marriott ve Hilton örneğinde — AI sadece yanıt vermiyor, her etkileşimde u
 3. Skift — "Expedia Pushes Meta, Uber, and Clear Partnerships to Own More of the Trip" (19 Mayıs 2026)
 4. GeekWire — "Expedia at 30, the inside story" (19 Mayıs 2026)
 5. WiT Japan 2026 — AI Tourism Revolution (8 Mayıs 2026)
+6. Microsoft Blog — "KPMG and Microsoft scale trusted, enterprise AI agents globally"
+7. Zendesk Relate 2026 — "AI Agents Priced on Resolutions, Not Seats"
+8. Glean Blog — "Glean Surpasses $300M ARR"
+9. Times of India — "Salesforce pulls back from LLMs, pivots Agentforce to deterministic automation"
+10. HN/Sonarly — "Launch HN: Sonarly (YC W26) – AI agent to triage and fix your production alerts"
+11. HN/Hyper — "Launch HN: Hyper (YC P26) – Company brain to power agentic development"
 
 ---
 
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
 *Güncelleme: Her gün 12:00*
-*Tarih: 12 Haziran 2026*
+*Tarih: 14 Haziran 2026*
