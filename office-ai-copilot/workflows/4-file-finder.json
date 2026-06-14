@@ -1,0 +1,77 @@
+{
+  "name": "4 - File Finder (Office AI Copilot)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "find-file",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "id": "webhook",
+      "name": "Webhook (doğal dil sorgu)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300],
+      "notes": "POST { \"query\": \"geçen ayki bütçe sunumu\" } gönder. Slack/Telegram bot ile de tetiklenebilir."
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"claude-haiku-4-5\",\n  max_tokens: 800,\n  system: \"Kullanıcının doğal dil dosya tarifini Google Drive aramasına çevir. SADECE şu JSON: {\\\"keywords\\\":[\\\"...\\\"],\\\"mime_hint\\\":\\\"presentation|pdf|spreadsheet|document|null\\\",\\\"owner_hint\\\":null,\\\"date_hint\\\":null}\",\n  messages: [{ role: \"user\", content: $json.body.query }]\n}) }}",
+        "options": {}
+      },
+      "id": "claude-call",
+      "name": "Claude — Sorgu Çöz (Haiku)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300],
+      "credentials": { "httpHeaderAuth": { "id": "REPLACE", "name": "Anthropic API (x-api-key)" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "let text = $json.content[0].text.trim();\nif (text.startsWith('```')) { text = text.split('```')[1].replace(/^json/, '').trim(); }\nconst p = JSON.parse(text);\nconst mimeMap = { presentation: 'application/vnd.google-apps.presentation', spreadsheet: 'application/vnd.google-apps.spreadsheet', document: 'application/vnd.google-apps.document', pdf: 'application/pdf' };\nlet clauses = (p.keywords || []).map(k => `fullText contains '${k}'`);\nif (mimeMap[p.mime_hint]) clauses.push(`mimeType = '${mimeMap[p.mime_hint]}'`);\nreturn { json: { driveQuery: clauses.join(' and ') } };"
+      },
+      "id": "build-query",
+      "name": "Drive Sorgusu Kur",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "resource": "fileFolder",
+        "queryString": "={{ $json.driveQuery }}",
+        "returnAll": false,
+        "limit": 5,
+        "options": {}
+      },
+      "id": "drive-search",
+      "name": "Google Drive Ara",
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [900, 300],
+      "credentials": { "googleDriveOAuth2Api": { "id": "REPLACE", "name": "Google Drive account" } }
+    }
+  ],
+  "connections": {
+    "Webhook (doğal dil sorgu)": { "main": [[{ "node": "Claude — Sorgu Çöz (Haiku)", "type": "main", "index": 0 }]] },
+    "Claude — Sorgu Çöz (Haiku)": { "main": [[{ "node": "Drive Sorgusu Kur", "type": "main", "index": 0 }]] },
+    "Drive Sorgusu Kur": { "main": [[{ "node": "Google Drive Ara", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "templatecredsSetupCompleted": false },
+  "pinData": {}
+}

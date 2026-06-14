@@ -1,0 +1,89 @@
+{
+  "name": "3 - Weekly Report (Office AI Copilot)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [{ "field": "weeks", "triggerAtDay": [5], "triggerAtHour": 16 }] }
+      },
+      "id": "schedule-trigger",
+      "name": "Her Cuma 16:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "operation": "read",
+        "documentId": { "__rl": true, "value": "REPLACE_SHEET_ID", "mode": "id" },
+        "sheetName": { "__rl": true, "value": "Hafta Verisi", "mode": "name" },
+        "options": {}
+      },
+      "id": "sheets-read",
+      "name": "Sheets'ten Hafta Verisi",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [460, 300],
+      "credentials": { "googleSheetsOAuth2Api": { "id": "REPLACE", "name": "Google Sheets account" } }
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "id": "aggregate",
+      "name": "Satırları Birleştir",
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"claude-sonnet-4-6\",\n  max_tokens: 3000,\n  system: \"Sen bir yönetici asistanısın. Haftanın ham verisini profesyonel, Markdown bir haftalık rapora çevir. Bölümler: Özet, Tamamlananlar, Devam Edenler, Riskler/Engeller, Gelecek Hafta. Veride olmayan metrik UYDURMA. Sadece rapor metnini ver, JSON değil.\",\n  messages: [{ role: \"user\", content: \"Bu haftanın verileri:\\n\" + JSON.stringify($json.data) }]\n}) }}",
+        "options": {}
+      },
+      "id": "claude-call",
+      "name": "Claude — Rapor (Sonnet)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [900, 300],
+      "credentials": { "httpHeaderAuth": { "id": "REPLACE", "name": "Anthropic API (x-api-key)" } }
+    },
+    {
+      "parameters": {
+        "sendTo": "REPLACE_recipient@example.com",
+        "subject": "=Haftalık Rapor — {{ $now.format('dd.MM.yyyy') }}",
+        "message": "={{ $json.content[0].text }}",
+        "options": {}
+      },
+      "id": "gmail-send",
+      "name": "Raporu Mail At",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1120, 300],
+      "credentials": { "gmailOAuth2": { "id": "REPLACE", "name": "Gmail account" } },
+      "notes": "İstersen önce 'draft' yapıp onaydan sonra gönder."
+    }
+  ],
+  "connections": {
+    "Her Cuma 16:00": { "main": [[{ "node": "Sheets'ten Hafta Verisi", "type": "main", "index": 0 }]] },
+    "Sheets'ten Hafta Verisi": { "main": [[{ "node": "Satırları Birleştir", "type": "main", "index": 0 }]] },
+    "Satırları Birleştir": { "main": [[{ "node": "Claude — Rapor (Sonnet)", "type": "main", "index": 0 }]] },
+    "Claude — Rapor (Sonnet)": { "main": [[{ "node": "Raporu Mail At", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "templatecredsSetupCompleted": false },
+  "pinData": {}
+}

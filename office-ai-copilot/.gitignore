@@ -1,0 +1,32 @@
+# Ortam değişkenleri & sırlar
+.env
+*.env
+credentials.json
+token.json
+client_secret*.json
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# n8n (yerel veri)
+.n8n/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editör
+.vscode/
+.idea/
+*.swp
+
+# Çıktı / log
+outputs/
+*.log

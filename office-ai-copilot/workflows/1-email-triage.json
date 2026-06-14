@@ -1,0 +1,95 @@
+{
+  "name": "1 - Email Triage (Office AI Copilot)",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": { "item": [{ "mode": "everyMinute" }] },
+        "simple": false,
+        "filters": { "readStatus": "unread" },
+        "options": {}
+      },
+      "id": "gmail-trigger",
+      "name": "Gmail Trigger (okunmamış)",
+      "type": "n8n-nodes-base.gmailTrigger",
+      "typeVersion": 1.2,
+      "position": [260, 300],
+      "credentials": { "gmailOAuth2": { "id": "REPLACE", "name": "Gmail account" } }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"claude-haiku-4-5\",\n  max_tokens: 1500,\n  system: \"Sen bir email triyaj asistanısın. Gelen email'i oku, önceliğini (ACİL/NORMAL/DÜŞÜK) belirle ve cevap gerekiyorsa kısa profesyonel bir taslak cevap yaz. Bilmediğin detay için [buraya detay ekle] yer tutucusu bırak, asla uydurma. SADECE şu JSON şemasında çıktı ver: {\\\"priority\\\":\\\"ACİL|NORMAL|DÜŞÜK\\\",\\\"category\\\":\\\"...\\\",\\\"summary\\\":\\\"tek cümle\\\",\\\"needs_reply\\\":true,\\\"draft_reply\\\":\\\"...\\\"}\",\n  messages: [{ role: \"user\", content: \"Konu: \" + $json.subject + \"\\nGönderen: \" + $json.from + \"\\n\\n\" + $json.snippet }]\n}) }}",
+        "options": {}
+      },
+      "id": "claude-call",
+      "name": "Claude — Triyaj (Haiku)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [520, 300],
+      "credentials": { "httpHeaderAuth": { "id": "REPLACE", "name": "Anthropic API (x-api-key)" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Claude'un JSON çıktısını parse et (```json bloğunu temizle)\nlet text = $json.content[0].text.trim();\nif (text.startsWith('```')) {\n  text = text.split('```')[1].replace(/^json/, '').trim();\n}\nconst parsed = JSON.parse(text);\nreturn { json: parsed };"
+      },
+      "id": "parse-json",
+      "name": "JSON Parse",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [780, 300]
+    },
+    {
+      "parameters": {
+        "resource": "draft",
+        "subject": "=Re: (taslak cevap)",
+        "message": "={{ $json.draft_reply }}",
+        "options": {}
+      },
+      "id": "create-draft",
+      "name": "Gmail Taslak Oluştur",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [1040, 220],
+      "credentials": { "gmailOAuth2": { "id": "REPLACE", "name": "Gmail account" } },
+      "notes": "Sadece needs_reply=true ise. Otomatik GÖNDERMEZ, taslak bırakır — sen onaylarsın."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "version": 2 },
+          "conditions": [
+            { "leftValue": "={{ $json.needs_reply }}", "rightValue": true, "operator": { "type": "boolean", "operation": "true", "singleValue": true } }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "if-needs-reply",
+      "name": "Cevap gerekli mi?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [780, 480]
+    }
+  ],
+  "connections": {
+    "Gmail Trigger (okunmamış)": { "main": [[{ "node": "Claude — Triyaj (Haiku)", "type": "main", "index": 0 }]] },
+    "Claude — Triyaj (Haiku)": { "main": [[{ "node": "JSON Parse", "type": "main", "index": 0 }]] },
+    "JSON Parse": { "main": [[{ "node": "Cevap gerekli mi?", "type": "main", "index": 0 }]] },
+    "Cevap gerekli mi?": { "main": [[{ "node": "Gmail Taslak Oluştur", "type": "main", "index": 0 }], []] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "templatecredsSetupCompleted": false },
+  "pinData": {}
+}

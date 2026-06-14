@@ -1,0 +1,92 @@
+{
+  "name": "2 - Meeting Notes (Office AI Copilot)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual-trigger",
+      "name": "Manuel / Webhook Tetik",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [240, 300],
+      "notes": "Transkripti getiren tetikleyiciyle değiştir (ör. Webhook, Google Drive yeni dosya, Fireflies/Otter webhook)."
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            { "id": "1", "name": "transcript", "value": "={{ $json.transcript || 'Buraya toplantı transkripti gelir' }}", "type": "string" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "set-transcript",
+      "name": "Transkripti Hazırla",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "content-type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: \"claude-sonnet-4-6\",\n  max_tokens: 3000,\n  system: \"Sen bir toplantı asistanısın. Transkripti yapılandırılmış özete ve action item'lara çevir. Sorumlu/tarih transkriptte yoksa null bırak, UYDURMA. SADECE şu JSON: {\\\"title\\\":\\\"...\\\",\\\"summary\\\":[\\\"...\\\"],\\\"decisions\\\":[\\\"...\\\"],\\\"action_items\\\":[{\\\"task\\\":\\\"...\\\",\\\"owner\\\":null,\\\"due\\\":null}]}\",\n  messages: [{ role: \"user\", content: $json.transcript }]\n}) }}",
+        "options": {}
+      },
+      "id": "claude-call",
+      "name": "Claude — Özet (Sonnet)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [680, 300],
+      "credentials": { "httpHeaderAuth": { "id": "REPLACE", "name": "Anthropic API (x-api-key)" } }
+    },
+    {
+      "parameters": {
+        "jsCode": "let text = $json.content[0].text.trim();\nif (text.startsWith('```')) { text = text.split('```')[1].replace(/^json/, '').trim(); }\nconst notes = JSON.parse(text);\n// Her action item'ı ayrı satır olarak çıkar (Sheets'e yazmak için)\nreturn notes.action_items.map(a => ({ json: {\n  title: notes.title,\n  task: a.task,\n  owner: a.owner || '',\n  due: a.due || '',\n  summary: notes.summary.join(' | ')\n}}));"
+      },
+      "id": "parse-json",
+      "name": "Action Item'lara Böl",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": { "__rl": true, "value": "REPLACE_SHEET_ID", "mode": "id" },
+        "sheetName": { "__rl": true, "value": "Action Items", "mode": "name" },
+        "columns": {
+          "mappingMode": "autoMapInputData",
+          "value": {},
+          "matchingColumns": []
+        },
+        "options": {}
+      },
+      "id": "sheets-append",
+      "name": "Google Sheets'e Ekle",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [1120, 300],
+      "credentials": { "googleSheetsOAuth2Api": { "id": "REPLACE", "name": "Google Sheets account" } }
+    }
+  ],
+  "connections": {
+    "Manuel / Webhook Tetik": { "main": [[{ "node": "Transkripti Hazırla", "type": "main", "index": 0 }]] },
+    "Transkripti Hazırla": { "main": [[{ "node": "Claude — Özet (Sonnet)", "type": "main", "index": 0 }]] },
+    "Claude — Özet (Sonnet)": { "main": [[{ "node": "Action Item'lara Böl", "type": "main", "index": 0 }]] },
+    "Action Item'lara Böl": { "main": [[{ "node": "Google Sheets'e Ekle", "type": "main", "index": 0 }]] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "templatecredsSetupCompleted": false },
+  "pinData": {}
+}
