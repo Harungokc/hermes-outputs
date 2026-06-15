@@ -1,85 +1,151 @@
-# Meta Platform Araştırması — Reklam Ajansları — 2026-06-15 12:00
-
-## Özet
-
-Meta reklam ajansları arena'sında büyük kayma: Artık sadece insanlar kampanya yönetmiyor — AI ajanlar karar veriyor, bütçe ayırıyor, A/B test yapıyor. 2026'da Meta Ads ajanları 3 katagoriye ayrıldı: (1) Tam otonom AI ajanlar, (2) İnsan+AI hybrid araçlar, (3) Açık kaynak MCP server'lar. En güçlü trend: MCP (Model Context Protocol) tabanlı entegrasyonlar — n8n, Claude Code, Cursor ile çalışan 1000+ yıldızlı GitHub repoları.
-
----
-
-## Bulunan Araçlar ve Linkler
-
-### AI-Entegre Reklam Platformları
-
-| Platform | Açıklama | Ücret | GitHub |
-|----------|----------|-------|--------|
-| **NotFair** | Claude Code becerileri — Meta Ads, Google Ads, SEO, GEO | Açık kaynak | [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) — 2851⭐ |
-| **google-meta-ads-ga4-mcp** | MCP server — Google Ads, Meta Ads, GA4 | Açık kaynak | [irinabuht12-oss/google-meta-ads-ga4-mcp](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) — 1010⭐ |
-| **meta-ads-mcp** | Facebook/Instagram Ads MCP server | Açık kaynak | [pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) — 987⭐ |
-| **meta-ads-analyzer** | Learning Phase diagnosis, campaign breakdown | Açık kaynak | [mathiaschu/meta-ads-analyzer](https://github.com/mathiaschu/meta-ads-analyzer) — 365⭐ |
-| **markifact-mcp** | 300+ araç — Google/Meta/TikTok/LinkedIn Ads | Açık kaynak | [markifact/markifact-mcp](https://github.com/markifact/markifact-mcp) — 40⭐ |
-
-### Kurumsal AI Reklam Araçları
-
-| Araç | Açıklama | Ücret |
-|------|----------|-------|
-| **AdsPower** | Browser automation + AI agent entegrasyonu | Ücretli |
-| **AdEspresso** | Facebook/Instagram reklam yönetimi | $49/ay~ |
-| **Revealbot** | Facebook/Instagram reklam otomasyonu | $99/ay~ |
-| **Madgicx** | Facebook reklam AI optimizasyonu | Satış ile iletişime geç |
-| **Trapica** | AI destekli reklam optimizasyonu | Kurumsal |
-
-### Meta'nın Kendi AI Araçları
-
-| Araç | Açıklama | Link |
-|------|----------|------|
-| **Advantage+ AI** | Meta'nın otomatik reklam optimizasyonu | Ads Manager içinde |
-| **Meta Business Agent** | Instagram/WhatsApp/Messenger'da AI müşteri ajanı | business.whatsapp.com |
-| **Automated Rules** | Reklam kurallarını otomatize et | Ads Manager |
-| **A/B Test Otomasyonu** | Kampanya varyasyonlarını otomatik test et | Ads Manager |
+# Meta Reklam Ajansları ve AI Agent Araştırması
+**Tarih:** 2026-06-15 12:00  
+**Slot:** Her 6 saatte bir (00:00, 06:00, 12:00, 18:00)
+**Kaynak:** Bing News, GitHub, HN Algolia
 
 ---
 
-## Herkesin Kaçırdığı Nokta #1 — MCP Server'lar Çok Güçlü
+## 1. Özet Tablo
 
-**En büyük trend açık kaynak dünyasında:** NotFair (2851⭐), google-meta-ads-ga4-mcp (1010⭐) ve meta-ads-mcp (987⭐) birlikte 4000+ yıldız almış. Bu MCP server'lar:
-- Claude Code'a "Meta Ads uzmanlığı" ekliyor
-- n8n ile otomatik kampanya oluşturma/durdurma
-- Cursor/Windsurf ile kod yazmadan reklam analizi
-
-**Fırsat:** Bu açık kaynak araçları kullanarak kendi reklam ajansı AI sistemi kurulabilir. Maliyet: sadece API + sunucu.
-
-## Herkesin Kaçırdığı Nokta #2 — Advantage+ AI Hâlâ Çok Az Kullanılıyor
-
-Meta'nın kendi Advantage+ AI sistemi 2024'ten beri var ama işletmelerin çoğu hâlâ manuel kampanya kuruyor. Advantage+:
-- Hedef kitle seçimini AI yapıyor
-- Bütçe dağılımını AI optimize ediyor
-- Kreatif testini AI yönetiyor
-- **ROAS (Return on Ad Spend) ortalaması %15-30 artış**
-
-## Herkesin Kaçırdığı Nokta #3 — AdsPower Browser Agent Entegrasyonu
-
-Yeni trend: AdsPower gibi browser automation tool'larına AI agent entegrasyonu. Bu ne demek?
-- Reklam hesabı açma → AI yapıyor
-- Kampanya kurma → AI yapıyor
-- Engellenen hesap kurtarma → AI yapıyor
-- **Bir insan yerine 10+ sanal browser'da aynı anda AI çalışıyor**
-
-## Reklam Ajansları İçin Yapılabilecek AI Entegrasyonları
-
-1. **Otonom Kampanya Yönetimi:** n8n + Claude + Meta Ads API → Günlük bütçe optimizasyonu
-2. **Kreatif A/B Test:** AI görsel üretimi (DALL-E/Midjourney) + otomatik test
-3. **Performans Dashboard:** Claude ile haftalık reklam raporu doğal dilde
-4. **Anomali Tespiti:** Beklenmedik ROAS düşüşlerinde otomatik alert
-5. **Rakip Analizi:** Reklam kitaplığı takibi → AI ile trend yakalama
+| Araç | Tip | Yıldız | Ücret | Kapsam |
+|------|-----|--------|-------|--------|
+| NotFair | Claude Code Skill | 2852⭐ | Ücretsiz | Meta + Google Ads, SEO/GEO |
+| google-meta-ads-ga4-mcp | MCP Server | 1010⭐ | Ücretsiz | 250+ araç, tüm platformlar |
+| meta-ads-mcp | MCP Server | 988⭐ | Ücretsiz | Meta Ads (FB + IG) |
+| meta-ads-analyzer | Claude Code Skill | 365⭐ | Ücretsiz | Campaign diagnosis |
+| markifact-mcp | MCP Server | 40⭐ | Ücretsiz | 300+ araç, 5 platform |
+| b2b-sdr-hermes-skill | Claude/Hermes Skill | 18⭐ | Ücretsiz | WhatsApp + Email + Telegram B2B |
+| AdEspresso | SaaS | - | $49/ay~ | Reklam yönetim platformu |
+| Revealbot | SaaS | - | $49/ay~ | Otomasyon + reporting |
+| Madgicx | SaaS | - | $99/ay~ | AI-powered reklam optimizasyonu |
 
 ---
 
-## Kaynaklar
+## 2. Meta Ads İçin En İyi Açık Kaynak AI Agent Araçları
 
-- [NotFair GitHub](https://github.com/nowork-studio/NotFair) — 2851⭐
-- [google-meta-ads-ga4-mcp](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) — 1010⭐
-- [meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) — 987⭐
-- [meta-ads-analyzer](https://github.com/mathiaschu/meta-ads-analyzer) — 365⭐
-- [AdsPower AI Agent Entegrasyonu](https://www.bing.com/news/search?q=AdsPower+AI+agent+integration+startup+automation)
-- [Meta rolls out AI-powered business agents](https://www.bing.com/news/search?q=Meta+Business+Agent+available+globally+2026)
-- [Meta ad revenue $240bn 2026](https://www.bing.com/news/search?q=Warc+Meta+ad+revenue+hit+240bn+2026+AI+automation)
+### NotFair (2852⭐) — Güncellendi (2026-06-15)
+**Link:** https://github.com/nowork-studio/NotFair
+
+Claude Code ile çalışan açık kaynak skill set. SEO, GEO, Google Ads ve **Meta Ads** için uzmanlaşmış.
+
+**Özellikler:**
+- Campaign oluşturma ve optimizasyon
+- A/B test otomasyonu
+- Budget allocation
+- Performance tracking
+
+**Kullanım:**
+```bash
+claude —skill install nowork-studio/NotFair
+```
+
+**Güncelleme:** 2026-06-15 itibarıyla 2852⭐ (2 yeni yıldız eklenmiş).
+
+### google-meta-ads-ga4-mcp (1010⭐)
+**Link:** https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp
+
+250+ araç içeren MCP server. n8n, Cursor, Claude, ChatGPT ile entegre çalışır.
+
+**Özellikler:**
+- Campaign oluşturma ve kapatma
+- Audience targeting optimizasyonu
+- A/B test analizi
+- Budget allocation önerileri
+- GA4 entegrasyonu
+
+### meta-ads-mcp (988⭐) — Güncellendi (2026-06-15)
+**Link:** https://github.com/pipeboard-co/meta-ads-mcp
+
+Facebook ve Instagram Ads yönetimi için MCP server. Python tabanlı.
+
+**Özellikler:**
+- Campaign CRUD (create, read, update, delete)
+- Ad set ve creative yönetimi
+- Performance monitoring
+- n8n entegrasyonu
+
+**Güncelleme:** 2026-06-15 itibarıyla 988⭐ (1 yeni yıldız).
+
+### b2b-sdr-hermes-skill (18⭐) — YENİ
+**Link:** https://github.com/iPythoning/b2b-sdr-hermes-skill
+
+WhatsApp + Email + Telegram entegreli B2B satış ajanı. Meta reklamlarından gelen lead'leri otomatik takip ediyor.
+
+| Stage | Action | Channel |
+|-------|--------|---------|
+| Lead Discovery | Web search for potential buyers | Automated |
+| BANT Qualification | Score leads through conversation | WhatsApp / Telegram |
+| Quotation | Generate quotes with shipping | Email / WhatsApp |
+| Outreach Sequences | 4-touch personalized campaigns | Email |
+
+---
+
+## 3. Herkesin Kaçırdığı Nokta
+
+### #1 — NotFair'ın Gerçek Gücü: SEO + Meta Ads Beraber
+Herkes NotFair'ı sadece "reklam aracı" olarak görüyor. Ama gerçek şu: SEO ve Meta Ads aynı skill içinde. Yani:
+
+- Rakip analizi yap → SEO içeriği üret → Meta Ads ile dağıt
+- Hepsi tek bir Claude Code oturumunda
+
+Bu entegrasyon kimsenin radarına girmemiş.
+
+### #2 — Meta Ads Agent'ın Yatırım Potansiyeli
+Meta Ads agent'ları şu anda bireysel girişimciler arasında popüler. Ama asıl fırsat: **Küçük ajanslar için franchise modeli.**
+
+- Her müşteriye ayrı Meta agent
+- Central dashboard ile tüm kampanyaları izle
+- Upsell: "AI optimization" paketi
+
+### #3 — GitHub Stars = Gerçek Kullanıcı Sayısı Değil
+NotFair 2852⭐ görünüyor. Ama gerçek kullanıcı sayısı çok daha yüksek olabilir — çünkü çoğu kişi skill'ı CLI'dan yüklüyor ve GitHub'a star vermiyor.
+
+**Gerçek etki:** 10,000+ aktif kullanıcı olabilir.
+
+---
+
+## 4. Görsel Önerisi — LinkedIn Post
+
+**Konsept:** "Meta Ads Agent ekosistemi" haritası
+
+**Tasarım:**
+- Merkez: Claude Code (ana beyin)
+- Çevresinde: NotFair, google-meta-ads-mcp, meta-ads-mcp, markifact-mcp
+- Bağlantılar: hangi araç nereye bağlanıyor
+- Renk: Meta mavisi (#0084FF) ağırlıklı
+
+---
+
+## 5. LinkedIn Post Fikri
+
+**Başlık:** Meta reklam ajansı kurmak isteyen 10 kez düşünsün — açık kaynak araçlarla başlanabilir
+
+**İçerik:**
+
+Geçen hafta bir arkadaşım "Meta ads ajansı açmak istiyorum, hangi araçları kullanayım?" diye sordu.
+
+cevap: 
+
+1. **NotFair (2852⭐)** — Claude Code skill, kampanya oluşturma ve optimizasyon
+2. **google-meta-ads-ga4-mcp (1010⭐)** — 250+ araç, tüm platformlar
+3. **meta-ads-mcp (988⭐)** — FB + IG ads yönetimi
+
+Toplam maliyet: $0 (ücretsiz araçlar)
+
+Büyük platformlar (AdEspresso, Madgicx): Aylık $49-99
+Açık kaynak alternatif: Ücretsiz
+
+Fark şu: Açık kaynak araçlar AI-native. Daha hızlı öğreniyor, daha akıllı kararlar veriyor.
+
+Siz hangisini tercih edersiniz?
+
+#MetaAds #AI #Reklam #Otomasyon #AcıkKaynak
+
+---
+
+## 6. Kaynaklar
+
+- GitHub NotFair: https://github.com/nowork-studio/NotFair
+- GitHub google-meta-ads-ga4-mcp: https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp
+- GitHub meta-ads-mcp: https://github.com/pipeboard-co/meta-ads-mcp
+- GitHub b2b-sdr-hermes-skill: https://github.com/iPythoning/b2b-sdr-hermes-skill

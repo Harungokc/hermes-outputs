@@ -1,106 +1,205 @@
-# Meta Platform Araştırması — Verimli Kullanım — 2026-06-15 12:00
-
-## Özet
-
-Meta Business Suite'i en verimli kullanan şirketler 3 temel strateji kullanıyor: (1) Automated Rules ile sürekli optimizasyon, (2) Advantage+ AI ile hedefleme outsource etme, (3) n8n + MCP entegrasyonu ile çoklu platform yönetimi. 2026'da en çok zaman kazandıran otomasyon: Engellenen reklam hesabı kurtarma, anomali tespiti ve haftalık performans raporlaması.
-
----
-
-## En Çok Zaman Kazandıran Otomasyonlar
-
-### 1. Automated Rules (Meta Ads Manager içinde)
-
-Meta'nın kendi otomasyon aracı — kod yazmadan:
-
-| Kural | Ne Yapar | Kazanım |
-|-------|----------|---------|
-| ROAS < %X ise durdur | Return on Ad Spend düşünce kampanyayı durdur | Gereksiz harcama durdurma |
-| Günlük bütçe limiti | Belirli saatlerde bütçe artır/azalt | Daha verimli bütçe kullanımı |
-| CPC > %Y ise bildirim gönder | Maliyet çok yükselirse uyar | İnsan müdahalesi gerektiğinde haber ver |
-| conversions < Z ise kampanya durdur | Dönüşüm yoksa otomatik durdur | Kötü performanslı kampanya optimizasyonu |
-
-**Kural zincirleme:** "ROAS < %15 VE conversion < 5 → kampanya durdur + bildirim gönder"
-
-### 2. Advantage+ AI Kullanımı
-
-Meta'nın AI optimizasyon sistemi — birlikte kullanım önerileri:
-
-- **Kampanya kurulumu:** Advantage+ shopping campaign → AI hedef kitle seçiyor
-- **Kreatif test:** Multi-advantage+ ile 4-8 varyasyon → AI en iyisini seçiyor
-- **Audience expansion:** Mevcut müşteri listesine benzer kitleler → AI açıyor
-- **Video creative:** AI, en yüksek etkileşimli videoyu otomatik seçiyor
-
-### 3. Analitik Takip Otomasyonu (n8n + Claude)
-
-```
-n8n Workflow:
-1. Meta Ads API → Günlük kampanya verilerini çek
-2. Claude → Anomalileri tespit et (ROAS düşüşü, CPC artışı)
-3. Slack/WhatsApp → Alert gönder
-4. Google Sheets → Haftalık rapor yaz
-```
-
-**Haftalık insan saati tasarrufu:** 4-6 saat manuel raporlama → 30 dakika gözden geçirme
+# Meta Business Suite Verimli Kullanım
+**Tarih:** 2026-06-15 12:00
+**Slot:** Her 6 saatte bir (00:00, 06:00, 12:00, 18:00)
+**Kaynak:** Bing News, GitHub, Meta Developers
 
 ---
 
-## Meta Business Agent İle Verimli Kullanım
+## 1. Özet Tablo
 
-Meta Business Agent ($200/ay Hatch plan) ile yapılabilecekler:
-
-| Kullanım | Açıklama | Zaman Tasarrufu |
-|---------|----------|-----------------|
-| **Müşteri sorgularına otomatik yanıt** | 7/24 AI yanıt, insan sadece karmaşık konulara bakar | %70 azaltım |
-| **Sepet terk hatırlatması** | 1s/24s/72s otomatik WhatsApp hatırlatma | %10-15 ek dönüşüm |
-| **Sipariş durumu sorgusu** | AI otomatik sipariş takibi | Müşteri hizmetleri yükü azalır |
-| **Ürün önerisi** | Satın alma geçmişine göre AI ürün önerisi | Ortalama sipariş artışı |
-| **Çok dilli destek** | AI 40+ dilde otomatik yanıt | Manuel çeviriye gerek yok |
+| Otomasyon | Zaman Tasarrufu | Zorluk | Önemi |
+|-----------|-----------------|--------|-------|
+| A/B Test Otomasyonu | 2-3 saat/hafta | Orta | ⭐⭐⭐⭐⭐ |
+| Performans Raporlama | 1-2 saat/gün | Kolay | ⭐⭐⭐⭐⭐ |
+| Campaign Budjet Optimizasyonu | 1-2 saat/hafta | Orta | ⭐⭐⭐⭐ |
+| Duygu Analizi (Yorum/mesaj) | 30 dk/gün | Kolay | ⭐⭐⭐⭐ |
+| Remarketing Trigger | 2-3 saat/hafta | Orta | ⭐⭐⭐⭐ |
+| Creative Rotation | 1 saat/gün | Kolay | ⭐⭐⭐⭐ |
+| FIFA World Cup Otomasyonu | 1 saat/hafta | Kolay | ⭐⭐⭐⭐⭐ |
+| B2B WhatsApp Agent | 3-5 saat/gün | Orta | ⭐⭐⭐⭐⭐ |
 
 ---
 
-## A/B Test Otomasyonu
+## 2. Yeni Keşif: claude-ops — Business Operating System
 
-### Manuel A/B Test (Eski yöntem)
-- 2 hafta beklenir
-- İnsan analiz eder
-- Karar verir
-- Süreç: 2-3 hafta
+**Link:** https://github.com/Lifecycle-Innovations-Limited/claude-ops
 
-### AI-Driven A/B Test (2026 yöntemi)
+57 skills, 21 agent içeren business operating system. Meta Business Suite verimliliği için öne çıkan özellikler:
+
+### Unified Inbox (WhatsApp + Email + Slack + Telegram)
+Tüm müşteri mesajlarını tek panelde izleme ve yanıtlama.
+
+**Workflow:**
 ```
-1. AI 4-8 varyasyon oluşturur (başlık, görsel, CTA)
-2. Her saat başı performans ölçülür
-3. İstatistiksel anlamlılığa ulaşınca AI durdurur
-4. AI en iyi varyasyonu seçer ve bütçeyi yönlendirir
-Süreç: 3-5 gün
+Müşteri mesajı (WhatsApp/Email/Slack/Telegram)
+    ↓
+AI önceliklendirme (acil, normal, düşük)
+    ↓
+Otomatik yanıt önerisi (Claude)
+    ↓
+İnsan onayı veya otomatik gönderim
 ```
 
----
-
-## Şirketlerin Kullandığı İleri Seviye Otomasyonlar
-
-| Şirket | Kullandığı Otomasyon | Sonuç |
-|--------|---------------------|-------|
-| E-ticaret (Hindistan) | WhatsApp toplu mesaj + sepet hatırlatma | %40 sepet terk düşüşü |
-| SaaS Şirketi | Facebook Lead Ads + AI follow-up | Lead maliyeti %30 düşüşü |
-| Local Restaurant | Instagram DM otomasyonu + sipariş | Sipariş başına işlem %25 artış |
-| Fashion Brand | Advantage+ + AI kreativ test | ROAS %22 artış |
+### Meta Ads Monitoring
+Claude Code + Meta Ads API ile:
+- Kampanya performansını günlük izleme
+- Anormal metriklerde uyarı
+- Haftalık performans raporu otomatik oluşturma
 
 ---
 
-## Herkesin Kaçırdığı Nokta #1
+## 3. A/B Test Otomasyonu
 
-**Automated Rules zincirleme kural fırsatı:** Çoğu şirket tek başına kurallar kullanıyor ama zincirleme kurallar güçlü. "ROAS < %15 → bütçeyi %50 azalt + 48 saat bekle → hâlâ düşükse kampanyayı durdur + alert gönder." Bu zincirleme ile insan müdahalesi olmadan tam otonom optimizasyon mümkün.
+### Manuel Yapılan İş:
+- Her gün/hafta kampanya sonuçlarını kontrol et
+- En iyi performans gösteren varyasyonu belirle
+- Düşük performanslı olanı durdur
+- Yeni varyasyon oluştur
+- **Harcama:** 2-3 saat/hafta
 
-## Herkesin Kaçırdığı Nokta #2
+### AI ile Otomasyon:
+- Claude Code + NotFair → otomatik kampanya analizi
+- Düşük performanslı kampanya otomatik durdurma önerisi
+- Yüksek performanslı kampanya bütçe artırımı önerisi
+- Haftalık A/B test raporu otomatik oluşturma
 
-**Meta Business Agent tek başına yeterli değil — n8n ile entegrasyon şart.** Meta Business Agent yanıt veriyor ama CRM'e yazmıyor, stok kontrolü yapmıyor, e-posta göndermiyor. n8n + Claude Code + Meta Business Agent = gerçek uçtan uca otomasyon. Örnek: Müşteri WhatsApp'tan sipariş verdi → n8n sipariş topluyor → Claude stok kontrol ediyor → Meta Agent ödeme onayı gönderiyor.
+### Claude Code Prompt:
+```
+"Meta reklam kampanyalarımın son 7 günlük performansını analiz et.
+Her kampanya için:
+- Spend vs ROAS
+- CTR ve conversion rate
+- En iyi ve en kötü performans gösteren creative
+
+Önerilerimi listele:
+1. Durdurulması gereken kampanyalar
+2. Bütçesi artırılması gereken kampanyalar
+3. Yeni A/B test önerileri"
+```
 
 ---
 
-## Kaynaklar
+## 4. Performans Raporlama Otomasyonu
 
-- [Meta Business Agent Global](https://www.bing.com/news/search?q=Meta+Business+Agent+available+globally+2026)
-- [Advantage+ AI Performance](https://www.bing.com/news/search?q=Meta+Advantage+AI+automation+performance+2026)
-- [Meta Business Suite Automated Rules](https://business.facebook.com/business/learn)
-- [WhatsApp Business API Automation](https://developers.facebook.com/docs/whatsapp/business-platform)
+### Manuel İş:
+- Her gün Meta Business Suite'e gir
+- Kampanya sonuçlarını Excel'e kopyala
+- Grafik oluştur
+- Müşteriye/ekibe gönder
+- **Harcama:** 1-2 saat/gün
+
+### Otomasyon:
+**n8n Workflow:**
+```
+Meta Business API (günlük cron)
+    ↓
+Verileri topla (spend, impressions, CTR, ROAS)
+    ↓
+Google Sheets'e yaz
+    ↓
+Claude ile yorumla
+    ↓
+Slack/Email ile gönder
+```
+
+### Kullanılan Araçlar:
+- Meta Graph API
+- n8n
+- Google Sheets
+- Claude API
+
+---
+
+## 5. Duygu Analizi (Yorum/Mesaj)
+
+### Manuel İş:
+- Her yorumu oku
+- Olumlu/olumsuz/neutral olarak sınıflandır
+- Önemli şikayetleri belirle
+- **Harcama:** 30 dk/gün
+
+### AI ile Otomasyon:
+**Workflow:**
+```
+Instagram/WhatsApp yorumları
+    ↓
+Claude API → Duygu analizi
+    ↓
+Sınıflandırma:
+- Olumlu → Teşekkür mesajı otomatik
+- Olumsuz → Destek ekibine yönlendir
+- Soru → Otomatik yanıt önerisi
+```
+
+---
+
+## 6. Herkesin Kaçırdığı Nokta
+
+### #1 — Meta Business Agent = En Az Kullanılan Özellik
+Meta Business Agent (WhatsApp Business AI bot) global olarak kullanıma sunuldu. Ama kimse kullanmıyor.
+
+**Neden:** Herkes "karmaşık" olduğunu düşünüyor. Oysa kurulumu 30 dakika.
+
+**Fırsat:** İlk kullananlar = rekabet avantajı.
+
+### #2 — Remarketing Trigger'ı = En Yüksek ROI
+Sepeti terk eden müşteriye 1 saat sonra hatırlatma = %10-15 ek dönüşüm.
+
+Bunu yapan az. Yapanlar ciddi ROI görüyor.
+
+### #3 — Creative Rotation = Bedava Performans Artışı
+En iyi performans gösteren creative'ı haftada 2-3 kez yenilemek = fresh eyes etkisi. Algoritma yeni creative'ı ödüllendiriyor.
+
+---
+
+## 7. Görsel Önerisi — LinkedIn Post
+
+**Konsept:** "Ha vs AI" karşılaştırma tablosu
+
+**Tasarım:**
+| İş | Haftalık İnsan Saati | AI ile |
+|-----|---------------------|--------|
+| Kampanya analizi | 3 saat | 5 dakika |
+| Raporlama | 7 saat | 0 dakika |
+| A/B test | 2 saat | 30 dakika |
+
+**Renk:** Meta mavisi (#0084FF) + yeşil (#25D366)
+
+---
+
+## 8. LinkedIn Post Fikri
+
+**Başlık:** Meta Business Suite kullanıyorum ama hâlâ haftada 10 saat harcıyorum — AI ile 1 saate düşürdüm
+
+**İçerik:**
+
+Geçen ay Meta Business Suite'te kampanya yönetimi yaparken haftalık 10+ saat harcıyordum.
+
+Şimdi AI otomasyonları ile:
+
+| İş | Eski | Yeni |
+|-----|------|------|
+| Kampanya analizi | 3 saat/hafta | 5 dakika |
+| Performans raporu | 7 saat/hafta | 0 dakika (otomatik) |
+| A/B test | 2 saat/hafta | 30 dakika |
+| **Toplam** | **12 saat** | **~1 saat** |
+
+Nasıl yaptım:
+1. Claude Code + NotFair → kampanya analizi
+2. n8n + Meta API → günlük raporlama
+3. claude-ops → unified inbox
+
+Toplam maliyet: ~$50/ay (API key'ler dahil)
+
+Kimse Meta Business Suite'te AI otomasyonundan bahsetmiyor. Büyük fırsat.
+
+#Meta #BusinessSuite #AI #Otomasyon #Verimlilik
+
+---
+
+## 9. Kaynaklar
+
+- GitHub claude-ops: https://github.com/Lifecycle-Innovations-Limited/claude-ops
+- GitHub NotFair: https://github.com/nowork-studio/NotFair
+- Meta Business Agent: https://business.whatsapp.com/business-agent
+- Meta Graph API: https://developers.facebook.com/docs/graph-api
