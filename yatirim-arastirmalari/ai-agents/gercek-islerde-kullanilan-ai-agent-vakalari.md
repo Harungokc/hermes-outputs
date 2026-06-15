@@ -1007,6 +1007,81 @@ Marriott ve Hilton örneğinde — AI sadece yanıt vermiyor, her etkileşimde u
 
 ---
 
+## 15 Haziran 2026 — Yeni Vakalar (E-ticaret & Perakende)
+
+### 7. Amazon — AWS AI Shopping Agent, 3.5x Dönüşüm Artışı
+
+**Şirket:** Amazon / AWS
+**Sektör:** E-ticaret / Cloud Infrastructure
+**Kullanım Alanı:** Perakendecilere AI alışveriş asistanı — Amazon'un kendi teknolojisini dışarıya satışı
+**Agent'ın Görevi:** Amazon, kendi e-ticaret deneyiminde kullandığı AI teknolojisini "AWS Agentic Shopping Assistant" olarak diğer perakendecilere sunuyor. Kate Spade ilk müşteri.
+
+**Müşteri Deneyimi:**
+- Müşteri doğal dil ile alışveriş yapıyor: "Bugün giyim alışverişi yapmak istiyorum, iş için uygun, bütçem 500 TL"
+- AI agent ürünleri filtreliyor, öneriyor, karşılaştırıyor
+- "Sepete ekle" → ödeme → teslimat — hepsi conversation içinde
+
+**Sonuçlar:**
+- **3.5x daha yüksek dönüşüm oranı** (Amazon'un kendi verilerine göre)
+- Kate Spade ilk müşteri — lüks markalarda AI asistan trendi başladı
+- Amazon, Rufus chatbot'u bırakıp "Alexa for Shopping" agent'ına geçti
+- AWS üzerinden satıldığı için Amazon'a bağımlılık yok — her perakendeci kullanabilir
+
+**Herkesin Kaçırdığı Nokta:** Amazon "Rufus"ı öldürüp "Alexa for Shopping"a geçti. Bu geçiş = LLM tabanlı chatbot'tan "agentic AI"a geçiş. Rufus soru-cevap yapıyordu, Alexa eylem yapıyor: sipariş ver, karşılaştır, takip et. Perakendeciler için "3.5x dönüşüm" rakamı çok büyük — Amazon bu teknolojiyi dışarıya satarak yeni bir B2B gelir akışı yaratıyor.
+
+**Kaynak:** TechCrunch, AWS Blog — "Amazon starts selling its AI shopping technology to other retailers", "AWS launches AI shopping assistant for retailers, cites 3.5x higher conversion rates"
+
+---
+
+### 8. Zalando — AI ile Operasyonel Verimlilik
+
+**Şirket:** Zalando (Avrupa'nın en büyük online moda platformu)
+**Sektör:** E-ticaret / Moda
+**Kullanım Alanı:** Operasyonel verimlilik — AI ile maliyet düşürme ve büyüme
+**Agent'ın Görevi:** Zalando, AI'ı hem müşteri deneyimi hem de backend operasyonlarına entegre etti. Tedarik zinciri, stok yönetimi, lojistik — hepsinde AI optimizasyonu.
+
+**Müşteri Deneyimi:**
+- Kişiselleştirilmiş moda önerileri
+- "Sizin için derledik" — AI tarafından seçilen ürünler
+- Stok durumu real-time takip
+
+**Sonuçlar:**
+- Q1 2026: Sales up (AI efficiency boosts operations)
+- Hisse senedi " undervalued" olarak değerlendiriliyor — AI + B2B growth 2026 outlook'ı güçlü
+- B2B segment: Diğer markalara platform sağlama (AI altyapısı)
+- Q1 profits düşük ama bu yatırım fazı — AI operasyonel maliyetleri düşürecek
+
+**Herkesin Kaçırdığı Nokta:** Zalando sadece "online mağaza" değil — bir "AI-first fashion platform" olmaya dönüşüyor. B2B arm'ı (diğer markalara platform sağlama) büyüyor. Q1'de profit düşük çünkü AI yatırımı yapıyorlar — bu uzun vadeli bir strateji. 2026 2. yarıda AI operasyonel tasarruf getirmeye başlayacak.
+
+**Kaynak:** Zalando Q1 2026 Earnings, Bloomberg — "Zalando Says Shares Undervalued as AI, B2B Growth Power 2026 Outlook"
+
+---
+
+### 9. Triple Whale — Moby 2: E-ticaret için AI İşletim Sistemi
+
+**Şirket:** Triple Whale
+**Sektör:** E-ticaret Analytics / AI Automation
+**Kullanım Alanı:** E-ticaret işletmeleri için "AI operating system" — media buying, otomasyon, analytics
+**Agent'ın Görevi:** Triple Whale, e-ticaret mağazalarının tüm verilerini (reklam harcamaları, satış, stok, müşteri davranışı) birleştiriyor ve AI agent'lar aracılığıyla otomatik kararlar alıyor.
+
+**Müşteri Deneyimi:**
+- Reklam bütçesi otomatik optimizasyonu
+- "Hangi reklam channel'ı en çok satış getiriyor?" — AI analiz ediyor
+- Abandoned cart recovery — otomatik hatırlatma mesajları
+- Customer lifetime value hesaplama ve segmentasyon
+
+**Sonuçlar:**
+- Moby 2 launch: "AI operating system for ecommerce"
+- Former Facebook VP of Ads appointed — ekibi güçlendirdiler
+- E-ticaret AI platform pazarında hızla büyüyor
+- Medya satın alma (media buying) AI otomasyonu = en büyük değer önerisi
+
+**Herkesin Kaçırdığı Nokta:** Triple Whale'ın "AI operating system" konsepti = e-ticaret şirketlerinin artık tek tek araçlar yerine "komple bir AI platform"a ihtiyacı var. Reklam, stok, müşteri, analitik — hepsi entegre. Bu, e-ticaret AI'ının "monolith" dönemi bitti, "platform" dönemi başladı.
+
+**Kaynak:** Triple Whale Blog — "Triple Whale Unveils the AI-Operating System for Ecommerce With The Launch of Moby 2"
+
+---
+
 ## 📚 Kaynaklar (Güncellenmiş)
 
 1. CX Dive — "Expedia taps AI to enhance customer support, acquire new customers" (12 Mayıs 2026)
@@ -1020,6 +1095,10 @@ Marriott ve Hilton örneğinde — AI sadece yanıt vermiyor, her etkileşimde u
 9. Times of India — "Salesforce pulls back from LLMs, pivots Agentforce to deterministic automation"
 10. HN/Sonarly — "Launch HN: Sonarly (YC W26) – AI agent to triage and fix your production alerts"
 11. HN/Hyper — "Launch HN: Hyper (YC P26) – Company brain to power agentic development"
+12. TechCrunch — "Amazon starts selling its AI shopping technology to other retailers" (Haziran 2026)
+13. AWS Blog — "AWS launches AI shopping assistant for retailers, cites 3.5x higher conversion rates" (Haziran 2026)
+14. Zalando Q1 2026 Earnings — "Zalando Says Shares Undervalued as AI, B2B Growth Power 2026 Outlook"
+15. Triple Whale Blog — "Triple Whale Unveils the AI-Operating System for Ecommerce With The Launch of Moby 2"
 
 ---
 
