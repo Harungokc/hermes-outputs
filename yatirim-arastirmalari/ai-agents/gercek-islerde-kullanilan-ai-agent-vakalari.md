@@ -1025,4 +1025,4 @@ Marriott ve Hilton örneğinde — AI sadece yanıt vermiyor, her etkileşimde u
 
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
 *Güncelleme: Her gün 12:00*
-*Tarih: 14 Haziran 2026*
+*Tarih: 15 Haziran 2026*
