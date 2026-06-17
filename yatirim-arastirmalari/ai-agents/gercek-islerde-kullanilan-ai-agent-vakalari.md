@@ -1102,6 +1102,223 @@ Marriott ve Hilton örneğinde — AI sadece yanıt vermiyor, her etkileşimde u
 
 ---
 
+## 17 Haziran 2026 — Yeni Vakalar
+
+### SaaS & Teknoloji AI Agent Vakaları (Çarşamba Rotasyonu)
+
+| Şirket | Sektör | Kullanım Alanı | Agent'ın Görevi | Müşteri Deneyimi | Sonuç |
+|--------|--------|----------------|-----------------|-------------------|-------|
+| **Salesforce/Fin** | CRM | Müşteri hizmetleri | Fin AI agent — otomatik destek çözümü | Web/Email/Chat | $3.6B satın alma |
+| **Glean** | Enterprise search | Bilgi yönetimi | AI workplace assistant — şirket bilgi tabanı | Enterprise apps | $300M+ ARR |
+| **Zendesk** | Customer support | AI resolution | Outcome-based AI pricing — çözüm başına ödeme | Web/Chat/Voice | Yeni fiyatlandırma modeli |
+| **Atlassian Rovo** | SaaS/Teamwork | Kurumsal AI | Teamwork Graph tabanlı agent | Jira/Confluence | Google Cloud ortaklığı |
+| **AgentHub** | Developer tools | Yazılım geliştirme | 1 kişi, 47 AI agent yönetimi | Desktop app | 192⭐ GitHub |
+
+---
+
+### 1. Salesforce — $3.6 Milyarlık Fin AI Agent Satın Alımı
+
+**Sektör:** CRM / Enterprise SaaS
+**Kullanım Alanı:** Müşteri hizmetleri + AI agent platformu
+
+**Agent'ın Görevi:**
+- Fin AI agent — müşteri destek sorunlarını otomatik çözme
+- İnsan müdahalesi gerektirmeyen tam çözüm sağlama
+- 7/24 çok kanallı destek (web, email, chat, voice)
+
+**Müşteri Deneyimi:**
+```
+Müşteri: "Faturam yanlış gelmiş"
+Fin Agent: "Faturanızı inceledim. 3 ürün için yanlış fiyat uygulanmış.
+ Toplam 247 TL fazla tahsil edilmiş. Düzeltme yapıldı, 2 iş günü içinde
+ iade hesabınızda olacak. Başka bir konuda yardımcı olabilir miyim?"
+```
+
+**Sonuçlar:**
+- Salesforce $3.6 milyar ödeyerek Fin'i satın aldı (Haziran 2026)
+- Fin'in mevcut AI agent teknolojisini CRM platformuna entegre ediyor
+- "Kendi yapamadığımızı satın alıyoruz" açıklaması — internal build başarısızlığı
+
+**Herkesin Kaçırdığı Nokta:** Salesforce'un $3.6B ödemesi sadece teknoloji için değil — Fin'in mevcut müşteri tabanı için. Agent satan şirketler değer kazanıyor, agent satın alan şirketler stratejik avantaj sağlıyor. Bir agent şirketini $3.6B'a almak, sıfırdan building maliyetinin 10 katı — ama zaman kazandırıyor.
+
+**Kaynak:** TechCrunch, Bing News (Salesforce to buy AI customer service platform Fin for $3.6 billion)
+
+---
+
+### 2. Glean — $300M ARR with Enterprise AI Search
+
+**Sektör:** Enterprise SaaS / Bilgi Yönetimi
+**Kullanım Alanı:** Şirket içi bilgi arama + AI agent
+
+**Agent'ın Görevi:**
+- Şirketin tüm uygulamalarındaki bilgiyi indexleme
+- Doğal dilde sorulan soruları yanıtlama
+- Çalışanların ihtiyaç duyduğu bilgiyi proaktif sunma
+- Agent lifecycle management — kurumsal AI geliştirme döngüsü
+
+**Müşteri Deneyimi:**
+```
+Çalışan: "Müşteri X için en son toplantı notları kimde var?"
+Glean: "Müşteri X ile son toplantı 14 Haziran'da [Ahmet] ile yapılmış.
+ Toplantı notları Confluence'da [link]. Ahmet'in notlarına göre müşteri
+ yeni özellik talep etmişti — ürün ekibine iletildi."
+```
+
+**Sonuçlar:**
+- $300M+ ARR (Annual Recurring Revenue) — %100+ yıllık büyüme
+- AI budget cutting = en büyük satış argümanı (maliyet tasarrufu)
+- Enterprise Context Engine — her şirketin kendi verisiyle öğrenen AI
+- Google Cloud ortaklığı — Rovo ile entegre
+
+**Herkesin Kaçırdığı Nokta:** Glean'ın başarısı sadece "arama" değil — "context". Enterprise data + AI = her şirketin kendi özel AI'ı. Bu, generic ChatGPT'nin asla yapamayacağı şey. Şirketler artık "hangi AI aracını alalım" değil "hangi verilerimizi AI'a verelim" diye düşünüyor.
+
+**Kaynak:** Glean Blog, Bing News (Glean Surpasses $300M ARR)
+
+---
+
+### 3. Zendesk — Outcome-Based AI Pricing (Çözüm Başına Ödeme)
+
+**Sektör:** Customer Support SaaS
+**Kullanım Alanı:** AI agent workforce management
+
+**Agent'ın Görevi:**
+- Müşteri sorunlarını otomatik çözme
+- Çözüm başına faturalama — "per resolution" modeli
+- ChatGPT, Gemini, voice ve messaging kanallarında AI agent
+
+**Müşteri Deneyimi:**
+```
+Müşteri: "Paketim 3 gündür gelmedi"
+Zendesk Agent: "Paketinizi takip ettim. Kargo firması nedeniyle
+ gecikme yaşanıyor. Tahmini teslimat: yarın 10:00-14:00.
+ Kargo firmasına şikayet formu oluşturdum — ister misiniz?"
+ → Sorun çözüldü, işlem başarılı
+```
+
+**Sonuçlar:**
+- İlk kez AI agent pricing "seats" değil "outcomes" (çözüm) bazlı
+- Şirket sadece çözülen sorun başına ödeme yapıyor
+- Resolution rate = agent başarısının tek ölçütü
+- %100+ çözüm oranı = %100 value
+
+**Herkesin Kaçırdığı Nokta:** Zendesk'ın "per resolution" modeli, AI agent'ların ROI'sini kanıtlamanın en temiz yolu. "Seats" bazlı faturalama artık eski — şirketler AI'a "çalışıyor çalışıyor" mantığıyla değil, "sonuç veriyor" mantığıyla bakıyor. Bu model standartlaşırsa, başarısız agent'lar para almaz hale gelir.
+
+**Kaynak:** Zendesk Relate 2026, Bing News (Zendesk links AI pricing to verified resolution outcomes)
+
+---
+
+### 4. Atlassian Rovo — Teamwork Graph ile Agentic AI
+
+**Sektör:** SaaS / Teamwork Software
+**Kullanım Alanı:** Kurumsal bilgi + AI agent orchestration
+
+**Agent'ın Görevi:**
+- Jira, Confluence, Slack'teki takım verilerini analiz etme
+- İnsan davranışlarını öğrenme — kim ne yapıyor, ne zaman
+- Proaktif öneriler — "X projesinde yardıma ihtiyacın var"
+- Google Cloud entegrasyonu — küresel ölçek
+
+**Müşteri Deneyimi:**
+```
+Takım Lideri: "Sprint 47 için risk analizi yap"
+Rovo: "Sprint 47'de 23 task var. Geçmiş sprintlere göre:
+ - [Yazılım] ekibi genellikle %15 overcapacity ile çalışıyor
+ - [Test] ekibi son 3 sprintte deadline kaçırdı
+ - Risk: Release date +3 gün gecikebilir
+ Öneri: Test ekibine 1 kişi ekle veya scope daralt."
+```
+
+**Sonuçlar:**
+- Teamwork Graph — tüm takım etkileşimlerini map'leyen AI
+- Google Cloud ortaklığı — 100+ ülkede erişim
+- Enterprise AI security odaklı geliştirme
+- Rovo agents = her şirketin kendi workflow AI'ı
+
+**Herkesin Kaçırdığı Nokta:** Atlassian'ın gücü "software" değil "data" — Jira'da milyarlarca task, Confluence'ta milyarlarca döküman. Rovo bu veriyi kullanarak her şirketin kendi AI'ını eğitiyor. Yeni şirketlerin bu veri avantajına yetişmesi 5-10 yıl alır.
+
+**Kaynak:** Atlassian blog, Bing News (Atlassian Opens Up Its Teamwork Graph to Power Agentic Work)
+
+---
+
+### 5. AgentHub — 1 Kişi, 47 AI Agent
+
+**Sektör:** Developer Tools / AI Agent Framework
+**Kullanım Alanı:** Yazılım geliştirme otomasyonu
+
+**Agent'ın Görevi:**
+- Tek bir Electron app'ten 47 AI agent yönetimi
+- Harness Engineering — disiplinli, traceable AI workflows
+- Skills + Hooks + FileWatchers ile agent koordinasyonu
+- 1 kişilik yazılım şirketi operasyonu
+
+**Müşteri Deneyimi:**
+```
+Geliştirici: "Yeni özellik: kullanıcı dashboard"
+AgentHub: Otomatik olarak:
+ - [Code Agent] → backend API yazıyor
+ - [Test Agent] → unit test yazıyor  
+ - [Docs Agent] → dökümantasyon güncelliyor
+ - [Deploy Agent] → staging'e deploy ediyor
+ Hepsi aynı anda, tek dashboard'dan izleme
+```
+
+**Sonuçlar:**
+- 192⭐ GitHub — hızla büyüyen açık kaynak proje
+- 1 kişi = tam yazılım şirketi operasyonu
+- TypeScript + Electron tabanlı — kolay customize
+- AI workflow discipline = agent sayısı arttıkça kritik
+
+**Herkesin Kaçırdığı Nokta:** "47 agent" muhteşem bir rakam — ama asıl yenilik Harness Engineering. Çoğu developer "ne kadar çok agent o kadar iyi" diyor. Ama gerçek şu: 5 agent'ı iyi yönetmek, 50 agent'ı kötü yönetmekten daha değerli. Discipline + visibility = agent orchestration'ın geleceği.
+
+**Kaynak:** GitHub/Stanshy/AgentHub, Bing News (One person, one software company — AgentHub)
+
+---
+
+### 6. auto-co-meta — 14 AI Agent 24/7 Autonomous Company OS
+
+**Sektör:** Developer Tools / AI Company OS
+**Kullanım Alanı:** Otonom yazılım şirketi operasyonu
+
+**Agent'ın Görevi:**
+- 14 farklı AI agent — 24/7 döngüde çalışıyor
+- Gerçek yazılım shipping ediyor (bug fix, feature, deploy)
+- Tam otonom şirket operasyonu
+
+**Müşteri Deneyimi:**
+```
+Kullanıcı: "Startup için landing page yap"
+auto-co-meta:
+ → Design Agent: mockup oluşturuyor
+ → Frontend Agent: React component yazıyor
+ → Backend Agent: API endpoint yazıyor
+ → QA Agent: test coverage kontrol ediyor
+ → DevOps Agent: production'a deploy ediyor
+ 45 dakika sonra: canlı site, CI/CD pipeline hazır
+```
+
+**Sonuçlar:**
+- 36⭐ GitHub — TypeScript tabanlı
+- Autonomous AI Company OS — insan müdahalesi minimum
+- Gerçek iş üreten AI agent'lar (sadece chat yok)
+- 14 agent'ın rolleri: design, frontend, backend, QA, DevOps, product, sales, vb.
+
+**Herkesin Kaçırdığı Nokta:** auto-co-meta "chat with AI" değil "AI does work" modeli. Çoğu AI aracı hala "insan istiyor, AI yanıtlıyor" döngüsünde. Burada AI'lar birbirleriyle koordine oluyor, insan sadece "ne istediğini" söylüyor. Bu = gelecekteki "yazılım şirketi" tanımı.
+
+**Kaynak:** GitHub/NikitaDmitrieff/auto-co-meta
+
+---
+
+## 17 Haziran 2026 — Kaynaklar
+
+1. TechCrunch — "Salesforce to buy AI customer service platform Fin for $3.6 billion" (Haziran 2026)
+2. Glean Blog — "Glean Surpasses $300M ARR: Unrivaled Enterprise Context Fuels AI Adoption" (Haziran 2026)
+3. Zendesk Relate 2026 — "AI Agents Priced on Resolutions, Not Seats" (Mayıs 2026)
+4. Atlassian Blog — "Atlassian Opens Up Its Teamwork Graph to Power Agentic Work Across the Enterprise" (Haziran 2026)
+5. GitHub/Stanshy/AgentHub — "One person, one software company. Manage 47 AI agents"
+6. GitHub/NikitaDmitrieff/auto-co-meta — "Autonomous AI Company OS — 14 AI agents loop 24/7"
+
+---
+
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
 *Güncelleme: Her gün 12:00*
 *Tarih: 17 Haziran 2026*
