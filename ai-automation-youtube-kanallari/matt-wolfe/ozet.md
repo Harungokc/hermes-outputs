@@ -1,21 +1,55 @@
-# Matt Wolfe — Son Videolar Özeti
+# Matt Wolfe — Son Videolar Ozeti
 
-**Tarih:** 2026-06-19 (Gece)
+_Tarih: 20 Jun 2026 00:20_
 
-## Son Durum
-5 video incelendi. Yeni video: **"AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker"** (19 Haziran, 9,678 görüntülenme). Haftalık AI haberleri formatı güçlü devam ediyor.
 
-## Öne Çıkan Videolar
+## Son 10 Video
 
-| Tarih | Başlık | İzlenme |
-|-------|--------|---------|
-| 2026-06-19 | [AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker](https://youtube.com/watch?v=Db260rUuKJg) | 9,678 ⭐ YENİ |
-| 2026-06-17 | [PewDiePie's FREE Odysseus AI (Full Review & Setup)](https://youtube.com/watch?v=_7BHqZayPOc) | 38,129 |
-| 2026-06-12 | [AI News: An INSANE Week… Here's What Matters](https://youtube.com/watch?v=nydHKXjwu0U) | 94,310 |
-| 2026-06-10 | [Why Everyone Is Freaking Out About Fable 5 (Mythos)](https://youtube.com/watch?v=2lE1-5hBfKk) | 67,321 |
-| 2026-06-05 | [AI News: Microsoft Finally Reveals Their Plan!](https://youtube.com/watch?v=nz4h3H1MmTg) | 72,295 |
+**1. AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker**
+- Tarih: 19 Jun 2026 | Gorüntülenme: 18K
+- Aciklama: Here's The AI News You Probably Missed This Week. Learn more about how Box AI can unlock key insights for your business here:...
 
-## Matt Wolfe Odak Noktası
-Bu hafta Fable/Mythos ban skandalı tüm AI haber kanallarında olduğu gibi Matt Wolfe'ta da merkezi konu. GLM-5.2 açık kaynak model lideri olarak öne çıktı. PewDiePie'nin Odysseus AI platformu (kendi bilgisayarında tam gizlilik odaklı AI) ilgi çekici bir alternatif. Haftalık AI haber formatı çok güçlü: 94K görüntülenme ile en popüler video.
+**2. PewDiePieâs FREE Odysseus AI (Full Review & Setup)**
+- Tarih: 17 Jun 2026 | Gorüntülenme: 39K
+- Aciklama: Try Recraft V4.1 now and experience an image generation model with exceptional visual taste : https://go.recraft.ai/MattWolfe...
 
-**Herkesin Kaçırdığı Nokta:** GLM-5.2 açık kaynak liderliği — Çin'den gelen bu model, OpenAI GPT-5.5'e yakın performans sunuyor ve yerel model kullanımını yeniden tanımlıyor. Matt Wolfe'un haber formatında asıl değer, "neyin önemli olduğunu" filtrelemesinde.
+**3. AI News: An INSANE Weekâ¦ Hereâs What Matters**
+- Tarih: 12 Jun 2026 | Gorüntülenme: 95K
+- Aciklama: Here's the AI News you probably missed this week....
+
+**4. Why Everyone Is Freaking Out About Fable 5 (Mythos)**
+- Tarih: 10 Jun 2026 | Gorüntülenme: 67K
+- Aciklama: Here's a breakdown of what you need know about Mythos 5....
+
+**5. AI News: Microsoft Finally Reveals Their Plan!**
+- Tarih: 05 Jun 2026 | Gorüntülenme: 72K
+- Aciklama: Here's the AI News you probably missed from this week....
+
+**6. AI News: Claude Opus 4.8, Insane Omni Use-Case, and A Dog Translator?**
+- Tarih: 29 May 2026 | Gorüntülenme: 73K
+- Aciklama: Here's the AI News from this past week. Launch your own AI agents with Hermes at http://hostinger.com/mattwolfehermes and get 10% off with code MATTWO...
+
+**7. AI News: These Google Updates Are Dividing People**
+- Tarih: 22 May 2026 | Gorüntülenme: 106K
+- Aciklama: Here's the AI News you might have missed this week. If your team lives in Slack, check out @getviktor_com for free at https://ref.getviktor.com/mattwo...
+
+**8. AI News: OpenAI Finally Released What We Asked For**
+- Tarih: 15 May 2026 | Gorüntülenme: 108K
+- Aciklama: Here's the AI News you probably missed this week. Stop choosing between performance and budget and start building today with Crusoe Managed Inference...
+
+**9. Should Kids Still Go To College? (Answering All Your Questions)**
+- Tarih: 13 May 2026 | Gorüntülenme: 38K
+- Aciklama: Answering all your questions....
+
+**10. AI News: OpenAI Absolutely Cooked This Week!**
+- Tarih: 08 May 2026 | Gorüntülenme: 107K
+- Aciklama: Here's the AI News you probably missed this week. Try HubSpot AEO on your brand free for 28 days here ðð» https://clickhubspot.com/f1da94...
+
+
+## AI Otomasyon Iliskili Videolar
+
+- **AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker** (19 Jun 2026)
+- **PewDiePieâs FREE Odysseus AI (Full Review & Setup)** (17 Jun 2026)
+- **AI News: An INSANE Weekâ¦ Hereâs What Matters** (12 Jun 2026)
+- **Why Everyone Is Freaking Out About Fable 5 (Mythos)** (10 Jun 2026)
+- **AI News: Microsoft Finally Reveals Their Plan!** (05 Jun 2026)

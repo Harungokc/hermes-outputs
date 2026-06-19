@@ -1,21 +1,55 @@
-# Wes Roth — Son Videolar Özeti
+# Wes Roth — Son Videolar Ozeti
 
-**Tarih:** 2026-06-19 (Gece)
+_Tarih: 20 Jun 2026 00:21_
 
-## Son Durum
-5 video incelendi. Wes Roth'un en son videosu 18 Haziran tarihli — bu raporun en güncel videosu "Google's SHOCKING 'POST AGI' paper" (62,888 görüntülenme). Fable ban skandalı 3 videoda işlenmiş (toplam 183K görüntülenme).
 
-## Öne Çıkan Videolar
+## Son 10 Video
 
-| Tarih | Başlık | İzlenme |
-|-------|--------|---------|
-| 2026-06-18 | [Google's SHOCKING "POST AGI" paper…](https://youtube.com/watch?v=OdlUXu2sAb4) | 65,945 |
-| 2026-06-16 | [here's REALLY WHY Fable 5 got banned](https://youtube.com/watch?v=XtgEA4L7sIU) | 46,238 |
-| 2026-06-13 | [Claude Fable JUST got BANNED…](https://youtube.com/watch?v=vM2At8Uqp2Y) | 65,572 |
-| 2026-06-11 | [HeyGen AI video generator just changed the game…](https://youtube.com/watch?v=NiY38aQQkqM) | 28,183 |
-| 2026-06-10 | [Fable JUST made EVERYONE MAD…](https://youtube.com/watch?v=deFvnmibzow) | 71,501 |
+**1. Google's SHOCKING "POST AGI" paper...**
+- Tarih: 18 Jun 2026 | Gorüntülenme: 69K
+- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
 
-## Wes Roth Odak Noktası
-Wes Roth, Fable ban skandalını derinlemesine işliyor — 3 ayrı video, toplam 183K görüntülenme. Google'un "post-AGI" paper'ı AGI sonrası dönem hakkında düşündürücü bir perspektif sunuyor. AI haber formatı: açıklayıcı ve analitik.
+**2. here's REALLY WHY Fable 5 got banned**
+- Tarih: 16 Jun 2026 | Gorüntülenme: 46K
+- Aciklama: Try Genspark here:...
 
-**Herkesin Kaçırdığı Nokta:** Google'un post-AGI paper'ı asıl önemli olan soruyu soruyor: "AGI'a ulaştıktan sonra ne olacak?" Bu soru, mevcut AI gelişmelerinden çok daha stratejik önem taşıyor. Şirketler bugün AGI'a odaklanırken, gerçek vizyon AGI sonrası planlama olmalı.
+**3. Claude Fable JUST got BANNED...**
+- Tarih: 13 Jun 2026 | Gorüntülenme: 66K
+- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+
+**4. HeyGen AI video generator just changed the game...**
+- Tarih: 11 Jun 2026 | Gorüntülenme: 28K
+- Aciklama: Try HeyGen here: https://www.heygen.com/?sid=rewardful&utm_content=creator&utm_medium=influencera&via=wes-roth...
+
+**5. Fable JUST made EVERYONE MAD...**
+- Tarih: 10 Jun 2026 | Gorüntülenme: 72K
+- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+
+**6. Mythos 5 is WILD...**
+- Tarih: 09 Jun 2026 | Gorüntülenme: 70K
+- Aciklama: LINKS etc: https://natural20.beehiiv.com/p/mythos-5-just-got-released...
+
+**7. Anthropic Calls for "Global AI Pause"**
+- Tarih: 05 Jun 2026 | Gorüntülenme: 47K
+- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+
+**8. Microsoft JUST BROKE OpenAI...**
+- Tarih: 03 Jun 2026 | Gorüntülenme: 59K
+- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+
+**9. GPT-5.6 about to DROP**
+- Tarih: 01 Jun 2026 | Gorüntülenme: 50K
+- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+
+**10. Ghost AI let's AI Agents build disposable worlds**
+- Tarih: 29 May 2026 | Gorüntülenme: 17K
+- Aciklama: Try it at:  https://b.link/wes-roth-ghost...
+
+
+## AI Otomasyon Iliskili Videolar
+
+- **Google's SHOCKING "POST AGI" paper...** (18 Jun 2026)
+- **here's REALLY WHY Fable 5 got banned** (16 Jun 2026)
+- **Claude Fable JUST got BANNED...** (13 Jun 2026)
+- **HeyGen AI video generator just changed the game...** (11 Jun 2026)
+- **Fable JUST made EVERYONE MAD...** (10 Jun 2026)

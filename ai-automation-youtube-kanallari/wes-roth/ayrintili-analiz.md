@@ -1,93 +1,352 @@
-# Wes Roth — Detaylı Analiz
+# Wes Roth — Detayli Analiz
 
-**Tarih:** 2026-06-19 (Gece)  
-**Kanal:** wes-roth
+_Tarih: 20 Jun 2026 00:21_
 
----
 
-## Google's SHOCKING "POST AGI" paper…
+## Video 1: Google's SHOCKING "POST AGI" paper...
 
-**Video ID:** `OdlUXu2sAb4`  
-**Tarih:** 2026-06-18  
-**İzlenme:** 65,945  
-**Link:** https://youtube.com/watch?v=OdlUXu2sAb4
+**Tarih:** 18 Jun 2026 | **Gorüntülenme:** 69K
 
-### İçerik Özeti
-Google'un "post-AGI" paper'ı — AGI'a ulaştıktan sonra ne olacağını tartışıyor. AGI sonrası dönem için hazırlık, gelecek AI stratejisi.
+**Video ID:** `OdlUXu2sAb4`
 
-### "Herkesin Kaçırdığı Nokta"
-Google'un post-AGI paper'ı, AGI'a ulaştıktan sonra ne olacağını tartışıyor. **Asıl şok: AGI değil, AGI sonrası dönem için hazırlık yapan şirketler.** Bu, next-generation AI stratejisi için kritik.
+### Aciklama
 
-### LinkedIn Post Fikri
-**Başlık:** Google'un Post-AGI Vizyonu: AGI Sonrası Dünya
+```
+The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
 
-Google'un post-AGI paper'ı asıl önemli soruyu soruyor: "AGI'a ulaştıktan sonra ne olacak?" Şirketler bugün AGI'a odaklanırken, gerçek vizyon AGI sonrası planlama olmalı. Kim düşünüyor, kim uyuyor?
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
 
-#AI #PostAGI #GoogleAI #AIStrategy
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
 
----
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
 
-## here's REALLY WHY Fable 5 got banned
 
-**Video ID:** `XtgEA4L7sIU`  
-**Tarih:** 2026-06-16  
-**İzlenme:** 46,238  
-**Link:** https://youtube.com/watch?v=XtgEA4L7sIU
 
-### İçerik Özeti
-Fable 5 ban'ın gerçek nedeni — Mythos jailbreak, Çin bağlantısı, içerik moderasyonu.
+#ai #openai #llm
+```
 
-### "Herkesin Kaçırdığı Nokta"
-Fable ban'ın gerçek nedeni içerik moderasyonu değil, platformun AI oluşturma araçlarının yarattığı etik sorunlar. Bu, gelecekte tüm AI platformları için bir emsal teşkil edebilir.
+### AI Otomasyon Degerlendirmesi
 
-### LinkedIn Post Fikri
-**Başlık:** Fable 5 Ban: AI Platform Yönetişimi İçin Kritik Bir Emsal
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
 
-Bir AI platformunun yasaklama kararı, tüm AI ekosistemi için ne anlama geliyor? Agent yetenekleri artık içerik üretiminde aktif — ve bu yönetişim boşluğu yaratıyor. Google'un post-AGI paper'ı ise geleceği düşünmek için başka bir sebep daha ekliyor.
 
-#AI #FableAI #AIRegulation #PostAGI
+## Video 2: here's REALLY WHY Fable 5 got banned
 
----
+**Tarih:** 16 Jun 2026 | **Gorüntülenme:** 46K
 
-## Claude Fable JUST got BANNED…
+**Video ID:** `XtgEA4L7sIU`
 
-**Video ID:** `vM2At8Uqp2Y`  
-**Tarih:** 2026-06-13  
-**İzlenme:** 65,572  
-**Link:** https://youtube.com/watch?v=vM2At8Uqp2Y
+### Aciklama
 
-### İçerik Özeti
-Fable ban'ın ilk duyurusu — ban süreci ve Anthropic kararı.
+```
+Try Genspark here:  
+ð https://www.genspark.ai/?utm_source=yt&utm_campaign=WesRoth02
 
-### "Herkesin Kaçırdığı Nokta"
-Ban kararı hızlı geldi — platform governance için acil bir ihtiyaç olduğunu gösteriyor.
+Use the above link to get free credits in Genspark.
 
----
+Genspark is an all-in-one AI workspace that brings chat, spreadsheets, slide creation, design, and automation into one place. Instead of bouncing between different apps for each step of a project, you can use Genspark to research, create, organize, and finish the whole workflow in a single platform.
 
-## HeyGen AI video generator just changed the game…
+Paid users also get unlimited AI chat and AI image generation in 2026, subject to abuse guardrails.
 
-**Video ID:** `NiY38aQQkqM`  
-**Tarih:** 2026-06-11  
-**İzlenme:** 28,183  
-**Link:** https://youtube.com/watch?v=NiY38aQQkqM
+#Genspark #WorkWithGenspark
 
-### İçerik Özeti
-HeyGen AI video generator — sponsorlu içerik, yeni özellikler.
 
-### "Herkesin Kaçırdığı Nokta"
-AI video generation hızla olgunlaşıyor — iş dünyası için içerik üretiminde yeni dönem.
 
----
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
 
-## Fable JUST made EVERYONE MAD…
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
 
-**Video ID:** `deFvnmibzow`  
-**Tarih:** 2026-06-10  
-**İzlenme:** 71,501  
-**Link:** https://youtube.com/watch?v=deFvnmibzow
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
 
-### İçerik Özeti
-Fable ban öncesi — platform neden tartışma yarattı.
+00:00 China Might Have Mythosj
+03:47 GenSpark (sponsor)
+09:15 Mythos Jailbreak
+18:12 The Real Issue...
+```
 
-### "Herkesin Kaçırdığı Nokta"
-Fable ban öncesi tohumlar — topluluk tepkisi önceden görülüyordu.
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 3: Claude Fable JUST got BANNED...
+
+**Tarih:** 13 Jun 2026 | **Gorüntülenme:** 66K
+
+**Video ID:** `vM2At8Uqp2Y`
+
+### Aciklama
+
+```
+The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 4: HeyGen AI video generator just changed the game...
+
+**Tarih:** 11 Jun 2026 | **Gorüntülenme:** 28K
+
+**Video ID:** `NiY38aQQkqM`
+
+### Aciklama
+
+```
+Try HeyGen here: https://www.heygen.com/?sid=rewardful&utm_content=creator&utm_medium=influencera&via=wes-roth
+HeyGen AI Video Generator lets creators build a Digital Twin Avatar from a short clip, turn scripts into videos, translate content into 175+ languages, and scale video production without filming every take from scratch.
+This video is a paid partnership with HeyGen.
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 5: Fable JUST made EVERYONE MAD...
+
+**Tarih:** 10 Jun 2026 | **Gorüntülenme:** 72K
+
+**Video ID:** `deFvnmibzow`
+
+### Aciklama
+
+```
+The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 6: Mythos 5 is WILD...
+
+**Tarih:** 09 Jun 2026 | **Gorüntülenme:** 70K
+
+**Video ID:** `xUbIVUnQnZg`
+
+### Aciklama
+
+```
+LINKS etc: https://natural20.beehiiv.com/p/mythos-5-just-got-released
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 7: Anthropic Calls for "Global AI Pause"
+
+**Tarih:** 05 Jun 2026 | **Gorüntülenme:** 47K
+
+**Video ID:** `4rEgNiP5V2E`
+
+### Aciklama
+
+```
+The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 8: Microsoft JUST BROKE OpenAI...
+
+**Tarih:** 03 Jun 2026 | **Gorüntülenme:** 59K
+
+**Video ID:** `glonkx9ppz8`
+
+### Aciklama
+
+```
+The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+00:00 AI news
+02:29 Microsoft HUGE AI Releases
+19:36 OpenClaw and Microsoft
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 9: GPT-5.6 about to DROP
+
+**Tarih:** 01 Jun 2026 | **Gorüntülenme:** 50K
+
+**Video ID:** `cS0Tm6ddnsQ`
+
+### Aciklama
+
+```
+The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
+
+
+## Video 10: Ghost AI let's AI Agents build disposable worlds
+
+**Tarih:** 29 May 2026 | **Gorüntülenme:** 17K
+
+**Video ID:** `hGCrvDDpl5w`
+
+### Aciklama
+
+```
+Try it at:  https://b.link/wes-roth-ghost
+
+______________________________________________
+My Links ð
+â¡ï¸ Twitter: https://x.com/WesRoth
+â¡ï¸ AI Newsletter: https://natural20.beehiiv.com/subscribe
+
+Want to work with me?
+Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+
+Check out my AI Podcast where me and Dylan interview AI experts:
+https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+______________________________________________
+
+
+
+#ai #openai #llm
+```
+
+### AI Otomasyon Degerlendirmesi
+
+:white_check_mark: **AI ile iliskili** — Bu video AI otomasyon, araçlari veya haberleri kapsiyor.
