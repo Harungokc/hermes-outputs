@@ -147,6 +147,36 @@ Bu hafta öne çıkan tema: **Sabır kazandıran startup'lar.**
 
 ---
 
+---
+
+## LinkedIn Post Fikirleri — Haftalık Girişimcilik Özeti
+
+### Post 1: "Sabır Oyunu" — Yavaş Çıkan Kazanıyor
+
+**Hook:** "DeepSeek 4 yıl tek başına inşa etti. Cursor 4 yılda $28M'dan $60B'ya çıktı. Intuned YC S22'den bu yana 4 yıl bekledi. Hepsi aynı ders: hızlı çıkış değil, doğru zamanda çıkış kazanıyor."
+
+**İçerik:** Bu haftanın 3 büyük haberi üzerinden "sabır" teması. Her birinin timeline'ını ver. Sonuç: aceleci olanlar kaybetti, bekleyenler kazandı.
+
+**Herkesin Kaçırdığı Nokta:** "Hızlı çıkış" kültürü 2023-2024'ün ürünüydü. 2026'da piyasa olgunlaştı — artık timing, sabır ve execution quality kazanıyor.
+
+**Görsel:** 3 kutucuk — DeepSeek, Cursor, Intuned — her birinin yolculuk süresi ve çıkış değeri
+
+**Kaynak:** Yukarıdaki haberler
+
+---
+
+### Post 2: SpaceX/Cursor — AI Araçları Artık Stratejik Silah
+
+**Hook:** "Google $2.4 milyara Windsurf (Cursor'un atası) aldı. SpaceX $60 milyara Cursor almak istiyor. Fark: Windsurf = developer aracı. Cursor = şirket altyapısı. AI coding araçları artık 'kolaylık' değil, 'stratejik zorunluluk'."
+
+**İçerik:** Cursor'un ne olduğunu açıkla (AI code agent), SpaceX'in neden aldığını analiz et (iç AI coding kapasitesi). Sonuç: AI araç satan değil, AI araç alan şirketler kazanıyor.
+
+**Herkesin Kaçırdığı Nokta:** Cursor'un $60B değerlemesi = 1 yıl önceki $2B'nın 30 katı. Piyasa hızla sıkıştı — artık erken girenler ya kazanıyor ya da çok pahalıya alıyor.
+
+**Görsel:** SpaceX logosu + Cursor logosu + "$60B" büyük yazı
+
+---
+
 ## Kaynaklar
 
 - https://www.reuters.com/world/asia-pacific/chinas-deepseek-closes-over-7-billion
