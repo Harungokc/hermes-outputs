@@ -1,288 +1,257 @@
-# Meta Araştırması — Meta Business Suite Verimli Kullanım
-**Tarih:** 19 Haziran 2026 12:00
-**Slot:** 06:00 — 12:00 arası
+# Meta Business Agent — 10x Verimlilik İpuçları
+**Tarih:** 2026-06-19 12:00
+**Slot:** 6 saatlik Meta araştırma slotu — Konu 4/4
 
 ---
 
-## Özet
+## Giriş — Meta Business Agent Platformu
 
-Meta Business Suite'i (WhatsApp Business, Instagram, Facebook Ads) en verimli kullanan şirketler 5 temel strateji kullanıyor: (1) AI agent ile otomatik yanıt, (2) Automated Rules ile kampanya yönetimi, (3) Advantage+ ile optimizasyon, (4) Cross-platform entegrasyonu, (5) Template library ile hızlı mesaj. Bu slot'ta 3 büyük şirket vakası, 5 otomasyon kategorisi ve 8 GitHub referansı derlendi.
+Meta, Haziran 2026'da WhatsApp, Instagram ve Messenger için AI Business Agent platformunu global olarak başlattı. Platform, $200/ay "Hatch" planı ile işletmelere 7/24 AI destekli müşteri hizmetleri, satış ve pazarlama otomasyonu sunuyor.
 
----
+**Platform özellikleri:**
+- Doğal dilde müşteri etkileşimi
+- Çoklu platform (WhatsApp, Instagram DM, Messenger)
+- Otomatik sipariş, şikayet, randevu yönetimi
+- Analitik ve raporlama
 
-## En Çok Zaman Kazandıran Otomasyonlar
-
-### 1. Otomatik Yanıt + Intent Classification
-
-**Ne yapıyor:** Müşteri mesajı geldi → AI analiz et → Doğru yanıt ver veya yönlendir
-
-**Zaman tasarrufu:** Haftada 10-20 saat (tam zamanlı müşteri hizmetleri yerine)
-
-**Kullanılan araçlar:**
-- Meta Business Agent ($200/ay) — veya açık kaynak alternatif: `pipeboard-co/meta-ads-mcp` (997⭐)
-- Claude Code — intent classification
-- n8n workflow
-
-**Vaka — E-ticaret Şirketi (Bing News, 2026):**
-Hindistan'daki e-ticaret şirketleri WhatsApp Business API kullanarak:
-- Sipariş sorgusu → Otomatik takip numarası gönderim
-- Şikayet → Öncelik sıralaması + Slack bildirim
-- Satış sorusu → Ürün önerisi + çeviri
-
-Kaynak: "How Meta Reach Marketing Is Fixing India's Business Communication Gap" (Bing News, 13 gün önce)
-
-### 2. Abandoned Cart Recovery — 72 Saat Kuralı
-
-**Ne yapıyor:** Sepeti terk eden müşteri → 1 saat, 24 saat, 72 saat sonra otomatik hatırlatma
-
-**Metrik:** Sepet terk oranı %70 → WhatsApp hatırlatma ile %10-15 ek dönüşüm
-
-**72 saat kuralı formülü:**
-```
-T0: Müşteri sepeti terk etti (webhook tetiklenir)
-T0+1 saat: "Merhaba [isim], sepette unuttuğun ürünler var!" + görsel
-T0+24 saat: "%10 indirim kuponu" — kupon kodu
-T0+72 saat: Son hatırlatma — "Bu fırsat yarın bitiyor"
-```
-
-**Herkesin Kaçırdığı Nokta #1:**
-72 saat kuralı çoğu işletme için "kısıtlama" olarak görülüyor. Aslında en yüksek ROI'li pencere — müşteri hala "satın alma modunda" olduğu için yanıt oranı %40-60.
-
-### 3. A/B Test Otomasyonu
-
-**Ne yapıyor:** Birden fazla reklam varyasyonu → Otomatik dağıtım → Performansa göre budama
-
-**Klasik yöntem (manuel):**
-- 4 adet creative oluştur
-- 1 hafta bekle
-- Sonuçları analiz et
-- En düşük 2'yi durdur
-- Kalan 2'ye bütçe ayır
-
-**AI ile:**
-- Claude Code 10 adet creative üretir
-- n8n + meta-ads-mcp otomatik kurar
-- Her 4 saatte performans kontrolü
-- Anomali tespitinde Slack bildirim
-- Kazanan seçildiğinde otomatik scale
-
-**Araçlar:**
-- NotFair (2924⭐) — Claude Code Meta Ads skill
-- `mathiaschu/meta-ads-analyzer` (367⭐) — Learning Phase diagnosis
-
-### 4. Cross-Platform Entegrasyonu
-
-**Ne yapıyor:** Instagram → WhatsApp → CRM → Analitik tek bir akışta
-
-**Örnek workflow:**
-```
-Instagram'da ürün gönderisi → Story'de WhatsApp'a yönlendirme
-↓
-WhatsApp'ta sipariş al → AI otomatik teklif ver
-↓
-Google Sheets'e kaydet → Shopify'a order oluştur
-↓
-Kargo takip → WhatsApp ile bildirim
-↓
-Analitik dashboard → Haftalık rapor
-```
-
-**Araçlar:**
-- n8n + meta-ads-mcp — cross-platform orchestrator
-- `irinabuht12-oss/google-meta-ads-ga4-mcp` (1013⭐) — Google + Meta + TikTok
-
-### 5. Analitik ve Rapor Otomasyonu
-
-**Ne yapıyor:** Haftalık/aylık performans raporunu otomatik üret ve gönder
-
-**Klasik:** Haftada 2-3 saat Excel'de rapor hazırlık
-**Otomatik:** Her Pazartesi 09:00 — AI raporu + Telegram bildirim
-
-**Araçlar:**
-- Meta Ads API — raw data çek
-- Claude Code — rapor yorumlama
-- Google Sheets — veri depolama
-- Telegram — bildirim
+**Ama gerçek değer:** Platformu 10x verimli kullanmanın yolları.
 
 ---
 
-## Şirket Vakaları
+## 10x Verimlilik İpucu #1 — 72 Saat Kuralını Maksimum Kullan
 
-### Vaka 1: Hindistan E-ticaret Şirketleri (Bing News, 2026)
-**Sektör:** D2C e-ticaret, Hindistan
-**Kullanım:** WhatsApp Business API — sipariş, şikayet, takip
-**Sonuç:** Müşteri memnuniyeti %40 arttı, yanıt süresi 24 saat → 5 dakika
+WhatsApp Business API'nin en güçlü özelliği: Müşteri son 72 saat içinde size mesaj gönderdiyse, serbestçe mesaj atabilirsiniz — hiçbir template onayı gerekmez.
 
-**Herkesin Kaçırdığı Nokta:** D2C markaları WhatsApp'ı sadece destek için değil, **satış kanalı** olarak kullanıyor. "Mesaj at → WhatsApp'tan alışveriş" döngüsü.
-
-### Vaka 2: SaaS Şirketleri — Lead Qualification
-**Sektör:** B2B SaaS
-**Kullanım:** Instagram/Messenger'da lead yakalama → AI qualification → CRM
-**Sonuç:** %35 daha kaliteli lead, satış ekibi sadece "hazır" müşteriyle görüşüyor
-
-**Workflow:**
+**Nasıl kullanılır?**
 ```
-Facebook/Instagram reklam → Landing page → WhatsApp/Messenger
-↓
-AI qualification soruları (şirket büyüklüğü, bütçe, ihtiyaç)
-↓
-Skor > 70 → Hemen satış ekibine bildirim
-↓
-Skor < 70 → Nurture sequence (email)
+Strateji: Her müşteri etkileşimini 72 saat penceresi olarak planla
+
+1. Müşteri sepete ürün ekledi → 1 saat sonra hatırlatma
+2. Müşteri ürün sayfasını inceledi → 24 saat sonra takip
+3. Müşteri soru sordu → Anında yanıt + 48 saat sonra tekrar
+4. Müşteri satın aldı → 1 saat sonra teşekkür + 48 saat sonra cross-sell
 ```
 
-### Vaka 3: Lokal İşletmeler — Randevu Sistemi
-**Sektör:** Kuaför, cafe, restoran, clinic
-**Kullanım:** WhatsApp Business → Otomatik randevu alma/iptal/hatırlatma
-**Sonuç:** No-show oranı %30 → %5'e düştü
+**Herkesin Kaçırdığı Nokta:** İnsanlar 72 saat kuralını "spamlık" için kullanmaya çalışıyor. Oysa doğru kullanım: Müşteri ile ilk etkileşimden itibaren 72 saatlik VIP erişim pencerenizi planlı kullanın.
 
-**Workflow:**
+---
+
+## 10x Verimlilik İpucu #2 — Automated Rules ile Otomatik Tetikleme
+
+Meta Business Agent'ın "Automated Rules" özelliği, belirli koşullar gerçekleştiğinde otomatik aksiyon alır.
+
+**Kullanım senaryoları:**
+- Sepet terk edildi → 1 saat sonra otomatik hatırlatma mesajı
+- Sipariş verildi → Anında onay + kargo takip no
+- Kargo gecikti → Otomatik özür mesajı + %10 indirim kodu
+- Müşteri 7 gündür cevap vermedi → Satış ekibine bildirim
+
+**Nasıl kurulur?**
 ```
-Müşteri: "Perşembe saat 3'te randevu almak istiyorum"
-↓
-AI: Kontrol ediyorum... Perşembe 15:00 müsait. Onaylıyorum.
-↓
-1 saat önce: Hatırlatma mesajı
-↓
-24 saat sonra: "Nasıldı?" anketi
+n8n veya Meta Business Suite → Automated Rules:
+  KOŞUL: sepet_status = "terk_edildi" AND sepet_zaman < NOW() - 1 saat
+  AKSİYON: WhatsApp mesaj gönder (template: abandoned_cart)
 ```
 
 ---
 
-## Meta Business Suite'in Bilinmeyen Özellikleri
+## 10x Verimlilik İpucu #3 — Advantage+ AI ile Otomatik Hedefleme
 
-### Automated Rules (Ücretsiz)
-Meta Business Suite'de yerleşik "Automated Rules" özelliği:
-- **Budget cap:** Günlük/max spend limit
-- **Pause when:** Performans belirli eşiğin altına düşünce dur
-- **Scale when:** ROAS belirli eşiğin üstüne çıkınca artır
+Meta'nın Advantage+ AI özelliği, kampanya hedeflemesini otomatik olarak optimize eder.
 
-**Herkesin Kaçırdığı Nokta #2:**
-Automated Rules + Advantage+ kombinasyonu = "gece uyurken çalışan reklam makinesi." Bir kez kurulur, 7/24 çalışır.
+**Gerçek sonuçlar (Meta verileri):**
+- Advantage+ Shopping kampanyaları: %17 daha düşük maliyet, %32 daha yüksek dönüşüm
+- Advantage+ App Campaigns: %13 daha düşük maliyet, %22 daha yüksek uygulama yüklemeleri
 
-### Advantage+ Shopping Campaigns
-- AI otomatik bidding
-- Hedefleme optimizasyonu
-- Creative kombinasyonu
+**Nasıl kullanılır?**
+```
+1. Advantage+ Shopping kampanyası oluştur
+2. Ürün kataloğunu yükle
+3. Bütçe belirle (minimum $50/gün önerilir)
+4. AI hedefleme + teklif optimizasyonu otomatik
+```
 
-**Kullanım için:** 50+ satış/hafta gerekiyor. Düşük hacimli kampanyalarda AI öğrenecek veri yok.
-
-### Template Library
-Hazır mesaj şablonları:
-- Sipariş onayı
-- Kargo takip
-- Randevu hatırlatma
-- Promosyon duyurusu
-
-**Avantaj:** Onaylı template = 72 saat ötesinde gönderim yapılabilir.
+**Herkesin Kaçırdığı Nokta:** Advantage+ AI sadece "otomatik hedefleme" değil — aynı zamanda retargeting, lookalike ve seasonal optimizasyon yapıyor. El ile audience segmentasyonu ile uğraşmayı bırakın.
 
 ---
 
-## Adım Adım Verimli Kullanım Rehberi
+## 10x Verimlilik İpucu #4 — A/B Test Otomasyonu
 
-### 1. Hafta: Temel Kurulum
+Meta Business Agent, farklı mesaj varyasyonlarını otomatik test eder ve en iyisini seçer.
 
-**Gün 1-2: WhatsApp Business API + n8n**
-```
-1. Meta for Developers → WhatsApp Business Platform
-2. Test phone number al
-3. n8n kur → Webhook al
-4. Basit "Merhaba, sipariş numaranız?" yanıtı kur
-```
+**A/B test örnekleri:**
+- Farklı mesaj tonları: Resmi vs Samimi
+- Farklı CTA'lar: "Şimdi al" vs "İncele" vs "Sepete ekle"
+- Farklı görseller: Ürün fotoğrafı vs lifestyle fotoğrafı
+- Farklı zamanlama: Sabah 09:00 vs Akşam 19:00
 
-**Gün 3-4: AI Intent Classification**
-```
-1. Claude Code'a 10 örnek müşteri mesajı ver
-2. Intent classification prompt yaz
-3. n8n + Claude + WhatsApp entegre et
-```
+**Test süresi:** Minimum 7 gün, 50+ dönüşüm
 
-**Gün 5-7: Abandoned Cart + Template Onayı**
-```
-1. E-ticaret webhook → n8n bağla
-2. Claude → kişiselleştirilmiş mesaj üret
-3. Template onayı al (24-48 saat)
-```
+---
 
-### 2. Hafta: Reklam Otomasyonu
+## 10x Verimlilik İpucu #5 — Customer Journey Map ile Otomatik Akış
 
-**Gün 8-10: Meta Ads MCP Kurulumu**
+Müşterinin ilk temasından satışa kadar olan süreci otomatikleştirin.
+
+**Müşteri yolculuğu akışı:**
 ```
-1. NotFair (2924⭐) veya meta-ads-mcp kur
-2. Claude Code + Meta Ads API bağla
-3. 1 campaign kur, test et
+1. Müşteri Instagram'da ürün gördü → Story mention + link
+2. Müşteri WhatsApp'a geldi → Ajan karşılıyor (merhaba, ne arıyorsunuz?)
+3. Müşteri ürün sorusu sordu → Claude anında yanıt + görsel
+4. Müşteri sepete ekledi ama çıktı → 1 saat sonra hatırlatma
+5. Müşteri satın aldı → Teşekkür + "Siparişiniz hazırlanıyor"
+6. Kargo çıktı → Takip no + tahmini teslimat
+7. Teslimat sonrası → "Üründen memnun musunuz? 🌟"
+8. 7 gün sonra → "Yeni ürünlerimiz var, ilgilenir misiniz?"
 ```
 
-**Gün 11-14: Automated Rules + A/B Test**
+**Herkesin Kaçırdığı Nokta:** İnsanlar bu yolculuğun hepsini manuel yapmaya çalışıyor. n8n + Claude + WhatsApp Business API ile tamamen otomatik.
+
+---
+
+## 10x Verimlilik İpucu #6 — Analitik Takibi ve İyileştirme Döngüsü
+
+Meta Business Agent'ın analitik verilerini düzenli olarak izleyin ve iyileştirin.
+
+**İzlenecek metrikler:**
+- Mesaj açılma oranı (WhatsApp: %70-80, Email: %20-30)
+- Yanıt süresi (hedef: <30 saniye)
+- Dönüşüm oranı (chat-to-sale)
+- Müşteri memnuniyeti (CSAT)
+- Abandoned cart recovery rate
+
+**İyileştirme döngüsü:**
 ```
-1. Meta Business Suite → Automated Rules → 3-5 kural kur
-2. NotFair ile A/B test workflow kur
-3. Haftalık rapor otomasyonu
+1. Haftalık analitik rapor incele
+2. En düşük performanslı mesajları tespit et
+3. A/B test ile yeni varyasyonlar dene
+4. En iyi performanslı varyasyonu seç
+5. Bir sonraki hafta tekrar et
 ```
 
 ---
 
-## Açık Kaynak Araçlar — Verimli Kullanım
+## 10x Verimlilik İpucu #7 — Mesaj Template Kütüphanesi Oluştur
 
-| Araç | ⭐ | Kapsam |
-|------|-----|--------|
-| [NotFair](https://github.com/nowork-studio/NotFair) | 2924 | Claude Code Meta Ads — campaign + automation |
-| [google-meta-ads-ga4-mcp](https://github.com/irinabuht12-oss/google-meta-ads-ga4-mcp) | 1013 | Multi-platform ads (Google + Meta + TikTok) |
-| [meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp) | 997 | Meta Ads MCP server — n8n uyumlu |
-| [meta-ads-analyzer](https://github.com/mathiaschu/meta-ads-analyzer) | 367 | Learning Phase diagnosis, A/B test |
-| [markifact-mcp](https://github.com/markifact/markifact-mcp) | 41 | 300+ araç — Google/Meta/TikTok/LinkedIn |
-| [Social Flow](https://github.com/search?q=social+flow+meta&type=repositories) | 145 | Meta reporting + scheduling |
+Her senaryo için hazır mesaj şablonları oluşturun — zaman kazanın.
+
+**Template kategorileri:**
+```
+📦 Sipariş: Hoşgeldiniz, Sipariş onayı, Kargo takip, Teslimat sonrası
+🛒 Sepet: Hatırlatma, İndirim teklifi, Son şans
+📅 Randevu: Onay, Hatırlatma, Değişiklik, İptal
+⚠️ Şikayet: Teşekkür, Çözüm önerisi, Takip
+🎉 Promosyon: Yeni ürün, İndirim, Özel teklif
+```
+
+**Template oluştururken dikkat:**
+- Kişiselleştirme için [isim], [sipariş_no], [ürün] gibi değişkenler kullan
+- Net ve kısa tut (WhatsApp mesajı: 1000 karakter max)
+- Her template için CTA (call-to-action) ekle
 
 ---
 
-## Herkesin Kaçırdığı Nokta #3:
+## 10x Verimlilik İpucu #8 — Peak Saatleri Yakalayın
 
-Meta Business Suite'i sadece "mesajlaşma platformu" olarak görenler büyük fırsat kaçırıyor. En verimli kullanıcılar:
+WhatsApp mesajlaşma yoğunluğu günün saatlerine göre değişir.
 
-1. **WhatsApp'ı CRM olarak kullanıyor** — tüm müşteri geçmişi WhatsApp'ta
-2. **Instagram'ı lead funnel olarak kullanıyor** — DM → WhatsApp → Sipariş
-3. **Automated Rules ile gece çalışan reklam makinesi kuruyor**
-4. **Abandoned cart recovery ile parasite dönüşüm sağlıyor**
+**Türkiye için optimal zamanlar:**
+- Sabah: 09:00 - 11:00 (ilk kontroller)
+- Öğle: 12:00 - 14:00 (ara molası)
+- Akşam: 19:00 - 21:00 (en yoğun, en yüksek dönüşüm)
 
-Bunların hepsi ücretsiz araçlarla yapılabilir. $200/ay Meta Business Agent'a gerek yok.
+**Otomasyon ile yakalama:**
+```
+n8n ile mesaj gönderimini zamanla:
+- Hafta içi 09:00, 12:00, 19:00'da otomatik gönderim
+- Hafta sonu 10:00-20:00 arası serbest
+- Peak saatlerde: Claude anında yanıt modu
+- Off-peak: Queue sistemi ile sıralı yanıt
+```
+
+---
+
+## 10x Verimlilik İpucu #9 — Çoklu Dil Desteği ile Küresel Erişim
+
+Türkiye'den satış yapan işletmeler için İngilizce, Arapça, Rusça gibi dillere otomatik çeviri = yeni pazarlar.
+
+**Nasıl kurulur?**
+```
+WhatsApp mesajı alındı → Dil tespiti (Claude)
+→ Türkçe değilse: Otomatik çeviri + Türkçe yanıt oluştur
+→ Müşteriye kendi dilinde yanıt ver
+```
+
+**Pazar fırsatları:**
+- Türk işletmeler → Arapça konuşan pazarlar (Ortadoğu)
+- Türk işletmeler → Rusya ve CIS ülkeleri
+- E-ihracat için çok dilli müşteri desteği
+
+---
+
+## 10x Verimlilik İpucu #10 — Entegrasyonlar ile Tek Platform
+
+Meta Business Agent'ı diğer araçlarla entegre ederek tek platformdan yönetin.
+
+**Entegrasyon tablosu:**
+
+| Araç | Entegrasyon | Fayda |
+|------|------------|-------|
+| n8n | WhatsApp Business API | Workflow otomasyonu |
+| Google Sheets | WhatsApp Business API | Müşteri veri yönetimi |
+| Shopify | WhatsApp Business API | Sipariş otomasyonu |
+| Claude | WhatsApp Business API | Akıllı yanıt oluşturma |
+| HubSpot | Meta Ads | CRM entegrasyonu |
+
+**Tek platform faydası:** Tüm müşteri etkileşimleri tek bir merkezden izlenir, analiz edilir ve otomatikleştirilir.
+
+---
+
+## Genel Verimlilik Hesabı
+
+**Manuel vs AI Agent karşılaştırması:**
+
+| Görev | Manuel Süre | AI Agent Süre | Tasarruf |
+|-------|------------|--------------|---------|
+| Sipariş takip cevabı | 5 dk | 3 saniye | 99% |
+| Sepet hatırlatma | 2 dk × 100 | 0 (otomatik) | 100% |
+| A/B test analizi | 2 saat/hafta | 10 dakika/hafta | 92% |
+| Müşteri şikayeti | 30 dk | 2 dakika | 93% |
+| Haftalık rapor | 3 saat | 15 dakika | 92% |
+
+**Toplam haftalık tasarruf:** ~20+ saat
+
+---
+
+## LinkedIn Post Fikri
+
+**Başlık:** Meta Business Agent Kullanıyorum Diyenler — 10 Kat Verimlilik İpucunu Biliyor mu?
+
+**Hook:** Herkes "AI ajan aldım, harika!" diyor. Ama gerçek verimlilik, platformu 10x kullanmakta gizli.
+
+**İçerik:**
+Meta Business Agent platformu aldınız. Peki ya 10x verimlilik ipuçları?
+
+1. 72 saat kuralı — Müşteri etkileşimini bu pencerede planlayın
+2. Automated Rules — Koşullu otomatik aksiyonlar
+3. Advantage+ AI — El ile hedefleme bırakın
+4. A/B test otomasyonu — En iyi varyasyonu AI seçsin
+5. Customer journey map — İlk temasdan satışa kadar otomatik akış
+6. Analitik döngüsü — Haftalık veri inceleme + iyileştirme
+7. Template kütüphanesi — Her senaryo için hazır şablonlar
+8. Peak saatler — En yüksek dönüşüm zamanlarını yakalayın
+9. Çoklu dil — Küresel pazarlara tek platformdan erişin
+10. Entegrasyonlar — n8n, Shopify, HubSpot ile tek merkez
+
+Siz hangi ipucunu kullanıyorsunuz? Yorumlarda paylaşın 👇
+
+**Görsel önerisi:** 10 madde, her biri ikon ile — "10x Verimlilik" ana başlık
 
 ---
 
 ## Kaynaklar
 
-1. [Meta Business Suite — Automated Rules](https://business.facebook.com/business/tools/automated-rules)
-2. [Advantage+ Shopping Campaigns](https://www.facebook.com/business/news/advantage-plus-shopping)
-3. [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp)
-4. [NotFair — 2924⭐](https://github.com/nowork-studio/NotFair)
-5. [Meta Ads MCP — 997⭐](https://github.com/pipeboard-co/meta-ads-mcp)
-6. [India Business Communication — Bing News](https://www.bing.com/news/search?q=Meta+Reach+Marketing+India+WhatsApp+2026)
-
----
-
-## LinkedIn Paylaşımı
-
-**Post Taslağı:**
-
-```
-Meta Business Suite kullanıyorum diyenlerin %90'ı bunların %10'unu bile kullanmıyor.
-
-5 özellik, en yüksek ROI:
-
-1️⃣ Abandoned Cart Recovery — Terk edilen sepet = bedava para. 1, 24, 72 saat otomatik mesaj. %10-15 ek dönüşüm.
-
-2️⃣ Automated Rules — Gece uyurken reklam bütçesi yönetimi. ROAS düşünce durur, yükselince artırır.
-
-3️⃣ Advantage+ — AI bidding. 50+ satış/hafta olanlar için. Düşük hacim = AI öğrenemez.
-
-4️⃣ Cross-platform funnel — Instagram DM → WhatsApp → Sipariş. Tek platform değil, tam bir satış makinesi.
-
-5️⃣ Template onayı — 72 saat ötesinde mesaj göndermenin tek yolu. Onaylı template = süresiz gönderim hakkı.
-
-Hepsini kullanan var mı? Yorumda belirtin 👇
-
-#MetaBusiness #WhatsAppBusiness #InstagramMarketing #Otomasyon
-```
-
----
-
-*Son güncelleme: 2026-06-19 12:00*
+1. [TechCrunch: Meta's AI agent for WhatsApp Business is now available globally](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-av)
+2. [Meta Business Agent — developers.facebook.com](https://developers.facebook.com/docs/whatsapp/overview)
+3. [Reuters: Meta launches enterprise-focused AI business agent](https://www.reuters.com/business/meta-launches-enterprise-focused-ai-business-agent-2026-06-03/)
+4. [Meta Advantage+ AI performance data](https://www.facebook.com/business/news/advantage-plus)
