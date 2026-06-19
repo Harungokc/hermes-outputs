@@ -1,41 +1,21 @@
-# Wes Roth - YouTube Kanalı Özeti
+# Wes Roth — Son Videolar Özeti
 
-_Son güncelleme: 2026-06-19_
+**Tarih:** 2026-06-19
 
-## Son Videolar (Özet)
+## Son Durum
+Bu hafta 5 video incelendi. En çok ilgi çeken konular: **Fable/Mythos ban skandalı** (tüm kanallarda), **Google post-AGI paper** (Wes Roth), **Odysseus AI** (PewDiePie'nin platformu, Matt Wolfe), ve **Claude Code agent** geliştirmeler (Nate Herk).
 
-### Google's SHOCKING "POST AGI" paper...
-**Tarih:** 2026-06-18 | **Görüntülenme:** 59,013
+## Öne Çıkan Videolar
 
-**İpucu:** Google'ın Post AGI paper'ı analizi.
-**Link:** https://youtube.com/watch?v=OdlUXu2sAb4
+| Tarih | Başlık | İzlenme |
+|-------|--------|---------|
+| 2026-06-18 | [Google's SHOCKING "POST AGI" paper…](https://youtube.com/watch?v=OdlUXu2sAb4) | 62,888 |
+| 2026-06-16 | [here's REALLY WHY Fable 5 got banned](https://youtube.com/watch?v=XtgEA4L7sIU) | 46,146 |
+| 2026-06-13 | [Claude Fable JUST got BANNED…](https://youtube.com/watch?v=vM2At8Uqp2Y) | 65,572 |
+| 2026-06-11 | [HeyGen AI video generator just changed the game…](https://youtube.com/watch?v=NiY38aQQkqM) | 28,183 |
+| 2026-06-10 | [Fable JUST made EVERYONE MAD…](https://youtube.com/watch?v=deFvnmibzow) | 71,501 |
 
----
-### here's REALLY WHY Fable 5 got banned
-**Tarih:** 2026-06-16 | **Görüntülenme:** 46,017
+## Wes Roth Odak Noktası
+Wes Roth, Fable ban skandalını 3 ayrı videoda işlemiş (toplam 183K görüntülenme). Google'un "post-AGI" paper'ı da büyük ilgi görmüş (62K görüntülenme). HeyGen sponsorlu içerik de dikkat çekici.
 
-**İpucu:** Anthropic'in Fable/Mythos 5 tartışması.
-**Link:** https://youtube.com/watch?v=XtgEA4L7sIU
-
----
-### Claude Fable JUST got BANNED...
-**Tarih:** 2026-06-13 | **Görüntülenme:** 65,533
-
-**İpucu:** Claude Fable/Mythos yasaklanması.
-**Link:** https://youtube.com/watch?v=vM2At8Uqp2Y
-
----
-### HeyGen AI video generator just changed the game...
-**Tarih:** 2026-06-11 | **Görüntülenme:** 28,157
-
-**İpucu:** AI video generator - dijital avatar ve çoklu dil çevirisi.
-**Link:** https://youtube.com/watch?v=NiY38aQQkqM
-
----
-### Fable JUST made EVERYONE MAD...
-**Tarih:** 2026-06-10 | **Görüntülenme:** 71,482
-
-**İpucu:** Fable 5 tartışması ve backlash.
-**Link:** https://youtube.com/watch?v=deFvnmibzow
-
----
+**Herkesin Kaçırdığı Nokta:** Fable 5 ban'ın gerçek nedeni muhtemelen içerik moderasyonu değil, platformun AI oluşturma araçlarının yarattığı etik sorunlar. Bu, gelecekte tüm AI platformları için bir emsal teşkil edebilir.

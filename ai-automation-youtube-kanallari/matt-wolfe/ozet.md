@@ -1,41 +1,21 @@
-# Matt Wolfe - YouTube Kanalı Özeti
+# Matt Wolfe — Son Videolar Özeti
 
-_Son güncelleme: 2026-06-19_
+**Tarih:** 2026-06-19
 
-## Son Videolar (Özet)
+## Son Durum
+Bu hafta 5 video incelendi. En çok ilgi çeken konular: **Fable/Mythos ban skandalı** (tüm kanallarda), **Google post-AGI paper** (Wes Roth), **Odysseus AI** (PewDiePie'nin platformu, Matt Wolfe), ve **Claude Code agent** geliştirmeler (Nate Herk).
 
-### PewDiePie's FREE Odysseus AI (Full Review & Setup)
-**Tarih:** 2026-06-17 | **Görüntülenme:** 36,520
+## Öne Çıkan Videolar
 
-**İpucu:** Yerel AI platformu incelemesi - AI'yı bulut bağımlılığı olmadan çalıştırma.
-**Link:** https://youtube.com/watch?v=_7BHqZayPOc
+| Tarih | Başlık | İzlenme |
+|-------|--------|---------|
+| 2026-06-19 | [AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker](https://youtube.com/watch?v=Db260rUuKJg) | 4,878 |
+| 2026-06-17 | [PewDiePie's FREE Odysseus AI (Full Review & Setup)](https://youtube.com/watch?v=_7BHqZayPOc) | 37,513 |
+| 2026-06-12 | [AI News: An INSANE Week… Here's What Matters](https://youtube.com/watch?v=nydHKXjwu0U) | 94,310 |
+| 2026-06-10 | [Why Everyone Is Freaking Out About Fable 5 (Mythos)](https://youtube.com/watch?v=2lE1-5hBfKk) | 67,321 |
+| 2026-06-05 | [AI News: Microsoft Finally Reveals Their Plan!](https://youtube.com/watch?v=nz4h3H1MmTg) | 72,295 |
 
----
-### AI News: An INSANE Week... Here's What Matters
-**Tarih:** 2026-06-12 | **Görüntülenme:** 94,033
+## Matt Wolfe Odak Noktası
+Matt Wolfe'un bu haftası **Fable/Mythos 5** skandalına ayrılmış. PewDiePie'nin Odysseus AI platformu (kendi bilgisayarında çalışan, tam gizlilik odaklı AI) dikkat çekici. Haftalık AI haber formatı çok güçlü: 94K görüntülenme ile en popüler video.
 
-**İpucu:** Haftalık AI haberleri özeti.
-**Link:** https://youtube.com/watch?v=nydHKXjwu0U
-
----
-### Why Everyone Is Freaking Out About Fable 5 (Mythos)
-**Tarih:** 2026-06-10 | **Görüntülenme:** 67,281
-
-**İpucu:** Anthropic'in Fable/Mythos 5 tartışması ve AI güvenlik kısıtlamaları.
-**Link:** https://youtube.com/watch?v=2lE1-5hBfKk
-
----
-### AI News: Microsoft Finally Reveals Their Plan!
-**Tarih:** 2026-06-05 | **Görüntülenme:** 72,265
-
-**İpucu:** Microsoft'un AI planları ve yeni modeller.
-**Link:** https://youtube.com/watch?v=nz4h3H1MmTg
-
----
-### AI News: Claude Opus 4.8, Insane Omni Use-Case, and A Dog Translator?
-**Tarih:** 2026-05-29 | **Görüntülenme:** 72,806
-
-**İpucu:** Haftalık AI haberleri.
-**Link:** https://youtube.com/watch?v=7TG78vIYI-Q
-
----
+**Herkesin Kaçırdığı Nokta:** Odysseus AI — PewDiePie'nin açık kaynak, kendi host ettiğin AI çalışma alanı. Cloud'a güvenmeyen, tam gizlilik odaklı bir alternatif. Bu model önümüzdeki dönemde kurumsal AI'da fark yaratabilir.

@@ -1,74 +1,117 @@
-# Matt Wolfe - Detayli Analiz
+# Matt Wolfe — Detaylı Analiz
 
-_Son guncellme: 2026-06-19_
-
-## PewDiePie's FREE Odysseus AI (Full Review & Setup)
-
-**Tarih:** 2026-06-17 | **Goruntulenme:** 36,520
-**URL:** https://youtube.com/watch?v=_7BHqZayPOc
-
-**AI Otomasyon Ilgisi:** Yerel AI platformu - Ollama, Gemma 3 12B, GPT 5.5 karsilastirmasi. Deep research, brain memory, tam gizlilik.
-
-**Herkesin Kacirdigi Nokta:** Deep research ve brain memory, yerel AI'in bulut AI'a ciddi alternatif oldugunu gosteriyor. Tam veri kontrolu artik mumkun.
-
-**LinkedIn Post Fikri:**
-"AI'i tamamen yerel calistirmak artik mumkun. PewDiePie'in Odysseus projesi, bulut bagimliligi olmadan deep research ve AI asistanligi gosteriyor."
+**Tarih:** 2026-06-19  
+**Kanal:** matt-wolfe
 
 ---
 
-## AI News: An INSANE Week... Here's What Matters
 
-**Tarih:** 2026-06-12 | **Goruntulenme:** 94,033
-**URL:** https://youtube.com/watch?v=nydHKXjwu0U
+## AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker
 
-**AI Otomasyon Ilgisi:** Haftalik AI: Claude Fable/Mythos 5, Apple Intelligence, NotebookLM, Gemini Live Translate, Dario & Sam manifestolari, OpenAI IPO.
+**Video ID:** `Db260rUuKJg`  
+**Tarih:** 2026-06-19  
+**İzlenme:** 4,878  
+**Link:** https://youtube.com/watch?v=Db260rUuKJg
 
-**Herkesin Kacirdigi Nokta:** Dario Amodei ve Sam Altman manifestolari ayni hafta cikti - OpenAI ve Anthropic'in felsefi yaklasimlari artik net olarak ayrisiyor.
+### İçerik Özeti
+Weekly AI news: Fable/Mythos platform banned, new open-source model leader, Midjourney update.
 
-**LinkedIn Post Fikri:**
-"Bu hafta Dario Amodei ve Sam Altman manifestolari cikti. Iki yaklasim artik net: Anthropic guvenlik, OpenAI hiz. Siz hangi taraftasiniz?"
+### "Herkesin Kaçırdığı Nokta"
+Fable ban, Mythos 5'in yasaklanmasıyla sonuçlandı. Open-source AI dünyasında sansür tartışmaları başladı. **Önemli olan: merkeziyetsiz AI platformlarına geçiş hızlanacak.**
+
+### LinkedIn Post Fikri
+**Başlık:** PewDiePie'nin Odysseus AI'ı, AI'ın Geleceğini Değiştirebilir
+
+Self-hosted, tam gizlilik odaklı AI workspace — cloud'a güvenmeyen, kendi bilgisayarında çalışan bir alternatif. Bu model önümüzdeki dönemde kurumsal AI stratejilerinde devrim yaratabilir. Fable ban ile birlikte: merkeziyetsiz AI platformlarına geçiş hızlanıyor.
+
+#AI #OpenSource #PrivacyFirst #AIRevolution
+
+---
+
+## PewDiePie's FREE Odysseus AI (Full Review & Setup)
+
+**Video ID:** `_7BHqZayPOc`  
+**Tarih:** 2026-06-17  
+**İzlenme:** 37,513  
+**Link:** https://youtube.com/watch?v=_7BHqZayPOc
+
+### İçerik Özeti
+Odysseus: PewDiePie's open-source self-hosted AI workspace. Local models, full privacy.
+
+### "Herkesin Kaçırdığı Nokta"
+Odysseus AI = kendi bilgisayarında çalışan, tam gizlilik odaklı AI workspace. PewDiePie bunu ücretsiz sunuyor. **Bu model (self-hosted, local AI) 2026'nın en önemli trendlerinden biri olacak.**
+
+### LinkedIn Post Fikri
+**Başlık:** PewDiePie'nin Odysseus AI'ı, AI'ın Geleceğini Değiştirebilir
+
+Self-hosted, tam gizlilik odaklı AI workspace — cloud'a güvenmeyen, kendi bilgisayarında çalışan bir alternatif. Bu model önümüzdeki dönemde kurumsal AI stratejilerinde devrim yaratabilir. Fable ban ile birlikte: merkeziyetsiz AI platformlarına geçiş hızlanıyor.
+
+#AI #OpenSource #PrivacyFirst #AIRevolution
+
+---
+
+## AI News: An INSANE Week… Here's What Matters
+
+**Video ID:** `nydHKXjwu0U`  
+**Tarih:** 2026-06-12  
+**İzlenme:** 94,310  
+**Link:** https://youtube.com/watch?v=nydHKXjwu0U
+
+### İçerik Özeti
+Major AI news roundup. Fable/Mythos drama, industry moves.
+
+### "Herkesin Kaçırdığı Nokta"
+Bu hafta Fable/Mythos haricinde dikkat çeken: yeni open-source leader kim? Matt Wolfe'a göre bu hafta açık ara kazanan biri var ama henüz isim vermiyor.
+
+### LinkedIn Post Fikri
+**Başlık:** PewDiePie'nin Odysseus AI'ı, AI'ın Geleceğini Değiştirebilir
+
+Self-hosted, tam gizlilik odaklı AI workspace — cloud'a güvenmeyen, kendi bilgisayarında çalışan bir alternatif. Bu model önümüzdeki dönemde kurumsal AI stratejilerinde devrim yaratabilir. Fable ban ile birlikte: merkeziyetsiz AI platformlarına geçiş hızlanıyor.
+
+#AI #OpenSource #PrivacyFirst #AIRevolution
 
 ---
 
 ## Why Everyone Is Freaking Out About Fable 5 (Mythos)
 
-**Tarih:** 2026-06-10 | **Goruntulenme:** 67,281
-**URL:** https://youtube.com/watch?v=2lE1-5hBfKk
+**Video ID:** `2lE1-5hBfKk`  
+**Tarih:** 2026-06-10  
+**İzlenme:** 67,321  
+**Link:** https://youtube.com/watch?v=2lE1-5hBfKk
 
-**AI Otomasyon Ilgisi:** Fable 5 / Mythos 5 tartismasi - safety constraints, token maliyeti, open source alternatif eksikligi.
+### İçerik Özeti
+Fable/Mythos 5 controversy explained. What it means for AI community.
 
-**Herkesin Kacirdigi Nokta:** Fable 5 gercek sorunu guvenlik kisitlamalari degil - open-source alternatif yok. Kullanicilar kacinilmaz olarak tek platforma bagimli kaliyor.
+### "Herkesin Kaçırdığı Nokta"
+Fable 5'in yarattığı öfke, platformun AI oyuncularına karşı tutumundan kaynaklanıyor. Kullanıcılar, platform kurallarının aniden değiştiğini ve yatırımlarının çöktüğünü düşünüyor.
 
-**LinkedIn Post Fikri:**
-"Fable 5'in yasaklanmasi gercek sorunu gizliyor: open-source alternatif yok. Safety constraints olmadan AI gelistirmek artik imkansiz - bu kimin isine geliyor?"
+### LinkedIn Post Fikri
+**Başlık:** PewDiePie'nin Odysseus AI'ı, AI'ın Geleceğini Değiştirebilir
+
+Self-hosted, tam gizlilik odaklı AI workspace — cloud'a güvenmeyen, kendi bilgisayarında çalışan bir alternatif. Bu model önümüzdeki dönemde kurumsal AI stratejilerinde devrim yaratabilir. Fable ban ile birlikte: merkeziyetsiz AI platformlarına geçiş hızlanıyor.
+
+#AI #OpenSource #PrivacyFirst #AIRevolution
 
 ---
 
 ## AI News: Microsoft Finally Reveals Their Plan!
 
-**Tarih:** 2026-06-05 | **Goruntulenme:** 72,265
-**URL:** https://youtube.com/watch?v=nz4h3H1MmTg
+**Video ID:** `nz4h3H1MmTg`  
+**Tarih:** 2026-06-05  
+**İzlenme:** 72,295  
+**Link:** https://youtube.com/watch?v=nz4h3H1MmTg
 
-**AI Otomasyon Ilgisi:** Microsoft'un 7 yeni MAI modeli, Scout agent, GitHub Copilot app, Project Solara, Nvidia isbirligi.
+### İçerik Özeti
+Microsoft's AI strategy revealed. 7 new MAI models announced.
 
-**Herkesin Kacirdigi Nokta:** Microsoft Scout - always-on personal agent vizyonu, AI'in gelecekte PC'lerin varsayilan ozelligi olacagini gosteriyor.
+### "Herkesin Kaçırdığı Nokta"
+Microsoft'ın 7 yeni MAI modeli duyurusu, AI savaşlarında üçüncü büyük oyuncunun (Google, OpenAI之后) iddiasını güçlendirdi. Kurumsal AI'da kazanan kim olacak?
 
-**LinkedIn Post Fikri:**
-"Microsoft'un 7 yeni AI modeli ve 'always-on agent' vizyonu, AI'in yakinda varsayilan PC ozelligi olacagini gosteriyor. Hazir misiniz?"
+### LinkedIn Post Fikri
+**Başlık:** PewDiePie'nin Odysseus AI'ı, AI'ın Geleceğini Değiştirebilir
 
----
+Self-hosted, tam gizlilik odaklı AI workspace — cloud'a güvenmeyen, kendi bilgisayarında çalışan bir alternatif. Bu model önümüzdeki dönemde kurumsal AI stratejilerinde devrim yaratabilir. Fable ban ile birlikte: merkeziyetsiz AI platformlarına geçiş hızlanıyor.
 
-## AI News: Claude Opus 4.8, Insane Omni Use-Case, and A Dog Translator?
-
-**Tarih:** 2026-05-29 | **Goruntulenme:** 72,806
-**URL:** https://youtube.com/watch?v=7TG78vIYI-Q
-
-**AI Otomasyon Ilgisi:** Claude Opus 4.8, Dynamic Workflows, Anthropic $1T valuation, MAI-Image-2.5, Microsoft 365 Copilot, Gemini Omni ornekleri, ElevenLabs Music v2.
-
-**Herkesin Kacirdigi Nokta:** Gemini Omni ornekleri (taksi POV, drone POV) gomulu AI'in gundelik hayata nasil girdigini gosteriyor - AI fiziksel dunya ile butunlesmeye basliyor.
-
-**LinkedIn Post Fikri:**
-"AI fiziksel dunya ile butunlesmeye basliyor. Gemini Omni ornekleri - taksi ve drone POV - gomulu AI'in gundelik hayata nasil girdigini gosteriyor."
+#AI #OpenSource #PrivacyFirst #AIRevolution
 
 ---
-

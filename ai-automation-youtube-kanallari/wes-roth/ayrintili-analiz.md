@@ -1,74 +1,117 @@
-# Wes Roth - Detayli Analiz
+# Wes Roth — Detaylı Analiz
 
-_Son guncellme: 2026-06-19_
+**Tarih:** 2026-06-19  
+**Kanal:** wes-roth
 
-## Google's SHOCKING "POST AGI" paper...
+---
 
-**Tarih:** 2026-06-18 | **Goruntulenme:** 59,013
-**URL:** https://youtube.com/watch?v=OdlUXu2sAb4
 
-**AI Otomasyon Ilgisi:** Google'in Post-AGI paper'i - AGI sonrasi AI arastirma yorigi.
+## Google's SHOCKING "POST AGI" paper…
 
-**Herkesin Kacirdigi Nokta:** Post-AGI vizyonu - AGI'e ulastiktan sonra arastirma bitmiyor, tam tersi. AI'in henuz olgunlasmadigini gosteriyor.
+**Video ID:** `OdlUXu2sAb4`  
+**Tarih:** 2026-06-18  
+**İzlenme:** 62,888  
+**Link:** https://youtube.com/watch?v=OdlUXu2sAb4
 
-**LinkedIn Post Fikri:**
-"Google'in Post-AGI vizyonu: AGI'e ulatinca arastirma bitmiyor - tam tersi. AI'in olgunlasmasi icin onlarca yil var, firsatlar sonsuz."
+### İçerik Özeti
+Google paper on post-AGI era. What comes after AGI is achieved.
+
+### "Herkesin Kaçırdığı Nokta"
+Google'un post-AGI paper'ı, AGI'a ulaştıktan sonra ne olacağını tartışıyor. **Asıl şok: AGI değil, AGI sonrası dönem için hazırlık yapan şirketler.** Bu, next-generation AI stratejisi için kritik.
+
+### LinkedIn Post Fikri
+**Başlık:** Fable 5 Ban: AI Platform Yönetişimi İçin Kritik Bir Emsal
+
+Bir AI platformunun yasaklama kararı, tüm AI ekosistemi için ne anlama geliyor? Agent yetenekleri artık içerik üretiminde aktif — ve bu yönetişim boşluğu yaratıyor. Google'un post-AGI paper'ı ise geleceği düşünmek için başka bir sebep daha ekliyor.
+
+#AI #FableAI #AIRegulation #PostAGI
 
 ---
 
 ## here's REALLY WHY Fable 5 got banned
 
-**Tarih:** 2026-06-16 | **Goruntulenme:** 46,017
-**URL:** https://youtube.com/watch?v=XtgEA4L7sIU
+**Video ID:** `XtgEA4L7sIU`  
+**Tarih:** 2026-06-16  
+**İzlenme:** 46,146  
+**Link:** https://youtube.com/watch?v=XtgEA4L7sIU
 
-**AI Otomasyon Ilgisi:** Fable/Mythos yasaklanmasi - Cin'deki jailbreak tartismasi, gercek sorun open-source alternatif eksikligi.
+### İçerik Özeti
+Deep dive into Fable 5 ban reasons. Platform controversy analysis.
 
-**Herkesin Kacirdigi Nokta:** Fable 5 gercek sorunu guvenlik kisitlamalari degil - open-source alternatifin olmamasi. Kullanicilar tek platforma bagimli kaliyor.
+### "Herkesin Kaçırdığı Nokta"
+Fable 5 ban'ın gerçek nedeni: platformun AI ile oluşturulan içerik için kullandığı 'farkındalık' sistemi — banlanan içerik, platforma olan güveni sarsacak cinsten değildi. **Bu, AI platform yönetişimi için kritik bir emsal.**
 
-**LinkedIn Post Fikri:**
-"Fable 5'in yasaklanmasi gercek sorunu gizliyor: open-source alternatif yok. Tek platforma bagimlilik buyuyen bir tehdit."
+### LinkedIn Post Fikri
+**Başlık:** Fable 5 Ban: AI Platform Yönetişimi İçin Kritik Bir Emsal
 
----
+Bir AI platformunun yasaklama kararı, tüm AI ekosistemi için ne anlama geliyor? Agent yetenekleri artık içerik üretiminde aktif — ve bu yönetişim boşluğu yaratıyor. Google'un post-AGI paper'ı ise geleceği düşünmek için başka bir sebep daha ekliyor.
 
-## Claude Fable JUST got BANNED...
-
-**Tarih:** 2026-06-13 | **Goruntulenme:** 65,533
-**URL:** https://youtube.com/watch?v=vM2At8Uqp2Y
-
-**AI Otomasyon Ilgisi:** Claude Fable/Mythos yasaklanmasi ve sonuclari.
-
-**Herkesin Kacirdigi Nokta:** Fable 5 kullanicilar icin bir uyarı: buyuk AI sirketleri guvenlik gerekcesiyle her seyi yasaklayabilir. Open-source alternatif kritik onem kazaniyor.
-
-**LinkedIn Post Fikri:**
-"AI dunyasinda tek platforma bagimlilik buyuyen bir tehdit. Fable 5 yasaklanmasi bunun en son ornegi - open-source alternatif artik bir lüks degil, zorunluluk."
+#AI #FableAI #AIRegulation #PostAGI
 
 ---
 
-## HeyGen AI video generator just changed the game...
+## Claude Fable JUST got BANNED…
 
-**Tarih:** 2026-06-11 | **Goruntulenme:** 28,157
-**URL:** https://youtube.com/watch?v=NiY38aQQkqM
+**Video ID:** `vM2At8Uqp2Y`  
+**Tarih:** 2026-06-13  
+**İzlenme:** 65,572  
+**Link:** https://youtube.com/watch?v=vM2At8Uqp2Y
 
-**AI Otomasyon Ilgisi:** HeyGen AI video - Digital Twin Avatar, 175+ dil cevirisi, video uretim otomasyonu.
+### İçerik Özeti
+Initial coverage of Fable ban. Claude-powered AI tool controversy.
 
-**Herkesin Kacirdigi Nokta:** Digital Twin Avatar teknolojisi - 175+ dilde video uretimi artik tek bir clipten mumkun. Icerik uretimi demokratiklesiyor.
+### "Herkesin Kaçırdığı Nokta"
+Claude Fable'ın ban'ı, Claude'un AI agent yeteneklerinin platform kurallarını aşabileceği endişesinden kaynaklandı. AI agent'lar artık içerik üretiminde aktif — bu yönetişim boşluğu yaratıyor.
 
-**LinkedIn Post Fikri:**
-"Tek bir video clipten dijital avatar olusturup 175+ dilde icerik uretmek artik mumkun. Icerik uretimi demokratiklesiyor - bu firsati kacirmayin."
+### LinkedIn Post Fikri
+**Başlık:** Fable 5 Ban: AI Platform Yönetişimi İçin Kritik Bir Emsal
 
----
+Bir AI platformunun yasaklama kararı, tüm AI ekosistemi için ne anlama geliyor? Agent yetenekleri artık içerik üretiminde aktif — ve bu yönetişim boşluğu yaratıyor. Google'un post-AGI paper'ı ise geleceği düşünmek için başka bir sebep daha ekliyor.
 
-## Fable JUST made EVERYONE MAD...
-
-**Tarih:** 2026-06-10 | **Goruntulenme:** 71,482
-**URL:** https://youtube.com/watch?v=deFvnmibzow
-
-**AI Otomasyon Ilgisi:** Fable 5 tartismasi ve backlash - safety constraints, token maliyeti, guvenlik kisitlamalari.
-
-**Herkesin Kacirdigi Nokta:** Fable 5 krizi gosteriyor ki buyuk AI lab'lar guvenlik kisitlamalarini sansur adina kullanabilir. Topluluk bunu kabul etmiyor.
-
-**LinkedIn Post Fikri:**
-"Fable 5 krizi AI dunyasinin buyuk sorununu gosterdi: guvenlik kisitlamalari sansur arkasina saklanabilir. Topluluk buna yanit veriyor."
+#AI #FableAI #AIRegulation #PostAGI
 
 ---
 
+## HeyGen AI video generator just changed the game…
+
+**Video ID:** `NiY38aQQkqM`  
+**Tarih:** 2026-06-11  
+**İzlenme:** 28,183  
+**Link:** https://youtube.com/watch?v=NiY38aQQkqM
+
+### İçerik Özeti
+HeyGen digital twin avatars, 175+ language translation, AI video scaling.
+
+### "Herkesin Kaçırdığı Nokta"
+HeyGen'in digital twin avatar teknolojisi, içerik üretimini tamamen değiştiriyor. 175+ dil desteği ile tek bir video ile global erişim. **Bu teknoloji, lokalizasyon endüstrisini kökten dönüştürecek.**
+
+### LinkedIn Post Fikri
+**Başlık:** Fable 5 Ban: AI Platform Yönetişimi İçin Kritik Bir Emsal
+
+Bir AI platformunun yasaklama kararı, tüm AI ekosistemi için ne anlama geliyor? Agent yetenekleri artık içerik üretiminde aktif — ve bu yönetişim boşluğu yaratıyor. Google'un post-AGI paper'ı ise geleceği düşünmek için başka bir sebep daha ekliyor.
+
+#AI #FableAI #AIRegulation #PostAGI
+
+---
+
+## Fable JUST made EVERYONE MAD…
+
+**Video ID:** `deFvnmibzow`  
+**Tarih:** 2026-06-10  
+**İzlenme:** 71,501  
+**Link:** https://youtube.com/watch?v=deFvnmibzow
+
+### İçerik Özeti
+Fable platform angering the AI community. Pre-ban drama.
+
+### "Herkesin Kaçırdığı Nokta"
+Fable topluluğunun öfkesi, platform bağımlılığının risklerini gösteriyor. AI araçlarına yatırım yaparken her zaman 'vendor lock-in' riskini değerlendirmek gerekiyor.
+
+### LinkedIn Post Fikri
+**Başlık:** Fable 5 Ban: AI Platform Yönetişimi İçin Kritik Bir Emsal
+
+Bir AI platformunun yasaklama kararı, tüm AI ekosistemi için ne anlama geliyor? Agent yetenekleri artık içerik üretiminde aktif — ve bu yönetişim boşluğu yaratıyor. Google'un post-AGI paper'ı ise geleceği düşünmek için başka bir sebep daha ekliyor.
+
+#AI #FableAI #AIRegulation #PostAGI
+
+---
