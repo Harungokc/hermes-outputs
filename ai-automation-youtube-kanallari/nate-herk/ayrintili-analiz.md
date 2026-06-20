@@ -1,102 +1,68 @@
 # Nate Herk — Detaylı Analiz
-**Tarih:** 20 Haziran 2026  
-**Kanal:** @nateherk | 812B abone
+
+**Kanal:** @nateherk | **Aboneler:** ~812B | **Tarama:** 20 Haziran 2026
 
 ---
 
-## 1. "Finally. Agent Loops Clearly Explained." (21K görüntülenme)
-**Tarih:** 19 Haziran 2026  
-**Video ID:** EuzYhzB0vbI
+## Video 1: "Finally. Agent Loops Clearly Explained."
+**Tarih:** 19 Haziran 2026 ⭐ YENİ
 
-**Özet:**  
-AI agent loop'ları — yani bir agent'ın çıktısını alıp tekrar girdi olarak kullanma döngüsü — pratik örneklerle açıklanıyor. Nathan Herk, agent loop'larının neden "AI otomasyonunun gerçek gücü" olduğunu iddia ediyor.
+### Özet
+Nate Herk, agent loop mühendisliğini herkesin anlayabileceği bir şekilde, kod yazmadan önce prompt yazma alışkanlığını bırakıp loop tasarlamaya geçiş olarak açıklıyor.
 
-**AI Otomasyonu Açısından Değerlendirme:**  
-⭐⭐⭐⭐⭐ — Agent loop'ları, n8n, Make.com gibi otomasyon platformlarında kritik. Bu video, loop mantığını anlamayan geliştiriciler için temel bir kavram videosu.
+### Ana Kavramlar
+- **Loop = Trigger + Action + Stop Condition**
+- **Reason → Act → Observe → Repeat** — Agent'ın kendi çıktısını kontrol edip tekrar etmesi
+- **"Boris Cherny ve Peter Steinberg artık coding agent'larına prompt yazmıyor, loop yazıyorlar"**
 
-**Herkesin Kaçırdığı Nokta:**  
-Agent loop'larının başarısı "güvenlik sınırları" (guardrails) ile doğrudan ilişkili. Loop yaparken AI'ın yanlış yönde gitmesini engellemek için sistematik constraint'ler koymak şart — ama kimse bunu tutorial'larında göstermiyor.
+### Herkesin Kaçırdığı Nokta
+> Çoğu insan agent loop'u "5 agent 7/24 çalışsın" olarak algılıyor. Oysa asıl mesele, herhangi bir görev için verification loop kurmak. Yani agent'ın çıktısını kontrol etmesi ve kendi kendine tekrar yapması. 24/7 çalışan agent fleet'leri her senaryo için gerekli değil — önemli olan doğrulama adımını outsourcelar.
 
----
+### Demo Örnekleri
+- Thumbnail scoring loop
+- Three.js plane oluşturma
+- Abbey Road recreation
+- 45 kaynaktan (makale, YouTube transkriptleri, X post'ları) araştırma yapıp sonra HTML üreten loop
 
-## 2. "GLM 5.2 in Claude Code is Blowing My Mind" (84K görüntülenme)
-**Tarih:** 18 Haziran 2026  
-**Video ID:** 2OD14-0cot4
-
-**Özet:**  
-Çin'in GLM 5.2 modelinin Claude Code ortamında çalıştırılması ve performansının değerlendirilmesi. Model, kod üretimi ve agent yetenekleri açısından test ediliyor.
-
-**AI Otomasyonu Açısından Değerlendirme:**  
-⭐⭐⭐⭐ — GLM 5.2'nin Claude Code entegrasyonu ilgi çekici. Ancak Batı'da kullanımı pek yaygın değil. Performans verileri izleyiciler için değerli.
-
-**Herkesin Kaçırdığı Nokta:**  
-GLM 5.2'nin Çin dışı kullanımı ciddi API erişim kısıtlamalarına takılıyor. Gerçek değer, modelin mimarisindeki yeniliklerde — özellikle uzun bağlam penceresi ve multi-modal yetenekleri.
+### LinkedIn Post Fikri
+> "Hâlâ coding agent'larına tek tek prompt mu yazıyorsun? O zaman hâlâ arkada kalanadasın. Boris Cherny ve Peter Steinberg'in yaptığı gibi düşün: prompt yazma işini agent'a bırak. Loop yaz — trigger, action, stop condition tanımla. Verification loop kur, output'u agent kontrol etsin. Böylece V1'den V7'ye geçerken sen sadece bekliyorsun. Prompting yerine loop design."
 
 ---
 
-## 3. "How to Build Effective Claude Code Agents in 2026" (26K görüntülenme)
-**Tarih:** 18 Haziran 2026  
-**Video ID:** RzLV8sfFdMM
+## Video 2: "We Might Actually Need to Stop AI"
+**Tarih:** 16 Haziran 2026
 
-**Özet:**  
-Claude Code kullanarak 2026'da etkili AI agent'ları inşa etme rehberi. ClickUp iş ortaklığı ile sunuluyor.
+### Özet
+Anthropic ve OpenAI'nin "AI'ı yavaşlatalım" çağrısı ile birlikte her iki şirketin de halka arz yolunda olduğu gerçeğini masaya yatırıyor.
 
-**AI Otomasyonu Açısından Değerlendirme:**  
-⭐⭐⭐⭐⭐ — Nate Herk'in enstrüman videolarından biri. Claude Code agent'ları, n8n veya diğer otomasyon araçlarıyla entegre edildiğinde çok güçlü oluyor.
+### Ana Argümanlar
+1. **Yarışan iki lab da yavaşlatma istiyor** — OpenAI ve Anthropic aynı anda "dur" diyor
+2. **Kitlesel kamu boşluğu:** AI şirketleri düzenleyicilerden hız kesmelerini istiyor ama kamu bu konuda eğitilmemiş durumda
+3. **Durduramazlar:**监管外的 bir yarış var — biri durursa diğeri kazanır
+4. **Global pause mümkün mü?** — Hayır, koordinasyon imkansız
 
-**Herkesin Kaçırdığı Nokta:**  
-Çoğu kişi Claude Code agent'larını "tek başına kod yazdırma" aracı olarak görüyor. Oysa gerçek güç, **alt agent'lara (sub-agents) bölme** stratejisinde — bir ana agent'ın görevleri alt agent'lara dağıtması.
+### Herkesin Kaçırdığı Nokta
+> AI lab'larına güvenmek yerine "kendi becerilerine yatırım yap." Şirketler yarışıyor, sen becerilerini geliştir. Bu, AI'ı durdurmaya çalışmaktan çok daha kontrolün dahilinde.
 
----
-
-## 4. "Every Level of a Claude Second Brain Explained" (65K görüntülenme)
-**Tarih:** 17 Haziran 2026  
-**Video ID:** DTCyvo6cC54
-
-**Özet:**  
-Claude tabanlı "Second Brain" sistemlerinin seviyeleri — basit not tutmadan tam entegre kişisel AI OS'e kadar. Farklı karmaşıklık seviyelerinde nasıl kurulacağı anlatılıyor.
-
-**AI Otomasyonu Açısından Değerlendirme:**  
-⭐⭐⭐⭐⭐ — Second Brain konsepti, AI otomasyonunun kişisel üretkenlik boyutu. Nate Herk'in en popüler konularından biri.
-
-**Herkesin Kaçırdığı Nokta:**  
-İnsanlar "Second Brain"i bir bilgi deposu olarak görüyor. Oysa en güçlü kullanım **aktif çalışma sistemi** — yani sadece bilgi depolamak değil, AI'ın o bilgiyle düzenli olarak çalışması, analiz yapması ve öneriler üretmesi.
+### LinkedIn Post Fikri
+> "İki AI devi (Anthropic + OpenAI) aynı anda 'yavaşlayalım' diyor — tam da halka arza hazırlandıkları sırada. Bu bir tesadüf mü? Yoksa stratejik mi? Gerçek şu: yarış devam edecek. Tek kontrol edebildiğin şey kendi AI kullanım becerilerin. Bırak şirketler yarışsın — sen kendini geliştir."
 
 ---
 
-## 5. "We Might Actually Need to Stop AI" (37K görüntülenme)
-**Tarih:** 16 Haziran 2026  
-**Video ID:** CvA8-aScqio
+## Video 3: "Is Claude Mythos Coming?"
+**Tarih:** 6 Haziran 2026
 
-**Özet:**  
-AI gelişiminin hızı karşısında "durdurma" çağrısı yapılıyor. Anthropic'in AI durdurma talebi ve bunun anlamı tartışılıyor.
+### Özet
+Anthropic API'sinde görülen Mythos identifier'ın ne anlama geldiğini ve gerçekten bir Mythos modeli gelip gelmeyeceğini analiz ediyor.
 
-**AI Otomasyonu Açısından Değerlendirme:**  
-⭐⭐⭐ — İdeolojik içerik, doğrudan otomasyon implementasyonu yok. Ancak AI güvenliği ve alignment konusu profesyoneller için giderek daha kritik.
+### Ana Argümanlar
+- Mythos identifier sabah görülmüş, herkes "lansman yakın" diyor
+- Mythos aslında Opus'un üzerinde bir model tier'ı
+- Nate'in tahmini: Mythos capability'leri doğrudan bir sonraki Opus'a gizlice eklenir, ayrı bir "Mythos" lansmanı olmaz
+- OpenAI'nin bir sonraki hamlesi daha kritik
 
----
+### Herkesin Kaçırdığı Nokta
+> İnsanlar yeni model adına takılıyor. Asıl önemli olan: capability'ler zaten geliyor — hangi isimle geldiği değil. OpenAI'in bir sonraki hamlesini izle.
 
-## 6. "Learn These 6 AI Skills Now (Before AI Replaces You)" (65K görüntülenme)
-**Tarih:** 15 Haziran 2026  
-**Video ID:** 3XIGcM7VICc
-
-**Özet:**  
-AI çağında hayatta kalmak için kritik 6 beceri. Muhtemelen prompting, agent building, API entegrasyonu, veri analizi, AI sistem design ve otomasyon konularını kapsıyor.
-
-**AI Otomasyonu Açısından Değerlendirme:**  
-⭐⭐⭐⭐ — Pratik rehber niteliğinde. İş gücü dönüşümü için kritik beceriler.
-
-**Herkesin Kaçırdığı Nokta:**  
-"Beceri" denilince insanlar teknik yetenekleri düşünüyor. Asıl kaçırılan nokta: **"AI ile çalışma disiplini"** — yani AI'ın güçlü ve zayıf yönlerini bilerek çalışma, beklentileri yönetme, ve AI'ı tamamlayıcı olarak konumlandırma becerisi.
-
----
-
-## Genel Değerlendirme — Nate Herk
-
-**Güçlü Yönler:** Claude Code, n8n, agent building, second brain sistemleri — yani tam anlamıyla AI otomasyonu odağı. Yüksek görüntülenme alan videolar genellikle "pratik demo + net açıklama" formülünde.
-
-**Zayıf Yönler:** Rekabet yoğun — Matt Wolfe ve Wes Roth gibi kanallarla aynı konuları işliyor. Farklılaşma için benzersiz vaka çalışmaları veya kişisel hikayeler daha fazla işe yarayabilir.
-
-**Trend:** Son videolarında "durma/pause AI" gibi temalar işliyor — bu, AI topluluğunda giderek büyüyen "AI güvenliği" segmentine açılım yapıyor.
-
-**LinkedIn İçerik Potansiyeli:** Yüksek — özellikle agent building, Claude Code ve otomasyon konuları LinkedIn'de Teknik Decision Maker'lar arasında popüler.
+### LinkedIn Post Fikri
+> "Mythos identifier'ı Anthropic API'sinde görüldü ve herkes lansman tarihi tartışıyor. Ama asıl soru şu: Mythos gelecek mi, yoksa bu capability Opus'a mı sızdırılacak? Büyük ihtimalle ikincisi. Yeni model adına değil, capability'lere odaklan — asıl yarış orada."

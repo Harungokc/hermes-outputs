@@ -1,26 +1,20 @@
-# Nate Herk — Son Videolar Özeti
-**Tarih:** 20 Haziran 2026  
-**Kanal:** @nateherk | 812B abone
+# Nate Herk — Kanal Özeti
 
-## Yeni Videolar (Son Taramada Tespit Edilen)
+**Son Tarama:** 20 Haziran 2026
 
-| Tarih | Başlık | Görüntülenme |
-|-------|--------|-------------|
-| 2026-06-19 | Finally. Agent Loops Clearly Explained. | 21K |
-| 2026-06-18 | GLM 5.2 in Claude Code is Blowing My Mind | 84K |
-| 2026-06-18 | How to Build Effective Claude Code Agents in 2026 | 26K |
-| 2026-06-17 | Every Level of a Claude Second Brain Explained | 65K |
-| 2026-06-16 | We Might Actually Need to Stop AI | 37K |
-| 2026-06-15 | Learn These 6 AI Skills Now (Before AI Replaces You) | 65K |
+## Yeni Video (Bu Tarama)
+- **"Finally. Agent Loops Clearly Explained."** — 19 Haziran 2026 — Agent loop mühendisliğini net ve pratik şekilde açıklıyor: reason → act → observe → repeat döngüsü, doğrulama adımının mimariden daha önemli olduğu, "done" kriterini nasıl tanımlayacağın.
+
+## Son Videolar
+
+| Tarih | Başlık |
+|-------|--------|
+| 19 Haz 2026 | Finally. Agent Loops Clearly Explained. ⭐ YENİ |
+| 16 Haz 2026 | We Might Actually Need to Stop AI |
+| 06 Haz 2026 | Is Claude Mythos Coming? |
 
 ## Öne Çıkan Temalar
-- **Agent Loops:** Tekrarlayan AI agent döngüleri (loop) kavramı net bir şekilde açıklanıyor
-- **GLM 5.2 / Claude Code:** GLM 5.2'nin Claude Code içindeki performansı ve yetenekleri
-- **Second Brain:** Claude tabanlı kişisel bilgi yönetimi sistemleri (seviye seviye)
-- **6 AI Skills:** AI çağında kritik olan 6 beceri (prompting, agent building, vs.)
-
-## Herkesin Kaçırdığı Nokta
-Nate Herk'in "Agent Loops" videosu, AI agent'ların en kritik ama en az anlaşılan yönünü — yani **döngü içinde çalışma ve kendini düzeltme mekanizmasını** — pratik demo'larla açıklıyor. Birçok kullanıcı agent'ları tek seferlik komutlar için kullanıyor, ama asıl güç **tekrarlayan agent loop'larında**.
-
-## LinkedIn Post Fikri
-"Agent loop'larını anlamayanlar, AI'dan maksimum verim alamıyor. Çünkü tek seferlik prompting değil — döngüsel, kendini düzeten sistemler kurmak istiyorsanız, loop mimarisini bilmeniz gerekiyor. Bugün bunu anlamayanların yarın agent olarak çalışamayacağını düşünüyorum."
+- **Agent Loop Mühendisliği:** İnsanın yerini alan sistem tasarımı — agent'lara tek tek prompt yazmak yerine, onları yönlendiren loop'lar kurmak
+- **Doğrulama (Verification):** Loop'un en kritik parçası — agent'ın kendi çıktısını kontrol edebilmesi
+- **AI Duraksatma Tartışması:** Anthropic ve OpenAI'nin yavaşlatma çağrısı, kimin kazanacağı değil — şirket yerine kendi becerilerine yatırım yap
+- **Claude Mythos Söylentisi:** Anthropic API'sinde görülen Mythos identifier — gerçekten geliyor mu, yoksa capabilityler Opus'a mı gizlice katılıyor?

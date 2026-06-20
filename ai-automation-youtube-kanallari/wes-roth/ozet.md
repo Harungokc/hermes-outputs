@@ -1,27 +1,21 @@
-# Wes Roth — Son Videolar Özeti
-**Tarih:** 20 Haziran 2026  
-**Kanal:** @WesRoth | 320B abone
+# Wes Roth — Kanal Özeti
 
-## Yeni Videolar (Son Taramada Tespit Edilen)
+**Son Tarama:** 20 Haziran 2026
 
-| Tarih | Başlık | Görüntülenme |
-|-------|--------|-------------|
-| 2026-06-18 | Google's SHOCKING \ | 78K |
-| 2026-06-16 | here's REALLY WHY Fable 5 got banned | 47K |
-| 2026-06-13 | Claude Fable JUST got BANNED... | 66K |
-| 2026-06-11 | HeyGen AI video generator just changed the game... | 28K |
-| 2026-06-10 | Fable JUST made EVERYONE MAD... | 72K |
-| 2026-06-09 | Mythos 5 is WILD... | 70K |
+## Yeni Video (Bu Tarama)
+- **"Google's SHOCKING..."** — 18 Haziran 2026 — Google DeepMind'ın AGI'den ASI'ya (Artificial Super Intelligence) dört yol haritasını çizen çığır açıcı paper'ını işliyor.
+
+## Son Videolar
+
+| Tarih | Başlık |
+|-------|--------|
+| 18 Haz 2026 | Google's SHOCKING... ⭐ YENİ |
+| 16 Haz 2026 | here's REALLY WHY Fable 5 got banned |
+| 13 Haz 2026 | Claude Fable JUST got BANNED... |
+| 11 Haz 2026 | HeyGen AI video generator just changed the game... |
+| 10 Haz 2026 | Fable JUST made EVERYONE MAD... |
 
 ## Öne Çıkan Temalar
-- **Fable AI Banned:** Fable AI'ın yasaklanması veya platform kısıtlamaları — sansür tartışmaları
-- **Mythos 5:** Anthropic'in Mythos ailesinin yeni versiyonu
-- **Google AI:** Google'ın yeni AI duyuruları (IO sonrası)
-- **HeyGen:** Video avatar ve deepfake teknolojisi
-- **AGI Timeline:** Her videoda AGI zaman çizelgesi tartışması
-
-## Herkesin Kaçırdığı Nokta
-Wes Roth'un Fable AI yasağı videoları, AI güvenliği ve platform bağımsızlığı tartışmalarının tam kalbinde. **Fable'ın yasaklanma sebebi muhtemelen "alignment bypass" değil — modelin kullanıcı taleplerini çok düşük oranda reddetmesi**, bu da platform'ların policy'lerini çiğnemek anlamına geliyor. Bu, açık kaynak AI'ın en büyük handikabi: platform bağımsızlığı ile güvenlik arasındaki gerilim.
-
-## LinkedIn Post Fikri
-"Fable AI yasaklandı — ama asıl soru şu: bir modelin her şeyi yapabilmesi mi, yoksa belirli şeyleri yapmaması mı daha değerli? Açık kaynak AI'ın en büyük handikabı, platform policy'lerini 'çözebilmesi' — ama bu aynı zamanda onun en büyük gücü. Sansür ile güvenlik arasındaki bu gerilim, önümüzdeki yılın en büyük AI tartışması olacak."
+- **Google DeepMind Paper (AGI → ASI):** AGI'nin bitiş çizgisi değil, başlangıç olduğu argümanı. Dört potansiyel scaling yolu, ASI sonrası ne olduğu bile tartışılıyor. AIXI (theoretical perfect agent) ve Legg-Hutter zeka ölçütü. Dijital zekanın biyolojik zekaya üstünlükleri (hız, ölçeklenebilirlik, substrate independence).
+- **Claude Fable 5 "Ban" Tartışması:** Mythos jailbreak, güvenlik kısıtlamaları, Anthropic'in modeli neden "banned" olarak etiketlendiği.
+- **HeyGen AI Video Generator:** Dijital Twin Avatar, 175+ dil çevirisi, video prodüksiyonunu dönüştüren araç.
