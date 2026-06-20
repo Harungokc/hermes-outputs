@@ -1,79 +1,105 @@
-# Matt Wolfe — Detaylı Analiz (19 Haziran 2026)
-
-## Video 1: "AI News: Fable Banned, New Open-Source Leader, Midjourney Sh..." (28.9K görüntülenme)
-**Tarih:** 19 Haziran 2026 | Video ID: Db260rUuKJg
-
-**Açıklama:** Fable'ın yasaklanması, yeni bir open-source AI liderinin ortaya çıkması ve Midjourney'nin son durumu hakkında haftalık AI haberleri.
-
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Güncel AI haberleri, open-source AI ekosistemindeki değişimler
-
-**Herkesin Kaçırdığı Nokta:** Open-source AI liderliği yarışı — hangi modelin "lider" olduğu tartışması gerçekte compute kaynakları ve fine-tuning ekosistemiyle ilgili, sadece benchmark'larla değil.
-
-**LinkedIn Post Fikri:**
-> "Open-source AI'da 'lider' kim? Benchmark'lar önemli ama gerçek fark yapan şey: fine-tuning ekosistemi, topluluk desteğu ve deployment kolaylığı. Siz hangi open-source modeli production'da kullanıyorsunuz? #OpenSourceAI #LLM #AIRegulation"
+# Matt Wolfe — Detaylı Analiz
+**Tarih:** 20 Haziran 2026  
+**Kanal:** @mreflow | 964B abone
 
 ---
 
-## Video 2: "PewDiePie's FREE Odysseus AI (Full Review & Setup)" (39.2K görüntülenme)
-**Tarih:** 17 Haziran 2026 | Video ID: _7BHqZayPOc
+## 1. "They All Copied the Same Feature" (93K görüntülenme)
+**Tarih:** 17 Haziran 2026  
+**Video ID:** BZ1hs2ZcnJc
 
-**Açıklama:** PewDiePie'nin geliştirdiği ücretsiz Odysseus AI workspace aracının detaylı incelemesi ve kurulum rehberi.
+**Özet:**  
+OpenAI, Google, Anthropic ve diğer AI şirketlerinin aynı özelliği (muhtemelen advanced reasoning veya agent yetenekleri) kopyalaması ve piyasaya sürmesi. Haftalık AI tool karşılaştırması formatında.
 
-**AI Otomasyon Değerlendirmesi:** ★★★★★
-Youtuber'ların AI product çıkarması trend'i — bu örnek önemli çünkü topluluk odaklı bir AI aracı.
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — Matt Wolfe'un güçlü yönü: haftalık AI tool rehberleri. Piyasaya çıkan tool'ları hızlıca test edip izleyiciye aktarıyor.
 
-**Herkesin Kaçırdığı Nokta:** Odysseus'un "ücretsiz" olması kısa süreli bir pazarlama hamlesi olabilir. Asıl değer: bu aracın mimarisi — modular AI workspace design pattern'i. Her geliştirici kendi Odysseus'unu inşa edebilir.
-
-**LinkedIn Post Fikri:**
-> "PewDiePie bir AI startup'ı kurdu: Odysseus AI. Ücretsiz olabilir ama mimarisi çok öğretici. Modular AI workspace design — bilgisayar başında oturan her geliştirici bunu逆向 mühendislik etmeli. #AIAgents #OpenSource #Workspace"
-
----
-
-## Video 3: "AI News: An INSANE Week… Here's What Matters" (94.8K görüntülenme)
-**Tarih:** 12 Haziran 2026 | Video ID: nydHKXjwu0U
-
-**Açıklama:** Yoğun bir AI haberleri haftasının özeti — Box AI, Recraft ve diğer önemli gelişmeler.
-
-**AI Otomasyon Değerlendirmesi:** ★★★★★
-En yüksek görüntülenmeli video. Haftalık AI haberleri formatının en iyi örneği.
-
-**Herkesin Kaçırdığı Nokta:** Box AI'ın kurumsal AI'a odaklanması — bu, "AI for enterprise" pazarının hızla büyüdüğünün göstergesi. Her Fortune 500 şirketi şimdi kendi Box AI benzeri çözümler arıyor.
-
-**LinkedIn Post Fikri:**
-> "Box AI'ın kurumsal AI stratejisi, 2026'nın gerçek AI trend'ini gösteriyor: 'AI for Enterprise' değil, 'Enterprise-grade AI'. Aradaki farkı anlamak, AI ürün stratejisi belirleyen herkes için kritik. #EnterpriseAI #BoxAI #AIstrategy"
+**Herkesin Kaçırdığı Nokta:**  
+Tüm şirketlerin aynı özelliği kopyalaması, AI'da **"feature parity" döneminin** başladığını gösteriyor. Rekabet artık özellik değil, **fiyat ve enterprise entegrasyonu** üzerinden yapılacak.
 
 ---
 
-## Video 4: "Why Everyone Is Freaking Out About Fable 5 (Mythos)" (67.5K görüntülenme)
-**Tarih:** 10 Haziran 2026 | Video ID: 2lE1-5hBfKk
+## 2. "I Tried So Many AI Tools This Week" (92K görüntülenme)
+**Tarih:** 16 Haziran 2026  
+**Video ID:** qDI4odijz44
 
-**Açıklama:** Fable 5'in neden bu kadar tartışma yarattığının analizi — Mythos 5 olarak da bilinen yeni sürümün özellikleri.
+**Özet:**  
+Matt Wolfe'un bir hafta içinde test ettiği AI tool'ları — gelecek.io platformu iş ortaklığı ile.
 
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Yaratıcı AI araçları ekosisteminde yaşanan bir kriz analizi
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — Tool tanıtım formatı, izleyiciler için değerli keşif kaynağı. futuretools.io platformunun tanıtımı ile entegre.
 
-**Herkesin Kaçırdığı Nokta:** Fable 5'in "everyone is freaking out" yaratması, AI'ın yaratıcı sektörde ne kadar merkezi bir rol oynamaya başladığını gösteriyor. Bu tartışma sadece bir uygulama yasağı değil — AI yaratıcılığının geleceği hakkında.
-
-**LinkedIn Post Fikri:**
-> "Fable 5 / Mythos 5 tartışması sadece bir uygulamanın yasaklanması değil. Bu, 'AI yaratıcılığının sınırları' konusunda sektörün karşı karşıya olduğu temel soru. Gelecekte her AI aracı bu soruyla boğuşacak. #CreativeAI #AIRegulation #Mythos"
-
----
-
-## Video 5: "AI News: Microsoft Finally Reveals Their Plan!" (72.4K görüntülenme)
-**Tarih:** 5 Haziran 2026 | Video ID: nz4h3H1MmTg
-
-**Açıklama:** Microsoft'un uzun süredir beklenen AI stratejisinin açıklanması.
-
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Kurumsal AI stratejisi, Microsoft'un AI yatırımları ve gelecek planları
-
-**Herkesin Kaçırdığı Nokta:** Microsoft'un AI planı aslında "Copilot Stack" — her Microsoft ürününe entegre edilmiş AI katmanı. Bu, Azure AI'dan ziyade Office/GitHub/Teams AI'ıdır.
-
-**LinkedIn Post Fikri:**
-> "Microsoft'un AI planı 'Copilot Stack' — her üründe AI, tek bir mimari altında. Bu, Azure'dan ziyade Office/GitHub/Teams AI'ı için endüstriyel bir dönüşüm. Enterprise AI satın alanlar için ne anlama geliyor? #Microsoft #Copilot #EnterpriseAI"
+**Herkesin Kaçırdığı Nokta:**  
+Tool'ların "şahane" gösterilmesi ama gerçek enterprise kullanım senaryolarının az gösterilmesi. Birçok tool demo'da iyi görünüyor ama gerçek workflow'lara entegre edildiğinde başarısız oluyor.
 
 ---
 
-## Genel AI Otomasyon Potansiyeli: YÜKSEK
-Matt Wolfe'un içerikleri AI haberleri ve tool tanıtımları üzerine yoğunlaşmış. Fable/Mythos tartışması yaratıcı AI araçları için kritik, Microsoft'un AI planı kurumsal AI stratejisi için önemli.
+## 3. "Gemini 3.5 Dropped... and it's different" (94K görüntülenme)
+**Tarih:** 13 Haziran 2026  
+**Video ID:** Db260rUuKJg
+
+**Özet:**  
+Google'ın Gemini 3.5 modelinin piyasaya sürülmesi ve önceki versiyonlardan farkları. Model yetenekleri, benchmark sonuçları ve kullanım senaryoları.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐⭐ — Google'ın AI yarışındaki pozisyonu güçleniyor. Gemini 3.5, özellikle multi-modal yetenekleri ve uzun bağlam işleme açısından iddialı.
+
+**Herkesin Kaçırdığı Nokta:**  
+Gemini 3.5'in en büyük farkı "use tool" yeteneği — yani modelin harici araçları (hesap makinesi, kod çalıştırıcı, dosya sistemi) kullanabilmesi. Bu, agentic AI için kritik altyapı.
+
+---
+
+## 4. "OpenAI Wants To Kill My Business" (103K görüntülenme)
+**Tarih:** 10 Haziran 2026  
+**Video ID:** iMDibaO4dXw
+
+**Özet:**  
+OpenAI'ın yeni API fiyatlandırması ve özelliklerinin AI startup'larını ve bağımsız geliştiricileri nasıl etkilediği. OpenAI'ın "platform" stratejisi.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐⭐ — Matt Wolfe'un en kişisel ve çarpıcı videolarından biri. OpenAI'ın ekosistem kontrolü endişesi.
+
+**Herkesin Kaçırdığı Nokta:**  
+OpenAI'ın "vertical integration" stratejisi — yani hem model hem uygulama katmanında bulunması, bağımsız geliştiriciler için ciddi tehdit. Ancak tarihsel olarak platform'lar, kendi ecosystem'lerini yaratan üçüncü parti geliştiricilere ihtiyaç duyar — bu denge bozulursa yenilik yavaşlar.
+
+---
+
+## 5. "OpenAI Is Strangling AI Startups" (84K görüntülenme)
+**Tarih:** 9 Haziran 2026  
+**Video ID:** slX_lDDobEs
+
+**Özet:**  
+OpenAI'ın API fiyatlandırma stratejisinin AI startup'ları üzerindeki baskısı. İş ortakları ve platform bağımlılığı konusu.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — Startup ekosistemi için kritik konu. AI startup'larının OpenAI'a bağımlılığı "vendor lock-in" riski.
+
+**Herkesin Kaçırdığı Nokta:**  
+Startup'ların "model agnostic" olma zorunluluğu — yani tek bir modele değil, birden fazla modele (OpenAI + Anthropic + Google) entegre olabilecek şekilde mimari kurmaları gerektiği.
+
+---
+
+## 6. "The Anti-OpenAI Alliance is Forming" (96K görüntülenme)
+**Tarih:** 6 Haziran 2026  
+**Video ID:** SguncMvE77I
+
+**Özet:**  
+Anthropic, Google, xAI ve diğer AI şirketlerinin OpenAI'a karşı bir "ittifak" oluşturma çabası. Ortak standartlar, paylaşımlı güvenlik protokolleri ve piyasa rekabeti.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐⭐ — Piyasa dinamiği açısından en önemli video. Matt Wolfe bu formatta en güçlü — büyük resim analizi.
+
+**Herkesin Kaçırdığı Nokta:**  
+Bu ittifakın en büyük nedeni **"shared safety research"** değil, **"shared market interest"**. OpenAI'ın fiyatlandırma agresifliği tümünü aynı cephede birleştiriyor. Ancak ittifaklar kalıcı değil — ortak düşman ortadan kalkınca dağılırlar.
+
+---
+
+## Genel Değerlendirme — Matt Wolfe
+
+**Güçlü Yönler:** Haftalık AI haberleri ve tool tanıtımları — piyasayı hızlı takip edenler için ideal kanal. futuretools.io ekosistemi ile entegre, dolayısıyla ticari olarak güçlü.
+
+**Zayıf Yönler:** "AI News" formatı çok sayıda kanalda var — Wes Roth, Theia AI, etc. Farklılaşma için daha spesifik niş konular (belirli vertical'lar, belirli use case'ler) işe yarayabilir.
+
+**Trend:** OpenAI karşıtlığı teması — toplulukta güçlü karşılık buluyor. "Anti-OpenAI" narrativi, OpenAI'ın market share'ini kaybetmeye başladığı bir dönemde güçleniyor.
+
+**LinkedIn İçerik Potansiyeli:** Orta-yüksek — AI tool'ları ve haberleri LinkedIn'de "bilgi paylaşımı" olarak değer görüyor, özellikle startup kurucuları ve VC'ler arasında.

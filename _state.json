@@ -1,0 +1,17 @@
+{
+  "last_scan_date": "2026-06-20T13:00:00-07:00",
+  "channels": {
+    "nate-herk": {
+      "last_video_date": "2026-06-19T10:18:24-07:00",
+      "last_video_id": "EuzYhzB0vbI"
+    },
+    "matt-wolfe": {
+      "last_video_date": "2026-06-17T12:00:00-07:00",
+      "last_video_id": "BZ1hs2ZcnJc"
+    },
+    "wes-roth": {
+      "last_video_date": "2026-06-18T15:11:36-07:00",
+      "last_video_id": "OdlUXu2sAb4"
+    }
+  }
+}

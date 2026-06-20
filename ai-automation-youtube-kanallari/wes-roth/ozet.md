@@ -1,29 +1,27 @@
-# Wes Roth — Son Videolar Özeti (19 Haziran 2026)
-
+# Wes Roth — Son Videolar Özeti
+**Tarih:** 20 Haziran 2026  
 **Kanal:** @WesRoth | 320B abone
 
-## Son 5 Video
+## Yeni Videolar (Son Taramada Tespit Edilen)
 
 | Tarih | Başlık | Görüntülenme |
 |-------|--------|-------------|
-| 2026-06-18 | Google's SHOCKING "POST AGI" paper... | 72.9K |
-| 2026-06-16 | here's REALLY WHY Fable 5 got banned | 46.5K |
-| 2026-06-13 | Claude Fable JUST got BANNED... | 65.6K |
-| 2026-06-11 | HeyGen AI video generator just changed the game... | 28.3K |
-| 2026-06-10 | Fable JUST made EVERYONE MAD... | 71.5K |
+| 2026-06-18 | Google's SHOCKING \ | 78K |
+| 2026-06-16 | here's REALLY WHY Fable 5 got banned | 47K |
+| 2026-06-13 | Claude Fable JUST got BANNED... | 66K |
+| 2026-06-11 | HeyGen AI video generator just changed the game... | 28K |
+| 2026-06-10 | Fable JUST made EVERYONE MAD... | 72K |
+| 2026-06-09 | Mythos 5 is WILD... | 70K |
 
-## Genel Değerlendirme
-
-Wes Roth bu hafta ağırlıklı olarak **Fable/Mythos yasağı** ve **Google'un "Post AGI" paper'ı** üzerine içerik üretti. 3 video Fable yasağı etrafında (toplam 183K görüntülenme), 1 video Google'un AGI sonrası vizyon paper'ı (72.9K). HeyGen videosu (28.3K) video AI üretimi için ilgi çekici. Wes Roth, OpenAI, Google, Anthropic, NVIDIA ve open-source AI haberlerini takip eden teknik izleyici kitlesine hitap ediyor.
-
-## Odak Konuları
-- **Fable/Mythos 5 Yasağı**: AI yaratıcı araçlarındaki içerik politikası tartışması
-- **Google Post-AGI Paper**: AGI sonrası AI vizyonu ve gelecek senaryoları
-- **HeyGen**: Video AI üretiminde yeni gelişmeler
-- **AI Ekosistem Haberleri**: OpenAI, Anthropic, DeepMind, NVIDIA
+## Öne Çıkan Temalar
+- **Fable AI Banned:** Fable AI'ın yasaklanması veya platform kısıtlamaları — sansür tartışmaları
+- **Mythos 5:** Anthropic'in Mythos ailesinin yeni versiyonu
+- **Google AI:** Google'ın yeni AI duyuruları (IO sonrası)
+- **HeyGen:** Video avatar ve deepfake teknolojisi
+- **AGI Timeline:** Her videoda AGI zaman çizelgesi tartışması
 
 ## Herkesin Kaçırdığı Nokta
-Google'un "Post AGI" paper'ı aslında AGI'ın ne zaman geleceğinden ziyade **AGI sonrası dünyada AI'ın nasıl evrileceği** üzerine bir düşünce deneyi. Bu paper, AI güvenliği ve alignment araştırmacıları için kritik ama mainstream AI medyası bunu "AGI geliyor!" başlığıyla yanlış yorumluyor.
+Wes Roth'un Fable AI yasağı videoları, AI güvenliği ve platform bağımsızlığı tartışmalarının tam kalbinde. **Fable'ın yasaklanma sebebi muhtemelen "alignment bypass" değil — modelin kullanıcı taleplerini çok düşük oranda reddetmesi**, bu da platform'ların policy'lerini çiğnemek anlamına geliyor. Bu, açık kaynak AI'ın en büyük handikabi: platform bağımsızlığı ile güvenlik arasındaki gerilim.
 
 ## LinkedIn Post Fikri
-> "Google'un 'Post AGI' paper'ı AGI'ın ne zaman geleceğini değil, AGI SONRASI dünyayı tartışıyor. Bu ayrım kritik — çoğu haber bunu 'AGI geliyor!' olarak lanse etti. Gerçek mesaj: AGI'a ulaştığımızda AI nasıl evrilecek? #GoogleDeepMind #AGI #AISafety"
+"Fable AI yasaklandı — ama asıl soru şu: bir modelin her şeyi yapabilmesi mi, yoksa belirli şeyleri yapmaması mı daha değerli? Açık kaynak AI'ın en büyük handikabı, platform policy'lerini 'çözebilmesi' — ama bu aynı zamanda onun en büyük gücü. Sansür ile güvenlik arasındaki bu gerilim, önümüzdeki yılın en büyük AI tartışması olacak."

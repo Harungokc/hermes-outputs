@@ -1,29 +1,26 @@
-# Matt Wolfe — Son Videolar Özeti (19 Haziran 2026)
-
+# Matt Wolfe — Son Videolar Özeti
+**Tarih:** 20 Haziran 2026  
 **Kanal:** @mreflow | 964B abone
 
-## Son 5 Video
+## Yeni Videolar (Son Taramada Tespit Edilen)
 
 | Tarih | Başlık | Görüntülenme |
 |-------|--------|-------------|
-| 2026-06-19 | AI News: Fable Banned, New Open-Source Leader, Midjourney Sh... | 28.9K |
-| 2026-06-17 | PewDiePie's FREE Odysseus AI (Full Review & Setup) | 39.2K |
-| 2026-06-12 | AI News: An INSANE Week… Here's What Matters | 94.8K |
-| 2026-06-10 | Why Everyone Is Freaking Out About Fable 5 (Mythos) | 67.5K |
-| 2026-06-05 | AI News: Microsoft Finally Reveals Their Plan! | 72.4K |
+| 2026-06-17 | They All Copied the Same Feature | 93K |
+| 2026-06-16 | I Tried So Many AI Tools This Week | 92K |
+| 2026-06-13 | Gemini 3.5 Dropped... and it's different | 94K |
+| 2026-06-10 | OpenAI Wants To Kill My Business | 103K |
+| 2026-06-09 | OpenAI Is Strangling AI Startups | 84K |
+| 2026-06-06 | The Anti-OpenAI Alliance is Forming | 96K |
 
-## Genel Değerlendirme
-
-Matt Wolfe bu hafta **Fable/Mythos 5 yasağı** etrafında yoğunlaştı — 3 farklı video serisiyle konuyu işledi. PewDiePie'nin Odysseus AI projesi de dikkat çekti (39.2K). "INSANE Week" videosu 94.8K ile en popüler — AI haberleri için güçlü bir haftaydı. Microsoft'un AI planı videosu 72.4K izlenmiş. Genel olarak AI haberleri ve tool tanıtımları üzerine kurulu içerik stratejisi devam ediyor.
-
-## Odak Konuları
-- **Fable/Mythos 5**: Yapay zeka yaratıcı araçlarındaki sansür tartışması
-- **Open Source AI Workspace**: PewDiePie'nin Odysseus AI projesi
-- **Haftalık AI Haberleri**: Box AI, Recraft, Microsoft AI stratejisi
-- **AI Tool Reviews**: Yeni araçların incelemeleri ve kurulum rehberleri
+## Öne Çıkan Temalar
+- **Gemini 3.5:** Google's yeni modelinin yetenekleri ve farklılıkları
+- **OpenAI Karşıtı Koalisyon:** Anthropic, Google, xAI ve diğerlerinin OpenAI'a karşı ittifak arayışı
+- **AI Araç Çeşitliliği:** Haftalık AI tool tanıtımları ve karşılaştırmaları
+- **Startup Endişeleri:** OpenAI'ın API fiyatlandırması ve işletmeler üzerindeki etkisi
 
 ## Herkesin Kaçırdığı Nokta
-Fable 5 yasağı tartışması aslında **AI içerik üretiminde sansürün sınırları** meselesi. Matt Wolfe bunu haber olarak aktarıyor ama asıl soru: AI yaratıcı araçları hangi içerikleri üretmeli, hangilerini üretmemeli? Bu soru gelecekte her AI aracını etkileyecek.
+Matt Wolfe'un "Anti-OpenAI Alliance" videosu, AI pazarındaki güç dinamiğinin dramatik şekilde değiştiğini gösteriyor. OpenAI'ın fiyatlandırma agresifliği, Anthropic ve Google'ı bir araya getiriyor — bu ittifak kırılgan ama piyasa rekabeti açısından kritik. **Bu ittifakın kalıcı olup olmayacağı, önümüzdeki 12 ayın en önemli sorusu.**
 
 ## LinkedIn Post Fikri
-> "Fable 5'in yasaklanması sadece bir 'AI aracı' haberi değil — bu, gelecekte tüm yaratıcı AI araçlarının karşılaşacağı bir sorunun erken versiyonu: 'AI ne üretmeli, ne üretmemeli?' Herkes bu tartışmayı takip etmeli. #AIRegulation #CreativeAI #Mythos #FableAI"
+"OpenAI'ın agresif fiyatlandırması sadece startup'ları değil, tüm AI ekosistemini tehdit ediyor. Anthropic ve Google'ın 'Anti-OpenAI' ittifakı tam da bu yüzden oluşuyor. Rekabet olmazsa innovation olmaz — bu ittifak belki de AI tarihinin en kritik rekabet dengesi."

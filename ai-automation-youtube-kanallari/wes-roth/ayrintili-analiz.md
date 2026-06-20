@@ -1,79 +1,105 @@
-# Wes Roth — Detaylı Analiz (19 Haziran 2026)
-
-## Video 1: "Google's SHOCKING 'POST AGI' paper..." (72.9K görüntülenme)
-**Tarih:** 18 Haziran 2026 | Video ID: OdlUXu2sAb4
-
-**Açıklama:** Google'un AGI sonrası AI geleceği üzerine yayınladığı paper'ın analizi.
-
-**AI Otomasyon Değerlendirmesi:** ★★★★★
-Google DeepMind'ın research yönünü gösteren önemli bir paper. AGI sonrası vizyon, AI güvenliği açısından kritik.
-
-**Herkesin Kaçırdığı Nokta:** Bu paper "AGI geliyor" değil, "AGI sonrası ne olur" üzerine bir thought experiment. Anahtar kelime: "Post-AGI" değil "Post-AGI transition" — yani AGI'a geçiş sürecinin kendisi.
-
-**LinkedIn Post Fikri:**
-> "Google'un 'Post AGI' paper'ı aslında bir 'AGI transition framework' — AGI'a ulaşana kadar değil, ulaştıktan SONRA ne olacağını tartışıyor. AI alignment araştırmacıları için kritik, haber başlıkları için yanıltıcı. #GoogleDeepMind #AGI #AISafety"
+# Wes Roth — Detaylı Analiz
+**Tarih:** 20 Haziran 2026  
+**Kanal:** @WesRoth | 320B abone
 
 ---
 
-## Video 2: "here's REALLY WHY Fable 5 got banned" (46.5K görüntülenme)
-**Tarih:** 16 Haziran 2026 | Video ID: XtgEA4L7sIU
+## 1. "Google's SHOCKING \\\\\\\\" (78K görüntülenme)
+**Tarih:** 18 Haziran 2026  
+**Video ID:** OdlUXu2sAb4
 
-**Açıklama:** Fable 5'in neden yasaklandığının gerçek sebebinin analizi. Genspark sponsorlu inceleme.
+**Özet:**  
+Google'ın son AI duyurusu — muhtemelen Google I/O sonrası yeni özellikler veya Gemini versiyonları. "SHOCKING" başlığı ile dikkat çekiyor.
 
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Yaratıcı AI araçları ekosistemindeki sansür tartışmasının detaylı analizi
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — Google'ın AI ilerlemeleri, tüm AI otomasyon ekosistemini etkiliyor. Gemini modelleri, Google Workspace entegrasyonları.
 
-**Herkesin Kaçırdığı Nokta:** Fable 5'in yasaklanması muhtemelen tek bir içerik politikası ihlali değil, biriken şikayetlerin sonucu. "Real reasons" aslında modelin ürettiği içeriğin kontrol edilememesi.
-
-**LinkedIn Post Fikri:**
-> "Fable 5 yasağının 'gerçek sebebi' ne? İçerik politikası ihlali mi, yoksa modelin kontrol edilemez hale gelmesi mi? AI yaratıcı araçları için content moderation challenge'ı, 2026'nın en kritik sorunlarından biri olacak. #CreativeAI #ContentModeration #Mythos"
-
----
-
-## Video 3: "Claude Fable JUST got BANNED..." (65.6K görüntülenme)
-**Tarih:** 13 Haziran 2026 | Video ID: vM2At8Uqp2Y
-
-**Açıklama:** Claude tabanlı Fable aracının yasaklanması haberi.
-
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Claude agent'larının yaratıcı alanda kullanımının yarattığı tartışma
-
-**Herkesin Kaçırdığı Nokta:** "Claude Fable" — Claude modelinin yaratıcı araç olarak kullanımı, modelin capability'lerini gösteriyor ama aynı zamanda model provider'ların içerik sorumluluğu meselesini gündeme getiriyor.
-
-**LinkedIn Post Fikri:**
-> "Claude tabanlı Fable'ın yasaklanması, model provider'ların (Anthropic gibi) yaratıcı araç ekosistemindeki rolünü sorguluyor. Model sağlayıcıları sadece API mi satıyor, yoksa içerik sorumluluğu da mı alıyorlar? #Anthropic #Claude #AIethics"
+**Herkesin Kaçırdığı Nokta:**  
+Google'ın asıl gücü "search + AI" entegrasyonunda — Gemini'yi search'e entegre etmesi, ChatGPT'ye karşı en büyük avantajı. Bu, enterprise arama otomasyonları için kritik.
 
 ---
 
-## Video 4: "HeyGen AI video generator just changed the game..." (28.3K görüntülenme)
-**Tarih:** 11 Haziran 2026 | Video ID: NiY38aQQkqM
+## 2. "here's REALLY WHY Fable 5 got banned" (47K görüntülenme)
+**Tarih:** 16 Haziran 2026  
+**Video ID:** XtgEA4L7sIU
 
-**Açıklama:** HeyGen'in yeni özellikleri ve video AI üretimindeki son gelişmeler.
+**Özet:**  
+Fable 5'in yasaklanma gerçek sebebi — platform güvenlik politikaları, alignment konuları ve sansür tartışmaları.
 
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Video AI'ın yükselişi — digital twin avatar teknolojisi
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — Fable gibi "uncensored" modeller, belirli enterprise senaryolarında gerekli olabiliyor. Ancak riskler de var.
 
-**Herkesin Kaçırdığı Nokta:** HeyGen'in "Digital Twin Avatar" özelliği — birkaç dakikalık video ile kendi avatar'ını oluşturma. Bu, video prodüksiyon maliyetlerini düşürecek ama aynı zamanda deepfake risk'ini artıracak.
-
-**LinkedIn Post Fikri:**
-> "HeyGen'in Digital Twin Avatar'ı video üretimini demokratikleştiriyor ama deepfake risk'ini de geometrik olarak artırıyor. Kısa sürede herkes kendi dijital ikizini yapabilecek — bu bir fırsat mı, tehdit mi? #HeyGen #VideoAI #Deepfake"
-
----
-
-## Video 5: "Fable JUST made EVERYONE MAD..." (71.5K görüntülenme)
-**Tarih:** 10 Haziran 2026 | Video ID: deFvnmibzow
-
-**Açıklama:** Fable'ın son kararlarının yarattığı tepkiler ve AI yaratıcı topluluğundaki tartışma.
-
-**AI Otomasyon Değerlendirmesi:** ★★★★☆
-Topluluk tepkisi — AI yaratıcı araçları ve sansür tartışması
-
-**Herkesin Kaçırdığı Nokta:** "Everyone mad" — aslında bu tepki, AI araçlarının artık sadece "eğlence" olmadığını, ciddi yaratıcı workfl ow'ların parçası haline geldiğini gösteriyor.
-
-**LinkedIn Post Fikri:**
-> "Fable'ın kararları 'everyone mad' yarattı — çünkü AI araçları artık sadece eğlence değil, ciddi yaratıcı iş akışlarının parçası. Bu tepki, AI'ın profesyonel yaratıcı sektörde ne kadar merkezi bir rol oynadığının göstergesi. #CreativeAI #AIContent #Workflow"
+**Herkesin Kaçırdığı Nokta:**  
+Fable'ın yasaklanma sebebi tam olarak "ne yaptığı" değil, "ne yaptığını gösterme biçimi" — modelin kendi alignment procedürlerini açıkça tartışması, platform'ların policy'sini zorluyor.
 
 ---
 
-## Genel AI Otomasyon Potansiyeli: YÜKSEK
-Wes Roth'un içerikleri AI araştırma ve haberleri üzerine yoğunlaşmış. Google Post-AGI paper'ı gelecek AI vizyonu için kritik, Fable yasağı yaratıcı AI araçlarının geleceği için önemli, HeyGen video AI'ın hızla geliştiğini gösteriyor.
+## 3. "Claude Fable JUST got BANNED..." (66K görüntülenme)
+**Tarih:** 13 Haziran 2026  
+**Video ID:** vM2At8Uqp2Y
+
+**Özet:**  
+Claude Fable'ın (Anthropic tabanlı?) yasaklanması veya erişime kapatılması. Wes Roth'un "banned" serisi devam ediyor.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — AI platform bağımsızlığı tartışması — otomasyon için kullandığınız modelin bir gün erişilemez olması riski.
+
+**Herkesin Kaçırdığı Nokta:**  
+**"Model lock-in" riski sadece API fiyatlandırması değil — platform yasakları da bir risk.** AI otomasyonları tasarlarken "hangisi olursa olsun" stratejisi şart.
+
+---
+
+## 4. "HeyGen AI video generator just changed the game..." (28K görüntülenme)
+**Tarih:** 11 Haziran 2026  
+**Video ID:** NiY38aQQkqM
+
+**Özet:**  
+HeyGen'in yeni AI video generator özellikleri — avatar yaratma, dil çevirisi, çok dilli içerik üretimi.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐⭐ — HeyGen, video otomasyonu için güçlü bir araç. Pazarlama, eğitim, müşteri desteği için video üretimini otomatize edebilir.
+
+**Herkesin Kaçırdığı Nokta:**  
+HeyGen'in en güçlü özelliği "video localization" — mevcut videoları 175+ dile çevirebilmesi. Bu, global pazarlama otomasyonu için kritik bir fırsat.
+
+---
+
+## 5. "Fable JUST made EVERYONE MAD..." (72K görüntülenme)
+**Tarih:** 10 Haziran 2026  
+**Video ID:** deFvnmibzow
+
+**Özet:**  
+Fable AI'ın tartışmalı özellikleri veya kararları — AI topluluğunda "herkesi kızdıran" hamle.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐ — Fable'ın iş modeli ve community yaklaşımı tartışmalı.
+
+**Herkesin Kaçırdığı Nokta:**  
+Fable'ın community-first yaklaşımı, AI şirketlerinin "enterprise-first" stratejisinden farklı bir yol. Ancak bu yol, güvenlik ve policy açıkları yaratıyor.
+
+---
+
+## 6. "Mythos 5 is WILD..." (70K görüntülenme)
+**Tarih:** 9 Haziran 2026  
+**Video ID:** xUbIVUnQnZg
+
+**Özet:**  
+Anthropic'in Mythos 5 modelinin özellikleri ve yetenekleri — muhtemelen Claude'un extension'ı veya farklı bir model ailesi.
+
+**AI Otomasyonu Açısından Değerlendirme:**  
+⭐⭐⭐⭐⭐ — Mythos, Anthropic'in kod/adım tabanlı reasoning modellerinden biri. Agentic AI için optimize.
+
+**Herkesin Kaçırdığı Nokta:**  
+Mythos 5'in en büyük yeniliği "extended thinking" — yani daha uzun düşünme süreleri için optimize edilmiş olması. Bu, karmaşık agent görevleri için kritik.
+
+---
+
+## Genel Değerlendirme — Wes Roth
+
+**Güçlü Yönler:** Hızlı haber döngüsü, "banned/controversy" narrativi dikkat çekiyor, yüksek görüntülenme. AGI timeline konusunda tutarlı içerik takvimi.
+
+**Zayıf Yönler:** "SHOCKING", "BANNED", "EVERYONE MAD" başlık formatı zamanla aşınıyor. İçerik daha çok haber odaklı, pratik otomasyon implementasyonu az.
+
+**Trend:** Fable AI ve "uncensored" model tartışmaları — toplulukta güçlü ilgi görüyor. Ancak bu "kontroversy" narrativi, uzun vadede marka riski yaratabilir.
+
+**LinkedIn İçerik Potansiyeli:** Orta — haber niteliğindeki içerik LinkedIn'de "gündem takibi" olarak değer görüyor, ancak daha az "actionable" içerik. AI araştırmacıları ve ML mühendisleri arasında daha popüler.
