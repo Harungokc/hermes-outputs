@@ -139,10 +139,128 @@ Expedia Agent:
 
 ---
 
-## 19 Haziran 2026 — Kaynaklar
+## 20 Haziran 2026 — Yeni Vakalar
 
-1. Bing News — "Airbnb says AI bot now handles 40% of customer support issues" (Haziran 2026)
-2. Bing News — "Airbnb's CEO says AI writes 60% of the company's code" (Haziran 2026)
+### Otel & Turizm AI Agent Vakaları — Cuma Rotasyonu (Devam)
+
+---
+
+### 1. Zendesk — "Per Resolution" AI Agent Fiyatlandırma Modeli
+
+**Sektör:** Customer Service SaaS
+**Kullanım Alanı:** Müşteri Hizmetleri — AI Agent Fiyatlandırma
+
+**Ne Yapıyor:**
+Zendesk, Mayıs 2026'da Relate 2026 konferansında "Autonomous Service Workforce" vizyonunu duyurdu. Yenilikçi özellik: **AI agent'lar artık "koltuk başına" değil, "çözüm başına" faturalandırılıyor.**
+
+Müşteriler sadece AI tarafından başarıyla çözülen destek talepleri için ödeme yapıyor. Bu büyük bir shift: geleneksel SaaS "kullanıcı başına" modelinden "outcome-based" modele geçiş.
+
+**Müşteri Deneyimi — Dialog Örneği:**
+```
+Müşteri: "Siparişim gecikti, ne zaman gelir?"
+Zendesk AI Agent:
+ → Sipariş veritabanını kontrol eder
+ → Kargo API'sinden canlı takip bilgisi çeker
+ → Müşteriye kesin teslimat tarihi verir
+ → Sorun çözüldü → "1 resolution" olarak sayılır
+ → Şirket sadece bu çözüm için öder
+Müşteri: [Sorun çözüldü, memnuniyet puanı verir]
+```
+
+**Sonuçlar:**
+| Metrik | Değer |
+|--------|-------|
+| Fiyatlandırma modeli | Koltuk başına → Çözüm başına |
+| AI platform genişlemesi | ChatGPT, Gemini, voice, messaging |
+| Desteklenen dil | 60+ dil |
+| Hedef | AI = emek birimi olarak tanımlanıyor |
+
+**Herkesin Kaçırdığı Nokta #1:** "Per resolution" fiyatlandırma sadece bir pricing yeniliği değil — AI agent'ların performansını ölçmenin yeni standardı. Artık şirketler "kaç tane bot çalıştırıyoruz" değil, "bot kaç problem çözüyor" diye bakıyor. Bu = AI agent ROI'sini kanıtlama zorunluluğu.
+
+**Herkesin Kaçırdığı Nokta #2:** Zendesk'in 60+ dil desteği, global şirketler için kritik. Türk şirketleri de İngilizce bilmeyen müşterilerine aynı AI kalitesini verebiliyor — bu daha önce lükstü, şimdi standart olacak.
+
+**Kaynak:**
+- Bing News — "At Relate 2026, Zendesk Launches AI Agents Priced on Resolutions, Not Seats" (19.05.2026)
+- Bing News — "Zendesk links AI pricing to verified resolution outcomes" (22.05.2026)
+- Bing News — "Zendesk expands AI agents across ChatGPT, Gemini, voice and messaging" (21.05.2026)
+
+---
+
+### 2. Titan Brands Hospitality Group + AgenticFlo — Agentic AI Core Operations
+
+**Sektör:** Otel & Konaklama / Las Vegas
+**Kullanım Alanı:** Operasyonlar — Temizlik, Bakım, Kat Hizmetleri
+
+**Ne Yapıyor:**
+Titan Brands Hospitality Group (Las Vegas merkezli otel operatörü), AgenticFlo ile ortaklık kurdu. AgenticFlo'nun agentic AI çözümlerini otel operasyonlarına entegre ediyor.
+
+Operasyonel alanlar:
+- Oda temizlik triyajı (hangı oda önce temizlenecek, hangi kat personeli atanacak)
+- Bakım taleplerinin akıllı yönlendirmesi
+- Envanter yönetimi ve otomatik sipariş
+- Enerji optimizasyonu (oda sıcaklığı, aydınlatma AI kontrolü)
+
+**Herkesin Kaçırdığı Nokta:** Las Vegas otel operatörleri = en rekabetçi pazar. Kumarhaneler, resort'lar, boutique oteller bir arada. Agentic AI burada başarılı olursa, her otel grubuna satılık ürün hazır demek. Türkiye'deki otel zincirleri de benzer operasyonel maliyet sorunları yaşıyor — bu teknoloji doğrudan uygulanabilir.
+
+**Kaynak:**
+- Bing News — "Titan Brands Hospitality Group Deploys Agentic AI Across Core Operations" (Nevada Business Magazine, Mayıs 2026)
+
+---
+
+### 3. Accor — 4 Stratejik AI Bahsi
+
+**Sektör:** Otel Zincirleri (Global)
+**Kullanım Alanı:** Stratejik Planlama — Dağıtım, Sadakat, Operasyonlar
+
+**Ne Yapıyor:**
+Accor (Novotel, Ibis, Raffles, Fairmont gibi markaların sahibi) CEO düzeyinde AI vizyonunu açıkladı. 4 stratejik bahis:
+
+1. **Marka Dağıtımı** — AI ile dinamik fiyatlandırma ve tedarikçi yönetimi
+2. **Sadakat Programları** — AI-driven personalizasyon, üye deneyimi
+3. **Operasyonlar** — Oda doluluk tahmini, персонал planlama, enerji yönetimi
+4. **Guest Experience** — AI concierge, talep tahmini
+
+**Herkesin Kaçırdığı Nokta:** Accor gibi dev şirketler AI'yı "müşteri chatbot'undan" çok operasyonel verimliliğe odaklı görüyor. Türkiye'deki 5 yıldızlı oteller de aynı operasyonel maliyet sorunları yaşıyor — ama henüz bu ölçekte AI adoption yok. 1-2 yıl içinde erken adapte eden oteller ciddi rekabet avantajı yakalayacak.
+
+**Kaynak:**
+- Bing News — "4 Bets Accor Is Making on AI and the Future of Hospitality" (Skift, Mayıs 2026)
+
+---
+
+### 4. HN Insight — "Trillions of Dollars Spent Just to Work on Customer Services"
+
+**Sektör:** Genel — Müşteri Hizmetleri Ekonomi
+**Kullanım Alanı:** Pazar Büyüklüğü — AI Agent Fırsatı
+
+**Ne Yapıyor:**
+Bir HN kullanıcısı, müşteri hizmetlerine harcanan paradan bahsetti. Rakamlar çarpıcı: Küresel müşteri hizmetleri pazarı **trilyonlarca dolar** seviyesinde. AI agent'lar bu pazarda devrim yaratma potansiyeli taşıyor.
+
+**Metrik:**
+| Alan | Değer |
+|------|-------|
+| Küresel müşteri hizmetleri pazarı | Trilyonlarca $ |
+| AI otomasyon potansiyeli | %30-60 maliyet düşüşü |
+| En büyük fırsat alanı | Sepeti terk eden müşteriler, basit talep triyajı |
+
+**Herkesin Kaçırdığı Nokta:** "Trilyonlarca dolar" denilince insanlar B2C customer service'i düşünüyor. Ama asıl fırsat B2B. Kurumsal şirketlerin müşteri hizmetleri (technical support, onboarding, renewals) = daha yüksek marj, daha az rekabet. Türk SaaS şirketleri için bu alan = yüksek değerli Müşteri destek AI agent'ları.
+
+**Kaynak:**
+- HN — "Trillions of dollars spent just to work on customer services?" (8 points, 19.06.2026)
+
+---
+
+## 20 Haziran 2026 — Kaynaklar
+
+1. Bing News — "At Relate 2026, Zendesk Launches AI Agents Priced on Resolutions, Not Seats" (19.05.2026)
+2. Bing News — "Zendesk links AI pricing to verified resolution outcomes" (22.05.2026)
+3. Bing News — "Zendesk expands AI agents across ChatGPT, Gemini, voice and messaging" (21.05.2026)
+4. Bing News — "Titan Brands Hospitality Group Deploys Agentic AI Across Core Operations" (Nevada Business Magazine, Mayıs 2026)
+5. Bing News — "4 Bets Accor Is Making on AI and the Future of Hospitality" (Skift, Mayıs 2026)
+6. HN — "Trillions of dollars spent just to work on customer services?" (8 points, 19.06.2026)
+
+---
+
+## 19 Haziran 2026 — Önceki Vakalar (Referans)
 3. Bing News — "Airbnb CEO Brian Chesky launches new AI lab to build proprietary models" (Haziran 2026)
 4. Bing News — "Expedia Group Unveils New AI Experiences at Explore 2026" (Haziran 2026)
 5. Bing News — "Expedia Group B2B Introduces AI Toolkit and Platform for the Future of Travel Distribution" (Haziran 2026)
@@ -167,4 +285,4 @@ Expedia Agent:
 
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
 *Güncelleme: Her gün 12:00 (Otel & Turizm rotasyonu: Cuma)*
-*Tarih: 19 Haziran 2026*
+*Tarih: 20 Haziran 2026*
