@@ -1,55 +1,29 @@
-# Wes Roth — Son Videolar Ozeti
+# Wes Roth — Son Videolar Özeti (19 Haziran 2026)
 
-_Tarih: 20 Jun 2026 00:21_
+**Kanal:** @WesRoth | 320B abone
 
+## Son 5 Video
 
-## Son 10 Video
+| Tarih | Başlık | Görüntülenme |
+|-------|--------|-------------|
+| 2026-06-18 | Google's SHOCKING "POST AGI" paper... | 72.9K |
+| 2026-06-16 | here's REALLY WHY Fable 5 got banned | 46.5K |
+| 2026-06-13 | Claude Fable JUST got BANNED... | 65.6K |
+| 2026-06-11 | HeyGen AI video generator just changed the game... | 28.3K |
+| 2026-06-10 | Fable JUST made EVERYONE MAD... | 71.5K |
 
-**1. Google's SHOCKING "POST AGI" paper...**
-- Tarih: 18 Jun 2026 | Gorüntülenme: 69K
-- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+## Genel Değerlendirme
 
-**2. here's REALLY WHY Fable 5 got banned**
-- Tarih: 16 Jun 2026 | Gorüntülenme: 46K
-- Aciklama: Try Genspark here:...
+Wes Roth bu hafta ağırlıklı olarak **Fable/Mythos yasağı** ve **Google'un "Post AGI" paper'ı** üzerine içerik üretti. 3 video Fable yasağı etrafında (toplam 183K görüntülenme), 1 video Google'un AGI sonrası vizyon paper'ı (72.9K). HeyGen videosu (28.3K) video AI üretimi için ilgi çekici. Wes Roth, OpenAI, Google, Anthropic, NVIDIA ve open-source AI haberlerini takip eden teknik izleyici kitlesine hitap ediyor.
 
-**3. Claude Fable JUST got BANNED...**
-- Tarih: 13 Jun 2026 | Gorüntülenme: 66K
-- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
+## Odak Konuları
+- **Fable/Mythos 5 Yasağı**: AI yaratıcı araçlarındaki içerik politikası tartışması
+- **Google Post-AGI Paper**: AGI sonrası AI vizyonu ve gelecek senaryoları
+- **HeyGen**: Video AI üretiminde yeni gelişmeler
+- **AI Ekosistem Haberleri**: OpenAI, Anthropic, DeepMind, NVIDIA
 
-**4. HeyGen AI video generator just changed the game...**
-- Tarih: 11 Jun 2026 | Gorüntülenme: 28K
-- Aciklama: Try HeyGen here: https://www.heygen.com/?sid=rewardful&utm_content=creator&utm_medium=influencera&via=wes-roth...
+## Herkesin Kaçırdığı Nokta
+Google'un "Post AGI" paper'ı aslında AGI'ın ne zaman geleceğinden ziyade **AGI sonrası dünyada AI'ın nasıl evrileceği** üzerine bir düşünce deneyi. Bu paper, AI güvenliği ve alignment araştırmacıları için kritik ama mainstream AI medyası bunu "AGI geliyor!" başlığıyla yanlış yorumluyor.
 
-**5. Fable JUST made EVERYONE MAD...**
-- Tarih: 10 Jun 2026 | Gorüntülenme: 72K
-- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
-
-**6. Mythos 5 is WILD...**
-- Tarih: 09 Jun 2026 | Gorüntülenme: 70K
-- Aciklama: LINKS etc: https://natural20.beehiiv.com/p/mythos-5-just-got-released...
-
-**7. Anthropic Calls for "Global AI Pause"**
-- Tarih: 05 Jun 2026 | Gorüntülenme: 47K
-- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
-
-**8. Microsoft JUST BROKE OpenAI...**
-- Tarih: 03 Jun 2026 | Gorüntülenme: 59K
-- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
-
-**9. GPT-5.6 about to DROP**
-- Tarih: 01 Jun 2026 | Gorüntülenme: 50K
-- Aciklama: The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Googl...
-
-**10. Ghost AI let's AI Agents build disposable worlds**
-- Tarih: 29 May 2026 | Gorüntülenme: 17K
-- Aciklama: Try it at:  https://b.link/wes-roth-ghost...
-
-
-## AI Otomasyon Iliskili Videolar
-
-- **Google's SHOCKING "POST AGI" paper...** (18 Jun 2026)
-- **here's REALLY WHY Fable 5 got banned** (16 Jun 2026)
-- **Claude Fable JUST got BANNED...** (13 Jun 2026)
-- **HeyGen AI video generator just changed the game...** (11 Jun 2026)
-- **Fable JUST made EVERYONE MAD...** (10 Jun 2026)
+## LinkedIn Post Fikri
+> "Google'un 'Post AGI' paper'ı AGI'ın ne zaman geleceğini değil, AGI SONRASI dünyayı tartışıyor. Bu ayrım kritik — çoğu haber bunu 'AGI geliyor!' olarak lanse etti. Gerçek mesaj: AGI'a ulaştığımızda AI nasıl evrilecek? #GoogleDeepMind #AGI #AISafety"

@@ -1,55 +1,26 @@
-# Nate Herk — Son Videolar Ozeti
+# Nate Herk — Son Videolar Özeti (19 Haziran 2026)
 
-_Tarih: 20 Jun 2026 00:20_
+**Kanal:** @nateherk | 812B abone
 
+## Son 5 Video
 
-## Son 10 Video
+| Tarih | Başlık | Görüntülenme |
+|-------|--------|-------------|
+| 2026-06-19 | Finally. Agent Loops Clearly Explained. | 12.7K |
+| 2026-06-18 | GLM 5.2 in Claude Code is Blowing My Mind | 75.5K |
+| 2026-06-18 | How to Build Effective Claude Code Agents in 2026 | 23.9K |
+| 2026-06-17 | Every Level of a Claude Second Brain Explained | 61.8K |
+| 2026-06-16 | We Might Actually Need to Stop AI | 36.6K |
 
-**1. Finally. Agent Loops Clearly Explained.**
-- Tarih: 19 Jun 2026 | Gorüntülenme: 6K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=agent-loops-explained&hcategory=youtube-videos&utm_campaign=free-group...
+## Genel Değerlendirme
 
-**2. GLM 5.2 in Claude Code is Blowing My Mind**
-- Tarih: 18 Jun 2026 | Gorüntülenme: 69K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=glm-5.2-claude&hcategory=youtube-videos&utm_campaign=free-group...
+Nate Herk bu hafta **agent loop** kavramını derinlemesine açıklayan videolar ve Claude Code + GLM 5.2 entegrasyonu üzerine yoğunlaştı. "Agent Loops" videosu 12 Haziran'da yayınlandı ve 12.7K görüntülenme aldı — nispeten düşük ama teknik içerik için normal. GLM 5.2 videosu ise 75.5K görüntülenme ile açık ara en popüler video — Claude Code'da yeni model performansı izleyicilerin ilgisini çekiyor. "Second Brain" videosu 61.8K ile güçlü performans gösteriyor.
 
-**3. How to Build Effective Claude Code Agents in 2026**
-- Tarih: 18 Jun 2026 | Gorüntülenme: 22K
-- Aciklama: Code NATEHERKB2 for 15% for Biz+ for 1 month or year (exp Jul 18): https://clickup.com/...
+## Odak Konuları
+- **Agentic AI**: Agent loop'ların açıklanması, Claude Code agent'ları oluşturma
+- **Model Entegrasyonu**: GLM 5.2 / Claude Code kombinasyonu
+- **İkinci Beyin**: Claude tabanlı bilgi yönetimi sistemleri
+- **AI Etiği**: "Durdurmamız Gerekebilir" tartışması
 
-**4. Every Level of a Claude Second Brain Explained**
-- Tarih: 17 Jun 2026 | Gorüntülenme: 60K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=second-brain-levels&hcategory=youtube-videos&utm_campaign=free-group...
-
-**5. We Might Actually Need to Stop AI**
-- Tarih: 16 Jun 2026 | Gorüntülenme: 36K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=pause-ai-june-26&hcategory=youtube-videos&utm_campaign=free-group...
-
-**6. Learn These 6 AI Skills Now (Before AI Replaces You)**
-- Tarih: 15 Jun 2026 | Gorüntülenme: 64K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=6-AI-Skills&hcategory=youtube-videos&utm_campaign=free-group...
-
-**7. Claude Fable 5 Made This Entire Video By Itself.**
-- Tarih: 12 Jun 2026 | Gorüntülenme: 129K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=fable-made-this&hcategory=youtube-videos&utm_campaign=free-group...
-
-**8. From Zero to Head of AI in 1 Year (as a regular person)**
-- Tarih: 12 Jun 2026 | Gorüntülenme: 19K
-- Aciklama: $1000 Free Hyperagent Credits (limited): https://www.hyperagent.com/nate...
-
-**9. I Turned Claude Into the Ultimate Second Brain**
-- Tarih: 09 Jun 2026 | Gorüntülenme: 282K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=claude-fable-second-brain&hcategory=youtube-videos&utm_campaign=free-group...
-
-**10. Claude Mythos is Finally Here.**
-- Tarih: 09 Jun 2026 | Gorüntülenme: 99K
-- Aciklama: My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=claude-fable-5&hcategory=youtube-videos&utm_campaign=free-group...
-
-
-## AI Otomasyon Iliskili Videolar
-
-- **Finally. Agent Loops Clearly Explained.** (19 Jun 2026)
-- **GLM 5.2 in Claude Code is Blowing My Mind** (18 Jun 2026)
-- **How to Build Effective Claude Code Agents in 2026** (18 Jun 2026)
-- **Every Level of a Claude Second Brain Explained** (17 Jun 2026)
-- **We Might Actually Need to Stop AI** (16 Jun 2026)
+## Herkesin Kaçırdığı Nokta
+GLM 5.2'nin Claude Code'da "BLOWING MINDS" demesinin arkasındaki sebep muhtemelen **context window yönetimi** — agent'lar arası geçişlerde modelin UZUN konuşma geçmişlerini daha verimli işlemesi. Bu, çoklu-agent sistemleri için kritik ama kimse bunu doğrudan konuşmuyor.
