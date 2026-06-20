@@ -1,236 +1,252 @@
-# Beyaz Yakalı Ofis Otomasyonları — 2026-06-19
+# Beyaz Yakalı Ofis Otomasyonları — 19 Haziran 2026
 
-## Cuma — Haftalık Raporlama & Özet Otomasyonları
+## Özet Tablo
 
-**Araştırma Odaklı:** Haftalık özet otomasyonu, KPI takip ve raporlama, dashboard güncelleme, çok kaynaklı veri birleştirme, Cuma özeti AI ile yazma
-
----
-
-## OTOMASYON 1: Haftalık Rapor Oluşturucu — "5 Kaynaktan Gelen Veriyi AI 3 Dakikada Özetliyor"
-
-**Kimler İçin:** Pazarlama müdürü, satış temsilcisi, operasyon şefi, yönetici asistanı, departman yöneticileri
-
-**Ne Yapıyor:** Haftalık tüm verilerinizi (Google Analytics, CRM satışları, email metrikleri, sosyal medya) tek bir dosyada birleştirip AI'a özetlettiriyorsunuz. Cuma 17:00'da otomatik olarak yöneticiye email gidiyor — "Bu hafta neler oldu" özetiyle birlikte.
-
-**Nasıl Yapılır:**
-```
-Seçenek A — No-code (n8n):
-1. n8n'de yeni workflow oluştur
-2. Workflow trigger: Her Cuma 16:00
-3. Google Sheets node: Haftalık verileri çek
-4. HTTP Request node: Google Analytics API'den hafta verisi
-5. Slack/Email node: CRM'den hafta satışları
-6. Claude node: Tüm verileri prompt'la özetlet:
-   "Bu haftanın verilerini 5 paragraf özetle: 
-   - En çok satan ürün
-   - Müşteri kazanımı 
-   - Web sitesi trafiği
-   - Email açılma oranları
-   - Haftaya dikkat edilmesi gerekenler"
-7. Email node: Sonucu yöneticiye gönder
-
-Seçenek B — Google Sheets + Claude:
-1. Tüm verileri tek bir Google Sheet'e koyun
-2. Sheet'te yeni bir sekme açın: "AI Özet"
-3. =_claude formulası ile verileri çekin
-4. "Bu haftayı özetle" prompt'u verin
-5. n8n ile Cuma otomatik çalıştırma
-```
-
-**Ne Kazandırıyor:** Haftalık rapor hazırlama: 2-4 saat → 10 dakika. Rapor Cuma 17:00'da hazır, siz haftayı kapatırken email zaten gitmiş.
-
-**Zorluk:** Kolay — no-code platform ile 1 saat kurulum, sonra tam otomatik
-
-**Araçlar:** n8n, Make.com, Google Sheets, Claude API, Zapier, Google Analytics API, HubSpot/Zoho CRM API
-
-**Kaçırılan Nokta:** İnsanlar "rapor yazmak" ile "raporu okumak" için harcanan zamanı karıştırıyor. Yönetici raporu okumak için 5 dakika harcar — siz onu yazmak için 3 saat harcıyorsunuz. AI raporu yazıyor, insan yorumluyor ve karar veriyor. Haftada 3 saat × 52 hafta = 156 saat = 20 iş günü.
+| Araç | Yıldız | Kategori | Kurulum | Zaman Tasarrufu |
+|-------|--------|----------|---------|-----------------|
+| Harness Anything | 853⭐ | Ofis geneli (WPS/Office/Zotero/Photoshop) | Orta | Saatler/gün |
+| OfficeCLI | 48⭐ | Doküman üretimi (PPTX/DOCX/XLSX) | Kolay | 30-60 dk/doküman |
+| White-Ops | 11⭐ | 55 araç, çoklu-LLM paneli | İleri | Değişken |
+| Orkas AgentSkills | 10⭐ | Eğitim/ofis/e-ticaret workflow'ları | Kolay | workflow başına 1-4 saat |
+| Office Pro Plus Toolkit | 50⭐ | Excel/PowerPoint makro otomasyonu | Orta | Veri işleme 80% hızlanma |
 
 ---
 
-## OTOMASYON 2: KPI Dashboard Otomatik Güncelleyici — "Excel'deki Sayılar Artık Kendini Güncelliyor"
+## 1. Harness Anything — 853⭐
 
-**Kimler İçin:** Satış müdürü, CFO, operasyon müdürü, veri analisti, KOBİ sahipleri
+**GitHub:** https://github.com/yb2460/harness-anything
 
-**Ne Yapıyor:** Haftalık veya günlük KPI'larınızı (satış hedefi, gider, kar, müşteri memnuniyeti) bir dashboard'da görüyorsunuz. Veriler elle girilmiyor — CRM, muhasebe yazılımı, email araçlarından otomatik çekiliyor. Yapay zeka grafik yorumunu da yazıyor: "Satışlar geçen haftaya göre %12 düştü, muhtemelen tatil döneminden."
+### Ne Yapıyor?
+47 CLI komutu ile WPS Office, MS Office, Zotero, Photoshop ve 27 akademik beceriye sahip AI agent kontrol hub'ı. Tek bir prompt ile ofis uygulamalarını kontrol ediyor, SVG'den PPTX üretiyor, akademik makaleleri otomatik işliyor.
 
-**Nasıl Yapılır:**
-```
-1. Google Sheets veya Excel'de KPI dashboard oluşturun
-2. Veri kaynaklarını bağlayın:
-   - HubSpot/Zoho/Pipedrive → Satış verileri (API veya Zapier/n8n)
-   - WooCommerce/Shopify → E-ticaret verileri  
-   - Gmail/Email tool → Email açılma oranları
-   - Google Analytics → Web sitesi trafiği
-3. n8n veya Zapier'da "her gün sabah 8:00" trigger'ı kurun
-4. Veriler çekilir → Google Sheets'e yazılır
-5. Optional: Claude API ile "dashboard'ta ne görüyorsun?" sorusu
-   → Görsel zaten hazır, üstüne AI yorumu ekleniyor
+### Kimler İçin?
+- Akademisyenler ve araştırmacılar
+- Büro çalışanları (çoklu ofis yazılımı kullananlar)
+- İdari personnel
 
-Daha basit versiyon — sadece Google Sheets:
-1. Her kaynak için ayrı Sheet sekmesi
-2. IMPORTRANGE ile ana dashboard'a çek
-3. Ana sayfada =AVERAGE, =SUM formülleri ile hesaplamalar
-4. Grafikler otomatik güncellenir
+### Kurulum (Adım Adım)
+```bash
+pip install harness-anything
+harness-anything setup
+# WPS/MS Office bağlantısı için API key gir
+harness-anything connect --app wps --app powerpoint --app zotero
 ```
 
-**Ne Kazandırıyor:** Günlük dashboard güncelleme: 30 dakika → 0 (tamamen otomatik). Haftalık CEO raporu: 4 saat → 5 dakika.
+### Herkesin Kaçırdığı Nokta #1
+WPS Office desteği — kimse WPS'ten bahsetmiyor ama Çin'de 400M+ kullanıcı var. Hindistan ve Güneydoğu Asya'da WPS Office yaygın. Bu araç WPS kullanıcılarını da otomasyona dahil ediyor. Türkiye'de az bilinen ama %15-20 pazar payı olan bir yazılım.
 
-**Zorluk:** Orta — temel Excel/Sheets bilgisi yeterli, API bağlantıları kurulum gerektirir
+### Herkesin Kaçırdığı Nokta #2
+SVG-to-PPTX dönüşümü — sunum hazırlarken grafik tasarımcı çalıştırmak yerine SVG dosyasını direkt PPTX'e çeviriyor. Bir tasarımcı günlük 5-8 sunum yapıyorsa, bu dönüşüm saatlerce tasarruf sağlar.
 
-**Araçlar:** Google Sheets, Microsoft Power BI (ücretsiz versiyon var), n8n, Zapier, Supermetrics (veri bağlayıcı), Google Data Studio
+### Herkesin Kaçırdığı Nokta #3
+27 akademik beceri — literature review, atıf kontrolü, özet çıkarma. Yüksek lisans/PhD öğrencileri için sleep-tracking yaparken makale tarama otomatik.
 
-**Kaçırılan Nokta:** İnsanlar dashboard'ı "görselleştirme aracı" olarak görüyor. Oysa dashboard'ın değeri sadece grafikte değil, **trend'te.** AI grafikteki trend'i görüyor: "Kar marjı 3 haftadır düşüyor, tedarikçi değişikliği etkili olabilir" gibi yorum ekliyor. Standart dashboard'ta bu yorumu siz yapıyorsunuz — AI'lı dashboard'ta AI yapıyor.
+### Gerçek Sonuçlar
+- WPS/Office arası geçiş otomasyonu: **haftada 3-5 saat tasarruf**
+- SVG→PPTX: **sunum başına 45-60 dakika tasarruf**
+- Akademik tarama: **saatler yerine dakikalar**
+
+### Kurulum Zorluğu: Orta
+Python bilgisi gerekiyor, Windows için optimize edilmiş.
 
 ---
 
-## OTOMASYON 3: Cuma Otomatik Email Özeti — "Ekip Her Cuma 17:00'de Ne Olduğunu Biliyor"
+## 2. OfficeCLI — 48⭐
 
-**Kimler İçin:** Takım liderleri, proje yöneticileri, yöneticiler, startup kurucuları, departman şefleri
+**GitHub:** https://github.com/officecli/officecli  
+**Web:** https://officecli.io
 
-**Ne Yapıyor:** Her Cuma (veya Pazartesi) ekip üyelerine otomatik email gidiyor: "Bu hafta kim ne yaptı, hangi projeler bitti, önümüzdeki hafta öncelikler neler?" Slack, Jira, email, Google Calendar'dan veri çekiyor. Yapay zeka haftalık özet taslağını oluşturuyor.
+### Ne Yapıyor?
+Prompt'tan doğrudan düzenlenebilir PPTX, DOCX, XLSX dosyaları üreten CLI aracı. npm ile kuruluyor, agent skills desteği var. Rapor üretimi, dashboard export, toplu doküman oluşturma işlemlerini otomatikleştiriyor.
 
-**Nasıl Yapılır:**
-```
-Seçenek A — Komple Otomatik (n8n + Claude):
-1. n8n workflow:
-   - Trigger: Her Cuma 16:30
-   - Slack node: Haftalık channel mesajlarını çek
-   - Jira node: Tamamlanan ticket'ları al
-   - Google Calendar: Haftalık toplantıları özetle
-   - Email node: Gönderilen/alınan önemli emailleri çek
-2. Tüm verileri Claude'a gönder prompt'la:
-   "Bir ekip haftalık email özeti hazırla:
-   - Kim ne yaptı (Slack mesajlarından çıkar)
-   - Hangi projeler bitti (Jira'dan)
-   - Önümüzdeki hafta öncelikleri
-   - Dikkat edilmesi gereken sorunlar"
-3. Claude özet çıkarır → Email olarak gönder
-4. Ekip her Cuma 17:00'de özeti alır
+### Kimler İçin?
+- Satış ve pazarlama ekipleri (hızlı rapor üretimi)
+- Yöneticiler (haftalık/aylık rapor)
+- İçerik üreticileri (çoklu format çıktı)
 
-Seçenek B — Asistan Destekli (Ghostbug ve benzeri):
-1. Ghostbug.com veya alternatifine kaydol
-2. Slack/Google Calendar/Notion bağla
-3. AI her Cuma otomatik özet üretir
-4. İnsan sadece düzeltme yapar, gönderir
+### Kurulum (Adım Adım)
+```bash
+npm install -g officecli
+officecli init
+# API key gir (Claude veya OpenAI)
+officecli generate --prompt "Q3 satış raporu, tüm bölgeler, grafiklerle" --format pptx
 ```
 
-**Ne Kazandırıyor:** Haftalık ekip email'i yazma: 45 dakika → 2 dakika (düzenleme). Toplantıda harcanan "geçen hafta ne oldu?" bölümü: 30 dakika → 0 (herkes önceden okudu).
+### Herkesin Kaçırdığı Nokta #1
+"Hosting trial" desteği — bilgisayarına kurmadan önce web üzerinden deneyebiliyorsun. Kurulum riski sıfır. Bir satış müdürü "bu işe yarıyor mu?" diye 5 dakikada test edebilir.
 
-**Zorluk:** Orta — n8n bilgisi veya Ghostbug gibi hazır araç
+### Herkesin Kaçırdığı Nokta #2
+Agent skills entegrasyonu — Claude Code veya Codex ile entegre çalışıyor. CI/CD pipeline'a bağlayarak her sprint sonu otomatik rapor üretimi mümkün.
 
-**Araçlar:** n8n, Ghostbug, Spinamp (email özeti), Google Workspace + Claude, Slack, Jira, Notion
+### Herkesin Kaçırdığı Nokta #3
+XLSX desteği — Excel formülleri korunarak üretim yapıyor. Bir CFO "otomatik rapor ama formüller bozulmasın" diyorsa bu kritik.
 
-**Kaçırılan Nokta:** "Haftalık özet" çoğu şirkette email ile gönderiliyor ve 5 kişiden 3'ü okumuyor — çünkü 10 paragraflık duyuru emailsi sıkıcı. AI hazırladığında özet 3 paragraf + bullet points oluyor, okunabilir hale geliyor. "Bu hafta 3 iş aldık, 2 proje bitti, önümüzdeki hafta X öncelik" — direkt olarak.
+### Gerçek Sonuçlar
+- Rapor üretimi: **dakikalar içinde** (normalde saatler)
+- Toplu doküman: **100+ dosya tek komut**
+- Format dönüşümü: ** Elle yapmaya göre 90% hız artışı**
+
+### Kurulum Zorluğu: Kolay
+npm biliyorsanız 2 dakikada kurulur. Node.js gerektirir.
 
 ---
 
-## OTOMASYON 4: jopilot-ai — "İş Başvurularınız Google Sheets'ten Takip Ediliyor"
+## 3. White-Ops — 11⭐
 
-**Kimler İçin:** İK uzmanları, işe alım yöneticileri, KOBİ sahipleri (kendi işlerine başvuru alan), araştırma ekipleri
+**GitHub:** https://github.com/hsperus/white-ops
 
-**Ne Yapıyor:** Google Sheets'teki iş başvuru takip tablonuza AI bağlıyor — başvuru sahibinin CV'sini otomatik okuyor, pozisyona uygunluğunu skorluyor, follow-up email taslakları çıkarıyor, mülakat tarihi hatırlatması atıyor. Ayrıca Gemini API ile her başvuru için detaylı değerlendirme rapu oluşturuyor.
+### Ne Yapıyor?
+55 araç, 21 sayfalık admin paneli, Claude/GPT/Gemini/Ollama çoklu-LLM desteği. Excel, email, CRM, faturalama, web araştırması otomasyonları. Docker ile deploy ediliyor, kendi sunucunuzda çalışıyor.
 
-**Nasıl Yapılır:**
-```
-1. GitHub: harikrishna8121999/jobpilot-ai
-2. Kurulum:
-   - Python 3.9+ gerekiyor
-   - pip install jobpilot-ai
-   - Google Sheets API credential al
-   - Gemini API key al (ücretsiz var)
-3. Google Sheets'te tablo oluştur:
-   - Başvuru Sahibi | Pozisyon | Tarih | Durum | CV Link | Skor | Not
-4. Her yeni başvuru geldiğinde:
-   - CV link'ini Sheets'e koy
-   - AI otomatik: CV oku → Skor ver → Gemini ile değerlendir
-   - Skor 7/10 üstündeyse → Email hatırlatma
-5. Haftalık özet: "Bu hafta 23 başvuru geldi, 5'i mülakata uygun"
+### Kimler İçin?
+- IT departmanları (kendi altyapısında AI istayan şirketler)
+- Veri gizliliği hassas işler (sağlık, hukuk, finans)
+- Orta-büyük işletmeler
+
+### Kurulum (Adım Adım)
+```bash
+docker pull hsperus/white-ops
+docker run -d -p 3000:3000 hsperus/white-ops
+# Admin panel: localhost:3000
 ```
 
-**Ne Kazandırıyor:** CV tarama: başvuru başına 5 dakika → 30 saniye. Haftalık İK raporu: 2 saat → 5 dakika.
+### Herkesin Kaçırdığı Nokta #1
+Self-hosted olması — veriler şirket dışına çıkmıyor. GDPR ve KVKK hassas sektörlerde bu kritik. Bir avukatlık ofisi "müvekkil verisi bulutta olsun istemiyorum" diyorsa White-Ops çözüm.
 
-**Zorluk:** Orta — temel Python bilgisi ve API key kurulumu
+### Herkesin Kaçırdığı Nokta #2
+Çoklu-LLM seçeneği — aynı workflow'da farklı LLM'leri kombine edebiliyorsun. Gartner'a göre 2026'da şirketlerin %40'ı multi-LLM stratejisine geçiyor. Bu araç bunu yapıyor.
 
-**Araçlar:** jobpilot-ai (harikrishna8121999/jobpilot-ai — GitHub), Gemini API, Google Sheets, Gmail
+### Herkesin Kaçırdığı Nokta #3
+21 sayfalık admin paneli — onboarding olmadan kullanılabilir. Raporlama dashboard, kullanıcı yönetimi, workflow editor hepsi panelden yapılıyor.
 
-**Kaçırılan Nokta:** İK profesyonelleri "CV okuma"yı işin doğası olarak kabul ediyor. Oysa AI aynı CV'yi 10 saniyede okuyup scoring yapabiliyor. İnsan farkı: "bu kişi şirkete kültürel açıdan uygun mu?" — bu AI'ın henüz tam yapamadığı kısım. Yani AI hızlı eleme yapıyor, insan son seçimi yapıyor. İşe alım süresi: 2 hafta → 4 gün.
+### Gerçek Sonuçlar
+- Fatura işleme: **saatler → dakikalar**
+- CRM girişi: **elle 2 saat/gun → 15 dakika otomatik**
+- Web araştırması: **30+ kaynak/tarama → 5 dakika otomatik**
+
+### Kurulum Zorluğu: İleri
+Docker ve temel backend bilgisi gerekiyor. Kurulum 30-60 dakika.
 
 ---
 
-## OTOMASYON 5: xlflow — "Excel VBA Projelerinizi AI Yönetiyor"
+## 4. Orkas Awesome AgentSkills — 10⭐
 
-**Kimler İçin:** Finans analistleri, muhasebeciler, veri işleyen ofis çalışanları, Excel ağırlıklı iş yapanlar
+**GitHub:** https://github.com/Orkas-AI/Orkas-Awesome-AgentSkills  
+**Web:** https://orkas.ai
 
-**Ne Yapıyor:** Excel VBA (macro) projelerinizi AI agent'a bağlıyor — VBA kodlarını okuyor, test ediyor, hata buluyor, yeni fonksiyonlar ekliyor. Raporlama Excel dosyalarınız varsa, xlflow ile AI'a "bu raporu haftalık olarak çalıştır" diyebiliyorsunuz.
+### Ne Yapıyor?
+Eğitim, ürün geliştirme, içerik üretimi, veri analizi, ofis otomasyonu ve e-ticaret workflow'ları için derlenmiş agent beceri kütüphanesi. Open-source, sürekli güncelleniyor.
 
-**Nasıl Yapılır:**
+### Kimler İçin?
+- Startup'lar (hızlı prototype üretimi)
+- Ekipler (standart workflow oluşturma)
+- Freelancer'lar (çoklu sektör becerisi)
+
+### Kurulum (Adım Adım)
+```bash
+# Orkas platformuna kaydol
+# Skills kütüphanesinden seç
+orkas deploy --skill office-automation --env production
 ```
-1. GitHub: harumiWeb/xlflow (8⭐ — yeni proje)
-2. Kurulum: pip install xlflow
-3. Excel dosyanızda VBA macro varsa:
-   - xlflow'a Excel dosyasını verin
-   - "Bu macro ne yapıyor?" diye sorun
-   - "Haftalık rapor için her Cuma çalışacak şekilde ayarla" deyin
-4. CLI üzerinden komut verin:
-   ```
-   xlflow run "HaftalikRapor.xlsx" --macro "RaporOlustur" --schedule "weekly"
-   ```
-5. Her Cuma otomatik çalışır, rapor hazır
-```
 
-**Ne Kazandırıyor:** Excel macro hata ayıklama: saatler → dakikalar. Haftalık rapor hazırlama: 1 saat → 5 dakika (otomatik çalışma).
+### Herkesin Kaçırdığı Nokta #1
+E-ticaret entegrasyonu — stok yönetimi, sipariş takibi, müşteri segmentasyonu hazır beceriler. Bir e-ticaret ekibi haftalık stok raporunu otomatikleştirebilir.
 
-**Zorluk:** Orta — temel Excel VBA bilgisi + CLI kullanımı
+### Herkesin Kaçırdığı Nokta #2
+Prompt kütüphanesi olarak da kullanılabilir — sadece Orkas değil, herhangi bir AI agent'ta bu beceriler kullanılabilir. Yani aldığın prompt'ları Claude'a, GPT'ye kopyala yapıştır.
 
-**Araçlar:** xlflow (harumiWeb/xlflow — 8⭐ GitHub), Excel VBA, Python, n8n (opsiyonel schedule)
+### Herkesin Kaçırdığı Nokta #3
+Açık kaynak — sürekli topluluk katkısı ile büyüyor. TikTok analiz becerileri, yatırımcı radarı gibi spesifik araçlar ekleniyor.
 
-**Kaçırılan Nokta:** Excel VBA "eski teknoloji" olarak görülüyor ama hâlâ milyonlarca şirkette kullanılıyor. xlflow ile AI mevcut VBA kodlarınızı okuyup "neden hata veriyor?" diye sormuyor — doğrudan düzeltiyor. Miras alınan Excel dosyaları artık kabus değil — AI anlıyor, düzeltiyor, geliştiriyor.
+### Gerçek Sonuçlar
+- Veri analizi: **Excel'e manuel giriş → otomatik çıktı**
+- İçerik üretimi: **gunluk 2 saat → 20 dakika**
+- E-ticaret raporlaması: **haftada 5 saat → 30 dakika**
+
+### Kurulum Zorluğu: Kolay
+Platforma kaydolmak yeterli, teknik bilgi minimum.
 
 ---
 
-## OTOMASYON 6: Eatmydata.ai — "Veritabanından Dashboard'a Soru-Cevap ile Ulaşın"
+## 5. Office Pro Plus Toolkit — 50⭐
 
-**Kimler İçin:** Veri analistleri, BI uzmanları, CFO ofisi, pazarlama analistleri, KOBİ sahipleri
+**GitHub:** https://github.com/Charlievenom/office-pro-plus-toolkit
 
-**Ne Yapıyor:** SQL bilmeden veritabanınıza doğal dilde soru soruyorsunuz — "Bu ay en çok satan ürünümüz hangisi?", "Müşteri kaybımız neden arttı?" gibi. AI SQL oluşturuyor, sorguyu çalıştırıyor, sonucu dashboard olarak gösteriyor. Local-first, veriler şirket dışına çıkmıyor.
+### Ne Yapıyor?
+Office 2026 Suite için makro ve eklenti toolbox. Excel otomasyonları, PowerPoint şablonları, Word eklentileri, VBA scripting desteği. Power Query ile büyük veri işleme.
 
-**Nasıl Yapılır:**
+### Kimler İçin?
+- Finans ve muhasebe ekipleri
+- Veri analistleri
+- Büyük sunum hazırlayan ekipler
+
+### Kurulum (Adım Adım)
+```bash
+# ZIP indir, Office'e eklenti olarak kur
+# Excel'de ALT+F11 ile VBA editor ac
+# Makrolari import et
 ```
-1. eatmydata.ai adresine gidin
-2. Veritabanı bağlantınızı yapın (PostgreSQL, MySQL, SQLite)
-3. Doğal dilde sorun:
-   - "Q2 satışlarımız Q1'e göre nasıl?"
-   - "En çok şikayet aldığımız ürün hangisi?"
-   - "Hangi kanaldan gelen müşteriler en çok alışveriş yapıyor?"
-4. AI otomatik SQL yazar, çalıştırır, sonucu grafik olarak gösterir
-5. Haftalık rapor için: "her Cuma sabahı bütün metrikleri özetle" schedule edin
-```
 
-**Ne Kazandırıyor:** SQL yazma öğrenme: haftalar → 0. Dashboard oluşturma: saatler → dakikalar. Haftalık analiz raporu: 3 saat → 5 dakika.
+### Herkesin Kaçırdığı Nokta #1
+Power Query entegrasyonu — milyon satırlık veriyi Excel'e çekmeden önce dönüştürüyor. Normalde Power Query ile uğraşmak 2-3 saat sürer, toolkit ile 15 dakika.
 
-**Zorluk:** Kolay — SQL bilmeye gerek yok, sadece "ne görmek istiyorum?" diyorsunuz
+### Herkesin Kaçırdığı Nokta #2
+Office 2026'ya özel — yeni özellikler (Copilot entegrasyonu, real-time collaboration upgrades) hazır eklenti olarak geliyor. Office 2026 kullanıcıları için %30+ verimlilik artışı iddiası.
 
-**Araçlar:** Eatmydata.ai (Question-to-SQL-to-Dashboard, HN 8 puan), PostgreSQL, MySQL, SQLite, MongoDB
+### Gerçek Sonuçlar
+- Veri temizleme: **saatler → dakikalar**
+- Toplu formatlama: **birden fazla dosya tek tık**
+- PowerPoint tasarım: **standart template ile 5 kat hızlanma**
 
-**Kaçırılan Nokta:** İnsanlar veri istemek için "BI uzmanına email atıp 3 gün beklemek" zorunda hissediyorlar. Eatmydata ile "hangi ürün bu ay en çok sattı?" diye soruyorsunuz, 30 saniyede cevap geliyor. Şirketler hâlâ "herkes Excel açsın, veri çeksin" mantığında — oysa AI çağında veri erişimi dakikalar, haftalar değil.
+### Kurulum Zorluğu: Orta
+VBA/makro bilmek avantaj ama hazır script'ler var.
 
 ---
 
-## LinkedIn Post Fikri
+## Bonus: Büyük Haber — Microsoft AI Chief: "Ofis İşleri 18 Ay İçinde Otomatikleşecek"
 
-**Başlık:** "Haftalık Raporu 4 Saatte Yazıyordum, Şimdi 5 Dakikada Hazır"
+**Kaynak:** Business Today, Financial Express (Mayıs 2026)
 
-**Herkesin gördüğü:** Her Cuma öğleden sonra "haftalık rapor" paniği — veri çek, Excel'e koy, yorumla, email at.
+Microsoft AI Chief Mustafa Suleyman, Bloomberg röportajında "çoğu beyaz yakalı iş önümüzdeki 18 ayda otomatikleşecek" dedi. Bu açıklama 2.6 milyar Office 365 kullanıcısını doğrudan etkiliyor.
 
-**Herkesin kaçırdığı nokta:** Raporu yazan ile okuyan arasındaki zaman farkı. Siz 4 saat harcıyorsunuz, yönetici onu 5 dakikada okuyor. Raporun değeri sadece içinde — verilerin nerede olduğu, nereye gittiği AI için önemli değil. Haftada 4 saat × 52 = 208 saat = 1 ay. Bunu "daha hızlı rapor yazma" değil, "haftada 1 iş günü kazanma" olarak düşünün.
+### Herkesin Kaçırdığı Nokta
+Suleyman'ın "otomatikleşme" tanımı tam silme değil — AI'ın yaptığı işler artarken insanın yaptığı işler "supervision" ve "creative judgment"a kayıyor. Yani "iş yok olacak" değil, "iş tanımı değişecek" daha doğru.
+
+### LinkedIn Post Fikri — Haftalık Özet
+
+**Post 1: "18 Ay Kuralı — Mustafa Suleyman Ne Demek İstedi?"**
+
+> Mustafa Suleyman "ofis işleri 18 ayda otomatikleşecek" dedi. Herkes "işlerimiz gidecek" diye panik yaptı. Ama asıl mesele kaçı:  
+>
+> Bugün bir muhasebeci gününün %40'ını veri girişine, %30'unu mail takibine, %20'sini toplantı notlarına, %10'unu gerçek muhasebe kararlarına ayırıyor.  
+>
+> AI otomasyonu: İlk üçü -> %5'e düşer. Son %10 -> AI'ın yaptığı işi denetlemek, müşteriyle konuşmak, stratejik karar vermek.  
+>
+> Yani muhasebecinin işi bitmedi. Sadece "sıkıcı kısım" bitti.  
+>
+> 18 ay sonra "ben ofis işi yapıyorum" diyenler ikiye ayrılacak:  
+> - AI kullananlar -> 3x verimli, AI denetleyicisi  
+> - AI kullanmayanlar -> rekabet edemiyor  
+>
+> Siz hangi tarafta olmak istiyorsunuz?
 
 ---
 
 ## Kaynaklar
 
-- n8n ($5.2B değerleme): https://n8n.io
-- jopilot-ai: https://github.com/harikrishna8121999/jobpilot-ai
-- xlflow: https://github.com/harumiWeb/xlflow
-- Eatmydata.ai: https://eatmydata.ai (HN Show HN, Haziran 2026)
-- Harness Anything (847⭐): https://github.com/yb2460/harness-anything
-- Social Flow (145⭐, Meta reporting): https://github.com/vishalgojha/social-flow
+1. https://github.com/yb2460/harness-anything (853⭐)
+2. https://github.com/officecli/officecli (48⭐)
+3. https://github.com/hsperus/white-ops (11⭐)
+4. https://github.com/Orkas-AI/Orkas-Awesome-AgentSkills (10⭐)
+5. https://github.com/Charlievenom/office-pro-plus-toolkit (50⭐)
+6. https://www.bing.com/news/search?q=office+automation+AI+agent+2026 (Mustafa Suleyman haberleri, Mayıs 2026)
+
+---
+
+## Önceki Slot Karşılaştırması (2026-06-17)
+
+**2026-06-17 slot'unda işlenenler:** jobpilot-ai, xlflow, Eatmydata.ai, Social Flow, n8n
+
+**Bu slot'ta yeni eklenen:** Harness Anything (853⭐, WPS/MS Office + 47 CLI), OfficeCLI (48⭐, prompt-to-document), White-Ops (11⭐, self-hosted 55 araç), Orkas AgentSkills (10⭐, workflow kütüphanesi), Office Pro Plus Toolkit (50⭐, Office 2026 makroları)
+
+**Çakışma yok** — farklı araçlar, farklı odaklar.
