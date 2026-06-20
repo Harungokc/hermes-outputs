@@ -1,0 +1,24 @@
+{
+  "scan_date": "2026-06-20T09:09:00+03:00",
+  "nate-herk": {
+    "newest_video_date": "2026-06-18",
+    "newest_video_id": "2OD14-0cot4",
+    "newest_video_title": "GLM 5.2 in Claude Code is Blowing My Mind",
+    "all_newest_ids": ["CvA8-aScqio", "2OD14-0cot4", "3XIGcM7VICc"],
+    "status": "no_new_videos_since_last_scan"
+  },
+  "matt-wolfe": {
+    "newest_video_date": "2026-06-17",
+    "newest_video_id": "_7BHqZayPOc",
+    "newest_video_title": "PewDiePie's FREE Odysseus AI (Full Review & Setup)",
+    "all_newest_ids": ["_7BHqZayPOc", "JH2ak7kS43E", "2lE1-5hBfKk"],
+    "status": "no_new_videos_since_last_scan"
+  },
+  "wes-roth": {
+    "newest_video_date": "2026-06-10",
+    "newest_video_id": "deFvnmibzow",
+    "newest_video_title": "Fable JUST made EVERYONE MAD...",
+    "all_newest_ids": ["deFvnmibzow", "kpKb7LI__78", "glonkx9ppz8"],
+    "status": "no_new_videos_since_last_scan"
+  }
+}
