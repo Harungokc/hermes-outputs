@@ -1,21 +1,33 @@
-# Wes Roth — Kanal Özeti
+# Wes Roth — YouTube Kanal Özeti
 
-**Son Tarama:** 20 Haziran 2026
+**Son Tarama:** 2026-06-20
 
-## Yeni Video (Bu Tarama)
-- **"Google's SHOCKING..."** — 18 Haziran 2026 — Google DeepMind'ın AGI'den ASI'ya (Artificial Super Intelligence) dört yol haritasını çizen çığır açıcı paper'ını işliyor.
+## Yeni Videolar (Son Taramadan Beri)
 
-## Son Videolar
+Yeni video yok. En son tarama tarihinden (2026-06-18) sonra yayınlanan video bulunamadı.
 
-| Tarih | Başlık |
-|-------|--------|
-| 18 Haz 2026 | Google's SHOCKING... ⭐ YENİ |
-| 16 Haz 2026 | here's REALLY WHY Fable 5 got banned |
-| 13 Haz 2026 | Claude Fable JUST got BANNED... |
-| 11 Haz 2026 | HeyGen AI video generator just changed the game... |
-| 10 Haz 2026 | Fable JUST made EVERYONE MAD... |
+---
 
-## Öne Çıkan Temalar
-- **Google DeepMind Paper (AGI → ASI):** AGI'nin bitiş çizgisi değil, başlangıç olduğu argümanı. Dört potansiyel scaling yolu, ASI sonrası ne olduğu bile tartışılıyor. AIXI (theoretical perfect agent) ve Legg-Hutter zeka ölçütü. Dijital zekanın biyolojik zekaya üstünlükleri (hız, ölçeklenebilirlik, substrate independence).
-- **Claude Fable 5 "Ban" Tartışması:** Mythos jailbreak, güvenlik kısıtlamaları, Anthropic'in modeli neden "banned" olarak etiketlendiği.
-- **HeyGen AI Video Generator:** Dijital Twin Avatar, 175+ dil çevirisi, video prodüksiyonunu dönüştüren araç.
+## Tüm Videolar (Son 30 Gün)
+
+| Tarih | Video |
+|-------|-------|
+| 2026-06-18 | OdlUXu2sAb4 |
+| 2026-06-16 | XtgEA4L7sIU |
+| 2026-06-13 | vM2At8Uqp2Y |
+| 2026-06-11 | NiY38aQQkqM |
+| 2026-06-10 | deFvnmibzow |
+| 2026-06-05 | 4rEgNiP5V2E |
+| 2026-06-03 | glonkx9ppz8 |
+| 2026-06-01 | cS0Tm6ddnsQ |
+| 2026-05-29 | hGCrvDDpl5w |
+| 2026-05-28 | F_6go08nHv4 |
+| 2026-05-27 | jZg1EkujbJ0 |
+| 2026-05-23 | DGw2KKyXuYQ, gCHEFZDPVYs |
+| 2026-05-21 | kpKb7LI__78 |
+| 2026-05-20 | cSZ-y49e5q8 |
+| 2026-05-18 | j-FWwcnDC9k |
+| 2026-05-14 | a8EfFGeY9S8 |
+| 2026-05-08 | Nn2eXwch-K0 |
+
+**Toplam:** 17 video (son 30 günde)

@@ -1,19 +1,30 @@
-# Matt Wolfe — Kanal Özeti
+# Matt Wolfe — YouTube Kanal Özeti
 
-**Son Tarama:** 20 Haziran 2026
+**Son Tarama:** 2026-06-20
 
-## Yeni Video Bu Tarama
-Bu taramada yeni video yok — en son video 10 Haziran (Fable 5 / Mythos videoları).
+## Yeni Videolar (Son Taramadan Beri)
 
-## Son Videolar
+### AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker (2026-06-19)
+Bu haftanın AI haberleri: Fable/Mythos yasağı, GLM-5.2 açık kaynak liderliği, Midjourney scanner, OpenAI Record/Replay, Adobe AI güncellemeleri.
 
-| Tarih | Başlık |
-|-------|--------|
-| 10 Haz 2026 | Why Everyone Is Freaking Out About Fable 5 (Mythos) |
-| 05 Haz 2026 | AI News: Microsoft Finally Reveals Their Plan! |
+**Öne Çıkan:** Fable/Mythos erişim yasağı ve geri dönüş sinyalleri
 
-## Öne Çıkan Temalar
-- **Claude Fable 5 (Mythos 5):** Anthropic'in yeni modeli — aynı beyin ama güvenlik kısıtlamalarıyla. $10/M input, $50/M output. Stripe 50M satır Ruby codebase'i 1 günde migration etti. Her şeyi tek seferde yapabiliyor (Minecraft clone, Pokemon clone, 3D city simulator).
-- **Fable vs Mythos Ayrımı:** Fable 5 = Mythos'un güvenlik kesilmiş hali. Tam Mythos sadece Glass-Wing partner'larına (siber güvenlik, hükümet) açık.
-- **Microsoft AI Saldırısı:** 7 yeni MAI modeli, Microsoft Scout kişisel agent, GitHub Copilot App, Project Solara, Mayo Clinic işbirliği, NVIDIA RTX Spark.
-- **Diğer Araçlar:** ChatGPT Memory Dreaming, Hermes Desktop App, Ideogram 4.0, Grok Imagine 1.5, Runway Aleph 2.0.
+---
+
+## Tüm Videolar (Son 30 Gün)
+
+| Tarih | Video |
+|-------|-------|
+| 2026-06-19 | **Db260rUuKJg** ⭐ YENİ |
+| 2026-06-17 | _7BHqZayPOc |
+| 2026-06-12 | nydHKXjwu0U |
+| 2026-06-05 | nz4h3H1MmTg |
+| 2026-05-29 | 7TG78vIYI-Q |
+| 2026-05-22 | kyOPFFy3I38 |
+| 2026-05-15 | Oy7tzmfbl64 |
+| 2026-05-13 | oxerUfMFuCU |
+| 2026-05-08 | SXneZ3bRKO4 |
+| 2026-05-06 | yke4fLQUsh4 |
+| 2026-05-01 | qDI4odijz44 |
+
+**Toplam:** 11 video (son 30 günde)

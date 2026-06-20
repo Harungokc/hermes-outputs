@@ -1,20 +1,32 @@
-# Nate Herk — Kanal Özeti
+# Nate Herk — YouTube Kanal Özeti
 
-**Son Tarama:** 20 Haziran 2026
+**Son Tarama:** 2026-06-20
 
-## Yeni Video (Bu Tarama)
-- **"Finally. Agent Loops Clearly Explained."** — 19 Haziran 2026 — Agent loop mühendisliğini net ve pratik şekilde açıklıyor: reason → act → observe → repeat döngüsü, doğrulama adımının mimariden daha önemli olduğu, "done" kriterini nasıl tanımlayacağın.
+## Yeni Videolar (Son Taramadan Beri)
 
-## Son Videolar
+### GLM 5.2 in Claude Code is Blowing My Mind (2026-06-18)
+GLM 5.2 — 756 milyar parametreli açık kaynak model — Claude Code'a 5 kat ucuza yönlendirilebiliyor. Opus'a göre çoğu bilgi işinde başarılı sonuçlar veriyor.
 
-| Tarih | Başlık |
-|-------|--------|
-| 19 Haz 2026 | Finally. Agent Loops Clearly Explained. ⭐ YENİ |
-| 16 Haz 2026 | We Might Actually Need to Stop AI |
-| 06 Haz 2026 | Is Claude Mythos Coming? |
+**Öne Çıkan:** Model switching per project kurulumu
 
-## Öne Çıkan Temalar
-- **Agent Loop Mühendisliği:** İnsanın yerini alan sistem tasarımı — agent'lara tek tek prompt yazmak yerine, onları yönlendiren loop'lar kurmak
-- **Doğrulama (Verification):** Loop'un en kritik parçası — agent'ın kendi çıktısını kontrol edebilmesi
-- **AI Duraksatma Tartışması:** Anthropic ve OpenAI'nin yavaşlatma çağrısı, kimin kazanacağı değil — şirket yerine kendi becerilerine yatırım yap
-- **Claude Mythos Söylentisi:** Anthropic API'sinde görülen Mythos identifier — gerçekten geliyor mu, yoksa capabilityler Opus'a mı gizlice katılıyor?
+---
+
+## Tüm Videolar (Son 30 Gün)
+
+| Tarih | Video |
+|-------|-------|
+| 2026-06-19 | EuzYhzB0vbI |
+| 2026-06-18 | **2OD14-0cot4** ⭐ YENİ |
+| 2026-06-17 | DTCyvo6cC54 |
+| 2026-06-16 | CvA8-aScqio |
+| 2026-06-15 | 3XIGcM7VICc |
+| 2026-06-12 | diY71x7GUjI |
+| 2026-06-09 | 8QQ_INxAhRs, dYrrEKXtttk |
+| 2026-06-08 | e18sdZLwP7o |
+| 2026-06-04 | c0kaKxM2pHg |
+| 2026-05-29 | 0WDkwMxj13s |
+| 2026-05-25 | 8ktcSaSTvxk |
+| 2026-05-21 | 6cEQEba0i2A |
+| 2026-05-19 | brB-hSiV2iU |
+
+**Toplam:** 14 video (son 30 günde)

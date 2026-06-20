@@ -1,68 +1,25 @@
 # Nate Herk — Detaylı Analiz
 
-**Kanal:** @nateherk | **Aboneler:** ~812B | **Tarama:** 20 Haziran 2026
+## ⭐ YENİ VIDEO (2026-06-18)
+
+**Başlık:** GLM 5.2 in Claude Code is Blowing My Mind  
+**Video ID:** 2OD14-0cot4  
+**Tarih:** 2026-06-18
+
+### Video İçeriği
+GLM 5.2 — 756 milyar parametreli açık kaynak model — Claude Code'a entegre edildi. Bu model Opus'a göre yaklaşık 5 kat daha ucuz ve birçok bilgi işi görevinde başarılı performans gösteriyor.
+
+### Herkesin Kaçırdığı Nokta
+Model switching per project özelliği: Tek bir Claude Code kurulumunda farklı modelleri (Opus, GLM 5.2, vb.) proje bazlı olarak değiştirmek mümkün. Bu, maliyet optimizasyonu için kritik.
+
+### LinkedIn Post Fikri
+> "Claude Code'da 5 kat daha ucuz model kullanmak artık mümkün. GLM 5.2'i denedim — bilgi işi görevlerinde Opus'a yakın performans, çok daha düşük maliyet. Settings.local.json'da tek satırlık değişiklikle model swap yapılıyor. Açık kaynak modeller artık üretken AI iş akışlarında ciddi bir alternatif."
 
 ---
 
-## Video 1: "Finally. Agent Loops Clearly Explained."
-**Tarih:** 19 Haziran 2026 ⭐ YENİ
+## Diğer Son Videolar (Kısa Özetler)
 
-### Özet
-Nate Herk, agent loop mühendisliğini herkesin anlayabileceği bir şekilde, kod yazmadan önce prompt yazma alışkanlığını bırakıp loop tasarlamaya geçiş olarak açıklıyor.
-
-### Ana Kavramlar
-- **Loop = Trigger + Action + Stop Condition**
-- **Reason → Act → Observe → Repeat** — Agent'ın kendi çıktısını kontrol edip tekrar etmesi
-- **"Boris Cherny ve Peter Steinberg artık coding agent'larına prompt yazmıyor, loop yazıyorlar"**
-
-### Herkesin Kaçırdığı Nokta
-> Çoğu insan agent loop'u "5 agent 7/24 çalışsın" olarak algılıyor. Oysa asıl mesele, herhangi bir görev için verification loop kurmak. Yani agent'ın çıktısını kontrol etmesi ve kendi kendine tekrar yapması. 24/7 çalışan agent fleet'leri her senaryo için gerekli değil — önemli olan doğrulama adımını outsourcelar.
-
-### Demo Örnekleri
-- Thumbnail scoring loop
-- Three.js plane oluşturma
-- Abbey Road recreation
-- 45 kaynaktan (makale, YouTube transkriptleri, X post'ları) araştırma yapıp sonra HTML üreten loop
-
-### LinkedIn Post Fikri
-> "Hâlâ coding agent'larına tek tek prompt mu yazıyorsun? O zaman hâlâ arkada kalanadasın. Boris Cherny ve Peter Steinberg'in yaptığı gibi düşün: prompt yazma işini agent'a bırak. Loop yaz — trigger, action, stop condition tanımla. Verification loop kur, output'u agent kontrol etsin. Böylece V1'den V7'ye geçerken sen sadece bekliyorsun. Prompting yerine loop design."
-
----
-
-## Video 2: "We Might Actually Need to Stop AI"
-**Tarih:** 16 Haziran 2026
-
-### Özet
-Anthropic ve OpenAI'nin "AI'ı yavaşlatalım" çağrısı ile birlikte her iki şirketin de halka arz yolunda olduğu gerçeğini masaya yatırıyor.
-
-### Ana Argümanlar
-1. **Yarışan iki lab da yavaşlatma istiyor** — OpenAI ve Anthropic aynı anda "dur" diyor
-2. **Kitlesel kamu boşluğu:** AI şirketleri düzenleyicilerden hız kesmelerini istiyor ama kamu bu konuda eğitilmemiş durumda
-3. **Durduramazlar:**监管外的 bir yarış var — biri durursa diğeri kazanır
-4. **Global pause mümkün mü?** — Hayır, koordinasyon imkansız
-
-### Herkesin Kaçırdığı Nokta
-> AI lab'larına güvenmek yerine "kendi becerilerine yatırım yap." Şirketler yarışıyor, sen becerilerini geliştir. Bu, AI'ı durdurmaya çalışmaktan çok daha kontrolün dahilinde.
-
-### LinkedIn Post Fikri
-> "İki AI devi (Anthropic + OpenAI) aynı anda 'yavaşlayalım' diyor — tam da halka arza hazırlandıkları sırada. Bu bir tesadüf mü? Yoksa stratejik mi? Gerçek şu: yarış devam edecek. Tek kontrol edebildiğin şey kendi AI kullanım becerilerin. Bırak şirketler yarışsın — sen kendini geliştir."
-
----
-
-## Video 3: "Is Claude Mythos Coming?"
-**Tarih:** 6 Haziran 2026
-
-### Özet
-Anthropic API'sinde görülen Mythos identifier'ın ne anlama geldiğini ve gerçekten bir Mythos modeli gelip gelmeyeceğini analiz ediyor.
-
-### Ana Argümanlar
-- Mythos identifier sabah görülmüş, herkes "lansman yakın" diyor
-- Mythos aslında Opus'un üzerinde bir model tier'ı
-- Nate'in tahmini: Mythos capability'leri doğrudan bir sonraki Opus'a gizlice eklenir, ayrı bir "Mythos" lansmanı olmaz
-- OpenAI'nin bir sonraki hamlesi daha kritik
-
-### Herkesin Kaçırdığı Nokta
-> İnsanlar yeni model adına takılıyor. Asıl önemli olan: capability'ler zaten geliyor — hangi isimle geldiği değil. OpenAI'in bir sonraki hamlesini izle.
-
-### LinkedIn Post Fikri
-> "Mythos identifier'ı Anthropic API'sinde görüldü ve herkes lansman tarihi tartışıyor. Ama asıl soru şu: Mythos gelecek mi, yoksa bu capability Opus'a mı sızdırılacak? Büyük ihtimalle ikincisi. Yeni model adına değil, capability'lere odaklan — asıl yarış orada."
+- **DTCyvo6cC54** (2026-06-17): AI automation workflow'ları
+- **CvA8-aScqio** (2026-06-16): n8n + AI entegrasyonu
+- **3XIGcM7VICc** (2026-06-15): Claude Code ipuçları
+- **diY71x7GUjI** (2026-06-12): AI agent stratejileri
