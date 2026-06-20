@@ -1,195 +1,123 @@
-# Teknoloji Haberleri — 19 Haziran 2026
+# Teknoloji Haberleri — 19 Haziran 2026 Cuma
 
-## 19 Haziran 2026 — Cuma (Haftalık Özet + Gelecek Hafta Beklentileri)
+## Özet
 
----
-
-## 📊 Bu Haftanın En Önemli 5 Gelişmesi
-
-### 1. Apple WWDC 2026: Siri Google Gemini ile Yeniden Doğdu (8 Haziran)
-**Apple, Haziran 2026'da en büyük WWDC'sini yaptı.** iOS 27, macOS Golden Gate ve en önemlisi: **Siri'nin Google Gemini destekli tam yeniden yapılanması**.
-
-**En büyük duyurular:**
-- iOS 27: Performans güncellemeleri, yeni AI özellikleri
-- Siri AI: Artık sadece Apple'ın kendi modelleri değil — **Google Gemini entegrasyonu** ile çok daha yetenekli
-- Xcode 27: AI kod asistanı geliştirmeleri
-- watchOS 27: Yeni AI destekli sağlık özellikleri
-- Apple Intelligence: Daha kişisel, daha context-aware
-
-**Herkesin Kaçırdığı Nokta #1 — "On-Device" model'si için donanım sınırı var**
-Apple'ın en gelişmiş on-device AI modeli **sadece belirli cihazlarda** çalışıyor. iPhone 14 Pro ve sonrası, M3 çipli Mac'ler — yani kullanıcıların büyük kısmı bulut tabanlı Gemini entegrasyonuna mecbur kalacak. Apple'ın "gizlilik" vurgusu ile gerçeklik arasındaki mesafe bu.
-
-**Herkesin Kaçırdığı Nokta #2 — Siri + Gemini = Apple'ın AI stratejisinin çöküşü mü zafer mi?**
-Apple'ın yıllardır kendi AI modellerini geliştirme stratejisi yerine Google ile ortaklık yapması, Apple'ın AI'da "geriden gelen" imajını pekiştiriyor. Ama aynı zamanda: 2 milyardan fazla Apple kullanıcısı Google Gemini'ye erişecek — bu Google için devasa bir dağıtım avantajı.
-
-**Kaynak:** [Apple WWDC 2026: All The Major Announcements](https://www.bing.com/news/search?q=Apple+WWDC+2026+announcements), [WWDC 2026: 10 Biggest Announcements](https://www.bing.com/news/search?q=WWDC+2026+10+biggest+announcements)
+| # | Haber | Kaynak |
+|---|-------|--------|
+| 1 | Apple WWDC 2026: Siri AI + iOS 27 duyurusu | Bing News |
+| 2 | Microsoft Build 2026: 7 büyük AI duyurusu + Mustafa Suleyman'ın açıklaması | Bing News |
+| 3 | Google Gemini kurucu araştırmacısı Noam Shazeer OpenAI'a geçiyor | Bing News |
+| 4 | Meta AI Mode Facebook'ta yayına girdi | Bing News |
+| 5 | DeepSeek $7.4 milyar yatırım aldı, $50B+ değerleme | Bing News |
 
 ---
 
-### 2. Microsoft Build 2026: MAI Modelleri, Project Solara, Quantum Çip (2-4 Haziran)
-**Microsoft Build 2026, AI "agentic" çağı için şirketin vizyonunu ortaya koydu.** 7 yeni MAI (Microsoft AI) modeli, Project Solara ve Majorana 2 quantum chip.
+## 1. Apple WWDC 2026 — Siri AI Yeniden Doğdu
 
-**En büyük duyurular:**
-- **MAI Thinking-1:** Microsoft'un ilk reasoning-focused AI modeli
-- **Project Solara:** Yeni AI-güçlendirilmiş Windows deneyimi
-- **Majorana 2:** Microsoft'un yeni quantum computing chip'i — "topological qubit" mimarisi
-- **RTX Spark:** Yeni Surface Laptop Ultra — yerleşik AI hızlandırma
-- **Always-on personal assistant:** Windows'ta sürekli çalışan AI asistan
-- **Agentic AI vision:** Microsoft'un "AI agent'ları her yerde" stratejisi
+**Ne olmuş?** Apple, WWDC 2026'da Siri'yi tamamen yeniledi. Apple Intelligence altyapısıyla desteklenen yeni Siri, artık cihazdaki tüm uygulamalara erişebiliyor ve karmaşık çok adımlı görevleri tek komutla gerçekleştirebiliyor.
 
-**Herkesin Kaçırdığı Nokta #1 — Majorana 2 quantum chip'i gerçekten oyun değiştirici mi?**
-Microsoft quantum computing'de "topological qubit" yaklaşımıyla Google ve IBM'den farklı bir yol seçti. Eğer çalışırsa, bugünün en güçlü supercomputer'larını çözecek kapasiteye ulaşabilir. Ama "eğer çalışırsa" kelimesi hâlâ geçerli — تجريبي (deneysel) aşamada.
+**Herkesin Kaçırdığı Nokta:** Apple'ın "on-device AI" yaklaşımı aslında bir **gizlilik stratejisi**. Google ve Microsoft bulut tabanlı AI'a yatırım yaparken, Apple her şeyi cihazda tutarak 1 milyardan fazla kullanıcının verisini rakip platformlardan farklı konumlandırdı. Bu hamle, AI asistan pazarında Google Assistant ve Alexa'nın işine yarayabilir — çünkü Apple kullanıcıları "verileri kim okuyor?" endişesi olmadan AI kullanabilecek.
 
-**Herkesin Kaçırdığı Nokta #2 — Windows AI API'leri artık daha geniş donanımda**
-Microsoft, Windows AI API'lerini artık sadece NPU değil, CPU, GPU ve NPU üzerinden çalıştırıyor. Bu, daha önce "AI PC" olarak adlandırılan yüksek maliyetli cihazlar yerine **herhangi bir Windows PC'de** AI uygulamalarının çalışabileceği anlamına geliyor. Demokrasi kazanıyor.
+**Herkesin Kaçırdığı Nokta #2:** AirPods'lara AI odaklı kamera ekleme planı **ertelendi** (2027'ye). Apple bu hamleyi pas geçmedi — erteledi. Büyük olasılıkla.harici AI modeli entegrasyonu için API hazırlığı yapılıyor.
 
-**Kaynak:** [Microsoft Build 2026: 7 Biggest AI Announcements](https://www.bing.com/news/search?q=Microsoft+Build+2026+AI+announcements), [Microsoft Build 2026 Recap](https://www.bing.com/news/search?q=Microsoft+Build+2026+Recap)
+**Kaynak:** [Bing News - Apple WWDC 2026](https://www.bing.com/news/search?q=Apple+WWDC+2026+AI+Siri)
 
 ---
 
-### 3. Anthropic Claude Fable 5 / Mythos 5: ABD İhracat Kontrolüyle Geri Çekildi (14-15 Haziran) 🔥
-**Anthropic'in en güçlü modelleri Fable 5 ve Mythos 5, ABD hükümetinin ihracat kontrolü emriyle 5 gün içinde kapatıldı.**
+## 2. Microsoft Build 2026 — 7 Büyük AI Duyurusu
 
-**Ne oldu:**
-- Claude Fable 5: Mythos sınıfı modelin halka açık versiyonu (API ile $10/million token)
-- Claude Mythos 5: Siber güvenlik ve biyoloji için geliştirilmiş en güçlü model
-- ABD Ticaret Bakanlığı, Mythos 5'e "China bağlantılı bir grubun erişmiş olabileceği" şüphesiyle erişimi kapattırdı
-- Anthropic: **90 dakikada** erişimi kısıtlamak zorunda kaldı
-- Avrupa'dan "yapay zeka egemenliği" uyarısı geldi
+**Ne olmuş?** Microsoft Build 2026'da Windows'a derin AI entegrasyonu, Azure AI servisleri ve Mustafa Suleyman'ın Microsoft'un AI stratejisini açıklaması.
 
-**Herkesin Kaçırdığı Nokta #1 — Fable 5 aslında Mythos'un "güvenli" versiyonuydu**
-Anthropic, Fable 5'i özellikle siber güvenlik uzmanları için daha güçlü yeteneklerle, genel kullanıma ise daha kısıtlı guardrail'lerle yayınladı. Yani "kısıtlı" versiyon bile ABD hükümetini rahatsız etti — bu, AI model güvenliği tartışmalarını yeni boyuta taşıdı.
+**Herkesin Kaçırdığı Nokta:** Mustafa Suleyman (eski Google DeepMind kurucu ortağı, şimdi Microsoft AI CEO'su) Build 2026'da ilk kez Microsoft'un AI vizyonunu net bir şekilde ortaya koydu. "AI her yerde olmalı, kullanıcı fark etmemeli" mesajı — bu aslında Microsoft'un 2027'de tüm Office ürünlerini AI-first yeniden yazacağının sinyali.
 
-**Herkesin Kaçırdığı Nokta #2 — 90 dakika kuralı**
-Anthropic'in 90 dakika içinde küresel erişimi kısıtlaması, AI şirketlerinin "acil durum anahtarları" konusunda ne kadar hazırlıklı olması gerektiğini gösterdi. Bu bir model, gelecekte milyonlarca kullanıcıya ulaşmış olsaydı?
+**Herkesin Kaçırdığı Nokta #2:** Microsoft hissedarları AI harcamaları ve Azure büyümesi nedeniyle dava açtı. Microsoft 2026'da AI altyapısına $80 milyar+ yatırım yapıyor. Bu dava, piyasanın "AI harcamaları ne zaman para getirir?" sorusunu sorduğunun göstergesi — bu soru tüm tech devleri için geçerli.
 
-**Herkesin Kaçırdığı Nokta #3 — Avrupa'nın "yapay zeka egemenliği" tepkisi**
-Avrupa'dan gelen açıklama: "Bu, ABD'nin kendi AI şirketlerini bile kontrol altına alabildiğini gösteriyor." Avrupa'nın kendi AI altyapısı kurma baskısı artacak — çünkü kimse kritik AI sistemlerinin tek bir hükümetin 90 dakikalık kararına bağlı olmasını istemiyor.
-
-**Kaynak:** [Anthropic pulls Claude Fable 5, Mythos 5 after Trump admin order](https://www.bing.com/news/search?q=Anthropic+Claude+Mythos+2026), [Anthropic had 90 minutes to restrict Claude Fable 5](https://www.bing.com/news/search?q=Anthropic+Fable+5+90+minutes)
+**Kaynak:** [Bing News - Microsoft Build 2026](https://www.bing.com/news/search?q=Microsoft+Build+2026+AI+announcements)
 
 ---
 
-### 4. Çin: 2026 Sonuna Kadar 10,000 Humanoid Robot Commercial Deploy Hedefi
-**Çin, Haziran 2026'da "Ulusal Humanoid Robot Girişimi"ni başlattı.** Hedef: 2026 sonuna kadar 10,000 insansı robotu ticari kullanıma almak.
+## 3. Google Gemini Kurucu Araştırmacısı Noam Shazeer OpenAI'a Geçiyor
 
-**Önemli gelişmeler:**
-- XPENG: Humanoid robot seri üretimi için 2026 hedefi
-- İlk ev temizlik robotu "butler" tipi insansı robotlar Çin'de devreye girmeye başladı
-- Boston Dynamics (Boston'da değil, Çin'de yatırımla) ve Çinli üreticiler hızla ilerliyor
+**Ne olmuş?** Google'ın Gemini AI'ının kilit araştırmacısı Noam Shazeer, OpenAI'a katılıyor. Shazeer, Google'da Gemini'nin temel mimarisini tasarlayan isimlerden biriydi.
 
-**Herkesin Kaçırdığı Nokta — "Commercial deployment" Çin için ne demek?**
-Batı'da insansı robot hâlâ "pahalı laboratuvar projesi". Çin'de ise fabrika, lojistik ve ev hizmetlerinde binlerce birimlik deploy edilmeye başlandı. Bu, Çin'in üretim maliyeti avantajını AI + robotik ile birleştirme stratejisi — ve bu strateji Batı'daki "yüksek maliyetli Ar-Ge" yaklaşımından çok farklı işliyor.
+**Herkesin Kaçırdığı Nokta:** Noam Shazeer'in gitmesi sadece bir " beyin göçü" değil. OpenAI'ın IPO hazırlığı sürerken, en yetenekli AI araştırmacılarını çekme yarışı kızışıyor. Google son 2 yılda 3 üst düzey AI araştırmacısını OpenAI'a kaptırdı. Bu, Google'ın AI araştırma kültüründe bir "yönetim/kültür sorunu" olduğunu gösteriyor.
 
-**Kaynak:** [China Targets 10,000 Humanoid Robots by End-2026](https://www.bing.com/news/search?q=China+humanoid+robot+2026+commercial+deployment)
+**Herkesin Kaçırdığı Nokta #2:** Gemini hâlâ GPT-4o'nun açık ara önünde değil. Shazeer'in OpenAI'a gitmesi, Google'ın "yarışı kazanma" motivasyonunu değil "IV. sırada olma" gerçeğini yansıtıyor.
+
+**Kaynak:** [Bing News - Google Gemini Noam Shazeer](https://www.bing.com/news/search?q=Google+Gemini+Noam+Shazeer+OpenAI)
 
 ---
 
-### 5. GitHub Trending: Bu Hafta Öne Çıkan AI Agent Projeleri
+## 4. Meta AI Mode Facebook'ta Yayına Girdi
 
-| Proje | ⭐ | Ne Yapıyor? |
-|-------|-------|-------------|
-| [ponytail](https://github.com/DietrichGebert/ponytail) | 37,402 | "En tembel kıdemli yazılımcı gibi düşündürür" — AI agent reasoning pattern |
-| [MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 9,820 | Xiaomi'den kod yazan AI agent framework |
-| [omnigent](https://github.com/omnigent-ai/omnigent) | 3,828 | Açık kaynak AI agent framework + meta-harness |
-| [baoyu-design](https://github.com/JimLiu/baoyu-design) | 1,569 | Claude Design'ı localde agent skill olarak çalıştır |
-| [superlog](https://github.com/superloglabs/superlog) | 881 | AI agent'ların kendi hatalarını kendi düzelttiği observability |
-| [guard-skills](https://github.com/amElnagdy/guard-skills) | 830 | Kodlama agent'ları için quality gate — AI hatalarını yakalıyor |
-| [renwei-writing](https://github.com/orange2ai/renwei-writing) | 818 | "İnsan tadı" yazı yazan AI agent skill — kişiliği koruyarak düzeltme |
+**Ne olmuş?** Meta, Facebook'ta "AI Mode" adlı yeni arama özelliğini duyurdu. Bu özellik, Meta'nın tüm platformlarından (Instagram, WhatsApp, Facebook) çekilen verilerle çalışan bir AI destekli arama sistemi.
 
-**Herkesin Kaçırdığı Nokta — Ponytail'in 37K yıldızı**
-DietrichGebert/ponytail "en tembel kıdemli yazılımcı gibi düşün" mottosuyla 37K yıldız aldı — bu hafta GitHub'un en hızlı büyüyen projesi. Neden? Çünkü AI agent'ların en büyük problemi "aşırı çalışması" — gereksiz kod yazması, over-engineering. Ponytail bu sorunu "tembel senior developer" mindset'iyle çözüyor.
+**Herkesin Kaçırdığı Nokta:** Meta AI Mode, Google Search'ün 25 yıllık tekelini kırmak için değil — **kullanıcıyı platformda tutmak** için tasarlandı. Facebook kullanıcıları artık arama için Google'a gitmiyor. Meta bunu "kullanıcı kaybı önleme" olarak konumlandırıyor, "Google alternatifi" olarak değil.
 
-**Kaynak:** [GitHub Trending AI Agent - June 2026](https://github.com/search?q=AI+agent+created:2026-06-01..2026-06-19&sort=stars)
+**Herkesin Kaçırdığı Nokta #2:** Meta'nın $2 milyar hisse geri alımı ve Çin'in Manus AI anlaşmasını iptal kararı — bu iki haber aynı haftada çıktı. Çin'in Meta ile AI işbirliğini engellemesi, Meta'nın küresel AI yarışında "jeopolitik risk" altında olduğunu gösteriyor.
+
+**Kaynak:** [Bing News - Meta AI Mode Facebook](https://www.bing.com/news/search?q=Meta+AI+Mode+Facebook+2026)
 
 ---
 
-## 🔮 önümüzdeki Hafta Beklentileri (22-27 Haziran)
+## 5. DeepSeek $7.4 Milyar Yatırım Aldı — $50 Milyar Değerleme
 
-1. **Apple iOS 27 beta sürümleri** — Geliştiriciler ilk beta'ları almaya başlayacak
-2. **Claude Fable/Mythos durumu** — ABD hükümeti ile Anthropic arasındaki görüşmeler sonuçlanabilir
-3. **Microsoft Copilot güncellemeleri** — Build sonrası ilk Copilot wave gelebilir
-4. **Çin humanoid robot üretimi** — XPENG ilk seri üretim rakamlarını açıklayabilir
-5. **GitHub Universe hazırlıkları** — Yazılım geliştirme dünyasının en büyük etkinliği öncesi duyurular başlayabilir
+**Ne olmuş?** Çin'in en hızlı büyüyen AI startup'ı DeepSeek, $7.4 milyar yatırım aldı. Şirketin değerlemesi $50 milyarı aştı ve Çin'in en değerli AI startup'ı unvanını kazandı.
 
----
+**Herkesin Kaçırdığı Nokta:** DeepSeek, ChatGPT'ye rakip olarak değil — **Çin hükümetinin AI altyapısı** olarak konumlanıyor. $7.4 milyarlık yatırımın büyük kısmı Çin devlet fonlarından geldi. Bu, DeepSeek'in "kâr amacı güden startup" değil, "ulusal AI stratejisi"nin bir parçası olduğunu gösteriyor.
 
-## 🎯 Haftalık Trend Özeti
+**Herkesin Kaçırdığı Nokta #2:** DeepSeek'in $7 milyarlık yatırımı, ABD'nin Çin AI yaptırımlarının " ters teptik" ettiğini gösteriyor. Yaptırımlar Çinli şirketleri hızlandırıyor, yavaşlatmıyor. Her yaptırım, Çin'de yeni bir milli AI girişimini besliyor.
 
-| Trend | Durum | Yorum |
-|-------|-------|-------|
-| AI Agent Framework'leri | 🔥 Rekor büyüme | Her hafta yeni framework, 30K+ yıldızlar görülüyor |
-| Apple + Google AI ortaklığı | ✅ Kesinleşti | WWDC ile resmiyet kazandı |
-| Quantum Computing | ⚠️ Hâlâ erken | Microsoft Majorana 2 heyecan verici ama uzun vadeli |
-| İnsansı Robotlar | 🔥 Çin hızla ilerliyor | 10K hedefi 2026 için iddialı ama Çin'de deploy başladı |
-| AI Export Kontrolü | ⚠️ Yeni tehdit | Fable/Mythos vakası şirketleri ve yatırımcıları düşündürmeli |
+**Kaynak:** [Bing News - DeepSeek $7 billion funding](https://www.bing.com/news/search?q=DeepSeek+7+billion+AI+funding+2026)
 
 ---
 
-## 📱 Meta AI: Facebook'a AI Arama Aracı Eklendi
+## GitHub Trending AI Repolar — Haftanın Öne Çıkanları
 
-**Meta, Facebook'a yeni AI destekli arama aracı ekledi.** Bu, Meta'nın AI özelliklerini doğrudan sosyal medya platformuna entegre ettiği yeni adım. Kullanıcılar artık Facebook içinde AI'a soru sorabilecek, içerik arayabilecek.
-
-**Herkesin Kaçırdığı Nokta — Facebook = yeni arama motoru mu?**
-Google ve Bing'in hakim olduğu arama pazarına Meta'nın AI araması giriyor. 3 milyara yakın Facebook kullanıcısı = Google'ınkinden fazla. Eğer AI aramaları Facebook'ta yeterince iyi çalışırsa, kullanıcılar bilgi için Google yerine Facebook'a gidebilir — bu dijital reklam pazarını kökten değiştirir.
-
-**Kaynak:** [Meta adds new AI search tool on Facebook](https://www.bing.com/news/search?q=Meta+AI+search+Facebook+2026)
-
----
-
-## ⚽ 2026 Dünya Kupası + AI Concierge
-
-**FIFA 2026 Dünya Kupası için AI destekli bir concierge uygulaması hayata geçti.** Taraftarlara stadyumda yol tarifi, bilet yönetimi, canlı istatistikler ve otel/ulaşım önerileri sunan bir AI asistan. Dünya Kupası'nın 3 ülkede (ABD, Kanada, Meksika) düzenlenmesi, AI concierge'ın çok dilli ve çok lokasyonlu olmasını zorunlu kıldı.
-
-**Herkesin Kaçırdığı Nokta — Spor + AI = en büyük deployment**
-2026 Dünya Kupası, şimdiye kadarki en büyük AI destekli organizasyon. Stadyum içi yol tarifi, anlık multilingüal destek, otomatik lojistik yönetimi — bu sistemler daha sonra konser, festival ve büyük etkinliklerde kullanılacak. AI event management'ın ilk büyük testi.
+| Repo | ⭐ | Dil | Açıklama |
+|------|----|----|----------|
+| DietrichGebert/ponytail | 40,359 | JavaScript | "En tembel senior developer gibi düşünen AI agent" — en az kod yazma felsefesi |
+| nottelabs/notte | 76+ | — | Browser AI agent platform (HN 76pts) |
+| ruvnet/agent-harness-generator | 219 | TypeScript | AI agent scaffold oluşturma aracı |
+| orange2ai/renwei-writing | 828 | N/A | "İnsan tadı" yazma — AI'ın yazısını kişiselleştirme |
+| dzcmemory-web/bazi-ziwei-skill | 435 | TypeScript | Çin astrolojisi + AI agent skill |
+| dongshuyan/compass-skills | 367 | Python | Kişisel AI görev kontrol sistemi |
 
 ---
 
-## 📝 LinkedIn Post Fikri — Bu Haftanın En Çarpıcı Haberi
+## Gelecek Hafta Beklentileri
 
-```
-Anthropic'in en güçlü AI modeli 5 GÜN içinde kapatıldı.
-
-Herkes "ABD ihracat kontrolü" dedi.
-
-Ama asıl haber şu: Model zaten halka açıktı.
-
-Claude Fable 5 — Mythos sınıfının "güvenli" versiyonu.
-$10/million token fiyatıyla API'de erişilebilirdi.
-
-Ve ABD hükümeti 90 DAKİKA içinde erişimi kapattırdı.
-
-Anthropic 90 dakikada tüm dünyada erişimi kısıtladı.
-
-Bu ne demek?
-
-1) AI şirketleri artık "acil durum anahtarı" sahibi olmak ZORUNDA
-2) Avrupa'nın "kendi AI altyapısı" baskısı artacak
-3) Yatırımcılar için: ihracat kontrolü riski artık değerlemelere girer
-
-Ve en önemlisi:
-
-5 gün önce $10'a erişilebilir olan model,
-artık sadece "güvenli bulut" içinde çalışıyor.
-
-AI'ın geleceği sadece teknoloji değil —
-jeopolitik tarafından da şekilleniyor.
-
-Siz ne düşünüyorsunuz?
-
-#AI #Anthropic #Claude #ExportControl #TechNews
-```
+1. **Apple iOS 27 beta** — Geliştiriciler ilk izlenimleri paylaşacak
+2. **OpenAI IPO hazırlığı** — Yeni yönetici ataması bekleniyor
+3. **Google I/O 2026 etkileri** — Gemini 2.0 lansmanı yaklaşıyor
+4. **Microsoft AI event** — Azure AI yeni servisleri
+5. **EU AI Act** — Temmuz uygulama başlıyor, şirketler hazırlıklarını açıklayacak
 
 ---
 
-## 🔗 Kaynaklar
+## Haftalık Değerlendirme
 
-- [Apple WWDC 2026: All The Major Announcements](https://www.bing.com/news/search?q=Apple+WWDC+2026+announcements)
-- [Microsoft Build 2026: 7 Biggest AI Announcements](https://www.bing.com/news/search?q=Microsoft+Build+2026+AI+announcements)
-- [Anthropic pulls Claude Fable 5, Mythos 5](https://www.bing.com/news/search?q=Anthropic+Claude+Mythos+2026)
-- [Anthropic 90 minutes restriction](https://www.bing.com/news/search?q=Anthropic+Fable+5+90+minutes)
-- [China 10,000 Humanoid Robots 2026](https://www.bing.com/news/search?q=China+humanoid+robot+2026+commercial+deployment)
-- [Meta AI search tool on Facebook](https://www.bing.com/news/search?q=Meta+AI+search+Facebook+2026)
-- [AI-powered concierge World Cup 2026](https://www.bing.com/news/search?q=AI+concierge+World+Cup+2026)
-- [GitHub Trending AI Agent June 2026](https://github.com/search?q=AI+agent+created:2026-06-01..2026-06-19&sort=stars)
+**Bu haftanın ana teması:** "AI yatırım yarışı ve beyin göçü"
+
+- 💰 **$7.4B DeepSeek** vs **$80B Microsoft AI** = küresel AI yatırımı rekor kırıyor
+- 🧠 **Noam Shazeer Google→OpenAI** = en yetenekli araştırmacılar için şirketler arası yarış
+- 🏠 **Meta AI Mode** = sosyal medya platformları artık "arama motoru" olmaya başlıyor
+- 📱 **Apple on-device AI** = gizlilik odaklı AI stratejisi farklılaşma yaratıyor
+
+---
+
+## LinkedIn Post Fikri
+
+**Başlık:** "AI yatırım yarışında asıl kazanan... yatırımcılar değil"
+
+**Hook:** Geçen hafta $7.4 milyar DeepSeek'e, $80 milyar Microsoft AI altyapısına, $900 milyar... hepsi yatırım. Ama asıl ilginç soru şu: **kim kazanıyor?**
+
+**İçerik:** DeepSeek Çin devleti için yarışıyor, Microsoft Azure için, Google Gemini için... Ama Noam Shazeer'in Google'dan OpenAI'a gitmesi tek bir şeyi gösteriyor: **AI yarışı para değil, beyin yarışı.** En iyi araştırmacılar en çok kimin vizyonuna inanıyorsa ona gidiyor.
+
+**Görsel:** İki taraflı bir ok tablosu — sol tarafta "$ milyarlar", sağ tarafta " beyinler" ve okların yönü
+
+**Hashtag:** #AI #Investment #DeepSeek #Microsoft #Google #Startup
+
+---
+
+*Kaynak: Bing News, GitHub Trending, HN Algolia | Tarih: 19 Haziran 2026 Cuma*
