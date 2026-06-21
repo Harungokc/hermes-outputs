@@ -1,46 +1,71 @@
-# Matt Wolfe — Ayrıntılı Analiz (2026-06-19)
+# Matt Wolfe (mreflow) — Detaylı Analiz
+
+**Kanal:** @mreflow | 964B abone  
+**Tarama:** 2026-06-21
 
 ---
 
-## Video 1: AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker
-**Video ID:** Db260rUuKJg | **Tarih:** 19 Haz 2026 | **Görüntülenme:** 57,042
+## 🎬 PewDiePie's FREE Odysseus AI
+**Video ID:** _7BHqZayPOc  
+**Tarih:** 2026-06-17 | **İzlenme:** 43.6K
 
 ### Özet
-Bu haftanın AI haberleri: Fable/Mythos yasağı, GLM-5.2 yükselişi, Facebook AI araçları, Midjourney scanner.
+PewDiePie'in açık kaynak AI platformu Project Odysseus incelemesi. Self-hosted, local modeller, tam gizlilik kontrolü.
 
-### Ana Noktalar
-- **Fable/Mythos yasağı**: Anthropic, Mythos ve Fable'a erişimi askıya aldı
-- **GLM-5.2**: Yeni açık kaynak lideri olarak öne çıktı
-- **Facebook AI**: Yeni AI araçları platforma entegre ediliyor
-- **Midjourney**: Tıbbi görüntüleme için scanner özelliği
-- **OpenAI Record & Replay**: Geliştirici odaklı yeni özellik
-- **Perplexity Brain**: Self-improving memory for agents
-- **Self-driving toilet**: Evet, gerçekten var (Yueban Xiaoban)
+### Ana Konular
+- Ollama ile local modeller bağlama (Gemma 3 12B, GPT 5.5)
+- Brain memory system, model comparison scoreboard
+- Deep research modülü test edilmiş
+- **Ne işe yarıyor:** ChatGPT/Claude gibi ama kendi makinende, kendi modellerinle
 
-### Herkesin Kaçırdığı Nokta
-**Export control hikayesi**: Fable yasağının gerçek nedeni "jailbreak" değil — ABD hükümeti Anthropic'e Çin'e kinetic AI donanımı ihracatı için baskı yapıyor. Bu gelecekteki model erişimlerini sınırlayabilir.
+### 🤖 Herkesin Kaçırdığı Nokta
+Cloud'a veri göndermeden AI kullanma imkanı — API ücreti yok, gizlilik tamamen kontrolünde. Mac'te çalışıyor (M3).
 
-### LinkedIn Post Fikri
-"Fable yasağı 'jailbreak' yüzünden değil — ABD hükümeti Anthropic'e Çin'e AI donanımı ihracatı için baskı yapıyor. Bu sadece başlangıç. Açık kaynak AI modelleri de yakında export control listesine girebilir."
+### 💡 LinkedIn Post Fikri
+> "PewDiePie AI araçları tamamen offline çalıştıran bir platform yayınladı. Odysseus = kendi bilgisayarında çalışan, API ücreti olmayan, verisi cloud'a gitmeyen AI asistanı. Local AI artık sadece kodcular için değil — herkes için erişilebilir hale geliyor."
 
 ---
 
-## Video 2: PewDiePie's FREE Odysseus AI (Full Review & Setup)
-**Video ID:** _7BHqZayPOc | **Tarih:** 17 Haz 2026 | **Görüntülenme:** 43,035
+## 🎬 AI News: An INSANE Week… Here's What Matters
+**Video ID:** nydHKXjwu0U  
+**Tarih:** 2026-06-12 | **İzlenme:** 95.8K
 
 ### Özet
-PewDiePie'nin açık kaynak AI platformu Odysseus test ediliyor: local AI, gizlilik, deep research.
+Bir haftada yaşanan AI gelişmeleri özeti — en önemlisi Claude Mythos/Fable 5 ve Apple Intelligence.
 
-### Ana Noktalar
-- **Odysseus**: Kendi makinenizde çalışan AI platformu
-- **Ollama**: Local model bağlantısı (Gemma 3 12B, GPT 5.5)
-- **Brain memory**: Agent bellek sistemi
-- **Model compare scoreboard**: Modelleri karşılaştırma
-- **Deep research**: Local AI ile derin araştırma
-- **Eksikler**: Image editor çalışmıyor, bazı özellikler tam değil
+### Ana Konular
+- **Claude Mythos & Fable 5:** Anthropic'in yeni model ailesi
+- **Apple Intelligence & yeni Siri:** Apple'ın AI stratejisi
+- **NotebookLM Updates:** Araştırma araçları gelişiyor
+- **Gemini 3.5 Live Translate:** Gerçek zamanlı çeviri
+- **Dario Amodei & Sam Altman manifestoları:** AI hızı üzerine
+- **OpenAI S-1 / SpaceX IPO:** Şirket haberleri
+- **MidJourney Hardware:** Donanım hamlesi
 
-### Herkesin Kaçırdığı Nokta
-**Local AI = tam gizlilik, sıfır API ücreti.** Ama tamamen ücretsiz değil — donanım maliyeti ve kurulum süresi var. Karmaşıklık isteyenler için ideal, ama "set it and forget it" değil.
+### 🤖 Herkesin Kaçırdığı Nokta
+OpenAI'ın S-1 dosalaması ve SpaceX'in $75B IPO'su — AI şirketlerinin finansal yapısı artık tech dışı yatırımcıların da radarında.
 
-### LinkedIn Post Fikri
-"PewDiePie'nin Odysseus'u = ChatGPT/Claude'un local versiyonu. Tam gizlilik, sıfır API ücreti. Eksikleri var (image editor çalışmıyor), ama local AI arayanlar için güçlü bir alternatif. M3 Mac'te test ettim — bazı şeyler harika, bazıları çalışmıyor."
+### 💡 LinkedIn Post Fikri
+> "Bu hafta: Apple'ın yeni Siri'si, Claude Mythos, NotebookLM araştırma güncellemesi, Gemini Live Translate ve OpenAI'ın S-1 dosalaması. AI hızlanıyor ama asıl dikkat çeken şirketlerin finansal hazırlığı — bir sonraki büyük dalga geliyor."
+
+---
+
+## 🎬 AI News: Microsoft Finally Reveals Their Plan!
+**Video ID:** nz4h3H1MmTg  
+**Tarih:** 2026-06-05 | **İzlenme:** 72.7K
+
+### Özet
+Microsoft'un AI stratejisi ve bu haftanın önemli AI haberleri.
+
+### Ana Konular
+- **7 yeni MAI modeli:** Microsoft'un yeni model ailesi
+- **Microsoft Scout:** Kişisel always-on agent
+- **GitHub Copilot App:** Agent-native desktop deneyimi
+- **Project Solara:** Microsoft'un yeni girişimi
+- **Nvidia RTX Spark:** Windows PC'ler için AI
+- **Gemma 4 12B:** Google'ın yeni açık modeli
+- **Ideogram 4.0, Krea 2 Turbo, Runway Aleph 2.0:** Creative AI araçları
+- **Hermes Desktop App:** Nous Research'in desktop uygulaması
+
+### 🤖 Herkesin Kaçırdığı Nokta
+Microsoft sadece "bir AI şirketi" değil — artık donanım, yazılım ve AI'ı entegre eden platform şirketi. Scout agent + Surface + Nvidia işbirliği = Windows生态 sistemi AI'a kayıyor.

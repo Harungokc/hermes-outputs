@@ -1,16 +1,17 @@
-# Matt Wolfe — Son Videolar Özeti (2026-06-19)
+# Matt Wolfe (mreflow) — YouTube Kanalı Özeti
 
-## Son Scan'den Beri Yeni Videolar
-- Db260rUuKJg — **AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker** (19 Haz 2026, 57K görüntülenme)
-- _7BHqZayPOc — **PewDiePie's FREE Odysseus AI (Full Review & Setup)** (17 Haz 2026, 43K görüntülenme)
+**Son Tarama:** 2026-06-21  
+**Kanal:** @mreflow (964B abone)
 
-## Genel Temalar
-- **Fable/Mythos yasağı**: Anthropic'in AI erişim kontrolü ve Çin kaynaklı endişeler
-- **GLM-5.2**: Yeni açık kaynak lideri olarak öne çıkışı
-- **Facebook AI araçları**: Yeni AI özellikleri platforma entegre ediliyor
-- **Midjourney scanner**: Tıbbi görüntüleme için yeni dönem
-- **Local AI**: PewDiePie'nin Odysseus projesiyle tam gizlilikli AI çalıştırma
-- **OpenAI Record & Replay**: Geliştirici odaklı yeni özellik
+## Yeni Video (Bu Tarama)
+> Yok — son taramadan bu yana yeni video bulunamadı.
 
-## Kaçırılan Nokta
-Herkes Fable yasağının "sansür" olduğunu konuşuyor, ama asıl hikaye **export control** — ABD hükümeti Anthropic'e kinetic teknoloji (fiziksel AI donanımı) ihracatı için baskı yapıyor. Bu, gelecekteki model erişimini sınırlayabilir.
+## Son Videolar (En Yeni)
+1. **PewDiePie's FREE Odysseus AI** (2026-06-17) — 43.6K görüntülenme
+2. **AI News: An INSANE Week…** (2026-06-12) — 95.8K görüntülenme
+3. **AI News: Microsoft Finally Reveals Their Plan!** (2026-06-05) — 72.7K görüntülenme
+
+## Öne Çıkan Konular (Son Videolar)
+- PewDiePie'nin açık kaynak AI platformu Project Odysseus
+- Claude Mythos/Fable 5, Apple Intelligence & yeni Siri
+- Microsoft'un 7 yeni MAI modeli ve Scout agent
