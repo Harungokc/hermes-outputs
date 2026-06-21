@@ -1,33 +1,17 @@
-# Wes Roth — YouTube Kanal Özeti
+# Wes Roth — Son Videolar Özeti (2026-06-19)
 
-**Son Tarama:** 2026-06-20
+## Son Scan'den Beri Yeni Videolar
+- OdlUXu2sAb4 — **Google's SHOCKING** (18 Haz 2026, 90K görüntülenme)
+- XtgEA4L7sIU — **here's REALLY WHY Fable 5 got banned** (16 Haz 2026, 47K görüntülenme)
+- vM2At8Uqp2Y — **Claude Fable JUST got BANNED...** (13 Haz 2026, 65K görüntülenme)
+- NiY38aQQkqM — **HeyGen AI video generator just changed the game...** (11 Haz 2026, 28K görüntülenme)
+- xUbIVUnQnZg — **Mythos 5 is WILD...** (9 Haz 2026, 70K görüntülenme)
 
-## Yeni Videolar (Son Taramadan Beri)
+## Genel Temalar
+- **Fable/Mythos yasağı**: China kaynaklı erişim endişeleri ve gerçek yasaklama nedeni
+- **Mythos 5**: Yeni modelin yetenekleri
+- **HeyGen**: Dijital ikiz avatar ve çok dilli video üretimi
+- **Google AI**: Her zaman güncel AI haberleri
 
-Yeni video yok. En son tarama tarihinden (2026-06-18) sonra yayınlanan video bulunamadı.
-
----
-
-## Tüm Videolar (Son 30 Gün)
-
-| Tarih | Video |
-|-------|-------|
-| 2026-06-18 | OdlUXu2sAb4 |
-| 2026-06-16 | XtgEA4L7sIU |
-| 2026-06-13 | vM2At8Uqp2Y |
-| 2026-06-11 | NiY38aQQkqM |
-| 2026-06-10 | deFvnmibzow |
-| 2026-06-05 | 4rEgNiP5V2E |
-| 2026-06-03 | glonkx9ppz8 |
-| 2026-06-01 | cS0Tm6ddnsQ |
-| 2026-05-29 | hGCrvDDpl5w |
-| 2026-05-28 | F_6go08nHv4 |
-| 2026-05-27 | jZg1EkujbJ0 |
-| 2026-05-23 | DGw2KKyXuYQ, gCHEFZDPVYs |
-| 2026-05-21 | kpKb7LI__78 |
-| 2026-05-20 | cSZ-y49e5q8 |
-| 2026-05-18 | j-FWwcnDC9k |
-| 2026-05-14 | a8EfFGeY9S8 |
-| 2026-05-08 | Nn2eXwch-K0 |
-
-**Toplam:** 17 video (son 30 günde)
+## Kaçırılan Nokta
+Wes Roth'un Fable analizi, yasağın sadece "jailbreak" değil, **Çin'in Mythos'a erişim sağlaması** ile ilgili olduğunu ortaya koyuyor. Bu, gelecekte açık kaynak AI modellerinin de export control listesine girebileceğinin sinyali.

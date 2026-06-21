@@ -1,32 +1,19 @@
-# Nate Herk — YouTube Kanal Özeti
+# Nate Herk — Son Videolar Özeti (2026-06-19)
 
-**Son Tarama:** 2026-06-20
+## Son Scan'den Beri Yeni Videolar
+- 2OD14-0cot4 — **GLM 5.2 in Claude Code is Blowing My Mind** (18 Haz 2026, 101K görüntülenme)
+- RzLV8sfFdMM — **How to Build Effective Claude Code Agents in 2026** (18 Haz 2026, 30K görüntülenme)
+- CvA8-aScqio — **We Might Actually Need to Stop AI** (16 Haz 2026, 37K görüntülenme)
+- DTCyvo6cC54 — **Every Level of a Claude Second Brain Explained** (17 Haz 2026, 76K görüntülenme)
+- diY71x7GUjI — **From Zero to Head of AI in 1 Year (as a regular person)** (12 Haz 2026, 19K görüntülenme)
+- EuzYhzB0vbI — **Finally. Agent Loops Clearly Explained.** (19 Haz 2026, 41K görüntülenme)
 
-## Yeni Videolar (Son Taramadan Beri)
+## Genel Temalar
+- **Agent loop engineering**: Doğrulama adımının mimariden daha önemli olduğu vurgusu
+- **GLM 5.2**: Açık kaynak modelin Claude Code'da Opus yerine kullanılabilmesi (~5x ucuz)
+- **Claude Code agents**: Binlerce saat deneyimle kanıtlanmış yönlendirme stratejileri
+- **Second brain**: 5 seviyeli sistem, seviye 5 her zaman doğru değil
+- **Career pivot**: AI deneyimi olmayan birinin Head of AI olması
 
-### GLM 5.2 in Claude Code is Blowing My Mind (2026-06-18)
-GLM 5.2 — 756 milyar parametreli açık kaynak model — Claude Code'a 5 kat ucuza yönlendirilebiliyor. Opus'a göre çoğu bilgi işinde başarılı sonuçlar veriyor.
-
-**Öne Çıkan:** Model switching per project kurulumu
-
----
-
-## Tüm Videolar (Son 30 Gün)
-
-| Tarih | Video |
-|-------|-------|
-| 2026-06-19 | EuzYhzB0vbI |
-| 2026-06-18 | **2OD14-0cot4** ⭐ YENİ |
-| 2026-06-17 | DTCyvo6cC54 |
-| 2026-06-16 | CvA8-aScqio |
-| 2026-06-15 | 3XIGcM7VICc |
-| 2026-06-12 | diY71x7GUjI |
-| 2026-06-09 | 8QQ_INxAhRs, dYrrEKXtttk |
-| 2026-06-08 | e18sdZLwP7o |
-| 2026-06-04 | c0kaKxM2pHg |
-| 2026-05-29 | 0WDkwMxj13s |
-| 2026-05-25 | 8ktcSaSTvxk |
-| 2026-05-21 | 6cEQEba0i2A |
-| 2026-05-19 | brB-hSiV2iU |
-
-**Toplam:** 14 video (son 30 günde)
+## Kaçırılan Nokta
+Çoğu kişi "agent loop"u karmaşık altyapı olarak görüyor, ama Nate'in vurguladığı gibi asıl mesele **verification** — agentın ne zaman "bitti" olduğunu bilmesi. Bu, 10 agent çalıştırmaktan çok daha kritik.
