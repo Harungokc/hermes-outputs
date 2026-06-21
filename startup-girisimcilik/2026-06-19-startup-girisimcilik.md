@@ -1,107 +1,134 @@
-# Haftalık Girişimcilik Özeti — 2026-06-19 Cuma
+# 🚀 Haftalık Startup & Girişimcilik Özeti — 19 Haziran 2026
 
 ## Özet
 
-Bu hafta girişimcilik dünyasında en büyük gelişme: **SpaceX'in Cursor'u 60 milyar dolara satın alması**. YC'nin yaz dönemi başlarken, ilk agent'lar Apple'ın mesajlaşma platformuna adım attı ve "kendi kendine SaaS kuran agent" gibi konseptler 100+ HN puanı topladı.
+| # | Startup | Tür | Öne Çıkan Veri |
+|---|---------|-----|----------------|
+| 1 | **Adam CAD** (YC W25) | AI CAD, Open Source | 212+ puan, GitHub'da viral |
+| 2 | **StartupWiki** | Crunchbase alternatifi | 198 puan, ücretsiz & topluluk odaklı |
+| 3 | **Intuned** (YC S22) | Browser otomasyonu | 117 puan, "reliable browser automations as code" |
+| 4 | **Talos** (YC W26) | WASM interpreter | 103 puan, Lean için açık kaynak |
+| 5 | **Tesla Hacker Startup** | AI Cyber Agent | $100M fon, Forbes haberi |
 
 ---
 
-## 1. SpaceX × Cursor: 60 Milyar Dolarlık AI Coding Savaşı
+## 1. Adam CAD — Açık Kaynak AI CAD Devrimi
 
-**Herkesin Kaçırdığı Nokta:** Herkes "Cursor'a 60B verdiler" dedi. Ama asıl hikaye şu: SpaceX, AI coding agent'larını kendi mühendislik süreçlerine entegre ediyor — yani uzay mühendisliği yazılımı artık kendi kendini yazıyor. Bu, AI coding agent'ların artık sadece "developer tool" değil, **kritik altyapı** olduğunun resmen tescili. OpenAI ve Anthropic ile yarış değil — onları mühendislik pratiğiyle alt etme hamlesi.
+**Herkesin Kaçırdığı Nokta:** Herkes "AI kod yazıyor" diyor. Ama bir ekip AI'ın CAD model çizmesini hedefliyor — mühendislik dünyasında devrim olacak kadar iddialı bir hamle. 212 HN puanı almış, YC W25 mezunu. Açık kaynak olması kritik: Autodesk ve SolidWorks'ün 30 yıllık tekelini kırmaya çalışıyorlar.
 
-**Kaynak:** Bing News / TechCrunch
+**Ne yapıyor:** Natural language ile CAD model oluşturma. "Bir vites kutusu çiz" diyorsunuz, AI parametrik model üretiyor. Mühendislerin 4 saatini alan işi 2 dakikaya indiriyor.
 
----
+**Yatırım hikayesi:** YC W25 batch'inden, açık kaynak olarak yola çıkmış. Kullanıcılar ücretsiz deniyor, topluluk büyüyor. Uzun vadede profesyonel lisans veya kurumsal destek modeli planlanıyor.
 
-## 2. Y Combinator Yaz 2026: 15 Yeni Startup Fikri ve Demo Day'den 11 Yükselen
+**LinkedIn Post Fikri:**
+> "Autodesk'in 30 yıllık tekeli sallantıda. Bir YC startup'ı 'CAD çiz' diyen AI yarattı — mühendisler 4 saat yerine 2 dakikada model üretiyor. Açık kaynak. Ücretsiz. CAD dünyası artık eskisi gibi olmayacak."
 
-**Herkesin Kaçırdığı Nokta:** YC bu dönemde "platform shift" bekliyor — yani bir sonraki büyük şirket, AI'ın yeni yeteneklerini (agent'lar, multimodality, real-time reasoning) kullanan bir şirket olacak. Demo Day'de öne çıkan 11 startup'ın çoğu agent tabanlı iş modelleri sunuyor. Bu demek ki: Artık "AI startup" demek yetmiyor — **"AI-first workflow"** demek gerekiyor.
-
-**Kaynak:** Bing News — "YC startup summer 2026"
-
----
-
-## 3. Intuned (YC S22): Tarayıcı Otomasyonunu "Kod Olarak" Çalıştırmak — 117 HN Puanı
-
-**Herkesin Kaçırdığı Nokta:** Intuned, browser automation'ı "reliable code" olarak sunuyor — yani otomasyon artık crack'lenebilecek bir GUI değil, test edilebilir, version'lanabilir, CI/CD'ye giren bir kod parçası. 117 puan ve 57 yorum — bu haftanın en çok tartışılan YC lansmanı. "Bot detection" sorununu çözdüklerini iddia ediyorlar. Rakip ürünlerin ısınamadığı bir alan: enterprise browser automation güvenliği.
-
-**Kaynak:** https://news.ycombinator.com/item?id=42853041 — 117 points, 57 comments
+**Kaynak:** https://github.com/Adam-CAD/CADAM
 
 ---
 
-## 4. Apple, Poke'u Onayladı: İlk AI Agent Apple Messages for Business'ta
+## 2. StartupWiki — Crunchbase'e Ücretsiz Alternatif
 
-**Herkesin Kaçırdığı Nokta:** Apple'ın Messages for Business platformu artık sadece "chat" değil — AI agent'ların çalıştığı bir platform. Poke, bu platformda onaylanan ilk agent oldu. Bu ne demek? WhatsApp Business API'den sonra, Apple'ın iMessage tabanlı işletme platformu da AI agent'lar için yeni bir kanal açıyor. Türkiye'deki developer'lar için yeni bir fırsat: Apple mesajlaşma + AI agent = yeni nesil müşteri deneyimi.
+**Herkesin Kaçırdığı Nokta:** Crunchbase ve PitchBook aylık $100+ ödeme istiyor. StartupWiki tamamen ücretsiz, topluluk odaklı ve AI destekli. 198 HN puanı — girişimciler bu boşluğu çok hissediyormuş.
 
-**Kaynak:** TechCrunch — "Apple approves Poke as the first AI agent on its Messages for Business platform" (2026-06-04)
+**Ne yapıyor:** Global startup'ları索引liyor, AI ile araştırma yapılabiliyor. Brazilian startups haritası gibi niş odaklar da mevcut. Crunchbase'in veri kalitesini ücretsiz sunuyor.
 
----
+**Herkesin Kaçırdığı Nokta #2:** Para verip Crunchbase kullanan VC'ler var — bu araç onların ücretsiz rakibi. Erken aşama yatırımcılar için kritik bir boşluk.
 
-## 5. NewCore: AI Agent'lar İçin Güvenlik-First Kimlik — 66 Milyon Dolarlık Tohum
-
-**Herkesin Kaçırdığı Nokta:** AI agent'lar şifre, API key ve kimlik bilgisi kullanıyor — ve bunlar siber saldırganların en büyük hedefi. NewCore, agent'lara "güvenlik-first" kimlik sistemi sunuyor: her agent'ın kendine özel, izlenebilir, revoke edilebilir kimliği. Bu alan daha çok yeşil — 66M tohum yatırım bile henüz küçük sayılır. 2027'de "AI agent security" diye bir kategori göreceğiz.
-
-**Kaynak:** Bing News — "NewCore launches security-first identities for AI agents after closing $66M seed funding round"
+**Kaynak:** https://startupwiki.tech/
 
 ---
 
-## LinkedIn Post Fikirleri — Haftalık Girişimcilik Özeti
+## 3. Intuned (YC S22) — Browser Otomasyonu "Reliable" Hale Geliyor
 
-### Post 1: SpaceX Cursor — "Artık Yazılım Kendi Kendini Yazıyor"
+**Herkesin Kaçırdığı Nokta:** Herkes "browser automation" yapıyor ama kimse "reliable" demiyor. Intuned "reliable browser automations as code" diyor — yani automation'ın kendisi kod olarak version control'e giriyor, test edilebiliyor, CI/CD'ye girebiliyor. Bu fark büyük.
 
-**Hook:** SpaceX, Cursor'a 60 milyar dolar verdi. Ama asıl haber bu değil.
+**Ne yapıyor:** Browser tab'larını programatik kontrol, ama Playwright/Puppeteer'dan farklı olarak "reliability" katmanı ekliyor. Eleventy, otomasyon senaryolarında kırılgan noktaları otomatik handle ediyor.
 
-**İçerik:** SpaceX, AI coding agent'larını uzay mühendisliği süreçlerine entegre ediyor — yani kritik altyapı artık insan müdahalesi olmadan gelişiyor. Bu, AI coding agent'ların artık "developer aracı" değil, **kritik altyapı** olduğunun tescili. 
+**Yatırım hikayesi:** YC S22'den (2022 Summer), yani 4 yıllık bir geçmişi var. 117 HN puanı — son haftalarda yeniden viral olmuş.
 
-Bundan 2 yıl önce "AI kod yazıyor" dediğinde gülüyorlardı. Şimdi uzay istasyonu yazılımı kendi kendini yazıyor.
-
-**Görsel:** Uzay aracı + kod ekranı — "Where code writes itself"
+**Kaynak:** https://intunedhq.com
 
 ---
 
-### Post 2: YC Yaz 2026 — "Platform Shift Kapıda, Kaçırma"
+## 4. Talos — WASM Interpreter Lean İçin (YC W26)
 
-**Hook:** YC'nin yeni dönem lansmanları başlıyor. Ve bu sefer her şey farklı.
+**Herkesin Kaçırdığı Nokta:** WASM (WebAssembly) her yerde — ama Lean programlama dili için WASM interpreter yoktu. Talos bunu çözdü. YC W26'nın en teknik projelerinden biri.
 
-**İçerik:** Demo Day'de öne çıkan 11 startup'ın 9'u agent tabanlı iş modeli sunuyor. YC artık "AI startup" değil, "AI-first workflow" arıyor. 
+**Ne yapıyor:** Lean programlama dilini WebAssembly'ye derleyip browser'da çalıştırıyor. Formal verification, matematiksel ispat araçları artık browser'da çalışabilir hale geliyor.
 
-Platform shift'lerde kazananlar, yeni yetenekleri ilk kullananlar değil — en yaratıcı kullananlar. Bu hafta izleyeceğiniz 11 şirket, önümüzdeki 3 yılın şablonu olacak.
+**LinkedIn Post Fikri:**
+> "Lean programlama dili artık browser'da çalışıyor. YC W26'dan Talos — formal verification'ı herkes için erişilebilir kılıyor. Matematiksel ispat artık bir uygulama away."
 
-**Görsel:** YC Demo Day ekran görüntüsü + "11 startups to watch"
-
----
-
-### Post 3: Intuned — "Bot Detection'ı Yenen İlk YC Lansmanı"
-
-**Hook:** 117 HN puanı, 57 yorum. Bu haftanın en çok tartışılan girişimi.
-
-**İçerik:** Intuned, browser automation'ı "reliable code" olarak sunuyor — yani otomasyon artık GUI değil, test edilebilir, CI/CD'ye giren kod. "Bot detection" sorununu çözdüklerini iddia ediyorlar. 
-
-2 yıldır herkes "browser agent" yapıyordu. Kimse reliability sorununu çözemedi. Intuned çözdü.
-
-**Görsel:** Kod ekranı + "reliable automation as code"
+**Kaynak:** https://github.com/cajal-technologies/talos
 
 ---
 
-### Post 4: Apple Messages for Business — "iMessage'da AI Agent Çağı Başladı"
+## 5. $100M AI Cyber Agent — Tesla'nın Hacker'ı
 
-**Hook:** Apple, ilk AI agent'ı onayladı. WhatsApp Business'tan sonra yeni platform açılıyor.
+**Herkesin Kaçırdığı Nokta:** Eski bir Tesla hacker'ı $100M yatırım alıyor. Forbes'un haberine göre Elon Musk'ın favorisi. Ama asıl ilginç olan: Bu adam Tesla'nın内部 systems'ini hacklemiş, şimdi aynı zafiyetleri AI agent'lar üzerinden satıyor. Fiziksel dünya + siber güvenlik = yeni bir saldırı yüzeyi.
 
-**İçerik:** Poke, Apple Messages for Business'ta onaylanan ilk AI agent oldu. Bu ne demek? iMessage tabanlı müşteri deneyimi artık AI agent'lar tarafından yönetilecek. 
+**Ne yapıyor:** AI tabanlı siber güvenlik agent'ları. Otomatik penetrasyon testi, vulnerability scanning, real-time threat detection.
 
-Türkiye'de 15 milyon iPhone kullanıcısı var. Ve kimse henüz iMessage Business için agent geliştirmiyor. İlk bakan kazanacak.
-
-**Görsel:** Apple logosu + mesaj balonu + "AI Agent Inside"
+**Kaynak:** https://www.forbes.com/sites/thomasbrewster/2026/06/10/elon-musk-favorite-hacker-launches-100-million-ai-cyber-startup/
 
 ---
 
-### Post 5: NewCore — "AI Agent Güvenliği = Yeni Cyber Güvenlik"
+## Haftanın Öne Çıkan Trendleri
 
-**Hook:** 66 milyon dolar tohum yatırım. Ve hiç kimse konuşmuyor.
+### 🌟 Haftanın Trend Teması: "Açık Kaynak AI" ve "Ücretsiz Alternatifler"
+Crunchbase'e, profesyonel CAD yazılımlarına, browser otomasyon araçlarına ücretsiz açık kaynak alternatifler hızla büyüyor. AI'ın demokratikleşmesi sadece model tarafında değil — uygulama katmanında da yaşanıyor.
 
-**İçerik:** AI agent'lar şifre, API key ve kimlik bilgisi kullanıyor — saldırganların yeni hedefi. NewCore, her agent'a güvenlik-first kimlik veriyor: izlenebilir, revoke edilebilir, tekilleştirilmiş.
+### 📊 Diğer Göze Çarpan Veriler
+- **Cost.dev (YC W21):** AI agent'larının maliyetini izleyen araç — 48 puan
+- **Approxima (YC W26):** Agentic QA aracı — otomatik test kırılma tespiti
+- **YC W26 Ship Quality Audit:** Her startup'ın web sitesi analiz edilmiş — ortalama kalite düşük
 
-Güvenlik dünyası 20 yıl boyunca "insan kimliğini" korumakla meşguldü. Şimdi yeni bir kategori var: **AI kimliğini korumak**. Bu sektör 2027'de milyarlarca dolar büyüyecek. İlk girişenler şimdiden kapıda.
+---
 
-**Görsel:** Kalkan + robot kafası — "AI Identity Security"
+## LinkedIn Post Fikirleri
+
+### Post 1: Adam CAD — AI ile CAD Devrimi
+
+**Hook:** "Autodesk'in 30 yıllık tekeli sallantıda."
+
+**İçerik:**
+Bir YC startup'ı (Adam CAD, YC W25) doğal dilde CAD model üreten AI yarattı. Mühendisler 4 saat yerine 2 dakikada üretiyor. Açık kaynak ve ücretsiz.
+
+Ama asıl kaçırılan nokta: CAD yazılımları 30 yıldır aynı paradigma — parametrik modelleme, menüler, kısayollar. AI bu paradigmayı tamamen değiştiriyor. "Çiz" yerine "tanımla" dönemi başlıyor.
+
+Bu mühendislik eğitimini de değiştirecek. Yeni nesil mühendisler menü ezberlemek yerine "ne istediğini" tanımlamayı öğrenecek.
+
+**Görsel:** Adam CAD arayüz screenshot'u veya geleneksel CAD vs AI CAD karşılaştırması
+
+**Hashtag:** #AICAD #OpenSource #Startup #Engineering #YCW25
+
+---
+
+### Post 2: StartupWiki — Ücretsiz Crunchbase Alternatifi
+
+**Hook:** "Crunchbase'e $100+ ödüyorsanız, bu haberi kaçırmayın."
+
+**İçerik:**
+StartupWiki — tamamen ücretsiz, topluluk odaklı, AI destekli startup araştırma dizini. 198 Hacker News puanı almış bir proje.
+
+Crunchbase ve PitchBook aylık $100-500 arası fiyat istiyor. Erken aşama yatırımcılar, girişimciler ve araştırmacılar için bu bariyeri kaldırıyor.
+
+Açık kaynak topluluk modeli — herkes ekleme yapabiliyor, veri güncel kalıyor.
+
+**Görsel:** StartupWiki arayüz görüntüsü, Crunchbase vs StartupWiki fiyat karşılaştırması
+
+**Hashtag:** #Startup #Funding #Crunchbase #OpenSource #StartupWiki
+
+---
+
+## Kaynaklar
+
+- Adam CAD: https://github.com/Adam-CAD/CADAM
+- StartupWiki: https://startupwiki.tech/
+- Intuned: https://intunedhq.com
+- Talos: https://github.com/cajal-technologies/talos
+- Forbes Tesla Hacker: https://www.forbes.com/sites/thomasbrewster/2026/06/10/elon-musk-favorite-hacker-launches-100-million-ai-cyber-startup/
+- YC W26 Ship Quality: https://overlayqa.com/blog/yc-w26-ship-quality/
+- Cost.dev: https://cost.dev/
+- Approxima: https://github.com/Approxima-AI/Approxima-OSS
