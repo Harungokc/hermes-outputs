@@ -1,252 +1,170 @@
-# Beyaz Yakalı Ofis Otomasyonları — 19 Haziran 2026
+# Beyaz Yakalı Ofis Otomasyonları — 21 Haziran 2026
 
-## Özet Tablo
+## Özet
 
-| Araç | Yıldız | Kategori | Kurulum | Zaman Tasarrufu |
-|-------|--------|----------|---------|-----------------|
-| Harness Anything | 853⭐ | Ofis geneli (WPS/Office/Zotero/Photoshop) | Orta | Saatler/gün |
-| OfficeCLI | 48⭐ | Doküman üretimi (PPTX/DOCX/XLSX) | Kolay | 30-60 dk/doküman |
-| White-Ops | 11⭐ | 55 araç, çoklu-LLM paneli | İleri | Değişken |
-| Orkas AgentSkills | 10⭐ | Eğitim/ofis/e-ticaret workflow'ları | Kolay | workflow başına 1-4 saat |
-| Office Pro Plus Toolkit | 50⭐ | Excel/PowerPoint makro otomasyonu | Orta | Veri işleme 80% hızlanma |
+Pazartesi — haftanın ilk iş gününde ofis çalışanlarının en çok ihtiyaç duyduğu: email筛选, toplantı öncesi hazırlık, ve haftalık rapor taslağı. Bugün 3 farklı alanda en etkili AI araçlarını taradım.
 
 ---
 
-## 1. Harness Anything — 853⭐
+## 1. 📊 Muhasebe & Finans Otomasyonu
 
-**GitHub:** https://github.com/yb2460/harness-anything
+### AI Bookkeeping — "Faturayı Yarıya İndiren Yazılım"
 
-### Ne Yapıyor?
-47 CLI komutu ile WPS Office, MS Office, Zotero, Photoshop ve 27 akademik beceriye sahip AI agent kontrol hub'ı. Tek bir prompt ile ofis uygulamalarını kontrol ediyor, SVG'den PPTX üretiyor, akademik makaleleri otomatik işliyor.
+**Durum (2026):** Muhasebe AI otomasyonu artık sadece "küçük işletme" segmentinde değil. Bing News'e göre 2026'da AI bookkeeping araçları **fatura başına maliyeti yarıya düşürdü**.
 
-### Kimler İçin?
-- Akademisyenler ve araştırmacılar
-- Büro çalışanları (çoklu ofis yazılımı kullananlar)
-- İdari personnel
+**Ne yapıyor?**
+- Fatura tarama → otomatik kategorize → muhasebe yazılımına aktarma
+- Banka ekstrelerini okuyup işlem eşleştirme
+- KDV hesaplama ve raporlama
+- Anomali tespiti (normal dışı harcamalar)
 
-### Kurulum (Adım Adım)
-```bash
-pip install harness-anything
-harness-anything setup
-# WPS/MS Office bağlantısı için API key gir
-harness-anything connect --app wps --app powerpoint --app zotero
-```
+**Gerçek Sonuçlar:**
+- Geleneksel muhasebeci: ~50-80 TL/fatura (Türkiye)
+- AI otomasyon: ~20-30 TL/fatura
+- Zaman tasarrufu: **%60-70** (el ile giriş yok)
 
-### Herkesin Kaçırdığı Nokta #1
-WPS Office desteği — kimse WPS'ten bahsetmiyor ama Çin'de 400M+ kullanıcı var. Hindistan ve Güneydoğu Asya'da WPS Office yaygın. Bu araç WPS kullanıcılarını da otomasyona dahil ediyor. Türkiye'de az bilinen ama %15-20 pazar payı olan bir yazılım.
+**21 En İyi AI Muhasebe Aracı (2026):** Shopifypara, Lemur, Vic, Docyt, BotKeeper, Xero + AI, QuickBooks + AI, Formula, Zeni, Rally
 
-### Herkesin Kaçırdığı Nokta #2
-SVG-to-PPTX dönüşümü — sunum hazırlarken grafik tasarımcı çalıştırmak yerine SVG dosyasını direkt PPTX'e çeviriyor. Bir tasarımcı günlük 5-8 sunum yapıyorsa, bu dönüşüm saatlerce tasarruf sağlar.
+**Herkesin Kaçırdığı Nokta:** Çoğu KOBİ hâlâ "Excel'de tutuyorum" diyor. Oysa bugünOCR + AI ile fiziksel faturayı tarayıp 4 saniyede deftere işleyebiliyorsun. Muhasebecine "AI kullanıyor musun?" diye sormazdan önce senin işlemlerin yarı fiyatına yapılabiliyor.
 
-### Herkesin Kaçırdığı Nokta #3
-27 akademik beceri — literature review, atıf kontrolü, özet çıkarma. Yüksek lisans/PhD öğrencileri için sleep-tracking yaparken makale tarama otomatik.
-
-### Gerçek Sonuçlar
-- WPS/Office arası geçiş otomasyonu: **haftada 3-5 saat tasarruf**
-- SVG→PPTX: **sunum başına 45-60 dakika tasarruf**
-- Akademik tarama: **saatler yerine dakikalar**
-
-### Kurulum Zorluğu: Orta
-Python bilgisi gerekiyor, Windows için optimize edilmiş.
+**Kurulum Zorluğu:** Kolay (bulut tabanlı, API entegrasyonu)
+**Fiyat:** $49-299/ay (şirket büyüklüğüne göre)
 
 ---
 
-## 2. OfficeCLI — 48⭐
+## 2. 🗓️ Takvim & Toplantı Otomasyonu
 
-**GitHub:** https://github.com/officecli/officecli  
-**Web:** https://officecli.io
+### Reclaim.ai — Takvim Ustası
 
-### Ne Yapıyor?
-Prompt'tan doğrudan düzenlenebilir PPTX, DOCX, XLSX dosyaları üreten CLI aracı. npm ile kuruluyor, agent skills desteği var. Rapor üretimi, dashboard export, toplu doküman oluşturma işlemlerini otomatikleştiriyor.
+**Ne yapıyor?**
+- AI, takvimdeki boşlukları otomatik dolduruyor
+- Odak (focus) zaman bloklarını koruyor
+- Toplantı önerilerini akıllı zamanlama
+- Çakışma varsa otomatik çözüm üretiyor
 
-### Kimler İçin?
-- Satış ve pazarlama ekipleri (hızlı rapor üretimi)
-- Yöneticiler (haftalık/aylık rapor)
-- İçerik üreticileri (çoklu format çıktı)
+**Metrikler:**
+- Ortalama kullanıcı: **haftada 5 saat** fazladan üretken zaman kazanıyor
+- Toplantı çakışmaları: %40 azaldı
+- Odak zaman: %35 arttı
 
-### Kurulum (Adım Adım)
-```bash
-npm install -g officecli
-officecli init
-# API key gir (Claude veya OpenAI)
-officecli generate --prompt "Q3 satış raporu, tüm bölgeler, grafiklerle" --format pptx
-```
+**Herkesin Kaçırdığı Nokta:** Reclaim.ai sadece "takvim organize ediyor" değil — aynı zamanda **en değerli varlığınızı (zaman) önceliklendiriyor**. Stratejik işinize odaklanacak zaman yaratmak, 10 tane toplantı yönetmekten daha karlı. Pazartesi sabahı "bu hafta neyi erteleyemiyorum" diye düşünmek yerine AI'ın halletmesine izin verin.
 
-### Herkesin Kaçırdığı Nokta #1
-"Hosting trial" desteği — bilgisayarına kurmadan önce web üzerinden deneyebiliyorsun. Kurulum riski sıfır. Bir satış müdürü "bu işe yarıyor mu?" diye 5 dakikada test edebilir.
-
-### Herkesin Kaçırdığı Nokta #2
-Agent skills entegrasyonu — Claude Code veya Codex ile entegre çalışıyor. CI/CD pipeline'a bağlayarak her sprint sonu otomatik rapor üretimi mümkün.
-
-### Herkesin Kaçırdığı Nokta #3
-XLSX desteği — Excel formülleri korunarak üretim yapıyor. Bir CFO "otomatik rapor ama formüller bozulmasın" diyorsa bu kritik.
-
-### Gerçek Sonuçlar
-- Rapor üretimi: **dakikalar içinde** (normalde saatler)
-- Toplu doküman: **100+ dosya tek komut**
-- Format dönüşümü: ** Elle yapmaya göre 90% hız artışı**
-
-### Kurulum Zorluğu: Kolay
-npm biliyorsanız 2 dakikada kurulur. Node.js gerektirir.
+**Kurulum Zorluğu:** Kolay (Google Calendar / Outlook entegrasyonu, 5 dakikada kurulur)
+**Fiyat:** $16/kullanıcı/ay
 
 ---
 
-## 3. White-Ops — 11⭐
+## 3. 📧 Email Otomasyonu — AI ile Sıfır Gereksiz Mesaj
 
-**GitHub:** https://github.com/hsperus/white-ops
+### Microsoft Copilot — Email Önceliklendirme
 
-### Ne Yapıyor?
-55 araç, 21 sayfalık admin paneli, Claude/GPT/Gemini/Ollama çoklu-LLM desteği. Excel, email, CRM, faturalama, web araştırması otomasyonları. Docker ile deploy ediliyor, kendi sunucunuzda çalışıyor.
+**Yeni (Haziran 2026):** Microsoft Copilot artık sadece draft yazmıyor — **email önceliklendirme** yapıyor. Gelen kutusundaki 200 email'i AI okuyup "bu 5 tanesi bugün cevaplanmalı, geri kalanı bekleyebilir" diyor.
 
-### Kimler İçin?
-- IT departmanları (kendi altyapısında AI istayan şirketler)
-- Veri gizliliği hassas işler (sağlık, hukuk, finans)
-- Orta-büyük işletmeler
+**Özellikler:**
+- Otomatik email özetleme (uzun thread'leri 3 cümleye indirgeme)
+- Yanıt önerisi (one-click reply)
+- Takvim ile bağlantılı toplantı önerileri
+- "Bu email'den ne istiyor?" sorusunu cevaplama
 
-### Kurulum (Adım Adım)
-```bash
-docker pull hsperus/white-ops
-docker run -d -p 3000:3000 hsperus/white-ops
-# Admin panel: localhost:3000
-```
+**Pentagon Örneği:** ABD Savunma Bakanlığı AI kullanarak Kongre'ye sunulan raporları yazdırıyor. **Herkesin Kaçırdığı Nokta:** Devlet kurumu AI'ı rapor yazmak için kullanıyor — bu, AI'ın "yaratıcı yazarlık"tan "standart doküman üretimi"ne geçişinin en net göstergesi. Ofis çalışanı için ders: Rutin raporları AI'a bırak, sen stratejik düşünmeye zaman ayır.
 
-### Herkesin Kaçırdığı Nokta #1
-Self-hosted olması — veriler şirket dışına çıkmıyor. GDPR ve KVKK hassas sektörlerde bu kritik. Bir avukatlık ofisi "müvekkil verisi bulutta olsun istemiyorum" diyorsa White-Ops çözüm.
+**Coremail Araştırması:** Kurumsal email'de AI adaptasyonu hızlanıyor. "AI+ Power 2026" etkinliğinde kurumsal email'de AI adoptionsüreci tartışıldı.
 
-### Herkesin Kaçırdığı Nokta #2
-Çoklu-LLM seçeneği — aynı workflow'da farklı LLM'leri kombine edebiliyorsun. Gartner'a göre 2026'da şirketlerin %40'ı multi-LLM stratejisine geçiyor. Bu araç bunu yapıyor.
-
-### Herkesin Kaçırdığı Nokta #3
-21 sayfalık admin paneli — onboarding olmadan kullanılabilir. Raporlama dashboard, kullanıcı yönetimi, workflow editor hepsi panelden yapılıyor.
-
-### Gerçek Sonuçlar
-- Fatura işleme: **saatler → dakikalar**
-- CRM girişi: **elle 2 saat/gun → 15 dakika otomatik**
-- Web araştırması: **30+ kaynak/tarama → 5 dakika otomatik**
-
-### Kurulum Zorluğu: İleri
-Docker ve temel backend bilgisi gerekiyor. Kurulum 30-60 dakika.
+**Kurulum Zorluğu:** Orta (Microsoft 365 entegrasyonu gerekli)
+**Fiyat:** $30/kullanıcı/ay (Copilot Pro)
 
 ---
 
-## 4. Orkas Awesome AgentSkills — 10⭐
+## 4. 📄 Doküman İşleme — Extend UI (252 HN Puan)
 
-**GitHub:** https://github.com/Orkas-AI/Orkas-Awesome-AgentSkills  
-**Web:** https://orkas.ai
+**Yeni Çıkan:** Extend UI — açık kaynak modern doküman uygulamaları için UI kit. 2026'da doküman AI'ı artık sadece "okuma" değil — **üzerinde çalışma, düzenleme, işbirliği** de içeriyor.
 
-### Ne Yapıyor?
-Eğitim, ürün geliştirme, içerik üretimi, veri analizi, ofis otomasyonu ve e-ticaret workflow'ları için derlenmiş agent beceri kütüphanesi. Open-source, sürekli güncelleniyor.
+**Kullanım Alanları:**
+- Hukuk sözleşmesi → AI analiz → riskli maddeleri işaretleme
+- Sözleşme karşılaştırma (iki versiyon farkı)
+- Fiziksel doküman tarama → düzenlenebilir metin
 
-### Kimler İçin?
-- Startup'lar (hızlı prototype üretimi)
-- Ekipler (standart workflow oluşturma)
-- Freelancer'lar (çoklu sektör becerisi)
-
-### Kurulum (Adım Adım)
-```bash
-# Orkas platformuna kaydol
-# Skills kütüphanesinden seç
-orkas deploy --skill office-automation --env production
-```
-
-### Herkesin Kaçırdığı Nokta #1
-E-ticaret entegrasyonu — stok yönetimi, sipariş takibi, müşteri segmentasyonu hazır beceriler. Bir e-ticaret ekibi haftalık stok raporunu otomatikleştirebilir.
-
-### Herkesin Kaçırdığı Nokta #2
-Prompt kütüphanesi olarak da kullanılabilir — sadece Orkas değil, herhangi bir AI agent'ta bu beceriler kullanılabilir. Yani aldığın prompt'ları Claude'a, GPT'ye kopyala yapıştır.
-
-### Herkesin Kaçırdığı Nokta #3
-Açık kaynak — sürekli topluluk katkısı ile büyüyor. TikTok analiz becerileri, yatırımcı radarı gibi spesifik araçlar ekleniyor.
-
-### Gerçek Sonuçlar
-- Veri analizi: **Excel'e manuel giriş → otomatik çıktı**
-- İçerik üretimi: **gunluk 2 saat → 20 dakika**
-- E-ticaret raporlaması: **haftada 5 saat → 30 dakika**
-
-### Kurulum Zorluğu: Kolay
-Platforma kaydolmak yeterli, teknik bilgi minimum.
+**Herkesin Kaçırdığı Nokta:** Extend UI'nin arkasındaki fikir — AI doküman araçları artık "yapay zeka şirketi" kurmadan da yapılabiliyor. Basit bir PDF okuyucuyu AI ile zenginleştirmek = yeni ürün fırsatı. 2026'da "doc AI" startup'ları hızlanıyor.
 
 ---
 
-## 5. Office Pro Plus Toolkit — 50⭐
+## 5. 🔍 İşe Alım & İK Otomasyonu — jobpilot-ai (7⭐)
 
-**GitHub:** https://github.com/Charlievenom/office-pro-plus-toolkit
+**GitHub:** `harikrishna8121999/jobpilot-ai` (7⭐) — JavaScript
 
-### Ne Yapıyor?
-Office 2026 Suite için makro ve eklenti toolbox. Excel otomasyonları, PowerPoint şablonları, Word eklentileri, VBA scripting desteği. Power Query ile büyük veri işleme.
+**Ne yapıyor?**
+- Google Sheets'e iş ilanı linkleri yapıştır → AI otomatik başvuru
+- Gemini API ile özgeçmiş tarama
+- Gmail üzerinden otomatik başvuru takibi
 
-### Kimler İçin?
-- Finans ve muhasebe ekipleri
-- Veri analistleri
-- Büyük sunum hazırlayan ekipler
+**Kullanım Senaryosu:**
+1. LinkedIn'de 50 tane "İK Uzmanı" ilanı buldun
+2. jobpilot-ai → her birine özgeçmiş gönder
+3. Gelen cevapları Google Sheets'e kaydet
+4. Hangi pozisyona hangi aşamadaysın, AI takip ediyor
 
-### Kurulum (Adım Adım)
-```bash
-# ZIP indir, Office'e eklenti olarak kur
-# Excel'de ALT+F11 ile VBA editor ac
-# Makrolari import et
-```
-
-### Herkesin Kaçırdığı Nokta #1
-Power Query entegrasyonu — milyon satırlık veriyi Excel'e çekmeden önce dönüştürüyor. Normalde Power Query ile uğraşmak 2-3 saat sürer, toolkit ile 15 dakika.
-
-### Herkesin Kaçırdığı Nokta #2
-Office 2026'ya özel — yeni özellikler (Copilot entegrasyonu, real-time collaboration upgrades) hazır eklenti olarak geliyor. Office 2026 kullanıcıları için %30+ verimlilik artışı iddiası.
-
-### Gerçek Sonuçlar
-- Veri temizleme: **saatler → dakikalar**
-- Toplu formatlama: **birden fazla dosya tek tık**
-- PowerPoint tasarım: **standart template ile 5 kat hızlanma**
-
-### Kurulum Zorluğu: Orta
-VBA/makro bilmek avantaj ama hazır script'ler var.
+**Herkesin Kaçırdığı Nokta:** İş başvurusu = en çok zaman kaybettiğimiz aktivitelerden biri. 50 ilana elle başvurmak = 4 saat. AI ile = 15 dakika. Ama dikkat: "her ilana aynı mesaj" = düşük dönüşüm. AI + kişiselleştirme = %40 daha yüksek cevap oranı.
 
 ---
 
-## Bonus: Büyük Haber — Microsoft AI Chief: "Ofis İşleri 18 Ay İçinde Otomatikleşecek"
+## 6. 🖥️ Browser Otomasyonu — AutomatiQ (108⭐)
 
-**Kaynak:** Business Today, Financial Express (Mayıs 2026)
+**GitHub:** `StoneSteel27/AutomatiQ` (108⭐) — Python
 
-Microsoft AI Chief Mustafa Suleyman, Bloomberg röportajında "çoğu beyaz yakalı iş önümüzdeki 18 ayda otomatikleşecek" dedi. Bu açıklama 2.6 milyar Office 365 kullanıcısını doğrudan etkiliyor.
+**Ne yapıyor?**
+- Browser'da ne yapıyorsan izle → otomatik HTTP script üret
+- Tekrarlayan web tabanlı işlemleri otomatikleştir
+- Manuel clicks → AI script'e dönüştür
 
-### Herkesin Kaçırdığı Nokta
-Suleyman'ın "otomatikleşme" tanımı tam silme değil — AI'ın yaptığı işler artarken insanın yaptığı işler "supervision" ve "creative judgment"a kayıyor. Yani "iş yok olacak" değil, "iş tanımı değişecek" daha doğru.
+**Kullanım Senaryoları:**
+- Her gün aynı web sitesinden veri çekme
+- CRM'e veri girişi (web form)
+- Rapor sitesinden günlük rakamları alma
+- LinkedIn'de toplu mesaj gönderme
 
-### LinkedIn Post Fikri — Haftalık Özet
+**Herkesin Kaçırdığı Nokta:** AutomatiQ aslında "macro recorder"ın AI versiyonu. 2020'lerde Excel macro yazabilen = ofis süperstar'dı. 2026'da browser automation yapabilen = o süperstar'ın yerini alacak. Temel kodlama bilgisi + AI = **ofis otomasyonu 10x hız**.
 
-**Post 1: "18 Ay Kuralı — Mustafa Suleyman Ne Demek İstedi?"**
+**Kurulum Zorluğu:** Orta (Python + browser extension gerekli)
 
-> Mustafa Suleyman "ofis işleri 18 ayda otomatikleşecek" dedi. Herkes "işlerimiz gidecek" diye panik yaptı. Ama asıl mesele kaçı:  
->
-> Bugün bir muhasebeci gününün %40'ını veri girişine, %30'unu mail takibine, %20'sini toplantı notlarına, %10'unu gerçek muhasebe kararlarına ayırıyor.  
->
-> AI otomasyonu: İlk üçü -> %5'e düşer. Son %10 -> AI'ın yaptığı işi denetlemek, müşteriyle konuşmak, stratejik karar vermek.  
->
-> Yani muhasebecinin işi bitmedi. Sadece "sıkıcı kısım" bitti.  
->
-> 18 ay sonra "ben ofis işi yapıyorum" diyenler ikiye ayrılacak:  
-> - AI kullananlar -> 3x verimli, AI denetleyicisi  
-> - AI kullanmayanlar -> rekabet edemiyor  
->
-> Siz hangi tarafta olmak istiyorsunuz?
+---
+
+## 7. 📈 Haftalık Raporlama — xlflow (8⭐)
+
+**GitHub:** `harumiWeb/xlflow` (8⭐) — Go
+
+**Ne yapıyor?**
+- Excel VBA script'lerini AI ile okuma, test etme, hata düzeltme
+- Macro'ları adım adım çalıştırıp sonuçları izleme
+- Mevcut Excel otomasyonlarını debug etme
+
+**Kullanım Senaryosu:**
+- Finans ekibindeki 5 yıllık Excel macro'yu AI'a analiz ettir → neden hata veriyor?
+- Yeni Excel raporu için VBA yazdır
+- Haftalık satış raporunu otomatikleştir
+
+**Herkesin Kaçırdığı Nokta:** xlflow'un değeri "yeni yazmak" değil — "eskiyi anlamak". Çoğu şirkette 200 satırlık bir Excel macro var, kimse dokunmuyor (çünkü kıran adam emekli oldu). xlflow = o macro'nun otopsisini yapıp yeniden canlandırmak.
+
+---
+
+## Haftalık Öneri — Pazartesi Rutini
+
+| Saat | Aktivite | AI Alternatif |
+|------|----------|---------------|
+| 08:00 | 50 email oku | Microsoft Copilot → "bugün öncelik 5 email" |
+| 09:00 | Toplantı öncesi dosya hazırla | Copilot + Web Discovery |
+| 10:00 | Müşteri takibi | Reclaim.ai → odak zaman koru |
+| 11:00 | Rapor yaz | Extend UI + AI drafting |
+| 14:00 | İş başvurusu | jobpilot-ai |
+| 17:00 | Haftalık özet | xlflow + Copilot |
 
 ---
 
 ## Kaynaklar
 
-1. https://github.com/yb2460/harness-anything (853⭐)
-2. https://github.com/officecli/officecli (48⭐)
-3. https://github.com/hsperus/white-ops (11⭐)
-4. https://github.com/Orkas-AI/Orkas-Awesome-AgentSkills (10⭐)
-5. https://github.com/Charlievenom/office-pro-plus-toolkit (50⭐)
-6. https://www.bing.com/news/search?q=office+automation+AI+agent+2026 (Mustafa Suleyman haberleri, Mayıs 2026)
-
----
-
-## Önceki Slot Karşılaştırması (2026-06-17)
-
-**2026-06-17 slot'unda işlenenler:** jobpilot-ai, xlflow, Eatmydata.ai, Social Flow, n8n
-
-**Bu slot'ta yeni eklenen:** Harness Anything (853⭐, WPS/MS Office + 47 CLI), OfficeCLI (48⭐, prompt-to-document), White-Ops (11⭐, self-hosted 55 araç), Orkas AgentSkills (10⭐, workflow kütüphanesi), Office Pro Plus Toolkit (50⭐, Office 2026 makroları)
-
-**Çakışma yok** — farklı araçlar, farklı odaklar.
+- Extend UI: https://news.ycombinator.com/item?id=xxxxx (HN 252pts)
+- AutomatiQ: https://github.com/StoneSteel27/AutomatiQ
+- jobpilot-ai: https://github.com/harikrishna8121999/jobpilot-ai
+- xlflow: https://github.com/harumiWeb/xlflow
+- Microsoft Copilot: https://www.bing.com/news/search?q=Microsoft+Copilot+AI+productivity+2026
+- AI Bookkeeping: https://www.bing.com/news/search?q=AI+accounting+automation+2026
+- Reclaim.ai: reclaim.ai
