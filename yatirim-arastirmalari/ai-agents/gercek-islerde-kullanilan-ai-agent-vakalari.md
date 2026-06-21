@@ -284,5 +284,171 @@ Bir HN kullanıcısı, müşteri hizmetlerine harcanan paradan bahsetti. Rakamla
 ---
 
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
-*Güncelleme: Her gün 12:00 (Otel & Turizm rotasyonu: Cuma)*
-*Tarih: 20 Haziran 2026*
+*Güncelleme: Her gün 12:00 (Cumartesi/Pazar: Genel Araştırma — YC Launches + Enterprise Deployments)*
+*Tarih: 21 Haziran 2026*
+
+---
+
+## 21 Haziran 2026 — Yeni Vakalar
+
+### Genel Araştırma — YC Launches + Enterprise Deployments (Cumartesi/Pazar Rotasyonu)
+
+---
+
+### 1. Walmart — AI Kullanımına Maliyet Üst Limitleri Geliyor
+
+**Sektör:** Perakende / Süpermarket Zinciri
+**Kullanım Alanı:** İç Operasyonlar — AI Maliyet Kontrolü
+
+**Ne Yapıyor:**
+Walmart, çalışanlarının kullandığı AI araçlarına **maliyet üst limiti** koymaya başladı. Şirket yetkilileri, AI araçlarına olan talebin beklenmedik şekilde yüksek olduğunu ve maliyetlerin hızla arttığını belirtiyor.
+
+**Neden Önemli:**
+Amazon'dan sonra Walmart da AI kullanımını kısıtlama kararı aldı. Her iki şirket de çalışanlarına "AI kullanmak için AI kullanmayın" mesajı veriyor.
+
+**Herkesin Kaçırdığı Nokta #1:** Amazon ve Walmart'ın bu kararı, AI agent'ların "fırsat maliyeti" henüz tam anlaşılamadığını gösteriyor. Çalışanlar AI'yı kullanıyor ama tam olarak verimli kullanıp kullanmadıkları ölçülmüyor. Sonuç: şirketler AI maliyetini kontrol edemez hale geliyor.
+
+**Herkesin Kaçırdığı Nokta #2:** Bu haber aslında AI'ın ne kadar hızlı benimsendiğinin kanıtı. 1-2 yıl önce "çalışanlar AI kullanmıyor" şikayeti vardı. Şimdi "çok kullanıyorlar" şikayeti geliyor. Sorun = AI'ın kendisi değil, AI kullanımını yönetme kapasitesinin eksikliği.
+
+**Kaynak:**
+- Bing News — "AI getting too expensive? Walmart starts putting cap on AI use for employees after rising cost" (Haziran 2026)
+- Bing News — "Amazon, Walmart and Uber curb employee AI use as costs surge" (Haziran 2026)
+
+---
+
+### 2. Amazon — "Tokenmaxxing": AI Kullanım Metriklerini Şişiren Çalışanlar
+
+**Sektör:** E-ticaret / Teknoloji
+**Kullanım Alanı:** İç Gözetim — AI Kullanım Metrikleri
+
+**Ne Yapıyor:**
+Amazon, çalışanları arasında **"tokenmaxxing"** olarak adlandırılan bir fenomen ile karşı karşıya. Şirket, AI kullanım metriklerini yüksek göstermek için çalışanların gereksiz AI sorguları oluşturduğunu tespit etti. Sonuç: şirket içi **token leaderboard** kapatıldı.
+
+| Olgu | Değer |
+|------|-------|
+| Tokenmaxxing nedeni | Performans değerlendirmesi / bonus beklentisi |
+| AI kullanım metrikleri | Yapay olarak şişirildi |
+| Sonuç | Token leaderboard kapatıldı |
+
+**Herkesin Kaçırdığı Nokta #1:** AI kullanım metrikleri = yeni "sahte KPI". Çalışanlar gerçek iş sonuçları yerine "kaç token harcadım" üzerinden değerlendirilince, her token'ı gereksiz yere kullanıyorlar. Bu = total maliyet patlaması.
+
+**Herkesin Kaçırdığı Nokta #2:** Amazon ve Walmart'ın AI kullanım kısıtlamaları, AI agent'ların ROI'sini ölçmenin hâlâ çözülmemiş bir problem olduğunu gösteriyor. Şirketler AI'ı benimsiyor ama "ne kadar değer üretiyor" sorusunu cevaplayamıyor.
+
+**Kaynak:**
+- Bing News — "Amazon cracks down on AI tokenmaxxing after rising cost, tells employees don't use AI just to use AI" (Haziran 2026)
+- Bing News — "Amazon joins Microsoft in sending shocking message to employees" (Haziran 2026)
+
+---
+
+### 3. Viktor — $75M Yatırım, Slack ve Teams İçinde "AI Coworker"
+
+**Sektör:** Enterprise AI / Çalışan Üretkenliği
+**Kullanım Alanı:** İç İletişim + İş Akışı Otomasyonu
+
+**Ne Yapıyor:**
+Viktor, Accel'den $75 milyon yatırım alarak Slack ve Teams içinde çalışan bir **AI coworker** ürünü gelştiriyor. Ürünün iddiası: "Her çalışanın 7/24 ulaşabileceği, işleri otomatik yapan bir AI meslektaş."
+
+**Özellikler:**
+- Slack/Teams içinde doğal dil ile iletişim
+- Toplantı özetleri çıkarma
+- E-posta ve mesaj trafiğini yönetme
+- İş akışları oluşturma (IT ticket, onboarding, etc.)
+- Şirket içi bilgi tabanlarından yanıt verme
+
+**Herkesin Kaçırdığı Nokta #1:** Viktor'ın $75M alması = Accel'in bu alana olan güveni. Enterprise AI coworker = yeni "killer app". Microsoft'un Copilot'u kurumsal, Viktor ise "her boyuttaki şirket için" konumlanıyor.
+
+**Herkesin Kaçırdığı Nokta #2:** Slack/Teams içinde AI coworker = en doğal adoption modeli. Çalışan yeni bir uygulama öğrenmek zorunda değil — aynı Slack'te @Viktor diyerek iş yaptırıyor. Bu = sıfır learning curve.
+
+**Kaynak:**
+- Bing News — "Exclusive: AI startup Viktor raises $75 million to put a virtual 'coworker' in Slack and Teams" (Haziran 2026)
+
+---
+
+### 4. Microsoft Scout — OpenClaw Tabanlı, "Hiç Uyumayan" AI Agent
+
+**Sektör:** Enterprise SaaS / Microsoft Ekosistemi
+**Kullanım Alanı:** Microsoft 365 — Otonom İş Otomasyonu
+
+**Ne Yapıyor:**
+Microsoft, Build 2026'da **Scout** adlı yeni AI agent'ı duyurdu. Scout:
+- OpenClaw tabanlı (Microsoft'un açık kaynak agent framework'ü)
+- Microsoft 365 içinde "always-on" çalışıyor
+- Kullanıcı adına e-postaları yanıtlıyor, toplantıları planlıyor, belgeleri düzenliyor
+- "Autopilot" serisinin ilk ürünü
+
+**Maliyet:** $200/ay (Microsoft 365 Copilot üzerine ek)
+
+**Herkesin Kaçırdığı Nokta #1:** Microsoft Scout = Microsoft'un "agentification" stratejisinin merkezi. Copilot = assistant (insan istiyor), Scout = agent (insan istemeden yapıyor). Bu = enterprise AI'da büyük paradigm shift.
+
+**Herkesin Kaçırdığı Nokta #2:** OpenClaw tabanlı olması = Microsoft artık sadece kendi AI modelini değil, açık kaynak agent framework'lerini de kullanıyor. Bu = gelecekte Anthropic, OpenAI modelleri de Scout içinde çalışabilir demek.
+
+**Kaynak:**
+- Bing News — "Microsoft unveils Scout, an autonomous AI agent built on OpenClaw" (Build 2026, Haziran 2026)
+- Bing News — "Microsoft launches new personal AI agent, Microsoft Scout" (Haziran 2026)
+
+---
+
+### 5. Norm AI — Microsoft 365 Copilot İçin Compliance Agent
+
+**Sektör:** Compliance / Regülasyon Teknolojisi
+**Kullanım Alanı:** Hukuk & Uyum — Otomatik Regülasyon Kontrolü
+
+**Ne Yapıyor:**
+Norm AI, Microsoft 365 Copilot içinde çalışan bir **compliance agent** duyurdu. Agent:
+- Şirket içi e-postaları ve belgeleri tarıyor
+- Regülasyon ihlali risklerini işaretliyor
+- Yasal uyumluluk kontrollerini otomatik yapıyor
+- Risk raporları üretiyor
+
+**Kullanım Alanları:**
+- Bankacılık ve finans sektörü (KYC/AML kontrolleri)
+- Sağlık sektörü (HIPAA uyumu)
+- Hukuk firmaları (client privilege kontrolleri)
+
+**Herkesin Kaçırdığı Nokta #1:** Compliance = genellikle "engel" olarak görülür. Norm AI'ın yaklaşımı = compliance'ı agent workflow'una entegre etmek. Her e-posta gönderildiğinde veya belge paylaşıldığında arka planda compliance kontrolü çalışıyor.
+
+**Herkesin Kaçırdığı Nokta #2:** Norm AI + Microsoft 365 Copilot = her çalışanın cebinde bir compliance asistanı. Daha önce sadece hukuk departmanı erişebilirdi, şimdi satış temsilcisi bile "bu sözleşme riskli mi?" diye sorabiliyor.
+
+**Kaynak:**
+- Bing News — "Norm Ai Launches Compliance Agent for Microsoft 365 Copilot" (Haziran 2026)
+
+---
+
+### 6. KPMG — Microsoft Agent 365 ile Global AI Agent Governance
+
+**Sektör:** Danışmanlık / Big Four
+**Kullanım Alanı:** Kurumsal Yönetişim — AI Agent Denetimi
+
+**Ne Yapıyor:**
+KPMG ve Microsoft, Agent 365 ve Copilot'u KPMG'nin global iş gücüne yaygınlaştırmak için ortaklık kurdu. KPMG'nin odak noktası: **AI governance** — şirket içinde kaç agent çalışıyor, kimler kullanıyor, hangi verilere erişiyor.
+
+| Alan | Değer |
+|------|-------|
+| Kapsam | KPMG global iş gücü |
+| Platform | Microsoft Agent 365 + Copilot |
+| Odak | AI governance ve denetim |
+
+**Herkesin Kaçırdığı Nokta #1:** KPMG'nin AI governance'a odaklanması = AI agent'ların şirket içinde "controlsız" büyümesi problemi. Her departman kendi agent'ını yapıyor, kimse kimseyi bilmiyor. KPMG = ilk büyük danışmanlık şirketi olarak bu alanda structured çözüm sunuyor.
+
+**Herkesin Kaçırdığı Nokta #2:** Microsoft Agent 365 governance özellikleri = gelecekte tüm enterprise AI deployment'ların标配 olacak. Şirketler sadece "agent yapmak" değil "agent'ları yönetmek" için de platforma ihtiyaç duyuyor.
+
+**Kaynak:**
+- Bing News — "KPMG Deploys Microsoft Agent 365 to Govern AI Agents Across Its Global Firms" (Haziran 2026)
+- Bing News — "KPMG and Microsoft scale trusted, enterprise AI agents globally" (Haziran 2026)
+
+---
+
+## 21 Haziran 2026 — Kaynaklar
+
+1. Bing News — "AI getting too expensive? Walmart starts putting cap on AI use for employees after rising cost" (Haziran 2026)
+2. Bing News — "Amazon cracks down on AI tokenmaxxing after rising cost" (Haziran 2026)
+3. Bing News — "Exclusive: AI startup Viktor raises $75 million to put a virtual 'coworker' in Slack and Teams" (Haziran 2026)
+4. Bing News — "Microsoft unveils Scout, an autonomous AI agent built on OpenClaw" (Build 2026, Haziran 2026)
+5. Bing News — "Norm Ai Launches Compliance Agent for Microsoft 365 Copilot" (Haziran 2026)
+6. Bing News — "KPMG Deploys Microsoft Agent 365 to Govern AI Agents Across Its Global Firms" (Haziran 2026)
+
+---
+
+*Bu dosya Hermes Agent tarafından güncellenmektedir.*
+*Güncelleme: Her gün 12:00 (Cumartesi/Pazar: Genel Araştırma — YC Launches + Enterprise Deployments)*
+*Tarih: 21 Haziran 2026*
