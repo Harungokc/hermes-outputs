@@ -1,123 +1,135 @@
-# Teknoloji Haberleri — 19 Haziran 2026 Cuma
+# Teknoloji & AI Haberleri — 19 Haziran 2026
 
-## Özet
-
-| # | Haber | Kaynak |
-|---|-------|--------|
-| 1 | Apple WWDC 2026: Siri AI + iOS 27 duyurusu | Bing News |
-| 2 | Microsoft Build 2026: 7 büyük AI duyurusu + Mustafa Suleyman'ın açıklaması | Bing News |
-| 3 | Google Gemini kurucu araştırmacısı Noam Shazeer OpenAI'a geçiyor | Bing News |
-| 4 | Meta AI Mode Facebook'ta yayına girdi | Bing News |
-| 5 | DeepSeek $7.4 milyar yatırım aldı, $50B+ değerleme | Bing News |
+> **Hafta sonu öncesi özet** | Öne çıkan: SpaceX $60B Cursor acquisition, Nobel ilaç Google DeepMind→Anthropic beyin göçü, Apple WWDC Siri AI lansmanı
 
 ---
 
-## 1. Apple WWDC 2026 — Siri AI Yeniden Doğdu
+## Özet Tablo
 
-**Ne olmuş?** Apple, WWDC 2026'da Siri'yi tamamen yeniledi. Apple Intelligence altyapısıyla desteklenen yeni Siri, artık cihazdaki tüm uygulamalara erişebiliyor ve karmaşık çok adımlı görevleri tek komutla gerçekleştirebiliyor.
-
-**Herkesin Kaçırdığı Nokta:** Apple'ın "on-device AI" yaklaşımı aslında bir **gizlilik stratejisi**. Google ve Microsoft bulut tabanlı AI'a yatırım yaparken, Apple her şeyi cihazda tutarak 1 milyardan fazla kullanıcının verisini rakip platformlardan farklı konumlandırdı. Bu hamle, AI asistan pazarında Google Assistant ve Alexa'nın işine yarayabilir — çünkü Apple kullanıcıları "verileri kim okuyor?" endişesi olmadan AI kullanabilecek.
-
-**Herkesin Kaçırdığı Nokta #2:** AirPods'lara AI odaklı kamera ekleme planı **ertelendi** (2027'ye). Apple bu hamleyi pas geçmedi — erteledi. Büyük olasılıkla.harici AI modeli entegrasyonu için API hazırlığı yapılıyor.
-
-**Kaynak:** [Bing News - Apple WWDC 2026](https://www.bing.com/news/search?q=Apple+WWDC+2026+AI+Siri)
-
----
-
-## 2. Microsoft Build 2026 — 7 Büyük AI Duyurusu
-
-**Ne olmuş?** Microsoft Build 2026'da Windows'a derin AI entegrasyonu, Azure AI servisleri ve Mustafa Suleyman'ın Microsoft'un AI stratejisini açıklaması.
-
-**Herkesin Kaçırdığı Nokta:** Mustafa Suleyman (eski Google DeepMind kurucu ortağı, şimdi Microsoft AI CEO'su) Build 2026'da ilk kez Microsoft'un AI vizyonunu net bir şekilde ortaya koydu. "AI her yerde olmalı, kullanıcı fark etmemeli" mesajı — bu aslında Microsoft'un 2027'de tüm Office ürünlerini AI-first yeniden yazacağının sinyali.
-
-**Herkesin Kaçırdığı Nokta #2:** Microsoft hissedarları AI harcamaları ve Azure büyümesi nedeniyle dava açtı. Microsoft 2026'da AI altyapısına $80 milyar+ yatırım yapıyor. Bu dava, piyasanın "AI harcamaları ne zaman para getirir?" sorusunu sorduğunun göstergesi — bu soru tüm tech devleri için geçerli.
-
-**Kaynak:** [Bing News - Microsoft Build 2026](https://www.bing.com/news/search?q=Microsoft+Build+2026+AI+announcements)
+| Haber | Şirket | Değer | Önem |
+|-------|--------|-------|------|
+| AI kod asistanı satın alımı | SpaceX → Cursor | $60B | ★★★★★ |
+| Nobel araştırmacı transferi | Google → Anthropic | — | ★★★★★ |
+| WWDC Siri AI lansmanı | Apple | — | ★★★★ |
+| Agentic security satın alımı | SailPoint → Entro | $200M | ★★★ |
+| Agentic pazarlama yatırımı | Gradial | $65M | ★★★ |
+| Gemini Omni lansmanı | Google Pixel | — | ★★★ |
+| YC Demo Day | Y Combinator | 11 startup | ★★★ |
 
 ---
 
-## 3. Google Gemini Kurucu Araştırmacısı Noam Shazeer OpenAI'a Geçiyor
+## 1. SpaceX, Cursor AI'ı $60 Milyara Satın Alıyor
 
-**Ne olmuş?** Google'ın Gemini AI'ının kilit araştırmacısı Noam Shazeer, OpenAI'a katılıyor. Shazeer, Google'da Gemini'nin temel mimarisini tasarlayan isimlerden biriydi.
+**Ne olmuş?** SpaceX, AI kod asistanı Cursor'u $60 milyar değerleme ile satın almak için anlaşma imzaladı. Cursor; Anthropic Claude Code, GitHub Copilot ve OpenAI opsonlu kod dünyasında yarışan bir startup.
 
-**Herkesin Kaçırdığı Nokta:** Noam Shazeer'in gitmesi sadece bir " beyin göçü" değil. OpenAI'ın IPO hazırlığı sürerken, en yetenekli AI araştırmacılarını çekme yarışı kızışıyor. Google son 2 yılda 3 üst düzey AI araştırmacısını OpenAI'a kaptırdı. Bu, Google'ın AI araştırma kültüründe bir "yönetim/kültür sorunu" olduğunu gösteriyor.
+**Herkesin Kaçırdığı Nokta:** Piyasa anında tepki verdi — SpaceX hisseleri $600 milyar düştü. Yani yatırımcılar bu satın alma için SpaceX'in $20-30 milyar fazla ödediğini düşünüyor. Enteresan olan: anlaşma henüz tamamlanmadı ve yatırımcılar arasında ciddi direnç var. Cursor'un kurucuları ve yönetimi bu anlaşmayı istemiş olabilir, ancak SpaceX'in ana işi (roketler, Starlink) ile kod asistanı arasında nasıl bir sinerji olacağı net değil.
 
-**Herkesin Kaçırdığı Nokta #2:** Gemini hâlâ GPT-4o'nun açık ara önünde değil. Shazeer'in OpenAI'a gitmesi, Google'ın "yarışı kazanma" motivasyonunu değil "IV. sırada olma" gerçeğini yansıtıyor.
+Bir diğer detay: Cursor, piyasadaki en iyi "AI ile kod yazma" deneyimlerinden biri olarak biliniyor — özellikle çok dosyalı projelerde. Ancak $60B değerleme, yıllık gelirinin 500-1000x'i gibi absürt bir çarpan. Klasik "acquisition-for-hire" mı yoksa gerçek bir teknoloji entegrasyonu mu, önümüzdeki çeyreklerde belli olacak.
 
-**Kaynak:** [Bing News - Google Gemini Noam Shazeer](https://www.bing.com/news/search?q=Google+Gemini+Noam+Shazeer+OpenAI)
-
----
-
-## 4. Meta AI Mode Facebook'ta Yayına Girdi
-
-**Ne olmuş?** Meta, Facebook'ta "AI Mode" adlı yeni arama özelliğini duyurdu. Bu özellik, Meta'nın tüm platformlarından (Instagram, WhatsApp, Facebook) çekilen verilerle çalışan bir AI destekli arama sistemi.
-
-**Herkesin Kaçırdığı Nokta:** Meta AI Mode, Google Search'ün 25 yıllık tekelini kırmak için değil — **kullanıcıyı platformda tutmak** için tasarlandı. Facebook kullanıcıları artık arama için Google'a gitmiyor. Meta bunu "kullanıcı kaybı önleme" olarak konumlandırıyor, "Google alternatifi" olarak değil.
-
-**Herkesin Kaçırdığı Nokta #2:** Meta'nın $2 milyar hisse geri alımı ve Çin'in Manus AI anlaşmasını iptal kararı — bu iki haber aynı haftada çıktı. Çin'in Meta ile AI işbirliğini engellemesi, Meta'nın küresel AI yarışında "jeopolitik risk" altında olduğunu gösteriyor.
-
-**Kaynak:** [Bing News - Meta AI Mode Facebook](https://www.bing.com/news/search?q=Meta+AI+Mode+Facebook+2026)
+**Kaynak:** Bing News — "SpaceX Cursor $60 billion deal 2026"
 
 ---
 
-## 5. DeepSeek $7.4 Milyar Yatırım Aldı — $50 Milyar Değerleme
+## 2. Nobel Ödüllü Araştırmacı John Jumper, Google DeepMind'dan Anthropic'e Geçti
 
-**Ne olmuş?** Çin'in en hızlı büyüyen AI startup'ı DeepSeek, $7.4 milyar yatırım aldı. Şirketin değerlemesi $50 milyarı aştı ve Çin'in en değerli AI startup'ı unvanını kazandı.
+**Ne olmuş?** AlphaFold'un (protein katlanması problemini çözen AI modeli) ortak yaratıcısı ve Nobel kimya ödüllü John Jumper, Google DeepMind'dan ayrılıp Anthropic'e katıldı. Bu, son 18 ayda Google'dan Anthropic'e yapılan en yüksek profilli transfer.
 
-**Herkesin Kaçırdığı Nokta:** DeepSeek, ChatGPT'ye rakip olarak değil — **Çin hükümetinin AI altyapısı** olarak konumlanıyor. $7.4 milyarlık yatırımın büyük kısmı Çin devlet fonlarından geldi. Bu, DeepSeek'in "kâr amacı güden startup" değil, "ulusal AI stratejisi"nin bir parçası olduğunu gösteriyor.
+**Herkesin Kaçırdığı Nokta:** Google DeepMind'ın en büyük rekabet avantajı "biyoloji/ilaç alanında AI"ydı — AlphaFold bunun sembolü. John Jumper gittikten sonra DeepMind'da kim bu alanı yönetecek? Google'ın en prestijli araştırma laboratuvarından, rakip şirkete giden bu beyin göçü sadece "yüksek maaş" meselesi değil — muhtemelen Google'ın内部 politikaları veya Anthropic'in araştırma özgürlüğü konusunda ciddi bir hayal kırıklığı var.
 
-**Herkesin Kaçırdığı Nokta #2:** DeepSeek'in $7 milyarlık yatırımı, ABD'nin Çin AI yaptırımlarının " ters teptik" ettiğini gösteriyor. Yaptırımlar Çinli şirketleri hızlandırıyor, yavaşlatmıyor. Her yaptırım, Çin'de yeni bir milli AI girişimini besliyor.
+Bir ayrıntı daha: Jumper'ın kendisi henüz kamusal bir açıklama yapmadı. İşten ayrılık haberi Bloomberg ve çeşitli tech muhabirleri tarafından "bilgi sahibi kaynaklara dayanarak" yazıldı. Google ve Anthropic resmi olarak doğrulamadı.
 
-**Kaynak:** [Bing News - DeepSeek $7 billion funding](https://www.bing.com/news/search?q=DeepSeek+7+billion+AI+funding+2026)
+**Kaynak:** Bing News — "Nobel laureate John Jumper leaves Google DeepMind for Anthropic 2026"
 
 ---
 
-## GitHub Trending AI Repolar — Haftanın Öne Çıkanları
+## 3. Apple WWDC 2026: Siri AI ve iOS 27 Lansmanı
 
-| Repo | ⭐ | Dil | Açıklama |
-|------|----|----|----------|
-| DietrichGebert/ponytail | 40,359 | JavaScript | "En tembel senior developer gibi düşünen AI agent" — en az kod yazma felsefesi |
-| nottelabs/notte | 76+ | — | Browser AI agent platform (HN 76pts) |
-| ruvnet/agent-harness-generator | 219 | TypeScript | AI agent scaffold oluşturma aracı |
-| orange2ai/renwei-writing | 828 | N/A | "İnsan tadı" yazma — AI'ın yazısını kişiselleştirme |
-| dzcmemory-web/bazi-ziwei-skill | 435 | TypeScript | Çin astrolojisi + AI agent skill |
-| dongshuyan/compass-skills | 367 | Python | Kişisel AI görev kontrol sistemi |
+**Ne olmuş?** Apple, yıllık geliştirici konferansında Siri'nin yeni nesil AI özelliklerini tanıttı. iOS 27 ile birlikte gelen "Apple Intelligence" artık sadece basit komutlarla değil, doğal dilde karmaşık görevlerle de çalışıyor.
+
+**Herkesin Kaçırdığı Nokta:** Apple'ın AI stratejisi diğer şirketlerden farklı —ChatGPT gibi "burada bir şey üret" yerine, "senin için bir şey hatırla ve bağlam oluştur" odaklı. Yani Siri artık eposta geçmişinizi, mesajlarınızı, takviminizi analiz ederek size "hangi toplantıya hazırlanmalıyım" gibi soruları cevaplıyor.
+
+En büyük fark: Apple, verileri cihazda tutuyor (on-device processing). Diğer AI asistanları bulut üzerinden çalışırken, Apple Privacy-first yaklaşımını koruyor. Bu aynı zamanda Siri'nin hâlâ bulut gerektiren bazı görevlerde yavaş kaldığı anlamına geliyor — özellikle çok karmaşık inference gerektiren görevlerde.
+
+Bir başka detay: Apple WWDC'de "Liquid Glass" arayüz değişikliği duyurdu. Bu, iOS'un en büyük görsel güncellemesi olarak nitelendiriliyor.
+
+**Kaynak:** Bing News — "Apple WWDC 2026 Siri AI iOS 27"
+
+---
+
+## 4. SailPoint, AI Agent Güvenlik Startup'ı Entro'yu $200M'ya Satın Aldı
+
+**Ne olmuş?** Kimlik yönetimi şirketi SailPoint, AI agent güvenliği startup'ı Entro'yu yaklaşık $200 milyona satın aldı. SailPoint, kurumsal kimlik ve erişim yönetimi (IAM) alanında lider.
+
+**Herkesin Kaçırdığı Nokta:** AI agent'lar şirket içinde her şeye erişiyor — veritabanları, API'ler, epostalar, CRM sistemleri. Ancak "bu agent kimlikle hangi sistemlere giriyor" sorusu cevapsız. Entro tam da bu soruyu çözüyor: agent'ların non-human identity'lerini yönetmek ve denetlemek.
+
+SailPoint'in bu satın almayı "Agentic Fabric" markası altında konumlandırması ilginç — sanki kurumsal AI agent altyapısı için bir "işletim sistemi" inşa etmeye çalışıyorlar. Henüz erken aşama ama önümüzdeki 2-3 yılda kurumsal AI agent governance'ı büyük bir pazar olacak.
+
+Küçük ama önemli detay: SailPoint 2025'te Thales'e $6B'ya satılmıştı. Şimdi yeni sahibi altında Entro'yu alıyor — yani aslında Thales'in AI güvenlik stratejisi bu.
+
+**Kaynak:** Bing News — "SailPoint acquires Entro AI agent security $200M 2026"
+
+---
+
+## 5. Gradial, Agentic Pazarlama AI için $65M Yatırım Aldı
+
+**Ne olmuş?** Seattle merkezli Gradial, kurumsal pazarlama ekipleri için agentic AI araçları geliştiriyor. $65 milyon yeni yatırım aldı.
+
+**Herkesin Kaçırdığı Nokta:** Gradial'in farkı "pazarlama stratejisi üretmek" değil — mevcut pazarlama araçları (Salesforce, HubSpot, Marketo) ile entegre çalışarak kampanya oluşturma, A/B test kararları, içerik üretimini agent'lara yaptırmak.
+
+$65M değerleme belirtilmedi ancak "Series B yakın" deniliyor. Agentic pazarlama araçları henüz çok yeni — geleneksel marketing automation'dan (HubSpot, Mailchimp) farkı: burada insan "onaylıyor", agent "yapıyor". Feedback loop'lar kritik. Gradial'in başarısı müşteri başarı hikayelerine bağlı — şu an 1-2 case gösteriyorlar ama henüz scale olmuş değil.
+
+**Kaynak:** Bing News — "Gradial $65M agentic marketing AI startup 2026"
+
+---
+
+## 6. Google Pixel + Gemini Omni: "Her Şeyden Her Şeye" Üretim Dönemi
+
+**Ne olmuş?** Google, Haziran 2026 Pixel güncellemesiyle Gemini Omni modelini Pixel cihazlarına getirdi. Gemini Omni, her türlü girdiyi (metin, ses, görüntü, video) işleyebilen ve her türlü çıktı üretebilen multimodal bir model.
+
+**Herkesin Kaçırdığı Nokta:** "Her şeyden her şeye" (any-to-any) AI modelleri artık laboratuvar ürünü olmaktan çıkıp tüketici cihazlarına geliyor. Gemini Omni Flash versiyonu gerçek zamanlı video düzenleme, sesli konuşma analizi ve doküman anlama yapabiliyor.
+
+Ancak realite: Gemini Omni'nin tam özellikli versiyonu bulut tabanlı çalışıyor. Pixel'de çalışan "Lite" versiyonu önemli kısıtlamalara sahip. Yine de Google'ın "cihaz üzerinde AI" yarışında Apple'a yetişme çabası net — her iki şirket de AI'ı cihazda çalıştırmak istiyor.
+
+Bir ilginç nokta: Google bu lansmanla birlikte "Android AI" ekosistemi için yeni API'ler duyurdu. Üçüncü parti geliştiriciler Gemini Omni'yi uygulamalarına entegre edebilecek.
+
+**Kaynak:** Bing News — "Google Gemini Omni Pixel 2026"
+
+---
+
+## 7. Y Combinator Spring 2026 Demo Day: 11 Öne Çıkan Startup
+
+**Ne olmuş?** Y Combinator, Spring 2026 döneminde 11 startup'ı öne çıkan olarak belirledi. VC'ler özellikle belirli birkaç startup'a odaklanmış durumda.
+
+**Herkesin Kaçırdığı Nokta:** YC W26 döneminde en çok ilgi gören temalar: AI coding agents, AI security, ve "non-tech founder" araçları. Hacker News'te öne çıkan YC startup'ı "pen testing model" — bir AI modeli güvenlik açıkları buluyor ve reddetmiyor (yani tablodan kaçmıyor).
+
+Demo Day'de "en sıcak" startup'ların çoğu henüz halka açık değil. Ancak VC kaynaklarına göre bu dönemde AI agent infrastructure'ı (monitoring, security, governance) yatırımcıların radarında — çünkü "herkes AI agent yapıyor" ama "kimse agent'larını yönetemiyor".
+
+Bir tespit daha: Bu dönemde YC'ye başvuru sayısı düşmüş (genel startup ekosistemi yavaşlaması), ancak kabul oranı aynı — yani daha az başvuru, aynı kalite.
+
+**Kaynak:** Bing News — "YC Demo Day 2026 startups" + HN Algolia
 
 ---
 
 ## Gelecek Hafta Beklentileri
 
-1. **Apple iOS 27 beta** — Geliştiriciler ilk izlenimleri paylaşacak
-2. **OpenAI IPO hazırlığı** — Yeni yönetici ataması bekleniyor
-3. **Google I/O 2026 etkileri** — Gemini 2.0 lansmanı yaklaşıyor
-4. **Microsoft AI event** — Azure AI yeni servisleri
-5. **EU AI Act** — Temmuz uygulama başlıyor, şirketler hazırlıklarını açıklayacak
+- **Apple:** iOS 27 beta süreci başlayacak — geliştiricilerin ilk geri bildirimleri gelecek
+- **Google:** Gemini 3.0 lansmanı bekleniyor (bildirmedi ama sektör beklentisi)
+- **Anthropic:** John Jumper'ın Anthropic'de ne proje üstleneceği netleşebilir — ilaç/biyoloji odaklı mı, genel araştırma mı?
+- **SpaceX/Cursor:** Satın alma sürecinin tamamlanıp tamamlanmayacağı veya SpaceX hisse fiyatının toparlanıp toparlanmayacağı izlenecek
+- **YC W26:** İlk müşteri edinim metrikleri ve VC follow-on yatırımları başlayabilir
 
 ---
 
-## Haftalık Değerlendirme
+## Kaynaklar
 
-**Bu haftanın ana teması:** "AI yatırım yarışı ve beyin göçü"
-
-- 💰 **$7.4B DeepSeek** vs **$80B Microsoft AI** = küresel AI yatırımı rekor kırıyor
-- 🧠 **Noam Shazeer Google→OpenAI** = en yetenekli araştırmacılar için şirketler arası yarış
-- 🏠 **Meta AI Mode** = sosyal medya platformları artık "arama motoru" olmaya başlıyor
-- 📱 **Apple on-device AI** = gizlilik odaklı AI stratejisi farklılaşma yaratıyor
-
----
-
-## LinkedIn Post Fikri
-
-**Başlık:** "AI yatırım yarışında asıl kazanan... yatırımcılar değil"
-
-**Hook:** Geçen hafta $7.4 milyar DeepSeek'e, $80 milyar Microsoft AI altyapısına, $900 milyar... hepsi yatırım. Ama asıl ilginç soru şu: **kim kazanıyor?**
-
-**İçerik:** DeepSeek Çin devleti için yarışıyor, Microsoft Azure için, Google Gemini için... Ama Noam Shazeer'in Google'dan OpenAI'a gitmesi tek bir şeyi gösteriyor: **AI yarışı para değil, beyin yarışı.** En iyi araştırmacılar en çok kimin vizyonuna inanıyorsa ona gidiyor.
-
-**Görsel:** İki taraflı bir ok tablosu — sol tarafta "$ milyarlar", sağ tarafta " beyinler" ve okların yönü
-
-**Hashtag:** #AI #Investment #DeepSeek #Microsoft #Google #Startup
+- SpaceX Cursor: Bing News — "SpaceX Cursor $60 billion"
+- John Jumper: Bing News — "Nobel John Jumper Anthropic"
+- Apple WWDC: Bing News — "Apple WWDC 2026 Siri AI"
+- SailPoint Entro: Bing News — "SailPoint Entro $200M"
+- Gradial: Bing News — "Gradial $65M"
+- Google Gemini Omni: Bing News — "Google Gemini Omni Pixel 2026"
+- YC Demo Day: Bing News + HN Algolia
 
 ---
 
-*Kaynak: Bing News, GitHub Trending, HN Algolia | Tarih: 19 Haziran 2026 Cuma*
+*Hazırlanma zamanı: 2026-06-19 08:00 UTC*
