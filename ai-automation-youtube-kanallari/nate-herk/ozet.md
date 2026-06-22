@@ -1,16 +1,11 @@
-# Nate Herk — YouTube Kanalı Özeti
+# Nate Herk — Son Video Özeti
 
-**Son Tarama:** 2026-06-21  
-**Kanal:** @nateherk (812B abone)
+**Video:** So You Learned Claude, Now What?  
+**Tarih:** 2026-06-22  
+**Abone:** 821B
 
-## Yeni Video (Bu Tarama)
-| Tarih | Video | Başlık | İzlenme |
-|--------|-------|--------|---------|
-| 2026-06-19 | EuzYhzB0vbI | Finally. Agent Loops Clearly Explained. | 45.7K |
+## Kısa Özet
+Nate Herk bu videoda Claude gibi AI araçlarını öğrendikten sonra kariyer yolunda ne yapılması gerektiğini anlatıyor. Ana tema: araçlar değişir ama değer, neyin inşa edilmeye değer olduğunu anlayan kişide kalır. AI consultant olmanın iki yolu, altı haneli maaşlı pozisyonlar ve "niye seni işe alayım?" sorusunun cevabı işleniyor.
 
-## Son Videolar
-1. **Agent Loops Clearly Explained** (2026-06-19) — 45.7K görüntülenme
-2. **Every Level of a Claude Second Brain Explained** (2026-06-17) — 79.3K görüntülenme
-3. **From Zero to Head of AI in 1 Year** (2026-06-12) — 19.3K görüntülenme
-4. **Is Claude Mythos Coming?** (2026-06-06) — 37.2K görüntülenme
-5. **AGI is Here. Anthropic Just Proved It.** (2026-06-05) — 81K görüntülenme
+## Yeni Video Var mı?
+✅ EVET — "So You Learned Claude, Now What?" (2026-06-22, ~17 dk)

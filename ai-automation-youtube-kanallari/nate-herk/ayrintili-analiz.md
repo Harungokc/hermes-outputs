@@ -1,91 +1,92 @@
 # Nate Herk — Detaylı Analiz
 
-**Kanal:** @nateherk | 812B abone  
-**Tarama:** 2026-06-21
+**Kanal:** Nate Herk | AI Automation  
+**Son Video:** So You Learned Claude, Now What?  
+**Tarih:** 2026-06-22  
+**Süre:** ~17 dakika  
+**Abone:** 821B
 
 ---
 
-## 🎬 Yeni Video: Agent Loops Clearly Explained
-**Video ID:** EuzYhzB0vbI  
-**Tarih:** 2026-06-19 | **İzlenme:** 45.7K
+## Video Başlığı
+**So You Learned Claude, Now What?**
 
-### Özet
-Nate Herk, "agent loop" kavramını herkesin anlayabileceği şekilde açıklıyor. Çoğu videosu gibi bu da pratik odaklı — teorik değil.
+## Video Açıklaması (Tam Metin)
+My FREE AI OS Course: https://www.skool.com/ai-automation-society/about?el=you-learned-claude-now-what&hcategory=youtube-videos&utm_campaign=free-group
+Full courses + unlimited support: https://www.skool.com/ai-automation-society-plus/about?el=you-learned-claude-now-what&hcategory=youtube-videos&utm_campaign=ais-plus
+Apply for my YT podcast: https://podcast.nateherk.com/apply
+Work with me: https://uppitai.com/
 
-### Ana Konular
-- **Agent Loop = reason → act → observe → repeat** (döngüsel süreç)
-- Verification step'in mimariden daha önemli olduğunu vurguluyor
-- "Done" kriteri tanımlamanın kritik olduğunu söylüyor
-- **3 Demo:** Thumbnail scoring, Three.js plane, Abbey Road recreation
+My Tools💻
+FREE MONTH voice to text: https://get.glaido.com/nate
+Code NATEHERK for 10% off VPS (annual plan): https://www.hostinger.com/vps/claude-code-hosting
 
-### 🤖 Herkesin Kaçırdığı Nokta
-Agent loop'ların başarısı **mükemmel çıktıda değil, ilk denemede ne kadar yaklaştığında**. Yani "5 agent çalıştırmıyorum diye geridesin" hissi normal değil — loop'lar seni ilk seferde hedefe yaklaştırıyor.
+There are a lot of ways to make money with your AI skills. You could start your own agency, you might already run a business, or you might just want to level up at the job you already have.
 
-### 💡 LinkedIn Post Fikri
-> "Agent loop'lar hakkında herkes mimari tartışıyor. Asıl mesele verification step — yani 'iş bitti mi?' sorusunu doğru sormak. 5 agent çalıştırmak değil, bir agent'ı doğru yerde durdurabilmek yetkinliğin göstergesi. İlk denemede %80'e ulaşmak, 5 denemede %100'e ulaşmaktan daha değerli."
+In this video I break down why the path you pick matters less than the skills underneath it and the way you go about using them. I cover why the tools keep changing but the real value sits with the person who can figure out what's actually worth building, the two roads into becoming an AI consultant, and a simple roadmap that works no matter which direction you're headed.
 
----
+Sponsorship Inquiries:
+📧 nate@smoothmedia.co
 
-## 🎬 Every Level of a Claude Second Brain Explained
-**Video ID:** DTCyvo6cC54  
-**Tarih:** 2026-06-17 | **İzlenme:** 79.3K
+Connect with me:
+https://www.linkedin.com/in/nateherkelman/
+https://x.com/nateherk
+https://www.instagram.com/nateherk/
 
-### Özet
-Claude Code ile 5 seviyeli bir "second brain" sistemi kurma rehberi. Her seviye biraz daha otonom.
-
-### Ana Konular
-- **Seviye 1:** CLAUDE.md router (basit yönlendirme)
-- **Seviye 2:** Context management (agent'a sürekli bilgi besleme)
-- **Seviye 3:** Tool integration (dış sistemlere bağlama)
-- **Seviye 4:** Memory persistence (kalıcı bellek)
-- **Seviye 5:** Otonom agent sistemi (her zaman açık)
-
-### 🤖 Herkesin Kaçırdığı Nokta
-"Seviyeyi yükseltmek" hedefiniz olmamalı. Amacınız **en düşük seviyeyi bulmak** ki bu seviye sizin probleminizi çözsün — gereksiz karmaşıklıktan kaçının.
-
-### 💡 LinkedIn Post Fikri
-> "Claude Second Brain kurarken çoğu insan seviye 5'e ulaşmayı hedefliyor. Asıl yetkinlik en düşük seviyeyi bulmak — problemi en basit şekilde çözen seviye, doğru seviye. Komplekslik yetkinlik değil."
+Timestamps:
+00:00 Now what?
+00:36 Tools mean nothing
+01:46 Next wave?
+02:42 Nobody's good
+02:55 Doctor or pharmacist?
+03:51 Two roads
+04:39 Six-figure seats
+08:01 Why hire you?
+10:43 Expiration date
+15:11 From zero?
 
 ---
 
-## 🎬 From Zero to Head of AI in 1 Year
-**Video ID:** diY71x7GUjI  
-**Tarih:** 2026-06-12 | **İzlenme:** 19.3K
+## Herkesin Kaçırdığı Nokta 🔍
+**"Tools mean nothing"** — Nate'in ana tezi, herkes Claude, Cursor, Copilot kullanmayı öğreniyor ama asıl değer "ne inşa edilmeye değer?" sorusunu cevaplayabilmekte. Yani teknik beceri değil, **product thinking + AI stack kombinasyonu** fark yaratan. Bu, çoğu AI kursunun öğretmediği şey.
 
-### Özet
-Ailin'in hikayesi: 15 yıl email developer, 39 yaşında işten çıkarılma, 1 yıl sonra Head of AI. Teknik AI geçmişi yok.
-
-### Ana Konular
-- n8n ve Claude Code'u sıfırdan öğrenmiş
-- Her şeyi public yapıp portfolyo oluşturmuş
-- Mülakatlara "ne inşa ettim?" sorusuyla gitmiş
-
-### 🤖 Herkesin Kaçırdığı Nokta
-İşverenin sorduğu soru "ne biliyorsun?" değil, "**ne inşa ettin?**" — CV'deki yetkinlikler değil, gerçek projeler işe alım belirleyici.
-
-### 💡 LinkedIn Post Fikri
-> "15 yıl email developer olan biri, 1 yılda Head of AI oldu. Sırrı: teknik geçmiş değil, public portfolyo. Mülakatta 'ne biliyorum' değil, 'ne inşa ettim' sorusu cevaplanmış. AI çağında en değerli CV satırı artık bir yetkinlik listesi değil."
+## AI Otomasyon Açısından Değerlendirme
+- **İlgili mi?** ✅ Evet — AI career paths, consulting, agency model
+- **Ana tema:** AI skills → money making paths; consultant olmak; tool selection'tan ziyade judgment becerisi
+- **Anahtar timestamp'ler:**
+  - 00:36 Tools mean nothing
+  - 02:55 Doctor or pharmacist? (referans framework)
+  - 04:39 Six-figure seats
+  - 08:01 Why hire you?
+  - 10:43 Expiration date
 
 ---
 
-## 🎬 Is Claude Mythos Coming?
-**Video ID:** lkR6mvqQQlk  
-**Tarih:** 2026-06-06 | **İzlenme:** 37.2K
+## LinkedIn Post Fikri 💡
 
-### Özet
-Anthropic API'de "Mythos" identifier görülmesi üzerine spekülasyon. Nate'e göre Mythos muhtemelen bir model adı değil, capability.
+**Başlık:** Claude öğrendin, peki şimdi ne yapacaksın?
 
-### 🤖 Herkesin Kaçırdığı Nokta
-Leak + widening access = public launch değil. Asıl takip etmeniz gereken OpenAI'ın bir sonraki hamlesi.
+**Post:**
+"Herkes Claude, Cursor, Copilot öğreniyor. Ama gerçek soru şu: **'Ne inşa edilmeye değer?'**
+
+Nate Herk'in son videosunda söylediği tek cümle her şeyi özetliyor:
+
+🔑 'Tools mean nothing — value sits with the person who figures out what's worth building.'
+
+AI becerisi ≠ Teknik beceri
+AI becerisi = Doğru problemi seçme + doğru stack + doğru anda uygulama
+
+İki yol var:
+1. Freelance/consulting → müşteri bul, problem çöz
+2. Internal product → şirket içinde AI ile çözüm üret
+
+Hangisi olursa olsun, roadmap aynı: önce problemi tanı, sonra aracı seç.
+
+#AIautomation #AIRevolution #Consulting #NoCode #AITools"
 
 ---
 
-## 🎬 AGI is Here. Anthropic Just Proved It.
-**Video ID:** NDeyhGnNECc  
-**Tarih:** 2026-06-05 | **İzlenme:** 81K
-
-### Özet
-Anthropic'in "When AI Builds Itself" raporu: şirketin %80+ kodu artık kendi AI'ları tarafından yazılıyor.
-
-### 🤖 Herkesin Kaçırdığı Nokta
-AGI tanımı önemli. Anthropic en güçlü versiyonu inşa eden şirket ve "yavaşlayın" diyen de o şirket — paradoks burada.
+## Genel Kanal Durumu
+- **Son tarama:** 2026-06-22
+- **Yeni video sayısı:** 1 ("So You Learned Claude, Now What?")
+- **Toplam takip edilen video:** 30

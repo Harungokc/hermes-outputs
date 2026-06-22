@@ -1,17 +1,17 @@
-# Matt Wolfe (mreflow) — YouTube Kanalı Özeti
+# Matt Wolfe — Son Video Özeti
 
-**Son Tarama:** 2026-06-21  
-**Kanal:** @mreflow (964B abone)
+**Kanal:** Matt Wolfe (mreflow)  
+**Abone:** 964B  
+**Son Tarama:** 2026-06-22
 
-## Yeni Video (Bu Tarama)
-> Yok — son taramadan bu yana yeni video bulunamadı.
+## Durum
+⚠️ Yeni video YOK.
 
-## Son Videolar (En Yeni)
-1. **PewDiePie's FREE Odysseus AI** (2026-06-17) — 43.6K görüntülenme
-2. **AI News: An INSANE Week…** (2026-06-12) — 95.8K görüntülenme
-3. **AI News: Microsoft Finally Reveals Their Plan!** (2026-06-05) — 72.7K görüntülenme
+## Son Bilinen Videolar (top 5)
+- JH2ak7kS43E — (listeden)
+- sNCPV-Og9A8 — (listeden)
+- 2lE1-5hBfKk — (listeden)
+- kyOPFFy3I38 — (listeden)
+- OYyS0Gu5xj8 — (listeden)
 
-## Öne Çıkan Konular (Son Videolar)
-- PewDiePie'nin açık kaynak AI platformu Project Odysseus
-- Claude Mythos/Fable 5, Apple Intelligence & yeni Siri
-- Microsoft'un 7 yeni MAI modeli ve Scout agent
+Tüm 30 video zaten taranmış durumda. Yeni video tespit edilmedi.

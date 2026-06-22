@@ -1,17 +1,17 @@
-# Wes Roth — YouTube Kanalı Özeti
+# Wes Roth — Son Video Özeti
 
-**Son Tarama:** 2026-06-21  
-**Kanal:** @WesRoth (320B abone)
+**Kanal:** Wes Roth  
+**Abone:** 320B  
+**Son Tarama:** 2026-06-22
 
-## Yeni Video (Bu Tarama)
-> Yok — son taramadan bu yana yeni video bulunamadı.
+## Durum
+⚠️ Yeni video YOK.
 
-## Son Videolar (En Yeni)
-1. **Claude Fable JUST got BANNED...** (2026-06-13) — 66K görüntülenme
-2. **Anthropic Calls for Pause** (2026-06-05) — 47.4K görüntülenme
-3. **GPT-5.6 about to DROP** (2026-06-01) — 49.9K görüntülenme
+## Son Bilinen Videolar (top 5)
+- kpKb7LI__78 — (listeden)
+- deFvnmibzow — (listeden)
+- glonkx9ppz8 — (listeden)
+- fabe7nYQa1Q — (listeden)
+- vM2At8Uqp2Y — (listeden)
 
-## Öne Çıkan Konular (Son Videolar)
-- Claude Fable'ın yasaklanması olayı
-- Anthropic'in AI yavaşlatma çağrısı
-- GPT-5.6 beklentileri ve spekülasyonlar
+Tüm 30 video zaten taranmış durumda. Yeni video tespit edilmedi.
