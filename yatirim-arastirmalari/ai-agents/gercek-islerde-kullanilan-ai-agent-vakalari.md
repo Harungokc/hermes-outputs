@@ -449,6 +449,134 @@ KPMG ve Microsoft, Agent 365 ve Copilot'u KPMG'nin global iş gücüne yaygınla
 
 ---
 
+## 22 Haziran 2026 — Yeni Vakalar
+
+### Seyahat & Ulaşım AI Agent Vakaları — Perşembe Rotasyonu
+
+---
+
+### 1. SITA — Havayolu AI Stratejisi İki Katı Hızlandı
+
+**Sektör:** Havacılık Teknolojisi / B2B Altyapı
+**Kullanım Alanı:** Operasyonlar — Uçuş Kesinti Yönetimi + Veri Analitiği
+
+**Ne Yapıyor:**
+SITA (havayolları ve havaalanları için teknoloji sağlayıcısı), 2026'da AI stratejisini hızlandıran iki satın alma yaptı:
+
+1. **Big Blue Analytics** — Havayolları için AI tabanlı analitik platform. Uçuş gecikmeleri, kapasite planlama, yakıt optimizasyonu için makine öğrenimi modelleri sunuyor.
+
+2. **AI-Based Disruption Platform** — Uçuş aksamalarında (hava durumu, teknik arıza, slot sıkıntısı) otomatik çözüm üreten agent. Geleneksel sistem: insan operatör 10-30 dakikada çözüm buluyor. SITA'nın platformu: 2-3 dakikada otomatik re-routing, ekip yönlendirme, yolcu bildirimi.
+
+**Müşteri Deneyimi — Kesinti Senaryosu:**
+```
+Senaryo: Frankfurt Havalimanı'nda yoğun sis, 40 uçuş rötar riski
+SITA Agent:
+ → Havalimanı operasyon verilerini real-time çekiyor
+ → 40 uçuşu öncelik sırasına koyuyor (varış süresi, bağlantı, yolcu sayısı)
+ → Alternatif slot tahsislerini simüle ediyor
+ → En optimal çözümü buluyor (2 dakika)
+ → Havalimanı operatörlerine öneri sunuyor
+ → Onay sonrası tüm sistemlere otomatik güncelleme
+```
+
+**Herkesin Kaçırdığı Nokta #1:** SITA havayollarına "tek başına AI satmıyor" — komple operasyonel workflow satıyor. Kesinti yönetimi = havayolu şirketlerinin en pahalı operasyonel maliyeti. 1 saatlik gecikme = ortalama $50,000-$200,000 kayıp (uçak, mürettebat, yolcu bağlantıları). Bu rakamla AI'ın ROI'si tartışmasız.
+
+**Herkesin Kaçırdığı Nokta #2:** SITA 100+ ülkede havalimanı teknolojisi sağlıyor. Big Blue Analytics ve Disruption Platform'u entegre edince, küresel ölçekte "hava yolu AI network'ü" oluşuyor. Bir havayolu şirketinin kesinti çözümü = diğer havayolları için learning. Bu = AI'ın network efekti.
+
+**Kaynak:**
+- Bing News — "SITA expands airline AI strategy with Big Blue Analytics acquisition" (Haziran 2026)
+- Bing News — "SITA Acquires AI-Based Disruption Platform" (Haziran 2026)
+
+---
+
+### 2. Southwest Airlines + AWS — 2028'e Kadar Tam Cloud AI Geçişi
+
+**Sektör:** Havayolu / ABD İç Hat
+**Kullanım Alanı:** Altyapı Modernizasyonu — AI-Driven Operations
+
+**Ne Yapıyor:**
+Southwest Airlines, Amazon Web Services (AWS) ile ortaklık kurarak 2028'e kadar tüm operasyonel altyapısını bulut tabanlı AI sistemlerine taşıyor. Kapsam:
+- Müşteri hizmetleri AI agent'ları (rezervasyon değişikliği, iade, şikayet)
+- Uçuş operasyonları AI optimizasyonu
+- Bakım tahmini (predictive maintenance — uçak parçaları)
+- Kabin ekibi planlaması AI tabanlı
+
+**Herkesin Kaçırdığı Nokta #1:** Southwest = ABD'nin en büyük iç hat havayolu. Bu kadar büyük bir şirketin AWS'e geçişi, havacılık sektöründe "cloud-first" trendinin artık geri dönülmez olduğunu gösteriyor. 2028 deadline = 2 yıl içinde karar.
+
+**Herkesin Kaçırdığı Nokta #2:** Havayolu AI'ında en büyük fırsat = predictive maintenance. Uçak motorları, iniş takımları, kabin sistemleri — arıza öncesi parça değişimi = 0 uçuş aksamásı, 0 yolcu mağduriyeti. Southwest'in AWS AI'ı bu alanda uzmanlaşacak. Türk Havayolları ve Pegasus için de aynı model uygulanabilir.
+
+**Kaynak:**
+- Bing News — "Southwest Airlines Partners with Amazon Web Services (AWS) to Accelerate AI Capabilities and Technology Modernization" (Haziran 2026)
+- Bing News — "Southwest Airlines partners with AWS to modernize systems, expand AI use, and move to a fully cloud-based environment by 2028" (Haziran 2026)
+
+---
+
+### 3. Digi Yatra — 10 Crore Yolculuk, 65 Havalimanına Genişleme
+
+**Sektör:** Havacılık / Biyometrik Kimlik + Dijital Kimlik
+**Kullanım Alanı:** Yolcu Deneyimi — Kimlik Doğrulama + Güvenlik
+
+**Ne Yapıyor:**
+Digi Yatra (Hindistan'ın merkezi havacılık biyometrik kimlik platformu), 2026'da 10 crore (100 milyon) yolculuk barajını aştı. Sistem:
+- Yüz tanıma ile boarding (pasaport/kimlik kartı gerekmiyor)
+- Havalimanı girişinden uçağa binerken tek biometric kimlik
+- Self-boarding gate (insansız kapı geçişi)
+- Future: otel check-in, duty-free alışveriş, uçuş rezervasyonu = tek kimlik
+
+**Genişleme:** 2027'ye kadar 65 havalimanına yayılma hedefi. Hindistan = dünya'nın en kalabalık 3. havacılık pazarı.
+
+**"Extensible Digital Identity" Vizyonu:**
+Digi Yatra kurucuları artık "sadece havacılık için değil" diyor. Amaç: dijital kimlik = güvenilir kimlik kanıtı. Banka hesabı açma, otel check-in, araba kiralama — her yerde aynı biometric kimlik. Bu = WhatsApp + Instagram kimlik doğrulama gibi, ama gerçek dünya için.
+
+**Herkesin Kaçırdığı Nokta #1:** 100 milyon yolculuk = dünya ölçeğinde en büyük biyometrik havacılık deployment'u. ABD'de TSA PreCheck ve CLEAR daha küçük ölçekli. Hindistan'ın altyapı avantajı = her şey dijital-first, eski sistem yükü yok.
+
+**Herkesin Kaçırdığı Nokta #2:** Digi Yatra'nın "extensible identity" vizyonu = AI kimlik doğrulama agent'ları için yeni kullanım alanı. Havalimanında sadece boarding değil — para çekme, otel girişi, araba kiralama da aynı AI kimlik sistemi ile yapılabilir. Türkiye'de İstanbul Airport'un Digi Yatra benzeri bir sisteme geçişi = hem güvenlik hem konfor artışı.
+
+**Kaynak:**
+- Bing News — "Digi Yatra crosses 10 crore journeys, set to expand to 65 airports by next year" (Haziran 2026)
+- Bing News — "Beyond Aviation: Digi Yatra eyes role as extensible digital identity layer" (Haziran 2026)
+- Bing News — "Biometric boarding goes mainstream as Digi Yatra hits 10-crore mark" (Haziran 2026)
+
+---
+
+### 4. CargoAi — AI-Native Hava Kargo İşlem Platformu
+
+**Sektör:** Lojistik / Hava Kargo
+**Kullanım Alanı:** Operasyonlar — Kargo Booking + Fiyatlandırma + Takip
+
+**Ne Yapıyor:**
+CargoAi, hava kargo sektöründe AI-native teknoloji şirketi. CargoMART marketplace'ini tüm AI platformlarına entegre etti. Bu ne demek:
+- Kargo göndericileri (fabrikalar, e-ticaret şirketleri) AI asistanlarından "en ucuz + en hızlı hava kargo seçeneği" sorabiliyor
+- AI, CargoMART verilerini gerçek zamanlı fiyatlandırma, kapasite, transit time ile birleştiriyor
+- Sonuç: sadece fiyat değil, "bu kargoyu Çarşamba günü Şangay'dan İstanbul'a 2 günde ulaştıran en ucuz seçenek" gibi spesifik sonuçlar
+
+**Kullanım Alanı:**
+- E-ticaret: Çin'den Türkiye'ye hızlı kargo için AI ile en optimal rota
+- Otomotiv: Acil yedek parça = hava kargo AI agent'ı anlık çözüm sunuyor
+- İlaç: Soğuk zincir gerektiren ilaçlar için uygun kapasite arama
+
+**Herkesin Kaçırdığı Nokta #1:** Hava kargo = küresel ticaretin omurgası ama teknoloji olarak en geri kalmış sektör. Hâlâ e-posta ve telefon ile rezervasyon yapılıyor. CargoAi'ın AI-native yaklaşımı = bu sektörde ilk gerçek dijital dönüşüm.
+
+**Herkesin Kaçırdığı Nokta #2:** Türkiye İstanbul Airport = küresel hava kargo hub'ı. Turkish Cargo = önemli oyuncu. Türk lojistik şirketleri için CargoAi modeli = doğrudan uygulanabilir. AI agent + hava kargo booking = 10x hızlı rezervasyon, 0 telefon trafiği.
+
+**Kaynak:**
+- Bing News — "CargoAi Connects CargoMART Air Cargo Intelligence to Every AI Platform" (Haziran 2026)
+
+---
+
+## 22 Haziran 2026 — Kaynaklar
+
+1. Bing News — "SITA expands airline AI strategy with Big Blue Analytics acquisition" (Haziran 2026)
+2. Bing News — "SITA Acquires AI-Based Disruption Platform" (Haziran 2026)
+3. Bing News — "Southwest Airlines Partners with Amazon Web Services (AWS) to Accelerate AI Capabilities and Technology Modernization" (Haziran 2026)
+4. Bing News — "Southwest Airlines partners with AWS to modernize systems, expand AI use, and move to a fully cloud-based environment by 2028" (Haziran 2026)
+5. Bing News — "Digi Yatra crosses 10 crore journeys, set to expand to 65 airports by next year" (Haziran 2026)
+6. Bing News — "Beyond Aviation: Digi Yatra eyes role as extensible digital identity layer" (Haziran 2026)
+7. Bing News — "Biometric boarding goes mainstream as Digi Yatra hits 10-crore mark" (Haziran 2026)
+8. Bing News — "CargoAi Connects CargoMART Air Cargo Intelligence to Every AI Platform" (Haziran 2026)
+
+---
+
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
 *Güncelleme: Her gün 12:00 (Cumartesi/Pazar: Genel Araştırma — YC Launches + Enterprise Deployments)*
-*Tarih: 21 Haziran 2026*
+*Tarih: 22 Haziran 2026*
