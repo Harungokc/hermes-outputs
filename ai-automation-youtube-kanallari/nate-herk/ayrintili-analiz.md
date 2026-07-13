@@ -1,123 +1,113 @@
 # Nate Herk — Detaylı Analiz
 
-**Kanal:** Nate Herk | AI Automation  
-**Abone Sayısı:** 822B  
-**Tarama Tarihi:** 2026-06-22
+**Son Tarama:** 2026-07-13
 
 ---
 
-## Video 1: Finally. Agent Loops Clearly Explained.
-**Video ID:** EuzYhzB0vbI  
-**Tarih:** 19 Haziran 2026  
-**Süre:** ~14:33
+## Video 1: Claude Code for Normal People (jdbOVepEtUE)
+
+** yayınlanma:** 2026-07-11 | **Süre:** 5.5 saat
 
 ### Özet
-Agent loop mühendisliği hakkında yayınlanmış en net açıklama. Çoğu kişi agent loop'larını "kodcu işi" olarak görüyor, ancak Nate bunu aşıyor.
-
-### Anahtartespitler
-- Agent loop = **reason → act → observe → repeat** döngüsü
-- **Verification step** (doğrulama adımı) mimariden daha kritik
-- Agent loop kurarken "ne olursa başarısız olur" sorusunu sormak gerekiyor
-- Agent fleet'ler çalıştıranlar için değil, **tek agent bile olsa** loop mantığı aynı
+5.5 saatlik kapsamlı kurs — hiç kodlama geçmişi gerektirmeyen, AI native olma yolculuğu. İlk prompt'tan beceri oluşturma, alt-ajanlar, ikinci beyin ve bulutta çalışan otomasyonlara kadar.
 
 ### Herkesin Kaçırdığı Nokta
-Agent loop'ların gücü mimaride değil, **doğrulama mekanizmasında**. Çoğu eğitim videosu hangi modeli kullanacağınızı anlatıyor, ama başarının sırrı agent'ın çıktısını nasıl kontrol ettiğiniz.
+**"Beceriler, Alt-ajanlar ve Hafıza" üçlüsü birbirinden ayrı satılıyor ama aslında aynı sistemin parçaları.** Beceriler = tekrar eden görevler için hazır prompt'lar. Alt-ajanlar = becerileri kullanan bağımsız çalışanlar. Hafıza = onların geçmişinden öğrenen sistem. Birlikte çalıştığında, AI aslında bir ekip gibi oluyor.
 
 ### LinkedIn Post Fikri
-> "Agent loop'ları sanıldığı kadar karmaşık değil. Dört adım var: reason, act, observe, repeat. Asıl mesele hangi mimariyi kullandığınız değil — çıktıyı nasıl doğruladığınız. Bugün agent'larınızın doğrulama adımı var mı, yoksa körü körüne mi çalışıyorlar?"
+> 5.5 saat harcadım ve tek bir şey öğrendim: AI'ı yanlış kullanıyoruz. Çoğu insan AI'a "bana bir şey yap" diyor. Doğru kullanım: AI'ına görev vermek, araç vermek ve onu tekrarlayan işlerden kurtulmak. Claude Code'la başladım — 6 saat sonra ilk otomasyonum çalışıyordu.
+
+### İçerik Kapsamı
+- 12 Mindset Shift (düşünce kalıpları değişimi)
+- AI Operating System kurulumu (claude.md, settings.json, .env)
+- Skills deep dive (beceriler = tekrar kullanılabilir prompt'lar)
+- Sub-agents (alt-ajanlar = bağımsız çalışan AI)
+- Second brain (5 seviye: Dosyalama → Özetleme → Analiz → Senaryo → Karar)
+- Token management & prompt caching
+- Scheduled automations (cron job benzeri)
+- Google Workspace MCP entegrasyonu
 
 ---
 
-## Video 2: I Switched Claude Code to GLM 5.2 and Ran It All Day
-**Video ID:** 2OD14-0cot4  
-**Tarih:** 18 Haziran 2026
+## Video 2: Sol vs Fable: Manager vs Worker (EthxaDswUFo)
+
+** yayınlanma:** 2026-07-09 | **Süre:** ~20 dakika
 
 ### Özet
-GLM 5.2 (756 milyar parametreli açık kaynak model) Claude Code'a entegre ediliyor. Opus'a kıyasla ~5x ucuz, bilgi işi çoğu görevde yeterli performans.
-
-### Anahtar Tespitler
-- **GLM 5.2**: 756B parametre, açık kaynak, Z.ai üzerinden erişilebilir
-- Claude Code harness'ına **per-proje** model seçimi mümkün
-- Opus'a göre ~5x daha ucuz
-- Bilgi işi/geliştirme görevlerinde Opus'a yakın performans
-- Bazı durumlarda Opus'u geçiyor (özellikle kod üretimi)
+GPT-5.6 Sol ve Claude Fable 5'i gerçek iş görevlerinde head-to-head test. Codex ve Claude Code üzerinde browser oyunları, interaktif websiteler ve API testleri.
 
 ### Herkesin Kaçırdığı Nokta
-İnsanlar ya en pahalı modeli ya da en ünlü modeli seçiyor. GLM 5.2 gibi **güçlü açık kaynak alternatifler** Opus'a yaklaşık %80 performans sunuyor, maliyet sadece 1/5'i. Fiyat/performans hesabı yapmak yerine "en güçlü model" takıntısı paradan kaybettiriyor.
+**Sol "ucuz ve hızlı worker" olarak konumlanıyor ama asıl değer proposition'ı maliyet/performans oranı değil — orchestration'a hazır olması.** Sol, agentic workflows için optimize edilmiş. Yani tek başına "daha iyi kod yazıyor" değil, "bir ekibin parçası olarak çalışmaya daha uygun."
 
-### LinkedIn Post Fikri
-> "Claude Code'da GLM 5.2'ye geçtim. 756B açık kaynak model, Opus'un 1/5 fiyatı, bilgi işi görevlerinde yakın performans. Herkes en pahalı model peşinde koşuyor, kimse fiyat/performans hesabı yapmıyor. Bugün proje başına model seçimi yapıyorsanız, cüzdanınız zaten teşekkür ediyor."
+### Test Sonuçları
+| Test | Fable | Sol |
+|------|-------|-----|
+| Browser Bike Game | Daha yaratıcı | Daha hızlı |
+| Scroll-Stopping Website | Daha iyi UX | Hızlı shipping |
+| Five Visual Worlds | Daha rafine | Yüksek hacim |
+| API One-Off | Daha tutarlı | 2-3x daha hızlı, %60 ucuz |
+
+### Final Verdict
+- **Fable = Manager model** (stratejik, yaratıcı, kalite kontrol)
+- **Sol = Worker model** (hızlı, ucuz, agentic)
+- **Hybrid yaklaşım en mantıklı** — Fable'a strateji, Sol'a execution
 
 ---
 
-## Video 3: The 5 Levels of a Claude Code Second Brain
-**Video ID:** DTCyvo6cC54  
-**Tarih:** 17 Haziran 2026  
-**Süre:** ~33:00  
-**Timestamp:** 0:00 | 3:25 | 4:19 | 8:11 | 13:03 | 19:27 | 25:25 | 28:48 | 30:41
+## Video 3: Sol Made This Video (J_jswzXhYJA)
+
+** yayınlanma:** 2026-07-09 | **Süre:** ~5 dakika
 
 ### Özet
-Beş seviyeli second-brain sistemi — basit CLAUDE.md router'dan otonom sürekli-çalışan sisteme kadar. Herkes "AI second brain" istiyor ama seviye seçimi yapılmıyor.
-
-### Seviyeler
-1. **Level 1:** CLAUDE.md ile yönlendirme (en basit)
-2. **Level 2:** Görev başına context yönetimi
-3. **Level 3:** Proje bazlı bellek sistemi
-4. **Level 4:** Otonom ajan — sürekli çalışan, karar veren
-5. **Level 5:** Tam otonomi — müdahale gerektirmeyen sistem
-
-### Anahtar Tespit
-"Amaç en üst seviyeye çıkmak değil — **size en az zahmetle en çok faydayı sağlayan seviyeyi bulmak**. Çoğu kişi Level 5'te olması gerektiğini düşünüyor ama Level 2-3 çoğu insan için yeterli."
+GPT-5.6 Sol'a tek bir prompt verip arkanı dönüyor. Sol araştırdı, script yazdı, ElevenLabs'la audio, HeyGen'le avatar, HyperFrames'de düzenledi ve her frame'i kendi kontrol etti.
 
 ### Herkesin Kaçırdığı Nokta
-Herkes Level 5'te olmak istiyor, ama Level 2-3 çoğu iş için fazlasıyla yeterli. Fazla otomasyon = fazla karmaşıklık = daha çok hata. **En düşük seviye, probleminizi çözen seviye, doğru seviyedir.**
+**"Ultra effort" = pahalı yanlış anlaşılıyor.** Sol'un çalıştığı ultra = yüksek token tüketimi, bu da maliyeti artırıyor. Asıl mesele: "High effort" ile "Ultra" arasındaki fark kaliteden çok kontrolden geliyor. Ultra = AI daha fazla iterasyon yapıyor, daha fazla şeyi kendi düzeltiyor.
 
-### LinkedIn Post Fikri
-> "AI second brain inşa ederken çoğu kişi Level 5 hedefliyor. Yanlış soru bu. Doğru soru: 'Problemi çözen en basit sistem hangisi?' Çünkü her seviye artışı = karmaşıklık artışı = hata olasılığı artışı. Kendinize sorun: re-explaining things'i engelleyen ve ajanın nereye bakacağını bilen en basit sistem hangisi? Cevap muhtemelen Level 2."
+### Pipeline
+1. Research → 2. Script (Nate'in ses tonunda) → 3. ElevenLabs audio → 4. HeyGen avatar → 5. HyperFrames edit → 6. Self-review
+
+### Maliyet
+- Base video: ~$8
+- Ultra effort: yüksek token tüketimi
+- High effort daha makul maliyet
 
 ---
 
-## Video 4: Both AI Labs Want to Slow Down
-**Video ID:** CvA8-aScqio  
-**Tarih:** 16 Haziran 2026  
-**Süre:** ~12:01  
-**Timestamp:** 0:00 | 1:52 | 3:49 | 5:33 | 8:15 | 11:10 | 12:01
+## Video 4: LLM Wiki Second Brain (hQvwMj7IJe4)
+
+** yayınlanma:** 2026-07-03 | **Süre:** ~15 dakika
 
 ### Özet
-Anthropic ve OpenAI'nin aynı anda "AI'ı yavaşlatma" çağrısı yapması, hem de IPO süreçlerinin hemen önünde. Nate, bu paradoksu çözüyor.
-
-### Anahtar Tespitler
-- Her iki lab da **kazanırlar listesinde** — en çok kazanacak olanlar yavaşlama istiyor
-- Büyük lab'lar yavaşlatma çağrısı yaparken **küçük lab'lar hızlanıyor**
-- Global yavaşlatma **işlevsel olarak imkansız** — rekabet uluslararası
-- **Bireysel strateji:** Şirketlere değil, **kendi becerilerinize** yatırım yapın
+Andrej Karpathy'nin LLM Wiki konseptini uygulama. Tüm YouTube videolarını AI OS'ye aktarıp cross-linked wiki pages oluşturma. Claude Code + Obsidian ile 5 dakikada kurulum.
 
 ### Herkesin Kaçırdığı Nokta
-Yavaşlatma çağrısı yapan lab'ların IPO hazırlığı yapması tesadüf değil. Düzenleyici engeller, rakiplerin önünde olmanın en ucuz yolu. Bu arada küçük startup'lar hızla ilerliyor. "AI yavaşlasa bile" becerileriniz sizin kontrolünüzde.
+**Flat vs Structured wiki seçimi çoğu insanın gözden kaçırdığı bir tradeoff.** Flat = hızlı başlangıç, kolay bakım. Structured = daha zengin bağlantılar ama daha fazla bakım. Nate'in önerisi: başlangıçta flat, sonra ihtiyaca göre structured'a geçiş — MVP mentalitesi.
 
-### LinkedIn Post Fikri
-> "Anthropic ve OpenAI aynı anda 'AI'ı yavaşlatalım' dedi. Tam IPO öncesi. Tesadüf mü? Büyük lab'lar düzenleyici engel koyarak rekabeti yavaşlatmak istiyor — bu onların en güçlü silahı. Ama siz bir şirkete değil, **kendi becerilerinize** yatırım yapın. Company'e değil, capability'ye bahis koyun."
+### Kurulum Adımları
+1. Vault oluşturma (Obsidian)
+2. Schema yazma
+3. Routing kuralları tanımlama
+4. PDF/URL/YouTube ingestion
+5. AI parsing + chunking + cross-link
 
 ---
 
-## Video 5: 6 AI Skills to Futureproof Your Career
-**Video ID:** 3XIGcM7VICc  
-**Tarih:** 15 Haziran 2026  
-**Timestamp:** 0:29 | 4:47 | 7:42 | 10:13 | 13:13 | 16:40
+## Genel Değerlendirme
 
-### Özet
-AI'ın işleri şekillendireceği veya ortadan kaldıracağı bir dönemde, kariyer güvence altına almak için altı somut beceri.
+### Nate Herk'in Bu Haftaki Teması
+- **Multi-model orchestration** — tek model değil, model kombinasyonları
+- **Agentic workflows** — AI'ın ajan olarak çalışması
+- **AI OS kavramı** — kişisel AI sistemi kurma
+- **Maliyet/hız dengesi** — Sol vs Fable tartışması
 
-### Altı Beceri
-1. Ekipte **AI sorumlusu** olmak — "o kişi" olmak
-2. Bir AI aracını **derinlemesine** öğrenmek (yüzeysel değil)
-3. **Ne zaman AI gerekmediğini** bilmek
-4. AI çıktısını **doğrulama** becerisi
-5. AI ile **özerk çalışabilme** (bağımsız)
-6. **Birden fazla gelir akışı** oluşturmak (kişisel "işsizlik sigortası")
+### Çıkarılacak Dersler
+1. Manager/Worker ayrımı artık standart — Fable strateji, Sol execution
+2. Beceriler + Alt-ajanlar + Hafıza = birbirine bağlı sistemler
+3. "Naked pipeline" — AI'ın tek başına tam iş üretmesi mümkün ama maliyet önemli
+4. LLM Wiki = ikinci beyin için pratik uygulama
 
-### Herkesin Kaçırdığı Nokta
-Beşinci beceri (birden fazla gelir akışı) çoğu profesyonelin hiç düşünmediği şey. AI sadece "ne iş yapıyorum" değil, "nasıl para kazanıyorum"ı da değiştirecek. Tek gelir akışı = AI'a karşı tek kırılganlık noktası.
-
-### LinkedIn Post Fikri
-> "AI geleceği 6 beceri gerektiriyor — ama altıncısı en kritik: birden fazla gelir akışı. AI'ın sizin rolünüzü değiştireceğini veya ortadan kaldıracağını varsayın. Tek gelir akışıyla ne olur? Çoklu gelir akışı = AI'a karşı kişisel kırılganlık sigortanız. Bu beceriyi kaç kişi listeleyerek geçiyor?"
+### LinkedIn Post Önerileri
+1. "AI ajanı = manager + worker. Fable strateji veriyorum, Sol execution'a veriyorum. Maliyet 40% düştü, hız 2x arttı."
+2. "5.5 saat harcadım: AI'ı yanlış kullanıyormuşum. AI'a görev vermek, araç vermek, onu tekrarlayan işlerden kurtarmak = doğru kullanım."
+3. "LLM Wiki: 5 dakikada kurdum, 200+ videom var. Artık 'hangi videoda X'ten bahsetmiştim' yerine AI'ıma soruyorum."

@@ -1,21 +1,19 @@
-# Wes Roth — Son Videolar Özeti
+# Wes Roth — Son Video Özetleri
 
-**Kanal:** Wes Roth
-**Abone:** 320B
-**Tarama:** 2026-06-22
+**Son Tarama:** 2026-07-13  
+**Abone Sayısı:** ~320B  
+**Odak:** AI News, ML, OpenAI, Anthropic, DeepMind
 
-## Son Videolar (Son 2 Hafta)
+## Bu Haftanın Yeni Videoları (3 Yeni)
 
-| Tarih | Başlık | Konu |
-|-------|--------|------|
-| 2026-06-11 | AI News | HeyGen sponsorlu içerik — AI video üretimi |
-| 2026-06-10 | AI News | OpenAI, Google, Anthropic, NVIDIA haftalık haberler |
-| 2026-06-05 | AI News | AI haberleri |
-| 2026-06-03 | AI News | Microsoft büyük AI duyuruları |
-| 2026-06-01 | AI News | AI haberleri |
+1. **$25k-$42k With Simple AI Tools** (2026-07-12) — Üç AI aracının gelir hikayesi: Formulabot ($25k), Thumbnailtest ($20k), PDF.ai ($42k). Hepsi basit AI uygulamaları.
+2. **Grok 4.5 Test** (2026-07-08) — Grok 4.5 ile 3D sailing game, TES RPG, SVG testleri ve Cursor entegrasyonu.
+3. **AI Interview Collection** (2026-07-07) — Wes Roth'un AI uzmanlarıyla röportaj koleksiyonuna yönlendirme.
+
+## Herkesin Kaçırdığı Nokta
+
+**Her üç para kazanan AI aracı da "niche workflow" çözüyor, "niche AI" değil.** Formulabot = Excel formül oluşturma, Thumbnailtest = YouTube thumbnail A/B testi, PDF.ai = PDF Q&A. AI'ın kendisi değil, problem-çözme yaklaşımı para kazanıyor.
 
 ## Genel Tema
-Wes Roth kanadı haftalık AI haberlerine odaklanıyor. Açıklamalar genel nitelikte — spesifik "herkesin kaçırdığı nokta" çıkarmak için yeterli detay yok. HeyGen sponsorlu içerik dışında içerikler standart AI haber özeti formatında.
 
-## Not
-Wes Roth videolarının açıklamaları diğer kanallara kıyasla çok daha kısa ve genel. Detaylı analiz için video içeriğinin izlenmesi gerekiyor (transcript/API ile).
+Wes Roth'un içerikleri daha çok "yapay zeka teknolojisi haberleri" odaklı — yeni modeller, yeni yetenekler, benchmark'lar. Bunun yanında AI ile para kazanma hikayeleri de düzenli olarak işliyor.

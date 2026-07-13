@@ -1,21 +1,18 @@
-# Matt Wolfe (mreflow) — Son Videolar Özeti
+# Matt Wolfe (mreflow) — Son Video Özetleri
 
-**Kanal:** Matt Wolfe | Future Tools
-**Abone:** 964B
-**Tarama:** 2026-06-22
+**Son Tarama:** 2026-07-13  
+**Abone Sayısı:** ~964B  
+**Odak:** AI Tools, futuretools.io
 
-## Son Videolar (Son 2 Hafta)
+## Bu Haftanın Yeni Videoları (2 Yeni)
 
-| Tarih | Başlık | Konu |
-|-------|--------|------|
-| 2026-06-19 | AI News You Probably Missed This Week | Fable/Mythos yasak, Box AI, GLM-5.2, Facebook AI, Midjourney Scanner, Adobe AI |
-| 2026-06-17 | PewDiePie's Secret AI Project Odysseus | Odysseus — self-hosted AI workspace, tamamen local AI |
-| 2026-06-12 | AI News You Probably Missed | Claude Mythos/Fable 5, Apple Intelligence, NotebookLM, OpenAI IPO |
-| 2026-06-10 | Mythos 5 Breakdown | Anthropic Mythos 5 detaylı inceleme, fiyatlandırma, güvenlik kısıtlamaları |
-| 2026-06-05 | AI News This Week | Microsoft 7 yeni model, Scout agent, GitHub Copilot App, Gemma 4, RTX Spark |
+1. **AI News You Might Have Missed This Week** (2026-07-10) — Haftalık AI haberleri: GPT-5.6, OpenAI SuperApp, HyperAgent, GPT-Live, Grok 4.5, Muse Spark/Image, Claude Fable vs Sol, Claude Cowork Mobile.
+2. **AI News You Probably Missed** (2026-07-03) — Fable 5 saga (çıktı, geri çekildi, tekrar açıldı), BuseyBench, GPT-5.6, OpenAI government stake, Claude Sonnet 5, Gemini ailesi, NotebookLM Shorts.
+
+## Herkesin Kaçırdığı Nokta
+
+**OpenAI artık sadece bir model şirketi değil — bir platform/ecosystem.** SuperApp vizyonu, ChatGPT'nin bir chatbot'tan bir agent platformuna dönüşümünü işaret ediyor. GPT-Live, HyperAgent gibi ürünler = OpenAI'ın ecosystem genişlemesi.
 
 ## Genel Tema
-Bu hafta Matt Wolfe kanalında **AI lab'ları arasındaki gerilim** ve **yerel AI altyapısı** temaları öne çıkıyor. Anthropic'in Fable/Mythos 5 yasağı ve ardından geri adımı, OpenAI'ın IPO süreci, ve PewDiePie'nin tamamen yerel AI platformu dikkat çekici.
 
-## Öne Çıkan Video
-**"PewDiePie's Secret AI Project Odysseus"** — PewDiePie'in açık kaynak self-hosted AI platformu. Tam gizlilik, bulut yok, kendi modelin, kendi verin. M3 Mac'te test edilmiş, Ollama ile local model desteği, brain memory sistemi, model karşılaştırma scoreboard.
+Matt Wolfe'un içerikleri bu hafta ağırlıklı olarak model savaşları ve yeni çıkan araçların benchmark'ları üzerine. Fable 5'in "nerfed" edilip tekrar açılması = model sağlık mühendisliğinin ne kadar hassas olduğunu gösteriyor.

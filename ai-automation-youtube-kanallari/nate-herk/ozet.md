@@ -1,21 +1,20 @@
-# Nate Herk — Son Videolar Özeti
+# Nate Herk — Son Video Özetleri
 
-**Kanal:** Nate Herk | AI Automation
-**Abone:** 822B
-**Tarama:** 2026-06-22
+**Son Tarama:** 2026-07-13  
+**Abone Sayısı:** ~812B  
+**Odak:** n8n, Claude, AI Agents, AI Agency
 
-## Son Videolar (Son 2 Hafta)
+## Bu Haftanın Yeni Videoları (5 Yeni)
 
-| Tarih | Başlık | Konu |
-|-------|--------|------|
-| 2026-06-19 | Finally. Agent Loops Clearly Explained. | Agent loop mühendisliği, doğrulama adımının önemi |
-| 2026-06-18 | I Switched Claude Code to GLM 5.2 and Ran It All Day | GLM 5.2 (756B açık kaynak) Claude Code entegrasyonu |
-| 2026-06-17 | The 5 Levels of a Claude Code Second Brain | 5 seviye second-brain sistemi, Herk2 projesi örneği |
-| 2026-06-16 | Both AI Labs Want to Slow Down | Anthropic ve OpenAI'nin "yavaşlatma" çağrıları, IPO süreçleri |
-| 2026-06-15 | 6 AI Skills to Futureproof Your Career | Kariyer koruma için 6 AI becerisi |
+1. **Claude Code for Normal People** (2026-07-11) — 5.5 saatlik kapsamlı başlangıç kursu. Hiç kodlama geçmişi gerektirmeyen, AI native olma rehberi.
+2. **Sol vs Fable: Manager vs Worker** (2026-07-09) — GPT-5.6 Sol vs Claude Fable 5 head-to-head test. Fable manager, Sol worker olarak konumlanıyor.
+3. **Sol Made This Video** (2026-07-09) — GPT-5.6 Sol ile tam AI video üretim pipeline'ı. Tek prompt ile video üretimi.
+4. **LLM Wiki Second Brain** (2026-07-03) — Karpathy yöntemiyle AI second brain. Claude Code + Obsidian ile 5 dakikada kurulum.
+
+## Herkesin Kaçırdığı Nokta
+
+**AI ajanlarında "manager vs worker" ayrımı artık standart bir pattern.** Fable manager olarak stratejik kararlar alıyor, Sol worker olarak hızlı ve ucuz execution yapıyor. Bu ayrım, AI ajanı mimarisi için kritik.
 
 ## Genel Tema
-Bu hafta Nate Herk'in kanalında **agent mühendisliği ve kişisel AI altyapısı** temaları öne çıkıyor. Agent loop'ları, second-brain sistemleri ve model seçimi gibi konular pratik AI otomasyonu odaklı.
 
-## Öne Çıkan Video
-**"Agent Loops Clearly Explained"** — Çoğu kişi agent loop'ları sadece kodlayıcılar için bir şey zannediyor. Nate, loop mühendisliğinin aslında bir **doğrulama (verification) problemi** olduğunu anlatıyor. Mimari değil, doğrulama adımı belirleyici faktör.
+Nate Herk'in içerikleri artık "hangi model daha iyi" sorusundan "modelleri nasıl birlikte kullanırım" sorusuna geçiş yapmış. Agentic workflows, multi-model orchestration ve AI OS kavramları ön planda.
