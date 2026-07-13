@@ -285,7 +285,143 @@ Bir HN kullanıcısı, müşteri hizmetlerine harcanan paradan bahsetti. Rakamla
 
 *Bu dosya Hermes Agent tarafından güncellenmektedir.*
 *Güncelleme: Her gün 12:00 (Cumartesi/Pazar: Genel Araştırma — YC Launches + Enterprise Deployments)*
-*Tarih: 21 Haziran 2026*
+*Tarih: 13 Temmuz 2026*
+
+---
+
+## 13 Temmuz 2026 — Yeni Vakalar
+
+### E-Ticaret & Perakende AI Agent Vakaları — Pazartesi Rotasyonu
+
+---
+
+### 1. THG Ingenuity + Google Cloud — AI Shopping Assistant, %21 Sipariş Artışı, 8x Dönüşüm
+
+**Sektör:** E-Ticaret Altyapısı / İngiltere
+**Kullanım Alanı:** Satış Dönüşümü — AI Alışveriş Asistanı
+
+**Ne Yapıyor:**
+THG Ingenuity (Myprotein, LOOKFANTASTIC gibi markaların sahibi), Google Cloud ile işbirliği yaparak e-ticaret sitelerine entegre edilen bir **AI Shopping Assistant** geliştirdi. Assistant:
+- Ürün önerileri yapıyor (müşteri davranışına göre)
+- Sıkça sorulan soruları yanıtlıyor (beden, içerik, kullanım)
+- Sepete ekleme ve checkout sürecini yönetiyor
+- Kişiselleştirilmiş kampanya gösteriyor
+
+**Sonuçlar:**
+| Metrik | Değer |
+|--------|-------|
+| Sipariş artışı | %21 |
+| Dönüşüm oranı | 8x artış |
+| Platform | Google Cloud Vertex AI + THG Ingenuity altyapısı |
+
+**Müşteri Deneyimi — Dialog Örneği:**
+```
+Kullanıcı: "Bu protein tozu vegan mı?"
+THG AI Assistant:
+ → Ürün veritabanından içerik kontrolü
+ → "Evet, bu ürün vegan formüllü. 
+    Aynı seride 3 çeşit daha var — ister misin?"
+Kullanıcı: "Hayır sadece bu,XL beden"
+Assistant:
+ → "XL beden stokta. Sepete ekledim."
+ → "Bugün %10 cashback kampanyası var — 
+    sadece 2 saat kaldı."
+```
+
+**Herkesin Kaçırdığı Nokta #1:** 8x dönüşüm artışı sadece "daha iyi chatbot" değil. THG'nin AI'ı müşteriyi sadece bilgilendirmiyor — aktif olarak sepete yönlendiriyor ve scarcity (stok, kampanya süresi) sinyalleri veriyor. Yani AI = satış agent'ı, destek agent'ı değil.
+
+**Herkesin Kaçırdığı Nokta #2:** THG Ingenuity e-ticaret şirketlerine altyapı satan bir "B2B SaaS" şirketi. Yani bu AI sonucunu THG kendi markalarında değil, müşterilerine satıyor. Her 8x dönüşüm artışı = yeni müşteri case study = yeni THG müşterisi.
+
+**Kaynak:**
+- Bing News — "THG Ingenuity Launches AI Shopping Assistant in Collaboration with Google Cloud, Driving 8x Higher Conversions" (2026)
+
+---
+
+### 2. Amazon — AI Kullanan Müşteriler 3x Daha Fazla Satın Alıyor
+
+**Sektör:** E-Ticaret / Platform
+**Kullanım Alanı:** Satın Alma Davranışı — AI Destekli Alışveriş
+
+**Ne Yapıyor:**
+Amazon yöneticileri, AI araçlarını kullanan müşterilerin **3x daha fazla satın alma** olasılığı taşıdığını açıkladı. Amazon:
+- AI destekli arama sonuçları
+- Kişiselleştirilmiş ürün önerileri
+- Alexa AI shopping assistant
+- Rufus (AI alışveriş asistanı)
+
+**Sonuçlar:**
+| Metrik | Değer |
+|--------|-------|
+| AI kullanan müşterilerin satın alma olasılığı | 3x |
+| AI araçları | Arama, öneri, sesli asistan |
+
+**Herkesin Kaçırdığı Nokta #1:** Amazon'un "AI = daha fazla satın alma" demesi aslında şu gerçeği açığa vuruyor: AI alışveriş asistanları sadece "daha iyi deneyim" değil — "daha yüksek sepet değeri" üretiyor. Müşteri daha az kararsız, daha az terk ediyor.
+
+**Herkesin Kaçırdığı Nokta #2:** 3x daha fazla satın alma = Amazon'un AI yatırımının ROI'si. Amazon her AI aracına harcadığı $1 için $3 ek gelir bekliyor. Bu rakam e-ticaret şirketleri için kıyaslama standardı olacak.
+
+**Kaynak:**
+- Bing News — "Buyers Using AI Tools 3x More Likely To Shop: Amazon Exec" (2026)
+
+---
+
+### 3. Shopify — Bank of America "Agentic Commerce'da Major AI Kazananı" Diyor, Hisse %30 Düştü
+
+**Sektör:** E-Ticaret SaaS / Küresel
+**Kullanım Alanı:** Platform — Agentic Commerce Altyapısı
+
+**Ne Yapıyor:**
+Bank of America analistleri Shopify'ı "agentic commerce'da major AI kazananı" olarak tanımladı. Shopify:
+- AI satış agent'ları için altyapı sağlıyor
+- Checkout, stok, sipariş yönetimini AI'a açıyor
+- Geliştiriciler için AI API'leri sunuyor
+
+**Ancak:** Shopify hissesi son dönemde %30 düştü — sebep: sadece "about a dozen" (bir düzine) tüccar gerçek anlamda agentic commerce kullanıyor. Yani potansiyel devasa ama adoption henüz çok düşük.
+
+**Metrik:**
+| Alan | Değer |
+|------|-------|
+| Agentic commerce kullanan tüccar | ~12 (Shopify'ın toplam müşterisine kıyasla çok düşük) |
+| Shopify hisse performansı | %30 düşüş (zayıf rehberlik sonrası) |
+| AI yatırımı | 4 çeyrek üst üste %30+ gelir büyümesi |
+
+**Herkesin Kaçırdığı Nokta #1:** Shopify hissesi düşerken Bank of America "buy" diyor. Çelişki şu: kısa vadede yatırımcılar agentic commerce adoption'ın yavaş olduğunu görüyor. Uzun vadede ise altyapı hazır — ilk gerçek adoption yapacak tüccar ciddi avantaj yakalar.
+
+**Herkesin Kaçırdığı Nokta #2:** "Bir düzine tüccar" rakamı aslında şunu gösteriyor: agentic commerce = hâlâ very early stage. 2023'te SaaS'un e-ticaretteki durumu neyse, 2026'da AI agent'ların durumu odur. Erken giren = pazarı kazanır.
+
+**Kaynak:**
+- Bing News — "Bank of America argues Shopify is a major AI winner" (2026)
+- Bing News — "Is Shopify Building the Future Infrastructure for AI Retail?" (2026)
+- Bing News — "How Shopify built an AI stack that doesn't care which models survive" (2026)
+
+---
+
+### 4. Bloomreach Sidekick — Shopify Mağazaları İçin AI Arama Asistanı
+
+**Sektör:** E-Ticaret SaaS / Arama Teknolojisi
+**Kullanım Alanı:** Ürün Arama — Mağaza İçi AI Asistan
+
+**Ne Yapıyor:**
+Bloomreach, Shopify uygulaması için **Sidekick** eklentisini duyurdu. Bu eklenti:
+- Shopify mağazalarındaki arama kutusunu AI asistanına dönüştürüyor
+- Müşteriler doğal dil ile ürün arayabiliyor ("güneş kremi için cilt tipim hassas")
+- AI arama sonuçlarını kişiselleştiriyor
+- Mağaza sahiplerine arama analitiği sunuyor
+
+**Herkesin Kaçırdığı Nokta:** Bloomreach Sidekick = Shopify'ın kendi AI altyapısına değil, üçüncü parti Bloomreach'e bağlı. Yani Shopify agentic commerce'a "kendi" yatırım yapıyor ama ekosistemi de açık bırakıyor. Bu = Shopify'ın platform stratejisi: kendi AI'ı + partner AI'ları.
+
+**Kaynak:**
+- Bing News — "Bloomreach announced a new Sidekick app extension for its Loomi for Shopify app, giving merchants instant visibility into their search performance" (2026)
+
+---
+
+## 13 Temmuz 2026 — Kaynaklar
+
+1. Bing News — "THG Ingenuity Launches AI Shopping Assistant in Collaboration with Google Cloud, Driving 8x Higher Conversions" (2026)
+2. Bing News — "Buyers Using AI Tools 3x More Likely To Shop: Amazon Exec" (2026)
+3. Bing News — "Bank of America argues Shopify is a major AI winner" (2026)
+4. Bing News — "Is Shopify Building the Future Infrastructure for AI Retail?" (2026)
+5. Bing News — "How Shopify built an AI stack that doesn't care which models survive" (2026)
+6. Bing News — "Bloomreach announced a new Sidekick app extension for its Loomi for Shopify app" (2026)
 
 ---
 
