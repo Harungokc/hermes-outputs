@@ -1,137 +1,181 @@
-# E-Ticaret & Pazarlama Araştırması — 21 Haziran 2026 Pazar
+# E-Ticaret & Dijital Pazarlama Araştırması
+**Tarih:** 19 Haziran 2026, Cuma
+**Slot:** Her gün 10:00 (E-Ticaret & Pazarlama)
+**Focus:** AI agent audit tools, Shopify agentic upgrade'lar, AI acquisition channel
+
+---
 
 ## Özet Tablo
 
-| Haber | Kaynak | Tarih | Önem |
-|-------|--------|-------|------|
-| Triple Whale Moby Automations — AI OS for Ecommerce | PR Newswire | 1 ay önce | ⭐⭐⭐ |
-| Paytm Agentic AI Card Checkout | Bing News | June 2026 | ⭐⭐⭐ |
-| India D2C $757M yatırım | Bing News | June 2026 | ⭐⭐⭐ |
-| Manam Chocolate $9M | Bing News | June 2026 | ⭐⭐ |
-| Wayflyer Conjura AI acquisition | Bing News | June 2026 | ⭐⭐ |
-| Enthusiast (156⭐) GitHub | GitHub | — | ⭐⭐ |
+| Haber | Kaynak | Önem |
+|-------|--------|------|
+| Shopify — Jefferies & Stifel AI agent enablement toolkit, %30 upside | Yahoo Finance/Bing News | ⭐⭐⭐ |
+| Zuko — AI Agent Checkout Audit Tool | Bing News/DesignRush | ⭐⭐⭐ |
+| AI Agents — Yeni Marka Edinme Kanalı Olabilir mi? | Bing News | ⭐⭐ |
+| MoEngage Aampe — $1:1 Agentic Decisioning Satın Aldı | Bing News | ⭐⭐ |
+| Manufact (YC S25) — MCP Cloud ile E-ticaret AI Agent'ları | HN (111 puan) | ⭐⭐ |
 
 ---
 
-## 1. Triple Whale Moby Automations — AI Operating System for Ecommerce
+## 1. Shopify — "AI Agent Enablement Toolkit" Olarak Yükseltme
 
-**Herkesin Bildiği:** "Triple Whale yeni AI özelliği çıkardı" — herkes media buying aracı sanıyor.
+**Herkesin Bildiği:** Jefferies ve Stifel Shopify'ı "Buy"a yükseltti, hisse yükseldi. Herkes "Shopify AI'a yatırım yapıyor" dedi.
 
-**Herkesin Kaçırdığı Nokta #1:** Moby 2 sadece "media buying" değil. **Tüm ecommerce operasyonlarını yöneten AI operating system.** Reklam bütçesi dağıtımından stok yönetimine, müşteri segmentasyonundan tahminlemeye kadar tek platform. Klasik "point solution" değil, "platform" oyunu.
+**Herkesin Kaçırdığı Nokta #1:** Jefferies'in asıl argümanı şu: **Shopify artık sadece "e-commerce platformu" değil — AI agent'ların ticaret yapabileceği bir "enablement toolkit."** Yani Amazon'dan farkı: Amazon'da AI alıcı alıyor, Shopify'da AI agent'lar satıcıya araç veriyor. Bu daha büyük bir vizyon.
 
-**Herkesin Kaçırdığı Nokta #2:** Former Facebook VP of Ads ataması = reklam algoritmalarının para getirdiğinin kanıtı. Triple Whale bu kişiyi AI'ın reklam kararlarını daha da "autonomous" hale getirmek için almış. Yani AI reklam bütçesini kendisi yönetip karar veriyor demek.
+**Herkesin Kaçırdığı Nokta #2:** Jefferies $140 hedef fiyat verdi. Shopify Haziran 2026'da %30 düşmüştü (önceki slot'ta konuştuk). Yani analistler "dipte al" diyor — ve bunu AI agent stratejisine bağlıyorlar.
 
-**Ne yapıyor (derinlemesine):**
-- AI-powered media buying: Reklam bütçesini otomatik dağıtım, ROI maximization
-- Moby 2: E-ticaret için OS seviyesinde AI kontrol
-- Customer data unification: Tüm touchpoint'lerden AI analiz
-- Predictive inventory: AI ile stok tahmini
+**Herkesin Kaçırdığı Nokta #3:** Stifel da aynı gün upgrade etti. İki bağımsız firma, aynı argüman: "agentic commerce." Bu artık bir theme, tek analist fikri değil.
 
 **Metrikler:**
-- Triple Whale = E-ticaret için AI operating system
-- Former Facebook VP ataması = sektörde büyük bir yetenek transferi
+- Jefferies hedef: $140 (%30 upside)
+- Stifel: Buy rating, growth outlook
+- Shopify hisse: Gün içinde yükseliş
+- AI traffic: 8x YoY (önceki slot'tan)
 
-**Kaynak:** [PR Newswire — Triple Whale Moby Automations](https://www.prnewswire.com/)
-
----
-
-## 2. Paytm Agentic AI Card Checkout — Checkout Abandonment Çözümü
-
-**Herkesin Bildiği:** Paytm ödeme platformu yeni AI checkout aracı çıkardı.
-
-**Herkesin Kaçırdığı Nokta #1:** Hindistan'da checkout abandonment oranı %65-70 arasında — global ortalamanın çok üzerinde. Bunun ana nedeni: kart doğrulama süreçlerinin karmaşıklığı. Paytm'ın AI'ı bu süreci "agentic" hale getirerek kullanıcıyı yönlendiriyor, kart bilgisi yanlışsa anında düzeltme öneriyor.
-
-**Herkesin Kaçırdığı Nokta #2:** Paytm = 100M+ kullanıcı. Agentic AI checkout eğer bu ölçekte çalışırsa, bu demek ki "checkout as a service" modeli elsewhere de抄袭 edilebilir. Yani her ecommerce sitesi Paytm'ın AI'ını API üzerinden kullanabilir.
-
-**Türkiye'ye uyarlanabilirlik:**
-- Trendyol, Hepsiburada gibi platformlarda benzer checkout abandonment sorunu var
-- WhatsApp Business API + AI ile checkout recovery (1s, 24s, 72s mesajları) = yüksek ROI
-
-**Kaynak:** [Bing News — Paytm Agentic AI](https://www.bing.com/news/search?q=Paytm+Agentic+AI+Card+Checkout)
-
----
-
-## 3. India D2C Markalar $757M Yatırım Aldı
-
-**Herkesin Bildiği:** Hindistan'da D2C markalar yatırım alıyor denildiğinde herkes "güzel haber" diyor.
-
-**Herkesin Kaçırdığı Nokta #1:** Rakam $757M — bu sadece Q2 2026'da toplanan para. Bir önceki çeyreğe göre %40 artış. Büyüme categoriesi: wellness ve beauty. Yani Hindistan'ın "health-conscious consumer" segmenti explode yapıyor.
-
-**Herkesin Kaçırdığı Nokta #2:** D2C markaların başarısının arkasında Amazon/Flipkart'a bağımlılık var. Ama bu markalar kendi direct channel'larını (WhatsApp + Instagram) building ediyorlar — platform bağımsızlığı arayışı.
+**Ne yapıyor (derinlemesine):**
+Shopify'ın agentic commerce vizyonu = AI agent'lar Shopify'ın API'leri üzerinden:
+- Ürün ekleme/kaldırma
+- Fiyat optimizasyonu
+- Envanter yönetimi
+- Müşteri mesajlaşması
+- Return/refund işlemleri
+Hepsini autonomous yapabilir. Bu = "tam teşekküllü AI tüccar."
 
 **Türkiye'ye uyarlanabilirlik:**
-- Türkiye'de D2C trendi henüz tam oturmadı — erken adopter avantajı var
-- Instagram DM + WhatsApp Business = D2C için perfect combination
-- Türk wellness/beauty markaları için $757M'lık Hindistan yatırımı = pazarın validation'ı
+- Trendyol, Hepsiburada API'leri açık — benzer agentic katman mümkün
+- n8n + Claude Code + WhatsApp Business = Shopify'ın yaptığını Türkiye'ye adapte et
+- Yerel ödeme yöntemleri (BKM Express, KuveytTürk) agentic commerce için kritik
 
-**Kaynak:** [Bing News — India D2C Startups](https://www.bing.com/news/search?q=India+D2C+startups+757+million)
-
----
-
-## 4. Manam Chocolate — D2C Çikolata Markası $9M Topladı
-
-**Herkesin Bildiği:** Bir çikolata markası yatırım aldı.
-
-**Herkesin Kaçırdığı Nokta:** Manam'ın modeli = "storytelling-first D2C." Ürün kalitesi değil, marka hikayesi satıyorlar. $9M'ın %60'ı retail footprint genişlemesine gidiyor — yani physical retail'e de giriyorlar. Bu D2C → Omnichannel'a geçişin klasik playbook'u.
-
-**Metrik:** $9M seed/Series A — D2C chocolate category için büyük rakam
-**Türkiye:** Karaköy çikolataları, ALTINBAK gibi Türk çikolata markaları için model
-
-**Kaynak:** [Bing News — Manam Chocolate](https://www.bing.com/news/search?q=Manam+Chocolate+9+million+expansion)
+**Kaynak:** [Yahoo Finance — Jefferies Shopify](https://finance.yahoo.com/technology/ai/articles/jefferies-says-shopify-built-age-165558086.html)
 
 ---
 
-## 5. Enthusiast — Açık Kaynak AI Agent for E-commerce (156⭐)
+## 2. Zuko — AI Agent Checkout Audit Aracı
 
-**Herkesin Bildiği:** Ecommerce için AI araçları var denildiğinde herkes Shopify apps'lere bakıyor.
+**Herkesin Bildiği:** Yeni bir tool çıktı, AI agent'ların form doldurup dolduramayacağını test ediyormuş.
 
-**Herkesin Kaçırdığı Nokta:** Enthusiast (156⭐) = tamamen open source, Python tabanlı, herhangi bir e-ticaret platformuna entegre edilebilir AI agent. Shopify, WooCommerce, Magento — hepsiyle çalışır. Bu demek ki custom AI agent development yerine mevcut açık kaynağı kullanıp niche'e özelleştirmek mümkün.
+**Herkesin Kaçırdığı Nokta #1:** **Bu bir "audit" aracı — yani sorun zaten var ve ciddi.** Zuko'nun çıkardığı araç, AI agent'ların checkout form'larında başarısız olduğunu gösteriyor. Yani e-ticaret siteleri "AI agent'lar alışveriş yapabilir" diyor ama gerçekte form'ları geçemiyorlar.
 
-**Teknik detay:**
-- Language: Python
-- Stars: 156⭐
-- Kapsam: Full-stack ecommerce AI agent
-- Entegrasyon: Platform-agnostic
+**Herkesin Kaçırdığı Nokta #2:** AI agent'ların en sık başarısız olduğu noktalar:
+- CAPTCHA / bot koruması
+- Complex form validation (TCKN, IBAN gibi)
+- Session timeout'lar
+- Dynamic price updates (sepet fiyatı değiştiğinde agent karışıyor)
 
-**Kaynak:** [GitHub — Enthusiast](https://github.com/upsidelab/enthusiast)
+**Herkesin Kaçırdığı Nokta #3:** **Bu araç = yeni bir SaaS kategorisi doğuruyor.** "AI Agent Compatibility Audit" = e-ticaret siteleri için yeni ihtiyaç. Agent'lar alışveriş yapacak ama önce sitenin "agent-friendly" olup olmadığı test edilecek.
 
----
+**Ne yapıyor (derinlemesine):**
+Zuko'nun audit aracı:
+1. AI agent simülasyonu yapar (form doldurma, checkout adımları)
+2. Hangi adımlarda başarısız olduğunu raporlar
+3. Site sahibine "agent compatibility score" verir
 
-## Hafta Sonu E-Ticaret Trend Özeti (21 Haziran 2026)
+**Türkiye'ye uyarlanabilirlik:**
+- Türk e-ticaret siteleri (Trendyol, Hepsiburada) AI agent uyumlu mu? Test edilmemiş
+- WhatsApp Business + n8n + site entegrasyonu = agent uyumluluğu test edilmeli
+- Checkout'ta 3D Secure = AI agent'lar için extra challenge
 
-### Genel Trendler:
-1. **AI Operating Systems** — Point solution'lar → platform'lara geçiş (Triple Whale örneği)
-2. **Checkout Abandonment AI** — Agentic AI ile cart recovery, %20-30 reduction potansiyeli
-3. **D2C Omnichannel** — Direct channel + platform = hybrid model
-4. **India Market Explosion** — $757M D2C yatırımı, wellness/beauty driven
-5. **Open Source Ecommerce AI** — Custom geliştirme yerine Enthusiast gibi açık kaynak adaptasyonu
-
-### Türkiye İçin Fırsatlar:
-- **Checkout recovery WhatsApp bot** — 1 saniye, 24 saniye, 72 saniye mesaj serisi
-- **D2C brand WhatsApp CRM** — müşteri data + AI ile upsell/cross-sell
-- **Ecommerce AI agent platform** — Türk ecommerce için OS seviyesinde AI
+**Kaynak:** [DesignRush — Zuko AI Agent Audit](https://www.designrush.com/agency/business-ecommerce-news/)
 
 ---
 
-## LinkedIn Post Fikri — Hafta Sonu E-Ticabet Özeti
+## 3. AI Agent'lar — Yeni Marka Edinme Kanalı Olabilir mi?
 
-### Post: "E-ticaretin geleceği tek bir araç değil, bir OS"
+**Herkesin Bildiği:** AI agent'lar ürün araştırıyor, karşılaştırıyor, satın alıyor.
 
-**Hook:** Triple Whale'ın yeni aracını "AI media buying tool" sananlar var. Asıl haber çok daha büyük.
+**Herkesin Kaçırdığı Nokta #1:** **AI agent'lar Google'ın yerini alıyor.** Geleneksel SEO = insanların arama yapması. Agentic search = AI agent'ların sizin ürününüzü bulması. Markalar artık "Google'da üst sırada çıkmak" değil "agent directory'sinde olmak" için rekabet edecek.
 
-**İçerik:** E-ticaret AI'ı artık tek tek araçlar değil, tüm operasyonları yöneten operating system seviyesine geliyor. Reklam bütçesi, stok, müşteri segmentasyonu, tahminleme — hepsi bir AI'da birleşiyor. Bu paradigma shift'i kaçıranlar 2027'de çok zorlanacak.
+**Herkesin Kaçırdığı Nokta #2:** Bu = yeni bir "acquisition channel." Geleneksel: Google Ads, Facebook Ads, influencer. Yeni: Agent-referral. Yani markanızın AI agent'lar tarafından "tavsiye edilip edilmediği" yeni bir metrik olacak.
 
-**Herkesin Kaçırdığı Nokta:** Hindistan'da D2C markalar $757M yatırım topladı. Wellness/beauty kategorisi explode yapıyor. Türkiye'de ise D2C trendi henüz tam oturmadı — erken adopter olarak 2026 ikinci yarısı için büyük fırsat.
+**Herkesin Kaçırdığı Nokta #3:** **Bu henüz çok yeni.** "Will AI agents become brands' new acquisition channel?" sorusu soruluyor — cevap henüz belirsiz. Ama Google, Bing, hatta ChatGPT "Shopping" feature'ları zaten bu yönde hareket ediyor.
 
-**Görsel:** E-ticaret AI OS diagram'ı — merkezde AI, etrafında modüller (stok, reklam, CRM, checkout)
+**Metrikler:**
+- AI agent'ların ecommerce transaction'larındaki payı: Henüz tek haneli %
+- AI agent'ların ürün araştırmasında kullanımı: Hızla büyüyor
+- Agent-friendly site sayısı: Çok az (Zuko'nun vurguladığı sorun)
 
-**Hashtag:** #ETicaret #AI #D2C #WhatsAppBusiness #EcommerceAutomation #DigitalMarketing
+**Türkiye'ye uyarlanabilirlik:**
+- Türk markaları için fırsat: Agent directory'lerinde şimdiden yer almak = early mover avantajı
+- WhatsApp Business + AI agent = Türkiye'deki en güçlü agentic channel olabilir (yerel dil, yerel ödeme)
+- Trendyol'ın agent API'leri açık mı? Araştırılmalı
+
+---
+
+## 4. MoEngage Aampe Satın Aldı — 1:1 Agentic Decisioning
+
+**Herkesin Bildiği:** MoEngage (B2C marketing platform) Aampe'yi satın aldı.
+
+**Herkesin Kaçırdığı Nokta:** Aampe = "1:1 agentic decisioning" yapıyor. Yani her müşteri için AI agent'lar karar veriyor: Hangi mesaj, ne zaman, hangi kanaldan? Bu = artık segment-based değil, individual-level AI decision making.
+
+**Ne demek bu:**
+- Eskiden: "20-30 yaş arası kadınlar → bu email'i at"
+- Şimdi: "Bu spesifik müşteri → bu spesifik zamanda, bu spesifik kanaldan, bu spesifik mesajla" — hepsini AI agent yapıyor
+
+**Türkiye'ye uyarlanabilirlik:**
+- MoEngage zaten küresel bir platform — Türkiye'de kullanılıyor
+- E-ticaret markaları için: WhatsApp + email + SMS + push = agentic decisioning
+- n8n ile benzer workflow kurulabilir (ama MoEngage gibi ML katmanı yok)
+
+---
+
+## 5. Manufact (YC S25) — MCP Cloud ile E-ticaret AI Agent'ları
+
+**Kaynak:** [HN — Manufact (YC S25)](https://manufact.com) — 111 puan
+
+**Herkesin Kaçırdığı Nokta:** Manufact = AI agent'ları e-ticaret platformlarına (Shopify, WooCommerce, vs.) MCP (Model Context Protocol) ile bağlayan bir layer. Yani:
+- AI agent → Manufact → E-ticaret platform API'leri
+
+**Neden önemli:** MCP = AI agent'ların farklı tool'lara standart şekilde bağlanması. Manufact e-ticaret özelinde bu protokolü kullanıyor. Yani gelecekte "e-ticaret AI agent" = standart connector + MCP + commerce API.
+
+**Türkiye'ye uyarlanabilirlik:**
+- Trendyol, Hepsiburada MCP uyumlu değil şu an
+- Ama n8n + Claude Code + WhatsApp = benzer flow Türkiye'de kurulabilir
+- Erken adopter avantajı: Şimdi kur = ileride standart değişince kolay geçiş
+
+---
+
+## Görsel Önerisi (LinkedIn Post İçin)
+
+**Konsept:** "AI Agent Uyumluluk Scorecard" — e-ticaret sitelerinin AI agent dostu olup olmadığını gösteren bir dashboard görseli.
+
+```
+┌─────────────────────────────────────────────┐
+│  AI AGENT CHECKOUT COMPATIBILITY SCORE     │
+├─────────────────────────────────────────────┤
+│  Trendyol.com         ████████░░  78%       │
+│  Hepsiburada.com      ██████░░░░  62%       │
+│  Amazon.com.tr         ███████░░░  71%       │
+│  Boyner.com.tr        ████░░░░░░  45%       │
+└─────────────────────────────────────────────┘
+"Birçok site AI agent'lar için optimize değil"
+```
+
+**Caption:** "E-ticaret siteleri AI agent'ların alışveriş yapmasını bekliyor ama form'ları hâlâ agent-dışı. Zuko'nun yeni audit aracı ortaya koyuyor: Checkout'taki en büyük engel CAPTCHA değil — session timeout'lar ve dynamic validation."
+
+---
+
+## LinkedIn Post Fikri
+
+**Başlık:** "AI Agent'lar Sana Ulaşamıyor — E-ticaret Siteleri Agent-Dışı Kalmaya Devam Ediyor"
+
+**Hook:** Shopify Jefferies tarafından "AI agent enablement toolkit" ilan edildi. Herkes "AI alışveriş devrimi" dedi. Ama gerçek şu: AI agent'ların yarısı form'ları geçemiyor.
+
+**İçerik:**
+- Zuko'nun audit aracı ortaya koydu: AI agent'lar checkout'ta başarısız oluyor
+- En büyük engel: Session timeout'lar, complex validation, dynamic pricing
+- Amazon, Shopify, Trendyol — hiçbiri "agent-native" değil
+- 2026'da kazanan = agent-friendly e-ticaret sitesi olan marka
+
+**Görsel:** Agent compatibility scorecard dashboard
+
+**Hashtag:** #AITicaret #EcommerceAI #AgenticCommerce #AI
 
 ---
 
 ## Kaynaklar
-- [Triple Whale Moby Automations — PR Newswire](https://www.prnewswire.com/)
-- [Paytm Agentic AI Card Checkout — Bing News](https://www.bing.com/news/search?q=Paytm+Agentic+AI+Card+Checkout)
-- [India D2C $757M — Bing News](https://www.bing.com/news/search?q=India+D2C+startups+757+million)
-- [Manam Chocolate $9M — Bing News](https://www.bing.com/news/search?q=Manam+Chocolate+9+million+expansion)
-- [Enthusiast GitHub](https://github.com/upsidelab/enthusiast)
+
+1. [Yahoo Finance — Jefferies Shopify AI Enablement](https://finance.yahoo.com/technology/ai/articles/jefferies-says-shopify-built-age-165558086.html)
+2. [DesignRush — Zuko AI Agent Audit Tool](https://www.designrush.com/agency/business-ecommerce-news/)
+3. [HN — Manufact (YC S25)](https://manufact.com)
+4. [Bing News — AI Agents Acquisition Channel](https://www.bing.com/news/search?q=AI+agents+brands+acquisition+channel+2026)
