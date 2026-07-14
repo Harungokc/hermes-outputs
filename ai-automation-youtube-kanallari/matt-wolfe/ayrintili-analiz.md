@@ -1,135 +1,109 @@
-# Matt Wolfe (mreflow) — Detaylı Analiz
-
-**Son Tarama:** 2026-07-13
+# Matt Wolfe — Ayrıntılı Analiz
+**Tarih:** 2026-07-14
 
 ---
 
-## Video 1: AI News You Might Have Missed This Week (EOCRtSnvNNE)
+## 1. Anyone Can Make Insane Visual Effects Now! (42.3K görüntülenme)
+**Video ID:** Zq5Yj8yCiqY | **Tarih:** 2026-07-08
 
-** yayınlanma:** 2026-07-10
+### Nedir
+AI visual effects üretimi — "AI slop" hissi vermeden profesyonel prodüksiyon.
 
-### Özet
-Haftalık AI haberleri: GPT-5.6 duyurusu, OpenAI SuperApp, HyperAgent, GPT-Live, Grok 4.5, Muse Spark 1.1, Muse Image, Claude Fable karşılaştırması, Claude Cowork Mobile, Claude Reflect, Seedream 5.0 Pro.
+### Ana İçerik
+- **Runway** intro formula ve varyasyonları (Animorph hack dahil)
+- **Seed Dance 2.0, Gemini, Veo 3.1** ile background compositing
+- **Remotion** ile motion graphics ve animated infographics
+- **Animated talking heads** — Sam Altman videosundaki teknik
+- Hedef: %95 human + %5 AI spice
 
 ### Herkesin Kaçırdığı Nokta
-**GPT-5.6 Sol, Fable'ın manager/worker ayrımını kendi içinde taşıyor.** Fable'ın ayrı modellerle yaptığı şeyi OpenAI tek model içinde "Sol" persona ile çözüyor. Bu, model-içi role assignment'ın gelecekteki trend olabileceğini gösteriyor.
+**Transition ve location hackleri** — AI VFX'in en zor kısmı "fazla AI" hissi. Runway'in belirli template kombinasyonları bu sorunu çözüyor.
 
-### Önemli Duyurular
-
-#### GPT-5.6
-- OpenAI'ın yeni nesil modeli
-- Sol variant = agentic workflows için optimize
-- Benchmark'larda iddialı sonuçlar
-
-#### OpenAI SuperApp
-- ChatGPT artık sadece chat değil — platforma dönüşüyor
-- Agentic yetenekler entegre
-- Ecosystem genişlemesi
-
-#### GPT-Live
-- Gerçek zamanlı etkileşim
-- Web entegre
-- Yeni kullanım senaryoları
-
-#### Grok 4.5
-- xAI'ın yeni modeli
-- Benchmark savaşları
-- Geliştirici erişimi
-
-#### Muse Spark 1.1 & Muse Image
-- Meta'nın yeni model ailesi
-- Multi-modal yetenekler
-- Spark = text/chat, Image = görüntü üretimi
-
-#### Claude Fable 5
-- Anthropic'in yeni release
-- Artık doğrudan erişilebilir
-- Performans iyileştirmeleri
-
-#### Claude Cowork Mobile
-- Artık mobilde de çalışıyor
-- Web + Mobile entegrasyonu
-- Reflect özelliği
-
-#### Seedream 5.0 Pro
-- Görüntü üretimi
-- Yeni yetenekler
-- Pro sürüm avantajları
+### LinkedIn Post Fikri
+> "AI visual effects yapmak değil, AI hissettirmemek asıl yetenek. Matt Wolfe'un %95 human + %5 AI formula'sı: tek bir tool değil, Runway + Gemini + Seed Dance kombinasyonunun sırrı ne?"
 
 ---
 
-## Video 2: AI News You Probably Missed (NVP_paJarG4)
+## 2. AI News: The New Model That's As Good As Fable (103.1K görüntülenme)
+**Video ID:** zMVZvgCOr40 | **Tarih:** 2026-06-26
 
-** yayınlanma:** 2026-07-03
+### Nedir
+Sakana Fugu model router testi + haftalık AI news.
 
-### Özet
-Haftalık AI haberleri: Fable 5 saga (çıktı → geri çekildi → tekrar açıldı), BuseyBench, GPT-5.6 Sol önizlemesi, OpenAI'ın devlet yatırımı, Claude Sonnet 5, Gemini modelleri, NotebookLM Shorts, Claude Science, Cursor iOS, X MCP Server, Gemini Meet Notes.
+### Ana İçerik
+- **Fugu**: model değil, orchestrator — Opus, GPT, Gemini arasında routing
+- **Claude Tag**: Anthropic'ın Slack'e direkt entegrasyonu
+- **OpenAI + Government**: ABD hükümeti yeni model release'lerine dahil oluyor
+- **Rapid fire**: Seed Dance 2.5, Krea 2 open weights, Atlantic training data DB, OpenAI inference chip, Meta Ray-Ban yeni modeller
 
 ### Herkesin Kaçırdığı Nokta
-**Fable 5 "nerfed" edildi ama sonra tekrar açıldı — ve bu döngü model deployment'ın artık standart bir pattern'i haline geldi.** Bir modeli yayınlamak, performans sorunları nedeniyle geri çekmek, düzeltmek, tekrar açmak — bu "canary release" ve "feature flag" kavramlarının AI modellerine uygulanması.
+**Government oversight trend'i** — AI şirketleri artık tamamen serbest değil, model release'leri düzenleyici incelemeye giriyor. Bu gelecek için büyük bir işaret.
 
-### Önemli Duyurular
-
-#### Fable 5 Saga
-- İlk çıkış: büyük beklentiler
-- Geri çekilme: performans endişeleri
-- BuseyBench: bağımsız benchmark platformu
-- Tekrar açılış: artık stabil
-
-#### GPT-5.6 Sol
-- OpenAI'ın agentic-optimized modeli
-- Government stake = regülasyon sinyali (OpenAI'a %5 devlet yatırımı)
-
-#### Claude Sonnet 5
-- Anthropic'in yeni aralık modeli
-- Fable ile karşılaştırma
-- Kullanım senaryoları
-
-#### Gemini Family
-- **Omni Flash:** hız odaklı
-- **Nano Banana 2 Lite:** hafif model, düşük kaynak
-- **Spark:** macOS entegrasyonu
-
-#### NotebookLM Shorts
-- Video üretimi özelliği
-- İçerik dönüştürme (text → video)
-- Yeni içerik formatları
-
-#### Claude Science
-- AI workbench concept
-- Araştırma odaklı özellikler
-
-#### Cursor iOS
-- Mobil code editor
-- AI ile entegre geliştirme
-
-#### X MCP Server
-- X platformu için MCP
-- AI araçları için platform entegrasyonu
-- Developer kullanımı
-
-#### OpenAI Hardware
-- Codex için yeni donanım
-- On-premise çözümler
-- Enterprise odaklı
+### LinkedIn Post Fikri
+> "OpenAI artık hükümetle koordine ederek model release ediyor. Bu 'AI safety' değil, 'AI business model' için yeni bir dönem başladı."
 
 ---
 
-## Genel Değerlendirme
+## 3. 9 Free AI Skills That Feel Like Cheat Codes (105.1K görüntülenme)
+**Video ID:** STH929HARLo | **Tarih:** 2026-06-24
 
-### Matt Wolfe'un Bu Haftaki Teması
-- **Model savaşları devam ediyor** — Fable vs Sol vs GPT-5.6 vs Grok 4.5
-- **Platform dönüşümleri** — OpenAI SuperApp, ChatGPT ecosystem genişlemesi
-- **Deployment patternleri** — canary release, feature flags AI modellerine geliyor
-- **Entegrasyonlar** — MCP servers, IDE entegrasyonları (Cursor, Claude Code)
+### Nedir
+9 ücretsiz AI skill ve plugin — Claude Code, Codex, Cursor, VS Code, GitHub Copilot arasında çalışıyor.
 
-### Çıkarılacak Dersler
-1. **"En iyi model" sorusu artık yanlış soru** — doğru soru: "hangi model hangi workflow için güvenilir?"
-2. **Model deployment artık software deployment gibi** — geri çekme, düzeltme, tekrar yayınlama normal
-3. **Platform ecosystem'leri önemli** — sadece model kalitesi değil, entegrasyon kolaylığı rekabet avantajı
-4. **Multi-modal her yerde** — görüntü, video, ses üretimi artık standart özellikler
+### Ana İçerik
+- **GStack**: Claude Code'u full virtual engineering team'e çeviriyor
+- **Stop Slop**: AI yazım izlerini temizliyor
+- **Graphify**: Kodbase'i queryable graph'a çevirerek agent'a memory sağlıyor
+- **Understand Anything**: Her kodbase için visual onboarding map
+- **Last 30 Days**: Reddit, X, YouTube'dan real-time sentiment research
+- **Front End Design + Taste**: Anthropic skill'leri head-to-head
+- **ReMotion vs HyperFrames**: Animation generation
 
-### LinkedIn Post Önerileri
-1. "Fable 5: çıktı, geri çekildi, tekrar açıldı. Bu AI modellerinin 'beta software' gibi deploy edildiğini gösteriyor. 'En iyi model' değil, 'en güvenilir workflow' kurmak önemli."
-2. "OpenAI artık sadece model şirketi değil — platform. SuperApp vizyonu = ChatGPT artık bir agent ecosystem. Bu, AI'ın PC'den mobile geçişi gibi bir shift."
-3. "AI haber döngüsü: Pazartesi yeni model, Salı benchmark savaşları, Çarşamba hata raporları, Perşembe 'adjustments', Cuma kimse hatırlamaz. Takip için: futuretools.io"
+### Herkesin Kaçırdığı Nokta
+**Skills cross-compatibility** — bu skill'lerin hepsi sadece Claude Code için değil, tüm major AI coding agent'larda çalışıyor. Tek bir skill dosyası ile tüm araçlarını güçlendirebiliyorsun.
+
+### LinkedIn Post Fikri
+> "9 ücretsiz AI skill + 6 farklı coding agent'da çalışıyor. GStack, Graphify, Stop Slop — isimler garip ama etkileri gerçek. Tek bir skill dosyası tüm araçlarınızı güçlendiriyor."
+
+---
+
+## 4. AI News: An INSANE Week… Here's What Matters (100.5K görüntülenme)
+**Video ID:** nydHKXjwu0U | **Tarih:** 2026-06-12
+
+### Nedir
+Haftalık AI news — büyük hafta, yoğun içerik.
+
+### Ana İçerik
+- **Claude Fable & Mythos 5** — Anthropic'ın yeni modelleri
+- **Apple Intelligence update** — yeni Siri AI
+- **NotebookLM updates** — araştırma pipeline iyileştirmeleri
+- **Gemini 3.5 Live Translate** — anlık çeviri
+- **Dario Amodei manifesto** — AI exponential policy
+- **OpenAI S-1 filing** — IPO hazırlığı
+- **SpaceX $75B IPO**
+- **Coinbase for Agents** — AI için crypto
+- **Midjourney hardware** — David Holz'un hardware hamlesi
+
+### Herkesin Kaçırdığı Nokta
+**Coinbase for Agents** — AI agent'lar için crypto tabanlı ödeme altyapısı. Bu AI economic layer'ın ciddiye alınması demek.
+
+---
+
+## 5. AI News: Microsoft Finally Reveals Their Plan! (74.4K görüntülenme)
+**Video ID:** nz4h3H1MmTg | **Tarih:** 2026-06-05
+
+### Nedir
+Microsoft'un AI stratejisi ve haftalık news.
+
+### Ana İçerik
+- **7 yeni MAI model** — Microsoft'un kendi model ailesi
+- **Microsoft Scout** — always-on personal agent
+- **GitHub Copilot App** — agent-native desktop deneyimi
+- **Project Solara** — yeni AI girişimi
+- **NVIDIA Nemotron 3 Ultra** — long-running agents için
+- **Google Gemma 4 12B**
+- **MiniMax M3**
+- **Ideogram 4.0, Krea 2 Turbo, Grok Imagine 1.5, Runway Aleph 2.0**
+
+### Herkesin Kaçırdığı Nokta
+**Microsoft'un agent vizyonu** — Scout + Copilot App = PC'lerin artık "agent-native" olması hedefi. NVIDIA işbirliği de Windows + AI fusion sinyali.

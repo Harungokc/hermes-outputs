@@ -1,19 +1,21 @@
-# Wes Roth — Son Video Özetleri
+# Wes Roth — Son Videolar Özeti
+**Tarih:** 2026-07-14
 
-**Son Tarama:** 2026-07-13  
-**Abone Sayısı:** ~320B  
-**Odak:** AI News, ML, OpenAI, Anthropic, DeepMind
+## Son 5 Video
 
-## Bu Haftanın Yeni Videoları (3 Yeni)
+| Tarih | Başlık | İzlenme |
+|-------|--------|---------|
+| 2026-07-13 🆕 | Claude Built the Ultimate Second Brain | 12.9K |
+| 2026-07-09 | GPT-5.6 is here (INSANE) | 50.3K |
+| 2026-07-01 | Fable 5 is WILD... | 59.8K |
+| 2026-06-30 | FABLE 5 IS BACK | 71.7K |
+| 2026-06-29 | it's all bad now... | 83.5K |
 
-1. **$25k-$42k With Simple AI Tools** (2026-07-12) — Üç AI aracının gelir hikayesi: Formulabot ($25k), Thumbnailtest ($20k), PDF.ai ($42k). Hepsi basit AI uygulamaları.
-2. **Grok 4.5 Test** (2026-07-08) — Grok 4.5 ile 3D sailing game, TES RPG, SVG testleri ve Cursor entegrasyonu.
-3. **AI Interview Collection** (2026-07-07) — Wes Roth'un AI uzmanlarıyla röportaj koleksiyonuna yönlendirme.
+## Öne Çıkan Temalar
+- **Claude Second Brain** — LLM Wiki ile bilgi yönetimi (YENİ)
+- **Fable 5** — Anthropic'ın yeni model ailesi (Fable + Mythos)
+- **GPT-5.6** — OpenAI'nin yeni modeli
+- **Agent memory** — bilgi organizasyonu için AI araçları
 
-## Herkesin Kaçırdığı Nokta
-
-**Her üç para kazanan AI aracı da "niche workflow" çözüyor, "niche AI" değil.** Formulabot = Excel formül oluşturma, Thumbnailtest = YouTube thumbnail A/B testi, PDF.ai = PDF Q&A. AI'ın kendisi değil, problem-çözme yaklaşımı para kazanıyor.
-
-## Genel Tema
-
-Wes Roth'un içerikleri daha çok "yapay zeka teknolojisi haberleri" odaklı — yeni modeller, yeni yetenekler, benchmark'lar. Bunun yanında AI ile para kazanma hikayeleri de düzenli olarak işliyor.
+## Yeni Video Tespit Edildi
+- **Claude Built the Ultimate Second Brain** (12.9K) — 2026-07-13 — YENİ

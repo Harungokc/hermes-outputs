@@ -1,113 +1,94 @@
-# Nate Herk — Detaylı Analiz
-
-**Son Tarama:** 2026-07-13
+# Nate Herk — Ayrıntılı Analiz
+**Tarih:** 2026-07-14
 
 ---
 
-## Video 1: Claude Code for Normal People (jdbOVepEtUE)
+## 1. GLM 5.2 in Claude Code is Blowing My Mind (167K görüntülenme)
+**Video ID:** 2OD14-0cot4 | **Tarih:** 2026-06-18
 
-** yayınlanma:** 2026-07-11 | **Süre:** 5.5 saat
+### Nedir
+GLM 5.2 — 756B parametre açık kaynak model. Z.ai API üzerinden Claude Code'a yönlendirilebiliyor ve Opus'a göre ~5x ucuz.
 
-### Özet
-5.5 saatlik kapsamlı kurs — hiç kodlama geçmişi gerektirmeyen, AI native olma yolculuğu. İlk prompt'tan beceri oluşturma, alt-ajanlar, ikinci beyin ve bulutta çalışan otomasyonlara kadar.
+### Ana İçerik
+- GLM 5.2 çoğu bilgi işi için Opus'a yakın performans
+- Kreatif one-shot buildlerde güçlü
+- Araştırma için "Storm Research" metodu kullanılıyor
+- Açık kaynak olması maliyet ve şeffaflık avantajı
 
 ### Herkesin Kaçırdığı Nokta
-**"Beceriler, Alt-ajanlar ve Hafıza" üçlüsü birbirinden ayrı satılıyor ama aslında aynı sistemin parçaları.** Beceriler = tekrar eden görevler için hazır prompt'lar. Alt-ajanlar = becerileri kullanan bağımsız çalışanlar. Hafıza = onların geçmişinden öğrenen sistem. Birlikte çalıştığında, AI aslında bir ekip gibi oluyor.
+**Açık kaynak model maliyeti**: 5x ucuz = Claude Code kullanırken API maliyetini dramatik düşürüyor. Renting vs owning model kararı.
 
 ### LinkedIn Post Fikri
-> 5.5 saat harcadım ve tek bir şey öğrendim: AI'ı yanlış kullanıyoruz. Çoğu insan AI'a "bana bir şey yap" diyor. Doğru kullanım: AI'ına görev vermek, araç vermek ve onu tekrarlayan işlerden kurtulmak. Claude Code'la başladım — 6 saat sonra ilk otomasyonum çalışıyordu.
-
-### İçerik Kapsamı
-- 12 Mindset Shift (düşünce kalıpları değişimi)
-- AI Operating System kurulumu (claude.md, settings.json, .env)
-- Skills deep dive (beceriler = tekrar kullanılabilir prompt'lar)
-- Sub-agents (alt-ajanlar = bağımsız çalışan AI)
-- Second brain (5 seviye: Dosyalama → Özetleme → Analiz → Senaryo → Karar)
-- Token management & prompt caching
-- Scheduled automations (cron job benzeri)
-- Google Workspace MCP entegrasyonu
+> "GLM 5.2, Claude Code'da Opus'un 5'te 1'i fiyatına koşuyor. Açık kaynak modeller artık sadece 'deneme' değil — üretimde ciddi bir alternatif. Peki gerçek maliyet karşılaştırması ne gösteriyor?"
 
 ---
 
-## Video 2: Sol vs Fable: Manager vs Worker (EthxaDswUFo)
+## 2. I Battle Tested Sakana Fugu's Fable Killer (111K görüntülenme)
+**Video ID:** GpSqBjW6hR4 | **Tarih:** 2026-06-22
 
-** yayınlanma:** 2026-07-09 | **Süre:** ~20 dakika
+### Nedir
+Sakana Fugu Ultra — tek bir API değil, görevi Opus, GPT, Gemini arasında otomatik yönlendiren orchestration sistemi. 38 görev testi.
 
-### Özet
-GPT-5.6 Sol ve Claude Fable 5'i gerçek iş görevlerinde head-to-head test. Codex ve Claude Code üzerinde browser oyunları, interaktif websiteler ve API testleri.
+### Ana İçerik
+- Fugu "model" değil, orchestration katmanı
+- 38 görev testinde Claude Opus 4.8 ile karşılaştırma
+- Hız ve maliyet avantajı var ama kalite her zaman kazanamıyor
+- Open Router Fusion API'ye benzer ama daha akıllı routing
 
 ### Herkesin Kaçırdığı Nokta
-**Sol "ucuz ve hızlı worker" olarak konumlanıyor ama asıl değer proposition'ı maliyet/performans oranı değil — orchestration'a hazır olması.** Sol, agentic workflows için optimize edilmiş. Yani tek başına "daha iyi kod yazıyor" değil, "bir ekibin parçası olarak çalışmaya daha uygun."
+**Orchestration pazarda ciddi bir trend** — tek model yerine "hangi model ne zaman" zekası. Fugu bunu Claude Code içinde sub-agent olarak çalıştırıyor.
 
-### Test Sonuçları
-| Test | Fable | Sol |
-|------|-------|-----|
-| Browser Bike Game | Daha yaratıcı | Daha hızlı |
-| Scroll-Stopping Website | Daha iyi UX | Hızlı shipping |
-| Five Visual Worlds | Daha rafine | Yüksek hacim |
-| API One-Off | Daha tutarlı | 2-3x daha hızlı, %60 ucuz |
-
-### Final Verdict
-- **Fable = Manager model** (stratejik, yaratıcı, kalite kontrol)
-- **Sol = Worker model** (hızlı, ucuz, agentic)
-- **Hybrid yaklaşım en mantıklı** — Fable'a strateji, Sol'a execution
+### LinkedIn Post Fikri
+> "Sakana Fugu, tek bir model değil — bir AI orchestra. 38 görev testinde Opus'a karşı nasıl performans gösterdi? Sonuç: hala Opus'a bağlısın ama maliyet kontrolü değişiyor."
 
 ---
 
-## Video 3: Sol Made This Video (J_jswzXhYJA)
+## 3. Stanford's Method Turns Claude Into a PHD Level Research Team (54.9K görüntülenme)
+**Video ID:** Tj3018n5MVg | **Tarih:** 2026-06-29
 
-** yayınlanma:** 2026-07-09 | **Süre:** ~5 dakika
+### Nedir
+Stanford STORM araştırma metodu — 5 farklı uzman perspektifi (practitioner, academic, skeptic, economist, historian) tek bir konuda döndürüyor ve kör noktaları yakalıyor.
 
-### Özet
-GPT-5.6 Sol'a tek bir prompt verip arkanı dönüyor. Sol araştırdı, script yazdı, ElevenLabs'la audio, HeyGen'le avatar, HyperFrames'de düzenledi ve her frame'i kendi kontrol etti.
+### Ana İçerik
+- Claude Code içinde multi-agent olarak çalışıyor
+- 4 farklı prompt ile 5 perspektif oluşturuyor
+- Her kaynak doğrulanıyor
+- Claude'un Deep Research'üne karşı kıyaslama
 
 ### Herkesin Kaçırdığı Nokta
-**"Ultra effort" = pahalı yanlış anlaşılıyor.** Sol'un çalıştığı ultra = yüksek token tüketimi, bu da maliyeti artırıyor. Asıl mesele: "High effort" ile "Ultra" arasındaki fark kaliteden çok kontrolden geliyor. Ultra = AI daha fazla iterasyon yapıyor, daha fazla şeyi kendi düzeltiyor.
+**Sub-agent vs agent teams farkı** — tek bir agent'a 5 rol vermek değil, ayrı agent'lar olarak çalışması ve aralarındaki anlaşmazlıkları haritalaması.
 
-### Pipeline
-1. Research → 2. Script (Nate'in ses tonunda) → 3. ElevenLabs audio → 4. HeyGen avatar → 5. HyperFrames edit → 6. Self-review
-
-### Maliyet
-- Base video: ~$8
-- Ultra effort: yüksek token tüketimi
-- High effort daha makul maliyet
+### LinkedIn Post Fikri
+> "Stanford'ın STORM metodu: 5 farklı uzman perspective'i tek bir AI agent'a değil, ayrı agent team olarak çalıştırırsan ne olur? Araştırma kalitesi dramatik artıyor."
 
 ---
 
-## Video 4: LLM Wiki Second Brain (hQvwMj7IJe4)
+## 4. Why Watching AI Videos Isn't Enough (8.5K görüntülenme)
+**Video ID:** S2ME69hra-k | **Tarih:** 2026-06-24
 
-** yayınlanma:** 2026-07-03 | **Süre:** ~15 dakika
-
-### Özet
-Andrej Karpathy'nin LLM Wiki konseptini uygulama. Tüm YouTube videolarını AI OS'ye aktarıp cross-linked wiki pages oluşturma. Claude Code + Obsidian ile 5 dakikada kurulum.
+### Nedir
+Event duyurusu videosu — AI automation topluluğu için.
 
 ### Herkesin Kaçırdığı Nokta
-**Flat vs Structured wiki seçimi çoğu insanın gözden kaçırdığı bir tradeoff.** Flat = hızlı başlangıç, kolay bakım. Structured = daha zengin bağlantılar ama daha fazla bakım. Nate'in önerisi: başlangıçta flat, sonra ihtiyaca göre structured'a geçiş — MVP mentalitesi.
-
-### Kurulum Adımları
-1. Vault oluşturma (Obsidian)
-2. Schema yazma
-3. Routing kuralları tanımlama
-4. PDF/URL/YouTube ingestion
-5. AI parsing + chunking + cross-link
+AI izlemek = AI kullanmak değil. Passive consumption vs active deployment.
 
 ---
 
-## Genel Değerlendirme
+## 5. Claude Code + Clay Makes Lead Generation Actually Fun (26.7K görüntülenme)
+**Video ID:** zyvdl__Ywfk | **Tarih:** 2026-07-12
 
-### Nate Herk'in Bu Haftaki Teması
-- **Multi-model orchestration** — tek model değil, model kombinasyonları
-- **Agentic workflows** — AI'ın ajan olarak çalışması
-- **AI OS kavramı** — kişisel AI sistemi kurma
-- **Maliyet/hız dengesi** — Sol vs Fable tartışması
+### Nedir
+Claude Code + Clay entegrasyonu ile tam lead generation pipeline. Plain English ile çalışıyor.
 
-### Çıkarılacak Dersler
-1. Manager/Worker ayrımı artık standart — Fable strateji, Sol execution
-2. Beceriler + Alt-ajanlar + Hafıza = birbirine bağlı sistemler
-3. "Naked pipeline" — AI'ın tek başına tam iş üretmesi mümkün ama maliyet önemli
-4. LLM Wiki = ikinci beyin için pratik uygulama
+### Ana İçerik
+- Clay'in waterfall'ı gerçek işletme verileri çekiyor
+- Email + phone enrichment
+- Kişiselleştirilmiş email her lead için
+- HVAC örneği: 50 lead, $12 maliyet
+- Clay üzerinden domain warming + kampanya başlatma
 
-### LinkedIn Post Önerileri
-1. "AI ajanı = manager + worker. Fable strateji veriyorum, Sol execution'a veriyorum. Maliyet 40% düştü, hız 2x arttı."
-2. "5.5 saat harcadım: AI'ı yanlış kullanıyormuşum. AI'a görev vermek, araç vermek, onu tekrarlayan işlerden kurtarmak = doğru kullanım."
-3. "LLM Wiki: 5 dakikada kurdum, 200+ videom var. Artık 'hangi videoda X'ten bahsetmiştim' yerine AI'ıma soruyorum."
+### Herkesin Kaçırdığı Nokta
+**Data problemi çözüldü** — Clay'in waterfall'ı tek tek tool aramak yerine tüm veri kaynaklarını sıralı deniyor. Bu AI agent workflow'u için kritik.
+
+### LinkedIn Post Fikri
+> "Lead generation'ın 'data çok karışık' engelini Clay + Claude Code ile $12'ye 50 kişiselleştirilmiş email çıktı. Cold outreach'i erteleyenler için artık bir mazeret kalmadı."

@@ -1,20 +1,21 @@
-# Nate Herk — Son Video Özetleri
+# Nate Herk — Son Videolar Özeti
+**Tarih:** 2026-07-14
 
-**Son Tarama:** 2026-07-13  
-**Abone Sayısı:** ~812B  
-**Odak:** n8n, Claude, AI Agents, AI Agency
+## Son 5 Video
 
-## Bu Haftanın Yeni Videoları (5 Yeni)
+| Tarih | Başlık | İzlenme |
+|-------|--------|---------|
+| 2026-07-12 | Claude Code + Clay Makes Lead Generation Actually Fun | 26.7K |
+| 2026-06-29 | Stanford's Method Turns Claude Into a PHD Level Research Team | 54.9K |
+| 2026-06-24 | Why Watching AI Videos Isn't Enough | 8.5K |
+| 2026-06-22 | I Battle Tested Sakana Fugu's Fable Killer | 111.7K |
+| 2026-06-18 | GLM 5.2 in Claude Code is Blowing My Mind | 167.1K |
 
-1. **Claude Code for Normal People** (2026-07-11) — 5.5 saatlik kapsamlı başlangıç kursu. Hiç kodlama geçmişi gerektirmeyen, AI native olma rehberi.
-2. **Sol vs Fable: Manager vs Worker** (2026-07-09) — GPT-5.6 Sol vs Claude Fable 5 head-to-head test. Fable manager, Sol worker olarak konumlanıyor.
-3. **Sol Made This Video** (2026-07-09) — GPT-5.6 Sol ile tam AI video üretim pipeline'ı. Tek prompt ile video üretimi.
-4. **LLM Wiki Second Brain** (2026-07-03) — Karpathy yöntemiyle AI second brain. Claude Code + Obsidian ile 5 dakikada kurulum.
+## Öne Çıkan Temalar
+- **Lead generation** Claude Code + Clay entegrasyonu ile tam AI pipeline
+- **Stanford STORM** metodu ile çok perspektifli araştırma agentları
+- **GLM 5.2** açık kaynak model Claude Code'da 5x ucuz, çoğu iş için yeterli
+- **Sakana Fugu** — model router değil orchestration API
 
-## Herkesin Kaçırdığı Nokta
-
-**AI ajanlarında "manager vs worker" ayrımı artık standart bir pattern.** Fable manager olarak stratejik kararlar alıyor, Sol worker olarak hızlı ve ucuz execution yapıyor. Bu ayrım, AI ajanı mimarisi için kritik.
-
-## Genel Tema
-
-Nate Herk'in içerikleri artık "hangi model daha iyi" sorusundan "modelleri nasıl birlikte kullanırım" sorusuna geçiş yapmış. Agentic workflows, multi-model orchestration ve AI OS kavramları ön planda.
+## Yeni Video Yok
+Son taramada yeni video tespit edilmedi.

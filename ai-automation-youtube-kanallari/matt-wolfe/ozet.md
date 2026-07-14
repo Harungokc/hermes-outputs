@@ -1,18 +1,21 @@
-# Matt Wolfe (mreflow) — Son Video Özetleri
+# Matt Wolfe — Son Videolar Özeti
+**Tarih:** 2026-07-14
 
-**Son Tarama:** 2026-07-13  
-**Abone Sayısı:** ~964B  
-**Odak:** AI Tools, futuretools.io
+## Son 5 Video
 
-## Bu Haftanın Yeni Videoları (2 Yeni)
+| Tarih | Başlık | İzlenme |
+|-------|--------|---------|
+| 2026-07-08 | Anyone Can Make Insane Visual Effects Now! | 42.3K |
+| 2026-06-26 | AI News: The New Model That's As Good As Fable | 103.1K |
+| 2026-06-24 | 9 Free AI Skills That Feel Like Cheat Codes | 105.1K |
+| 2026-06-12 | AI News: An INSANE Week… Here's What Matters | 100.5K |
+| 2026-06-05 | AI News: Microsoft Finally Reveals Their Plan! | 74.4K |
 
-1. **AI News You Might Have Missed This Week** (2026-07-10) — Haftalık AI haberleri: GPT-5.6, OpenAI SuperApp, HyperAgent, GPT-Live, Grok 4.5, Muse Spark/Image, Claude Fable vs Sol, Claude Cowork Mobile.
-2. **AI News You Probably Missed** (2026-07-03) — Fable 5 saga (çıktı, geri çekildi, tekrar açıldı), BuseyBench, GPT-5.6, OpenAI government stake, Claude Sonnet 5, Gemini ailesi, NotebookLM Shorts.
+## Öne Çıkan Temalar
+- **AI VFX** — Runway, Seed Dance, Gemini, Veo 3.1, Remotion ile profesyonel prodüksiyon
+- **Skills/Plugins** — Claude Code, Codex, Cursor için ücretsiz agent yetenekleri
+- **Sakana Fugu** — model değil, model router/orchestrator
+- **AI News formatı** — haftalık Roundup, rapid fire bölümleri
 
-## Herkesin Kaçırdığı Nokta
-
-**OpenAI artık sadece bir model şirketi değil — bir platform/ecosystem.** SuperApp vizyonu, ChatGPT'nin bir chatbot'tan bir agent platformuna dönüşümünü işaret ediyor. GPT-Live, HyperAgent gibi ürünler = OpenAI'ın ecosystem genişlemesi.
-
-## Genel Tema
-
-Matt Wolfe'un içerikleri bu hafta ağırlıklı olarak model savaşları ve yeni çıkan araçların benchmark'ları üzerine. Fable 5'in "nerfed" edilip tekrar açılması = model sağlık mühendisliğinin ne kadar hassas olduğunu gösteriyor.
+## Yeni Video Yok
+Son taramada yeni video tespit edilmedi.
